@@ -1,0 +1,438 @@
+{
+ "generated_at": "2026-07-31",
+ "scope": "Top 30 thesis ideas ranked by data readiness + local assets",
+ "ranking_method": "adjusted_score × data_readiness_multiplier (1.0=neutral, 2.0=massive local data, 0.7=no local data)",
+ "rankings": [
+  {
+   "rank": 1,
+   "id": "P0010",
+   "title": "Tava-i: Multi-modal AI for collaborative OSM mapping in Paraguay (citizen cartography GPT-4 + satellite CV)",
+   "base_adjusted_score": 9.0,
+   "data_readiness_multiplier": 2.0,
+   "data_readiness_score": 18.0,
+   "data_local": [
+    "osm_buildings (49,641)",
+    "osm_roads (14,835)",
+    "tile_index (7,912 cells)",
+    "catastro_parcels (7,500)"
+   ],
+   "data_online_extra": [
+    "Mapillary API",
+    "GPT-4V"
+   ],
+   "advisor": "Juan Carlos Cristaldo",
+   "faculty": "FADA"
+  },
+  {
+   "rank": 2,
+   "id": "P0067",
+   "title": "Mbayru: Asuncion city bus route optimization with MOEA + real-time GPS",
+   "base_adjusted_score": 9.4,
+   "data_readiness_multiplier": 1.6,
+   "data_readiness_score": 15.04,
+   "data_local": [
+    "buildings_asuncion",
+    "roads",
+    "properties_latest"
+   ],
+   "data_online_extra": [
+    "GTFS"
+   ],
+   "advisor": "Christian Von Lucken",
+   "faculty": "FP-UNA"
+  },
+  {
+   "rank": 3,
+   "id": "P0011",
+   "title": "Yvytu: Multi-temporal satellite CV for Chaco deforestation alert system",
+   "base_adjusted_score": 9.77,
+   "data_readiness_multiplier": 1.5,
+   "data_readiness_score": 14.65,
+   "data_local": [
+    "tile_index (7,912 cells)",
+    "climate_risk",
+    "hillshade"
+   ],
+   "data_online_extra": [
+    "Sentinel-2",
+    "Landsat",
+    "Planet"
+   ],
+   "advisor": "Juan Carlos Cristaldo",
+   "faculty": "FADA"
+  },
+  {
+   "rank": 4,
+   "id": "P0100",
+   "title": "Yvyra: Carbon-credit verification (satellite CV + Paraguay farms)",
+   "base_adjusted_score": 9.27,
+   "data_readiness_multiplier": 1.5,
+   "data_readiness_score": 13.9,
+   "data_local": [
+    "tile_index",
+    "climate_risk",
+    "catastro_parcels"
+   ],
+   "data_online_extra": [
+    "Sentinel-2",
+    "Verra VCS"
+   ],
+   "advisor": "Juan Carlos Cristaldo",
+   "faculty": "FADA"
+  },
+  {
+   "rank": 5,
+   "id": "P0012",
+   "title": "Yvy: Indigenous community territory mapping with participatory cartography + GPT-4 enrichment",
+   "base_adjusted_score": 9.93,
+   "data_readiness_multiplier": 1.3,
+   "data_readiness_score": 12.91,
+   "data_local": [
+    "indigenous_territories (small but exists)",
+    "catastro_parcels (7,500)"
+   ],
+   "data_online_extra": [
+    "GPT-4V",
+    "OSM",
+    "INDI"
+   ],
+   "advisor": "Juan Carlos Cristaldo",
+   "faculty": "FADA"
+  },
+  {
+   "rank": 6,
+   "id": "P0085",
+   "title": "Yvykui: Road damage detection from MOPC drone imagery (YOLO v8 + MOPC Paraguay)",
+   "base_adjusted_score": 9.43,
+   "data_readiness_multiplier": 1.2,
+   "data_readiness_score": 11.32,
+   "data_local": [
+    "osm_roads"
+   ],
+   "data_online_extra": [
+    "MOPC",
+    "RDD2022"
+   ],
+   "advisor": "Horacio Andres Legal Ayala",
+   "faculty": "FP-UNA"
+  },
+  {
+   "rank": 7,
+   "id": "P0005",
+   "title": "Tokandu: Forecast ANDE demand + LLM explanation in Jopara (system with multi-modal reasoning)",
+   "base_adjusted_score": 8.7,
+   "data_readiness_multiplier": 1.1,
+   "data_readiness_score": 9.57,
+   "data_local": [
+    "nasa_power_asuncion",
+    "bcp_snapshot"
+   ],
+   "data_online_extra": [
+    "ANDE",
+    "TSFMs"
+   ],
+   "advisor": "Diego Stalder",
+   "faculty": "FP-UNA"
+  },
+  {
+   "rank": 8,
+   "id": "P0031",
+   "title": "Karamanu: Chagas vector heatmap (Phytoseiulus for Aedes aegypti with climate + socio ML)",
+   "base_adjusted_score": 8.87,
+   "data_readiness_multiplier": 1.0,
+   "data_readiness_score": 8.87,
+   "data_local": [
+    "climate_risk",
+    "tile_index"
+   ],
+   "data_online_extra": [
+    "SENEPA",
+    "WorldClim"
+   ],
+   "advisor": "Mirtha Gonzalez",
+   "faculty": "FCM"
+  },
+  {
+   "rank": 9,
+   "id": "I1446",
+   "title": "Computer vision (CNN/ResNet) for Climate change impact on agriculture at FCA",
+   "base_adjusted_score": 8.75,
+   "data_readiness_multiplier": 1.0,
+   "data_readiness_score": 8.75,
+   "data_local": [],
+   "data_online_extra": [],
+   "advisor": "Horacio Andrés Legal Ayala",
+   "faculty": "FP-UNA"
+  },
+  {
+   "rank": 10,
+   "id": "I1471",
+   "title": "Object detection (YOLO/Detectron2) for Climate change impact on agriculture at FCA",
+   "base_adjusted_score": 8.75,
+   "data_readiness_multiplier": 1.0,
+   "data_readiness_score": 8.75,
+   "data_local": [],
+   "data_online_extra": [],
+   "advisor": "Horacio Andrés Legal Ayala",
+   "faculty": "FP-UNA"
+  },
+  {
+   "rank": 11,
+   "id": "I1621",
+   "title": "Pose estimation for Climate change impact on agriculture at FCA",
+   "base_adjusted_score": 8.75,
+   "data_readiness_multiplier": 1.0,
+   "data_readiness_score": 8.75,
+   "data_local": [],
+   "data_online_extra": [],
+   "advisor": "Horacio Andrés Legal Ayala",
+   "faculty": "FP-UNA"
+  },
+  {
+   "rank": 12,
+   "id": "I1646",
+   "title": "Image generation (diffusion/GAN) for Climate change impact on agriculture at FCA",
+   "base_adjusted_score": 8.75,
+   "data_readiness_multiplier": 1.0,
+   "data_readiness_score": 8.75,
+   "data_local": [],
+   "data_online_extra": [],
+   "advisor": "Horacio Andrés Legal Ayala",
+   "faculty": "FP-UNA"
+  },
+  {
+   "rank": 13,
+   "id": "I1521",
+   "title": "Spectral image analysis (satellite) for Climate change impact on agriculture at FCA",
+   "base_adjusted_score": 8.75,
+   "data_readiness_multiplier": 1.0,
+   "data_readiness_score": 8.75,
+   "data_local": [],
+   "data_online_extra": [],
+   "advisor": "Horacio Andrés Legal Ayala",
+   "faculty": "FP-UNA"
+  },
+  {
+   "rank": 14,
+   "id": "I1546",
+   "title": "Optical character recognition (OCR) for Climate change impact on agriculture at FCA",
+   "base_adjusted_score": 8.75,
+   "data_readiness_multiplier": 1.0,
+   "data_readiness_score": 8.75,
+   "data_local": [],
+   "data_online_extra": [],
+   "advisor": "Horacio Andrés Legal Ayala",
+   "faculty": "FP-UNA"
+  },
+  {
+   "rank": 15,
+   "id": "I1571",
+   "title": "Face recognition for Climate change impact on agriculture at FCA",
+   "base_adjusted_score": 8.75,
+   "data_readiness_multiplier": 1.0,
+   "data_readiness_score": 8.75,
+   "data_local": [],
+   "data_online_extra": [],
+   "advisor": "Horacio Andrés Legal Ayala",
+   "faculty": "FP-UNA"
+  },
+  {
+   "rank": 16,
+   "id": "I1437",
+   "title": "Computer vision (CNN/ResNet) for Deforestation monitoring (Chaco) at FCA",
+   "base_adjusted_score": 8.75,
+   "data_readiness_multiplier": 1.0,
+   "data_readiness_score": 8.75,
+   "data_local": [],
+   "data_online_extra": [],
+   "advisor": "Horacio Andrés Legal Ayala",
+   "faculty": "FP-UNA"
+  },
+  {
+   "rank": 17,
+   "id": "I1462",
+   "title": "Object detection (YOLO/Detectron2) for Deforestation monitoring (Chaco) at FCA",
+   "base_adjusted_score": 8.75,
+   "data_readiness_multiplier": 1.0,
+   "data_readiness_score": 8.75,
+   "data_local": [],
+   "data_online_extra": [],
+   "advisor": "Horacio Andrés Legal Ayala",
+   "faculty": "FP-UNA"
+  },
+  {
+   "rank": 18,
+   "id": "I1612",
+   "title": "Pose estimation for Deforestation monitoring (Chaco) at FCA",
+   "base_adjusted_score": 8.75,
+   "data_readiness_multiplier": 1.0,
+   "data_readiness_score": 8.75,
+   "data_local": [],
+   "data_online_extra": [],
+   "advisor": "Horacio Andrés Legal Ayala",
+   "faculty": "FP-UNA"
+  },
+  {
+   "rank": 19,
+   "id": "I1637",
+   "title": "Image generation (diffusion/GAN) for Deforestation monitoring (Chaco) at FCA",
+   "base_adjusted_score": 8.75,
+   "data_readiness_multiplier": 1.0,
+   "data_readiness_score": 8.75,
+   "data_local": [],
+   "data_online_extra": [],
+   "advisor": "Horacio Andrés Legal Ayala",
+   "faculty": "FP-UNA"
+  },
+  {
+   "rank": 20,
+   "id": "I1512",
+   "title": "Spectral image analysis (satellite) for Deforestation monitoring (Chaco) at FCA",
+   "base_adjusted_score": 8.75,
+   "data_readiness_multiplier": 1.0,
+   "data_readiness_score": 8.75,
+   "data_local": [],
+   "data_online_extra": [],
+   "advisor": "Horacio Andrés Legal Ayala",
+   "faculty": "FP-UNA"
+  },
+  {
+   "rank": 21,
+   "id": "I1537",
+   "title": "Optical character recognition (OCR) for Deforestation monitoring (Chaco) at FCA",
+   "base_adjusted_score": 8.75,
+   "data_readiness_multiplier": 1.0,
+   "data_readiness_score": 8.75,
+   "data_local": [],
+   "data_online_extra": [],
+   "advisor": "Horacio Andrés Legal Ayala",
+   "faculty": "FP-UNA"
+  },
+  {
+   "rank": 22,
+   "id": "I1562",
+   "title": "Face recognition for Deforestation monitoring (Chaco) at FCA",
+   "base_adjusted_score": 8.75,
+   "data_readiness_multiplier": 1.0,
+   "data_readiness_score": 8.75,
+   "data_local": [],
+   "data_online_extra": [],
+   "advisor": "Horacio Andrés Legal Ayala",
+   "faculty": "FP-UNA"
+  },
+  {
+   "rank": 23,
+   "id": "I0040",
+   "title": "Transformer fine-tuning (BERT/GPT) for Programming education tools at FP-UNA",
+   "base_adjusted_score": 8.68,
+   "data_readiness_multiplier": 1.0,
+   "data_readiness_score": 8.68,
+   "data_local": [],
+   "data_online_extra": [],
+   "advisor": "Christian Von Lücken",
+   "faculty": "FP-UNA"
+  },
+  {
+   "rank": 24,
+   "id": "I0046",
+   "title": "Transformer fine-tuning (BERT/GPT) for Inclusive education (special needs) at FP-UNA",
+   "base_adjusted_score": 8.68,
+   "data_readiness_multiplier": 1.0,
+   "data_readiness_score": 8.68,
+   "data_local": [],
+   "data_online_extra": [],
+   "advisor": "Christian Von Lücken",
+   "faculty": "FP-UNA"
+  },
+  {
+   "rank": 25,
+   "id": "I0142",
+   "title": "LLM prompting (GPT-4/Claude/Llama) for Programming education tools at FP-UNA",
+   "base_adjusted_score": 8.68,
+   "data_readiness_multiplier": 1.0,
+   "data_readiness_score": 8.68,
+   "data_local": [],
+   "data_online_extra": [],
+   "advisor": "Christian Von Lücken",
+   "faculty": "FP-UNA"
+  },
+  {
+   "rank": 26,
+   "id": "I0148",
+   "title": "LLM prompting (GPT-4/Claude/Llama) for Inclusive education (special needs) at FP-UNA",
+   "base_adjusted_score": 8.68,
+   "data_readiness_multiplier": 1.0,
+   "data_readiness_score": 8.68,
+   "data_local": [],
+   "data_online_extra": [],
+   "advisor": "Christian Von Lücken",
+   "faculty": "FP-UNA"
+  },
+  {
+   "rank": 27,
+   "id": "P0015",
+   "title": "Sy: Whisper-based clinical scribe for FCM-UNA (Asuncion) in Jopara with EHR integration",
+   "base_adjusted_score": 9.0,
+   "data_readiness_multiplier": 0.8,
+   "data_readiness_score": 7.2,
+   "data_local": [
+    "NONE - clinical data not in geodata"
+   ],
+   "data_online_extra": [
+    "Whisper",
+    "Common Voice"
+   ],
+   "advisor": "Julio Torales",
+   "faculty": "FCM"
+  },
+  {
+   "rank": 28,
+   "id": "P0021",
+   "title": "Mita arandu: Coding-education tutor for rural Paraguayan kids (Mojo CLI + LLM assistant)",
+   "base_adjusted_score": 8.93,
+   "data_readiness_multiplier": 0.8,
+   "data_readiness_score": 7.14,
+   "data_local": [
+    "NONE"
+   ],
+   "data_online_extra": [
+    "MEC",
+    "Open edX"
+   ],
+   "advisor": "Jose Luis Vazquez Noguera",
+   "faculty": "FP-UNA"
+  },
+  {
+   "rank": 29,
+   "id": "P0040",
+   "title": "Kuatianee: OCR for Guarani historical documents from 19th-century archives",
+   "base_adjusted_score": 8.83,
+   "data_readiness_multiplier": 0.7,
+   "data_readiness_score": 6.18,
+   "data_local": [
+    "NONE"
+   ],
+   "data_online_extra": [
+    "Biblioteca Nacional scans"
+   ],
+   "advisor": "Juan Talavera",
+   "faculty": "FP-UNA"
+  },
+  {
+   "rank": 30,
+   "id": "P0055",
+   "title": "Kany: Federated learning for clinical NLP across UNA hospitals (privacy-preserving)",
+   "base_adjusted_score": 8.83,
+   "data_readiness_multiplier": 0.7,
+   "data_readiness_score": 6.18,
+   "data_local": [
+    "NONE"
+   ],
+   "data_online_extra": [
+    "MIMIC-III"
+   ],
+   "advisor": "Ivan Barrios",
+   "faculty": "FCM"
+  }
+ ]
+}

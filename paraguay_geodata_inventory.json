@@ -1,0 +1,1567 @@
+{
+ "generated_at": "2026-07-31",
+ "scope": "Paraguay-Geodata project data assets inventory for thesis planning",
+ "source_repo": "Ai-Whisperers/paraguay-geodata",
+ "live_deploy": "https://geodata.paragu-ai.com/",
+ "total_size_mb": 549,
+ "data_assets": [
+  {
+   "name": "indigenous_territories.geojson",
+   "path": "exports/web/data/indigenous_territories.geojson",
+   "size_mb": 0.01,
+   "type": "geojson",
+   "license": "MIT (code) + CC0 (data)"
+  },
+  {
+   "name": "architect_export_asuncion.geojson",
+   "path": "exports/web/data/architect_export_asuncion.geojson",
+   "size_mb": 0.66,
+   "type": "geojson",
+   "license": "MIT (code) + CC0 (data)"
+  },
+  {
+   "name": "properties_scrubbed.geojson",
+   "path": "exports/web/data/properties_scrubbed.geojson",
+   "size_mb": 14.85,
+   "type": "geojson",
+   "license": "MIT (code) + CC0 (data)"
+  },
+  {
+   "name": "water.geojson",
+   "path": "exports/web/data/water.geojson",
+   "size_mb": 2.46,
+   "type": "geojson",
+   "license": "MIT (code) + CC0 (data)"
+  },
+  {
+   "name": "architect_export.geojson",
+   "path": "exports/web/data/architect_export.geojson",
+   "size_mb": 3.23,
+   "type": "geojson",
+   "license": "MIT (code) + CC0 (data)"
+  },
+  {
+   "name": "buildings_asuncion.geojson",
+   "path": "exports/web/data/buildings_asuncion.geojson",
+   "size_mb": 12.92,
+   "type": "geojson",
+   "license": "MIT (code) + CC0 (data)"
+  },
+  {
+   "name": "climate_risk.geojson",
+   "path": "exports/web/data/climate_risk.geojson",
+   "size_mb": 0.03,
+   "type": "geojson",
+   "license": "MIT (code) + CC0 (data)"
+  },
+  {
+   "name": "gbif_paraguay.geojson",
+   "path": "exports/web/data/gbif_paraguay.geojson",
+   "size_mb": 0.09,
+   "type": "geojson",
+   "license": "MIT (code) + CC0 (data)"
+  },
+  {
+   "name": "roads.geojson",
+   "path": "exports/web/data/roads.geojson",
+   "size_mb": 5.54,
+   "type": "geojson",
+   "license": "MIT (code) + CC0 (data)"
+  },
+  {
+   "name": "flood_risk.geojson",
+   "path": "exports/web/data/flood_risk.geojson",
+   "size_mb": 0.0,
+   "type": "geojson",
+   "license": "MIT (code) + CC0 (data)"
+  },
+  {
+   "name": "properties_latest.geojson",
+   "path": "exports/web/data/properties_latest.geojson",
+   "size_mb": 13.92,
+   "type": "geojson",
+   "license": "MIT (code) + CC0 (data)"
+  },
+  {
+   "name": "hillshade_py_t53_l00_bounds.json",
+   "path": "exports/web/data/hillshade_py_t53_l00_bounds.json",
+   "size_kb": 0.1,
+   "type": "json",
+   "license": "MIT (code) + CC0 (data)"
+  },
+  {
+   "name": "hillshade_py_t53_l20_bounds.json",
+   "path": "exports/web/data/hillshade_py_t53_l20_bounds.json",
+   "size_kb": 0.1,
+   "type": "json",
+   "license": "MIT (code) + CC0 (data)"
+  },
+  {
+   "name": "hillshade_py_t03_l10_bounds.json",
+   "path": "exports/web/data/hillshade_py_t03_l10_bounds.json",
+   "size_kb": 0.1,
+   "type": "json",
+   "license": "MIT (code) + CC0 (data)"
+  },
+  {
+   "name": "hillshade_py_t43_l40_bounds.json",
+   "path": "exports/web/data/hillshade_py_t43_l40_bounds.json",
+   "size_kb": 0.1,
+   "type": "json",
+   "license": "MIT (code) + CC0 (data)"
+  },
+  {
+   "name": "hillshade_priority_metadata.json",
+   "path": "exports/web/data/hillshade_priority_metadata.json",
+   "size_kb": 2.4,
+   "type": "json",
+   "license": "MIT (code) + CC0 (data)"
+  },
+  {
+   "name": "hillshade_py_t23_l40_bounds.json",
+   "path": "exports/web/data/hillshade_py_t23_l40_bounds.json",
+   "size_kb": 0.1,
+   "type": "json",
+   "license": "MIT (code) + CC0 (data)"
+  },
+  {
+   "name": "hillshade_py_t73_l70_bounds.json",
+   "path": "exports/web/data/hillshade_py_t73_l70_bounds.json",
+   "size_kb": 0.1,
+   "type": "json",
+   "license": "MIT (code) + CC0 (data)"
+  },
+  {
+   "name": "hillshade_py_t-6_l50_bounds.json",
+   "path": "exports/web/data/hillshade_py_t-6_l50_bounds.json",
+   "size_kb": 0.1,
+   "type": "json",
+   "license": "MIT (code) + CC0 (data)"
+  },
+  {
+   "name": "nasa_power_asuncion.json",
+   "path": "exports/web/data/nasa_power_asuncion.json",
+   "size_kb": 1.3,
+   "type": "json",
+   "license": "MIT (code) + CC0 (data)"
+  },
+  {
+   "name": "hillshade_py_t23_l80_bounds.json",
+   "path": "exports/web/data/hillshade_py_t23_l80_bounds.json",
+   "size_kb": 0.1,
+   "type": "json",
+   "license": "MIT (code) + CC0 (data)"
+  },
+  {
+   "name": "hillshade_py_t13_l60_bounds.json",
+   "path": "exports/web/data/hillshade_py_t13_l60_bounds.json",
+   "size_kb": 0.1,
+   "type": "json",
+   "license": "MIT (code) + CC0 (data)"
+  },
+  {
+   "name": "property_risk_index.json",
+   "path": "exports/web/data/property_risk_index.json",
+   "size_kb": 3128.0,
+   "type": "json",
+   "license": "MIT (code) + CC0 (data)"
+  },
+  {
+   "name": "hillshade_py_t73_l10_bounds.json",
+   "path": "exports/web/data/hillshade_py_t73_l10_bounds.json",
+   "size_kb": 0.1,
+   "type": "json",
+   "license": "MIT (code) + CC0 (data)"
+  },
+  {
+   "name": "refresh_log.json",
+   "path": "exports/web/data/refresh_log.json",
+   "size_kb": 1.3,
+   "type": "json",
+   "license": "MIT (code) + CC0 (data)"
+  },
+  {
+   "name": "hillshade_py_t53_l70_bounds.json",
+   "path": "exports/web/data/hillshade_py_t53_l70_bounds.json",
+   "size_kb": 0.1,
+   "type": "json",
+   "license": "MIT (code) + CC0 (data)"
+  },
+  {
+   "name": "hillshade_py_t23_l50_bounds.json",
+   "path": "exports/web/data/hillshade_py_t23_l50_bounds.json",
+   "size_kb": 0.1,
+   "type": "json",
+   "license": "MIT (code) + CC0 (data)"
+  },
+  {
+   "name": "interaction_test_results.json",
+   "path": "exports/web/data/interaction_test_results.json",
+   "size_kb": 3.0,
+   "type": "json",
+   "license": "MIT (code) + CC0 (data)"
+  },
+  {
+   "name": "hillshade_py_t03_l40_bounds.json",
+   "path": "exports/web/data/hillshade_py_t03_l40_bounds.json",
+   "size_kb": 0.1,
+   "type": "json",
+   "license": "MIT (code) + CC0 (data)"
+  },
+  {
+   "name": "hillshade_py_t33_l20_bounds.json",
+   "path": "exports/web/data/hillshade_py_t33_l20_bounds.json",
+   "size_kb": 0.1,
+   "type": "json",
+   "license": "MIT (code) + CC0 (data)"
+  },
+  {
+   "name": "property_risk_summary.json",
+   "path": "exports/web/data/property_risk_summary.json",
+   "size_kb": 55.9,
+   "type": "json",
+   "license": "MIT (code) + CC0 (data)"
+  },
+  {
+   "name": "hillshade_py_t23_l30_bounds.json",
+   "path": "exports/web/data/hillshade_py_t23_l30_bounds.json",
+   "size_kb": 0.1,
+   "type": "json",
+   "license": "MIT (code) + CC0 (data)"
+  },
+  {
+   "name": "data_freshness.json",
+   "path": "exports/web/data/data_freshness.json",
+   "size_kb": 0.6,
+   "type": "json",
+   "license": "MIT (code) + CC0 (data)"
+  },
+  {
+   "name": "hillshade_py_t53_l30_bounds.json",
+   "path": "exports/web/data/hillshade_py_t53_l30_bounds.json",
+   "size_kb": 0.1,
+   "type": "json",
+   "license": "MIT (code) + CC0 (data)"
+  },
+  {
+   "name": "hillshade_py_t13_l40_bounds.json",
+   "path": "exports/web/data/hillshade_py_t13_l40_bounds.json",
+   "size_kb": 0.1,
+   "type": "json",
+   "license": "MIT (code) + CC0 (data)"
+  },
+  {
+   "name": "hillshade_asu_centro_bounds.json",
+   "path": "exports/web/data/hillshade_asu_centro_bounds.json",
+   "size_kb": 0.1,
+   "type": "json",
+   "license": "MIT (code) + CC0 (data)"
+  },
+  {
+   "name": "hillshade_san_bernardino_bounds.json",
+   "path": "exports/web/data/hillshade_san_bernardino_bounds.json",
+   "size_kb": 0.1,
+   "type": "json",
+   "license": "MIT (code) + CC0 (data)"
+  },
+  {
+   "name": "hillshade_py_t13_l00_bounds.json",
+   "path": "exports/web/data/hillshade_py_t13_l00_bounds.json",
+   "size_kb": 0.1,
+   "type": "json",
+   "license": "MIT (code) + CC0 (data)"
+  },
+  {
+   "name": "hillshade_cde_bounds.json",
+   "path": "exports/web/data/hillshade_cde_bounds.json",
+   "size_kb": 0.1,
+   "type": "json",
+   "license": "MIT (code) + CC0 (data)"
+  },
+  {
+   "name": "hillshade_py_t-6_l60_bounds.json",
+   "path": "exports/web/data/hillshade_py_t-6_l60_bounds.json",
+   "size_kb": 0.1,
+   "type": "json",
+   "license": "MIT (code) + CC0 (data)"
+  },
+  {
+   "name": "hillshade_py_t33_l70_bounds.json",
+   "path": "exports/web/data/hillshade_py_t33_l70_bounds.json",
+   "size_kb": 0.1,
+   "type": "json",
+   "license": "MIT (code) + CC0 (data)"
+  },
+  {
+   "name": "hillshade_py_t13_l10_bounds.json",
+   "path": "exports/web/data/hillshade_py_t13_l10_bounds.json",
+   "size_kb": 0.1,
+   "type": "json",
+   "license": "MIT (code) + CC0 (data)"
+  },
+  {
+   "name": "hillshade_py_t43_l70_bounds.json",
+   "path": "exports/web/data/hillshade_py_t43_l70_bounds.json",
+   "size_kb": 0.1,
+   "type": "json",
+   "license": "MIT (code) + CC0 (data)"
+  },
+  {
+   "name": "hillshade_py_t13_l20_bounds.json",
+   "path": "exports/web/data/hillshade_py_t13_l20_bounds.json",
+   "size_kb": 0.1,
+   "type": "json",
+   "license": "MIT (code) + CC0 (data)"
+  },
+  {
+   "name": "hillshade_py_t-6_l10_bounds.json",
+   "path": "exports/web/data/hillshade_py_t-6_l10_bounds.json",
+   "size_kb": 0.1,
+   "type": "json",
+   "license": "MIT (code) + CC0 (data)"
+  },
+  {
+   "name": "hillshade_py_t03_l70_bounds.json",
+   "path": "exports/web/data/hillshade_py_t03_l70_bounds.json",
+   "size_kb": 0.1,
+   "type": "json",
+   "license": "MIT (code) + CC0 (data)"
+  },
+  {
+   "name": "hillshade_py_t23_l20_bounds.json",
+   "path": "exports/web/data/hillshade_py_t23_l20_bounds.json",
+   "size_kb": 0.1,
+   "type": "json",
+   "license": "MIT (code) + CC0 (data)"
+  },
+  {
+   "name": "hillshade_py_t-6_l00_bounds.json",
+   "path": "exports/web/data/hillshade_py_t-6_l00_bounds.json",
+   "size_kb": 0.1,
+   "type": "json",
+   "license": "MIT (code) + CC0 (data)"
+  },
+  {
+   "name": "hillshade_pjc_bounds.json",
+   "path": "exports/web/data/hillshade_pjc_bounds.json",
+   "size_kb": 0.1,
+   "type": "json",
+   "license": "MIT (code) + CC0 (data)"
+  },
+  {
+   "name": "hillshade_py_t03_l60_bounds.json",
+   "path": "exports/web/data/hillshade_py_t03_l60_bounds.json",
+   "size_kb": 0.1,
+   "type": "json",
+   "license": "MIT (code) + CC0 (data)"
+  },
+  {
+   "name": "hillshade_py_t63_l20_bounds.json",
+   "path": "exports/web/data/hillshade_py_t63_l20_bounds.json",
+   "size_kb": 0.1,
+   "type": "json",
+   "license": "MIT (code) + CC0 (data)"
+  },
+  {
+   "name": "hillshade_py_t13_l50_bounds.json",
+   "path": "exports/web/data/hillshade_py_t13_l50_bounds.json",
+   "size_kb": 0.1,
+   "type": "json",
+   "license": "MIT (code) + CC0 (data)"
+  },
+  {
+   "name": "hillshade_py_t33_l30_bounds.json",
+   "path": "exports/web/data/hillshade_py_t33_l30_bounds.json",
+   "size_kb": 0.1,
+   "type": "json",
+   "license": "MIT (code) + CC0 (data)"
+  },
+  {
+   "name": "hillshade_py_t-6_l80_bounds.json",
+   "path": "exports/web/data/hillshade_py_t-6_l80_bounds.json",
+   "size_kb": 0.1,
+   "type": "json",
+   "license": "MIT (code) + CC0 (data)"
+  },
+  {
+   "name": "hillshade_py_t73_l60_bounds.json",
+   "path": "exports/web/data/hillshade_py_t73_l60_bounds.json",
+   "size_kb": 0.1,
+   "type": "json",
+   "license": "MIT (code) + CC0 (data)"
+  },
+  {
+   "name": "hillshade_py_t63_l40_bounds.json",
+   "path": "exports/web/data/hillshade_py_t63_l40_bounds.json",
+   "size_kb": 0.1,
+   "type": "json",
+   "license": "MIT (code) + CC0 (data)"
+  },
+  {
+   "name": "hillshade_py_t53_l50_bounds.json",
+   "path": "exports/web/data/hillshade_py_t53_l50_bounds.json",
+   "size_kb": 0.1,
+   "type": "json",
+   "license": "MIT (code) + CC0 (data)"
+  },
+  {
+   "name": "hillshade_py_t53_l40_bounds.json",
+   "path": "exports/web/data/hillshade_py_t53_l40_bounds.json",
+   "size_kb": 0.1,
+   "type": "json",
+   "license": "MIT (code) + CC0 (data)"
+  },
+  {
+   "name": "tile_index.json",
+   "path": "exports/web/data/tile_index.json",
+   "size_kb": 3682.4,
+   "type": "json",
+   "license": "MIT (code) + CC0 (data)"
+  },
+  {
+   "name": "hillshade_py_t43_l00_bounds.json",
+   "path": "exports/web/data/hillshade_py_t43_l00_bounds.json",
+   "size_kb": 0.1,
+   "type": "json",
+   "license": "MIT (code) + CC0 (data)"
+  },
+  {
+   "name": "hillshade_py_t63_l70_bounds.json",
+   "path": "exports/web/data/hillshade_py_t63_l70_bounds.json",
+   "size_kb": 0.1,
+   "type": "json",
+   "license": "MIT (code) + CC0 (data)"
+  },
+  {
+   "name": "hillshade_py_t33_l00_bounds.json",
+   "path": "exports/web/data/hillshade_py_t33_l00_bounds.json",
+   "size_kb": 0.1,
+   "type": "json",
+   "license": "MIT (code) + CC0 (data)"
+  },
+  {
+   "name": "hillshade_py_t43_l10_bounds.json",
+   "path": "exports/web/data/hillshade_py_t43_l10_bounds.json",
+   "size_kb": 0.1,
+   "type": "json",
+   "license": "MIT (code) + CC0 (data)"
+  },
+  {
+   "name": "hillshade_py_t63_l50_bounds.json",
+   "path": "exports/web/data/hillshade_py_t63_l50_bounds.json",
+   "size_kb": 0.1,
+   "type": "json",
+   "license": "MIT (code) + CC0 (data)"
+  },
+  {
+   "name": "hillshade_py_t63_l10_bounds.json",
+   "path": "exports/web/data/hillshade_py_t63_l10_bounds.json",
+   "size_kb": 0.1,
+   "type": "json",
+   "license": "MIT (code) + CC0 (data)"
+  },
+  {
+   "name": "hillshade_py_t03_l20_bounds.json",
+   "path": "exports/web/data/hillshade_py_t03_l20_bounds.json",
+   "size_kb": 0.1,
+   "type": "json",
+   "license": "MIT (code) + CC0 (data)"
+  },
+  {
+   "name": "hillshade_py_t73_l30_bounds.json",
+   "path": "exports/web/data/hillshade_py_t73_l30_bounds.json",
+   "size_kb": 0.1,
+   "type": "json",
+   "license": "MIT (code) + CC0 (data)"
+  },
+  {
+   "name": "bcp_snapshot.json",
+   "path": "exports/web/data/bcp_snapshot.json",
+   "size_kb": 1.6,
+   "type": "json",
+   "license": "MIT (code) + CC0 (data)"
+  },
+  {
+   "name": "hillshade_py_t13_l70_bounds.json",
+   "path": "exports/web/data/hillshade_py_t13_l70_bounds.json",
+   "size_kb": 0.1,
+   "type": "json",
+   "license": "MIT (code) + CC0 (data)"
+  },
+  {
+   "name": "hillshade_py_t43_l60_bounds.json",
+   "path": "exports/web/data/hillshade_py_t43_l60_bounds.json",
+   "size_kb": 0.1,
+   "type": "json",
+   "license": "MIT (code) + CC0 (data)"
+  },
+  {
+   "name": "hillshade_filadelfia_bounds.json",
+   "path": "exports/web/data/hillshade_filadelfia_bounds.json",
+   "size_kb": 0.1,
+   "type": "json",
+   "license": "MIT (code) + CC0 (data)"
+  },
+  {
+   "name": "hillshade_caacupe_bounds.json",
+   "path": "exports/web/data/hillshade_caacupe_bounds.json",
+   "size_kb": 0.1,
+   "type": "json",
+   "license": "MIT (code) + CC0 (data)"
+  },
+  {
+   "name": "hillshade_py_t63_l80_bounds.json",
+   "path": "exports/web/data/hillshade_py_t63_l80_bounds.json",
+   "size_kb": 0.1,
+   "type": "json",
+   "license": "MIT (code) + CC0 (data)"
+  },
+  {
+   "name": "hillshade_priority_candidates.json",
+   "path": "exports/web/data/hillshade_priority_candidates.json",
+   "size_kb": 4.1,
+   "type": "json",
+   "license": "MIT (code) + CC0 (data)"
+  },
+  {
+   "name": "hillshade_py_t03_l50_bounds.json",
+   "path": "exports/web/data/hillshade_py_t03_l50_bounds.json",
+   "size_kb": 0.1,
+   "type": "json",
+   "license": "MIT (code) + CC0 (data)"
+  },
+  {
+   "name": "hillshade_py_t63_l60_bounds.json",
+   "path": "exports/web/data/hillshade_py_t63_l60_bounds.json",
+   "size_kb": 0.1,
+   "type": "json",
+   "license": "MIT (code) + CC0 (data)"
+  },
+  {
+   "name": "hillshade_py_t-6_l70_bounds.json",
+   "path": "exports/web/data/hillshade_py_t-6_l70_bounds.json",
+   "size_kb": 0.1,
+   "type": "json",
+   "license": "MIT (code) + CC0 (data)"
+  },
+  {
+   "name": "inbio_zafra_2025_2026.json",
+   "path": "exports/web/data/inbio_zafra_2025_2026.json",
+   "size_kb": 4.0,
+   "type": "json",
+   "license": "MIT (code) + CC0 (data)"
+  },
+  {
+   "name": "hillshade_py_t-6_l30_bounds.json",
+   "path": "exports/web/data/hillshade_py_t-6_l30_bounds.json",
+   "size_kb": 0.1,
+   "type": "json",
+   "license": "MIT (code) + CC0 (data)"
+  },
+  {
+   "name": "hillshade_py_t13_l80_bounds.json",
+   "path": "exports/web/data/hillshade_py_t13_l80_bounds.json",
+   "size_kb": 0.1,
+   "type": "json",
+   "license": "MIT (code) + CC0 (data)"
+  },
+  {
+   "name": "hillshade_nanawa_bounds.json",
+   "path": "exports/web/data/hillshade_nanawa_bounds.json",
+   "size_kb": 0.1,
+   "type": "json",
+   "license": "MIT (code) + CC0 (data)"
+  },
+  {
+   "name": "hillshade_py_t33_l40_bounds.json",
+   "path": "exports/web/data/hillshade_py_t33_l40_bounds.json",
+   "size_kb": 0.1,
+   "type": "json",
+   "license": "MIT (code) + CC0 (data)"
+  },
+  {
+   "name": "hillshade_py_t13_l30_bounds.json",
+   "path": "exports/web/data/hillshade_py_t13_l30_bounds.json",
+   "size_kb": 0.1,
+   "type": "json",
+   "license": "MIT (code) + CC0 (data)"
+  },
+  {
+   "name": "test_results.json",
+   "path": "exports/web/data/test_results.json",
+   "size_kb": 12.5,
+   "type": "json",
+   "license": "MIT (code) + CC0 (data)"
+  },
+  {
+   "name": "hillshade_national_tiles.json",
+   "path": "exports/web/data/hillshade_national_tiles.json",
+   "size_kb": 9.9,
+   "type": "json",
+   "license": "MIT (code) + CC0 (data)"
+  },
+  {
+   "name": "hillshade_py_t03_l00_bounds.json",
+   "path": "exports/web/data/hillshade_py_t03_l00_bounds.json",
+   "size_kb": 0.1,
+   "type": "json",
+   "license": "MIT (code) + CC0 (data)"
+  },
+  {
+   "name": "hillshade_py_t33_l80_bounds.json",
+   "path": "exports/web/data/hillshade_py_t33_l80_bounds.json",
+   "size_kb": 0.1,
+   "type": "json",
+   "license": "MIT (code) + CC0 (data)"
+  },
+  {
+   "name": "hillshade_py_t23_l60_bounds.json",
+   "path": "exports/web/data/hillshade_py_t23_l60_bounds.json",
+   "size_kb": 0.1,
+   "type": "json",
+   "license": "MIT (code) + CC0 (data)"
+  },
+  {
+   "name": "hillshade_py_t33_l50_bounds.json",
+   "path": "exports/web/data/hillshade_py_t33_l50_bounds.json",
+   "size_kb": 0.1,
+   "type": "json",
+   "license": "MIT (code) + CC0 (data)"
+  },
+  {
+   "name": "environment_meta.json",
+   "path": "exports/web/data/environment_meta.json",
+   "size_kb": 0.7,
+   "type": "json",
+   "license": "MIT (code) + CC0 (data)"
+  },
+  {
+   "name": "hillshade_py_t43_l30_bounds.json",
+   "path": "exports/web/data/hillshade_py_t43_l30_bounds.json",
+   "size_kb": 0.1,
+   "type": "json",
+   "license": "MIT (code) + CC0 (data)"
+  },
+  {
+   "name": "hillshade_py_t73_l00_bounds.json",
+   "path": "exports/web/data/hillshade_py_t73_l00_bounds.json",
+   "size_kb": 0.1,
+   "type": "json",
+   "license": "MIT (code) + CC0 (data)"
+  },
+  {
+   "name": "hillshade_py_bounds.json",
+   "path": "exports/web/data/hillshade_py_bounds.json",
+   "size_kb": 0.3,
+   "type": "json",
+   "license": "MIT (code) + CC0 (data)"
+  },
+  {
+   "name": "hillshade_py_t73_l40_bounds.json",
+   "path": "exports/web/data/hillshade_py_t73_l40_bounds.json",
+   "size_kb": 0.1,
+   "type": "json",
+   "license": "MIT (code) + CC0 (data)"
+  },
+  {
+   "name": "hillshade_py_t63_l00_bounds.json",
+   "path": "exports/web/data/hillshade_py_t63_l00_bounds.json",
+   "size_kb": 0.1,
+   "type": "json",
+   "license": "MIT (code) + CC0 (data)"
+  },
+  {
+   "name": "construction_zones.json",
+   "path": "exports/web/data/construction_zones.json",
+   "size_kb": 3.0,
+   "type": "json",
+   "license": "MIT (code) + CC0 (data)"
+  },
+  {
+   "name": "hillshade_py_t53_l80_bounds.json",
+   "path": "exports/web/data/hillshade_py_t53_l80_bounds.json",
+   "size_kb": 0.1,
+   "type": "json",
+   "license": "MIT (code) + CC0 (data)"
+  },
+  {
+   "name": "deploy-meta.json",
+   "path": "exports/web/data/deploy-meta.json",
+   "size_kb": 3.7,
+   "type": "json",
+   "license": "MIT (code) + CC0 (data)"
+  },
+  {
+   "name": "hillshade_py_t73_l20_bounds.json",
+   "path": "exports/web/data/hillshade_py_t73_l20_bounds.json",
+   "size_kb": 0.1,
+   "type": "json",
+   "license": "MIT (code) + CC0 (data)"
+  },
+  {
+   "name": "hillshade_py_t03_l80_bounds.json",
+   "path": "exports/web/data/hillshade_py_t03_l80_bounds.json",
+   "size_kb": 0.1,
+   "type": "json",
+   "license": "MIT (code) + CC0 (data)"
+  },
+  {
+   "name": "hillshade_py_t53_l10_bounds.json",
+   "path": "exports/web/data/hillshade_py_t53_l10_bounds.json",
+   "size_kb": 0.1,
+   "type": "json",
+   "license": "MIT (code) + CC0 (data)"
+  },
+  {
+   "name": "hillshade_py_t53_l60_bounds.json",
+   "path": "exports/web/data/hillshade_py_t53_l60_bounds.json",
+   "size_kb": 0.1,
+   "type": "json",
+   "license": "MIT (code) + CC0 (data)"
+  },
+  {
+   "name": "hillshade_py_t73_l80_bounds.json",
+   "path": "exports/web/data/hillshade_py_t73_l80_bounds.json",
+   "size_kb": 0.1,
+   "type": "json",
+   "license": "MIT (code) + CC0 (data)"
+  },
+  {
+   "name": "hillshade_py_t-6_l40_bounds.json",
+   "path": "exports/web/data/hillshade_py_t-6_l40_bounds.json",
+   "size_kb": 0.1,
+   "type": "json",
+   "license": "MIT (code) + CC0 (data)"
+  },
+  {
+   "name": "property_risk_analysis.json",
+   "path": "exports/web/data/property_risk_analysis.json",
+   "size_kb": 10063.4,
+   "type": "json",
+   "license": "MIT (code) + CC0 (data)"
+  },
+  {
+   "name": "hillshade_py_t43_l50_bounds.json",
+   "path": "exports/web/data/hillshade_py_t43_l50_bounds.json",
+   "size_kb": 0.1,
+   "type": "json",
+   "license": "MIT (code) + CC0 (data)"
+  },
+  {
+   "name": "hillshade_py_t33_l10_bounds.json",
+   "path": "exports/web/data/hillshade_py_t33_l10_bounds.json",
+   "size_kb": 0.1,
+   "type": "json",
+   "license": "MIT (code) + CC0 (data)"
+  },
+  {
+   "name": "hillshade_py_t43_l20_bounds.json",
+   "path": "exports/web/data/hillshade_py_t43_l20_bounds.json",
+   "size_kb": 0.1,
+   "type": "json",
+   "license": "MIT (code) + CC0 (data)"
+  },
+  {
+   "name": "hillshade_py_t23_l00_bounds.json",
+   "path": "exports/web/data/hillshade_py_t23_l00_bounds.json",
+   "size_kb": 0.1,
+   "type": "json",
+   "license": "MIT (code) + CC0 (data)"
+  },
+  {
+   "name": "hillshade_py_t23_l10_bounds.json",
+   "path": "exports/web/data/hillshade_py_t23_l10_bounds.json",
+   "size_kb": 0.1,
+   "type": "json",
+   "license": "MIT (code) + CC0 (data)"
+  },
+  {
+   "name": "hillshade_py_t73_l50_bounds.json",
+   "path": "exports/web/data/hillshade_py_t73_l50_bounds.json",
+   "size_kb": 0.1,
+   "type": "json",
+   "license": "MIT (code) + CC0 (data)"
+  },
+  {
+   "name": "hillshade_py_t63_l30_bounds.json",
+   "path": "exports/web/data/hillshade_py_t63_l30_bounds.json",
+   "size_kb": 0.1,
+   "type": "json",
+   "license": "MIT (code) + CC0 (data)"
+  },
+  {
+   "name": "priority_tiles.json",
+   "path": "exports/web/data/priority_tiles.json",
+   "size_kb": 21.2,
+   "type": "json",
+   "license": "MIT (code) + CC0 (data)"
+  },
+  {
+   "name": "hillshade_py_t03_l30_bounds.json",
+   "path": "exports/web/data/hillshade_py_t03_l30_bounds.json",
+   "size_kb": 0.1,
+   "type": "json",
+   "license": "MIT (code) + CC0 (data)"
+  },
+  {
+   "name": "hillshade_py_t23_l70_bounds.json",
+   "path": "exports/web/data/hillshade_py_t23_l70_bounds.json",
+   "size_kb": 0.1,
+   "type": "json",
+   "license": "MIT (code) + CC0 (data)"
+  },
+  {
+   "name": "hillshade_py_t-6_l20_bounds.json",
+   "path": "exports/web/data/hillshade_py_t-6_l20_bounds.json",
+   "size_kb": 0.1,
+   "type": "json",
+   "license": "MIT (code) + CC0 (data)"
+  },
+  {
+   "name": "hillshade_py_t33_l60_bounds.json",
+   "path": "exports/web/data/hillshade_py_t33_l60_bounds.json",
+   "size_kb": 0.1,
+   "type": "json",
+   "license": "MIT (code) + CC0 (data)"
+  },
+  {
+   "name": "hillshade_py_t43_l80_bounds.json",
+   "path": "exports/web/data/hillshade_py_t43_l80_bounds.json",
+   "size_kb": 0.1,
+   "type": "json",
+   "license": "MIT (code) + CC0 (data)"
+  },
+  {
+   "name": "hillshade_py_t53_l10.jpg",
+   "path": "exports/web/data/hillshade_py_t53_l10.jpg",
+   "size_kb": 573.3,
+   "type": "dem_hillshade",
+   "license": "CC0 (Copernicus GLO-30 derived)"
+  },
+  {
+   "name": "hillshade_py_t13_l60.jpg",
+   "path": "exports/web/data/hillshade_py_t13_l60.jpg",
+   "size_kb": 1084.8,
+   "type": "dem_hillshade",
+   "license": "CC0 (Copernicus GLO-30 derived)"
+  },
+  {
+   "name": "hillshade_py_t53_l30.jpg",
+   "path": "exports/web/data/hillshade_py_t53_l30.jpg",
+   "size_kb": 687.4,
+   "type": "dem_hillshade",
+   "license": "CC0 (Copernicus GLO-30 derived)"
+  },
+  {
+   "name": "hillshade_cde.jpg",
+   "path": "exports/web/data/hillshade_cde.jpg",
+   "size_kb": 91.2,
+   "type": "dem_hillshade",
+   "license": "CC0 (Copernicus GLO-30 derived)"
+  },
+  {
+   "name": "hillshade_py_t-6_l00.jpg",
+   "path": "exports/web/data/hillshade_py_t-6_l00.jpg",
+   "size_kb": 261.0,
+   "type": "dem_hillshade",
+   "license": "CC0 (Copernicus GLO-30 derived)"
+  },
+  {
+   "name": "hillshade_py_t43_l10.jpg",
+   "path": "exports/web/data/hillshade_py_t43_l10.jpg",
+   "size_kb": 423.4,
+   "type": "dem_hillshade",
+   "license": "CC0 (Copernicus GLO-30 derived)"
+  },
+  {
+   "name": "hillshade_py_t03_l70.jpg",
+   "path": "exports/web/data/hillshade_py_t03_l70.jpg",
+   "size_kb": 1051.9,
+   "type": "dem_hillshade",
+   "license": "CC0 (Copernicus GLO-30 derived)"
+  },
+  {
+   "name": "hillshade_py_t03_l00.jpg",
+   "path": "exports/web/data/hillshade_py_t03_l00.jpg",
+   "size_kb": 412.7,
+   "type": "dem_hillshade",
+   "license": "CC0 (Copernicus GLO-30 derived)"
+  },
+  {
+   "name": "hillshade_py_t23_l10.jpg",
+   "path": "exports/web/data/hillshade_py_t23_l10.jpg",
+   "size_kb": 385.6,
+   "type": "dem_hillshade",
+   "license": "CC0 (Copernicus GLO-30 derived)"
+  },
+  {
+   "name": "hillshade_py_t03_l10.jpg",
+   "path": "exports/web/data/hillshade_py_t03_l10.jpg",
+   "size_kb": 285.3,
+   "type": "dem_hillshade",
+   "license": "CC0 (Copernicus GLO-30 derived)"
+  },
+  {
+   "name": "hillshade_py_t43_l80.jpg",
+   "path": "exports/web/data/hillshade_py_t43_l80.jpg",
+   "size_kb": 826.9,
+   "type": "dem_hillshade",
+   "license": "CC0 (Copernicus GLO-30 derived)"
+  },
+  {
+   "name": "hillshade_py_t23_l70.jpg",
+   "path": "exports/web/data/hillshade_py_t23_l70.jpg",
+   "size_kb": 642.3,
+   "type": "dem_hillshade",
+   "license": "CC0 (Copernicus GLO-30 derived)"
+  },
+  {
+   "name": "hillshade_py_t13_l70.jpg",
+   "path": "exports/web/data/hillshade_py_t13_l70.jpg",
+   "size_kb": 773.5,
+   "type": "dem_hillshade",
+   "license": "CC0 (Copernicus GLO-30 derived)"
+  },
+  {
+   "name": "hillshade_py_t23_l60.jpg",
+   "path": "exports/web/data/hillshade_py_t23_l60.jpg",
+   "size_kb": 1050.5,
+   "type": "dem_hillshade",
+   "license": "CC0 (Copernicus GLO-30 derived)"
+  },
+  {
+   "name": "hillshade_py_t73_l10.jpg",
+   "path": "exports/web/data/hillshade_py_t73_l10.jpg",
+   "size_kb": 531.7,
+   "type": "dem_hillshade",
+   "license": "CC0 (Copernicus GLO-30 derived)"
+  },
+  {
+   "name": "hillshade_py_t-6_l70.jpg",
+   "path": "exports/web/data/hillshade_py_t-6_l70.jpg",
+   "size_kb": 929.6,
+   "type": "dem_hillshade",
+   "license": "CC0 (Copernicus GLO-30 derived)"
+  },
+  {
+   "name": "hillshade_py_t73_l40.jpg",
+   "path": "exports/web/data/hillshade_py_t73_l40.jpg",
+   "size_kb": 555.1,
+   "type": "dem_hillshade",
+   "license": "CC0 (Copernicus GLO-30 derived)"
+  },
+  {
+   "name": "hillshade_py_t73_l20.jpg",
+   "path": "exports/web/data/hillshade_py_t73_l20.jpg",
+   "size_kb": 669.9,
+   "type": "dem_hillshade",
+   "license": "CC0 (Copernicus GLO-30 derived)"
+  },
+  {
+   "name": "hillshade_py_t63_l10.jpg",
+   "path": "exports/web/data/hillshade_py_t63_l10.jpg",
+   "size_kb": 550.9,
+   "type": "dem_hillshade",
+   "license": "CC0 (Copernicus GLO-30 derived)"
+  },
+  {
+   "name": "hillshade_py_t73_l50.jpg",
+   "path": "exports/web/data/hillshade_py_t73_l50.jpg",
+   "size_kb": 478.3,
+   "type": "dem_hillshade",
+   "license": "CC0 (Copernicus GLO-30 derived)"
+  },
+  {
+   "name": "hillshade_py_t33_l00.jpg",
+   "path": "exports/web/data/hillshade_py_t33_l00.jpg",
+   "size_kb": 433.8,
+   "type": "dem_hillshade",
+   "license": "CC0 (Copernicus GLO-30 derived)"
+  },
+  {
+   "name": "hillshade_py_t33_l20.jpg",
+   "path": "exports/web/data/hillshade_py_t33_l20.jpg",
+   "size_kb": 510.7,
+   "type": "dem_hillshade",
+   "license": "CC0 (Copernicus GLO-30 derived)"
+  },
+  {
+   "name": "hillshade_py_t73_l70.jpg",
+   "path": "exports/web/data/hillshade_py_t73_l70.jpg",
+   "size_kb": 1661.9,
+   "type": "dem_hillshade",
+   "license": "CC0 (Copernicus GLO-30 derived)"
+  },
+  {
+   "name": "hillshade_py_t43_l30.jpg",
+   "path": "exports/web/data/hillshade_py_t43_l30.jpg",
+   "size_kb": 536.2,
+   "type": "dem_hillshade",
+   "license": "CC0 (Copernicus GLO-30 derived)"
+  },
+  {
+   "name": "hillshade_san_bernardino.jpg",
+   "path": "exports/web/data/hillshade_san_bernardino.jpg",
+   "size_kb": 53.3,
+   "type": "dem_hillshade",
+   "license": "CC0 (Copernicus GLO-30 derived)"
+  },
+  {
+   "name": "hillshade_py_t-6_l40.jpg",
+   "path": "exports/web/data/hillshade_py_t-6_l40.jpg",
+   "size_kb": 722.9,
+   "type": "dem_hillshade",
+   "license": "CC0 (Copernicus GLO-30 derived)"
+  },
+  {
+   "name": "hillshade_nanawa.jpg",
+   "path": "exports/web/data/hillshade_nanawa.jpg",
+   "size_kb": 54.5,
+   "type": "dem_hillshade",
+   "license": "CC0 (Copernicus GLO-30 derived)"
+  },
+  {
+   "name": "hillshade_py_t63_l80.jpg",
+   "path": "exports/web/data/hillshade_py_t63_l80.jpg",
+   "size_kb": 1855.3,
+   "type": "dem_hillshade",
+   "license": "CC0 (Copernicus GLO-30 derived)"
+  },
+  {
+   "name": "hillshade_py_t13_l20.jpg",
+   "path": "exports/web/data/hillshade_py_t13_l20.jpg",
+   "size_kb": 302.4,
+   "type": "dem_hillshade",
+   "license": "CC0 (Copernicus GLO-30 derived)"
+  },
+  {
+   "name": "hillshade_py_t53_l70.jpg",
+   "path": "exports/web/data/hillshade_py_t53_l70.jpg",
+   "size_kb": 835.8,
+   "type": "dem_hillshade",
+   "license": "CC0 (Copernicus GLO-30 derived)"
+  },
+  {
+   "name": "hillshade_py_t63_l50.jpg",
+   "path": "exports/web/data/hillshade_py_t63_l50.jpg",
+   "size_kb": 746.6,
+   "type": "dem_hillshade",
+   "license": "CC0 (Copernicus GLO-30 derived)"
+  },
+  {
+   "name": "hillshade_py_t73_l00.jpg",
+   "path": "exports/web/data/hillshade_py_t73_l00.jpg",
+   "size_kb": 384.6,
+   "type": "dem_hillshade",
+   "license": "CC0 (Copernicus GLO-30 derived)"
+  },
+  {
+   "name": "hillshade_py_t73_l80.jpg",
+   "path": "exports/web/data/hillshade_py_t73_l80.jpg",
+   "size_kb": 2010.0,
+   "type": "dem_hillshade",
+   "license": "CC0 (Copernicus GLO-30 derived)"
+  },
+  {
+   "name": "hillshade_filadelfia.jpg",
+   "path": "exports/web/data/hillshade_filadelfia.jpg",
+   "size_kb": 61.1,
+   "type": "dem_hillshade",
+   "license": "CC0 (Copernicus GLO-30 derived)"
+  },
+  {
+   "name": "hillshade_py_t23_l50.jpg",
+   "path": "exports/web/data/hillshade_py_t23_l50.jpg",
+   "size_kb": 1060.3,
+   "type": "dem_hillshade",
+   "license": "CC0 (Copernicus GLO-30 derived)"
+  },
+  {
+   "name": "hillshade_py_t03_l60.jpg",
+   "path": "exports/web/data/hillshade_py_t03_l60.jpg",
+   "size_kb": 1006.5,
+   "type": "dem_hillshade",
+   "license": "CC0 (Copernicus GLO-30 derived)"
+  },
+  {
+   "name": "hillshade_py_t23_l20.jpg",
+   "path": "exports/web/data/hillshade_py_t23_l20.jpg",
+   "size_kb": 484.0,
+   "type": "dem_hillshade",
+   "license": "CC0 (Copernicus GLO-30 derived)"
+  },
+  {
+   "name": "hillshade_py_t53_l80.jpg",
+   "path": "exports/web/data/hillshade_py_t53_l80.jpg",
+   "size_kb": 1280.4,
+   "type": "dem_hillshade",
+   "license": "CC0 (Copernicus GLO-30 derived)"
+  },
+  {
+   "name": "hillshade_py_t63_l60.jpg",
+   "path": "exports/web/data/hillshade_py_t63_l60.jpg",
+   "size_kb": 1117.3,
+   "type": "dem_hillshade",
+   "license": "CC0 (Copernicus GLO-30 derived)"
+  },
+  {
+   "name": "hillshade_py_t03_l40.jpg",
+   "path": "exports/web/data/hillshade_py_t03_l40.jpg",
+   "size_kb": 354.9,
+   "type": "dem_hillshade",
+   "license": "CC0 (Copernicus GLO-30 derived)"
+  },
+  {
+   "name": "hillshade_py_t13_l40.jpg",
+   "path": "exports/web/data/hillshade_py_t13_l40.jpg",
+   "size_kb": 587.2,
+   "type": "dem_hillshade",
+   "license": "CC0 (Copernicus GLO-30 derived)"
+  },
+  {
+   "name": "hillshade_py_t63_l40.jpg",
+   "path": "exports/web/data/hillshade_py_t63_l40.jpg",
+   "size_kb": 560.3,
+   "type": "dem_hillshade",
+   "license": "CC0 (Copernicus GLO-30 derived)"
+  },
+  {
+   "name": "hillshade_py_t13_l30.jpg",
+   "path": "exports/web/data/hillshade_py_t13_l30.jpg",
+   "size_kb": 355.7,
+   "type": "dem_hillshade",
+   "license": "CC0 (Copernicus GLO-30 derived)"
+  },
+  {
+   "name": "hillshade_py_t53_l50.jpg",
+   "path": "exports/web/data/hillshade_py_t53_l50.jpg",
+   "size_kb": 763.6,
+   "type": "dem_hillshade",
+   "license": "CC0 (Copernicus GLO-30 derived)"
+  },
+  {
+   "name": "hillshade_py_t23_l30.jpg",
+   "path": "exports/web/data/hillshade_py_t23_l30.jpg",
+   "size_kb": 472.3,
+   "type": "dem_hillshade",
+   "license": "CC0 (Copernicus GLO-30 derived)"
+  },
+  {
+   "name": "hillshade_py_t-6_l80.jpg",
+   "path": "exports/web/data/hillshade_py_t-6_l80.jpg",
+   "size_kb": 1074.6,
+   "type": "dem_hillshade",
+   "license": "CC0 (Copernicus GLO-30 derived)"
+  },
+  {
+   "name": "hillshade_py_t-6_l50.jpg",
+   "path": "exports/web/data/hillshade_py_t-6_l50.jpg",
+   "size_kb": 890.1,
+   "type": "dem_hillshade",
+   "license": "CC0 (Copernicus GLO-30 derived)"
+  },
+  {
+   "name": "hillshade_py_t43_l60.jpg",
+   "path": "exports/web/data/hillshade_py_t43_l60.jpg",
+   "size_kb": 925.6,
+   "type": "dem_hillshade",
+   "license": "CC0 (Copernicus GLO-30 derived)"
+  },
+  {
+   "name": "hillshade_py_t23_l40.jpg",
+   "path": "exports/web/data/hillshade_py_t23_l40.jpg",
+   "size_kb": 736.3,
+   "type": "dem_hillshade",
+   "license": "CC0 (Copernicus GLO-30 derived)"
+  },
+  {
+   "name": "hillshade_py_t53_l60.jpg",
+   "path": "exports/web/data/hillshade_py_t53_l60.jpg",
+   "size_kb": 1055.3,
+   "type": "dem_hillshade",
+   "license": "CC0 (Copernicus GLO-30 derived)"
+  },
+  {
+   "name": "hillshade_py_t33_l60.jpg",
+   "path": "exports/web/data/hillshade_py_t33_l60.jpg",
+   "size_kb": 1013.9,
+   "type": "dem_hillshade",
+   "license": "CC0 (Copernicus GLO-30 derived)"
+  },
+  {
+   "name": "hillshade_py_t33_l80.jpg",
+   "path": "exports/web/data/hillshade_py_t33_l80.jpg",
+   "size_kb": 637.0,
+   "type": "dem_hillshade",
+   "license": "CC0 (Copernicus GLO-30 derived)"
+  },
+  {
+   "name": "hillshade_py_t63_l30.jpg",
+   "path": "exports/web/data/hillshade_py_t63_l30.jpg",
+   "size_kb": 748.4,
+   "type": "dem_hillshade",
+   "license": "CC0 (Copernicus GLO-30 derived)"
+  },
+  {
+   "name": "hillshade_py_t53_l20.jpg",
+   "path": "exports/web/data/hillshade_py_t53_l20.jpg",
+   "size_kb": 661.1,
+   "type": "dem_hillshade",
+   "license": "CC0 (Copernicus GLO-30 derived)"
+  },
+  {
+   "name": "hillshade_py_t-6_l10.jpg",
+   "path": "exports/web/data/hillshade_py_t-6_l10.jpg",
+   "size_kb": 395.2,
+   "type": "dem_hillshade",
+   "license": "CC0 (Copernicus GLO-30 derived)"
+  },
+  {
+   "name": "hillshade_py_t03_l30.jpg",
+   "path": "exports/web/data/hillshade_py_t03_l30.jpg",
+   "size_kb": 507.1,
+   "type": "dem_hillshade",
+   "license": "CC0 (Copernicus GLO-30 derived)"
+  },
+  {
+   "name": "hillshade_py_t03_l80.jpg",
+   "path": "exports/web/data/hillshade_py_t03_l80.jpg",
+   "size_kb": 673.2,
+   "type": "dem_hillshade",
+   "license": "CC0 (Copernicus GLO-30 derived)"
+  },
+  {
+   "name": "hillshade_py_t03_l50.jpg",
+   "path": "exports/web/data/hillshade_py_t03_l50.jpg",
+   "size_kb": 996.4,
+   "type": "dem_hillshade",
+   "license": "CC0 (Copernicus GLO-30 derived)"
+  },
+  {
+   "name": "hillshade_py_t63_l20.jpg",
+   "path": "exports/web/data/hillshade_py_t63_l20.jpg",
+   "size_kb": 774.2,
+   "type": "dem_hillshade",
+   "license": "CC0 (Copernicus GLO-30 derived)"
+  },
+  {
+   "name": "hillshade_py_t33_l40.jpg",
+   "path": "exports/web/data/hillshade_py_t33_l40.jpg",
+   "size_kb": 731.9,
+   "type": "dem_hillshade",
+   "license": "CC0 (Copernicus GLO-30 derived)"
+  },
+  {
+   "name": "hillshade_py_t53_l00.jpg",
+   "path": "exports/web/data/hillshade_py_t53_l00.jpg",
+   "size_kb": 272.0,
+   "type": "dem_hillshade",
+   "license": "CC0 (Copernicus GLO-30 derived)"
+  },
+  {
+   "name": "hillshade_py_t03_l20.jpg",
+   "path": "exports/web/data/hillshade_py_t03_l20.jpg",
+   "size_kb": 394.7,
+   "type": "dem_hillshade",
+   "license": "CC0 (Copernicus GLO-30 derived)"
+  },
+  {
+   "name": "hillshade_py_t13_l80.jpg",
+   "path": "exports/web/data/hillshade_py_t13_l80.jpg",
+   "size_kb": 649.0,
+   "type": "dem_hillshade",
+   "license": "CC0 (Copernicus GLO-30 derived)"
+  },
+  {
+   "name": "hillshade_py_t13_l50.jpg",
+   "path": "exports/web/data/hillshade_py_t13_l50.jpg",
+   "size_kb": 1394.7,
+   "type": "dem_hillshade",
+   "license": "CC0 (Copernicus GLO-30 derived)"
+  },
+  {
+   "name": "hillshade_py_t63_l70.jpg",
+   "path": "exports/web/data/hillshade_py_t63_l70.jpg",
+   "size_kb": 1111.0,
+   "type": "dem_hillshade",
+   "license": "CC0 (Copernicus GLO-30 derived)"
+  },
+  {
+   "name": "hillshade_py_t-6_l30.jpg",
+   "path": "exports/web/data/hillshade_py_t-6_l30.jpg",
+   "size_kb": 631.0,
+   "type": "dem_hillshade",
+   "license": "CC0 (Copernicus GLO-30 derived)"
+  },
+  {
+   "name": "hillshade_py_t13_l00.jpg",
+   "path": "exports/web/data/hillshade_py_t13_l00.jpg",
+   "size_kb": 353.7,
+   "type": "dem_hillshade",
+   "license": "CC0 (Copernicus GLO-30 derived)"
+  },
+  {
+   "name": "hillshade_py_t63_l00.jpg",
+   "path": "exports/web/data/hillshade_py_t63_l00.jpg",
+   "size_kb": 350.9,
+   "type": "dem_hillshade",
+   "license": "CC0 (Copernicus GLO-30 derived)"
+  },
+  {
+   "name": "hillshade_py_t33_l70.jpg",
+   "path": "exports/web/data/hillshade_py_t33_l70.jpg",
+   "size_kb": 698.7,
+   "type": "dem_hillshade",
+   "license": "CC0 (Copernicus GLO-30 derived)"
+  },
+  {
+   "name": "hillshade_py_t13_l10.jpg",
+   "path": "exports/web/data/hillshade_py_t13_l10.jpg",
+   "size_kb": 277.5,
+   "type": "dem_hillshade",
+   "license": "CC0 (Copernicus GLO-30 derived)"
+  },
+  {
+   "name": "hillshade_pjc.jpg",
+   "path": "exports/web/data/hillshade_pjc.jpg",
+   "size_kb": 66.5,
+   "type": "dem_hillshade",
+   "license": "CC0 (Copernicus GLO-30 derived)"
+  },
+  {
+   "name": "hillshade_py_t-6_l20.jpg",
+   "path": "exports/web/data/hillshade_py_t-6_l20.jpg",
+   "size_kb": 404.3,
+   "type": "dem_hillshade",
+   "license": "CC0 (Copernicus GLO-30 derived)"
+  },
+  {
+   "name": "hillshade_py_t43_l50.jpg",
+   "path": "exports/web/data/hillshade_py_t43_l50.jpg",
+   "size_kb": 781.5,
+   "type": "dem_hillshade",
+   "license": "CC0 (Copernicus GLO-30 derived)"
+  },
+  {
+   "name": "hillshade_py_t23_l80.jpg",
+   "path": "exports/web/data/hillshade_py_t23_l80.jpg",
+   "size_kb": 599.9,
+   "type": "dem_hillshade",
+   "license": "CC0 (Copernicus GLO-30 derived)"
+  },
+  {
+   "name": "hillshade_py_t53_l40.jpg",
+   "path": "exports/web/data/hillshade_py_t53_l40.jpg",
+   "size_kb": 585.6,
+   "type": "dem_hillshade",
+   "license": "CC0 (Copernicus GLO-30 derived)"
+  },
+  {
+   "name": "hillshade_py_t43_l70.jpg",
+   "path": "exports/web/data/hillshade_py_t43_l70.jpg",
+   "size_kb": 898.7,
+   "type": "dem_hillshade",
+   "license": "CC0 (Copernicus GLO-30 derived)"
+  },
+  {
+   "name": "hillshade_py_t33_l50.jpg",
+   "path": "exports/web/data/hillshade_py_t33_l50.jpg",
+   "size_kb": 859.3,
+   "type": "dem_hillshade",
+   "license": "CC0 (Copernicus GLO-30 derived)"
+  },
+  {
+   "name": "hillshade_py_t43_l00.jpg",
+   "path": "exports/web/data/hillshade_py_t43_l00.jpg",
+   "size_kb": 410.5,
+   "type": "dem_hillshade",
+   "license": "CC0 (Copernicus GLO-30 derived)"
+  },
+  {
+   "name": "hillshade_py_t73_l60.jpg",
+   "path": "exports/web/data/hillshade_py_t73_l60.jpg",
+   "size_kb": 919.4,
+   "type": "dem_hillshade",
+   "license": "CC0 (Copernicus GLO-30 derived)"
+  },
+  {
+   "name": "hillshade_py_t43_l40.jpg",
+   "path": "exports/web/data/hillshade_py_t43_l40.jpg",
+   "size_kb": 577.2,
+   "type": "dem_hillshade",
+   "license": "CC0 (Copernicus GLO-30 derived)"
+  },
+  {
+   "name": "hillshade_py_t23_l00.jpg",
+   "path": "exports/web/data/hillshade_py_t23_l00.jpg",
+   "size_kb": 420.4,
+   "type": "dem_hillshade",
+   "license": "CC0 (Copernicus GLO-30 derived)"
+  },
+  {
+   "name": "hillshade_caacupe.jpg",
+   "path": "exports/web/data/hillshade_caacupe.jpg",
+   "size_kb": 74.0,
+   "type": "dem_hillshade",
+   "license": "CC0 (Copernicus GLO-30 derived)"
+  },
+  {
+   "name": "hillshade_py_t33_l10.jpg",
+   "path": "exports/web/data/hillshade_py_t33_l10.jpg",
+   "size_kb": 434.7,
+   "type": "dem_hillshade",
+   "license": "CC0 (Copernicus GLO-30 derived)"
+  },
+  {
+   "name": "hillshade_py_t73_l30.jpg",
+   "path": "exports/web/data/hillshade_py_t73_l30.jpg",
+   "size_kb": 830.1,
+   "type": "dem_hillshade",
+   "license": "CC0 (Copernicus GLO-30 derived)"
+  },
+  {
+   "name": "hillshade_py_t-6_l60.jpg",
+   "path": "exports/web/data/hillshade_py_t-6_l60.jpg",
+   "size_kb": 932.4,
+   "type": "dem_hillshade",
+   "license": "CC0 (Copernicus GLO-30 derived)"
+  },
+  {
+   "name": "hillshade_asu_centro.jpg",
+   "path": "exports/web/data/hillshade_asu_centro.jpg",
+   "size_kb": 63.8,
+   "type": "dem_hillshade",
+   "license": "CC0 (Copernicus GLO-30 derived)"
+  },
+  {
+   "name": "hillshade_py_t33_l30.jpg",
+   "path": "exports/web/data/hillshade_py_t33_l30.jpg",
+   "size_kb": 555.2,
+   "type": "dem_hillshade",
+   "license": "CC0 (Copernicus GLO-30 derived)"
+  },
+  {
+   "name": "hillshade_py_t43_l20.jpg",
+   "path": "exports/web/data/hillshade_py_t43_l20.jpg",
+   "size_kb": 449.2,
+   "type": "dem_hillshade",
+   "license": "CC0 (Copernicus GLO-30 derived)"
+  }
+ ],
+ "key_datasets": [
+  {
+   "name": "properties_latest.geojson",
+   "content": "10,898 real-estate listings (PII-scrubbed)",
+   "thesis_use": "Use for: Bus route optimization (P0067), Land valuation (P0025), Housing market analysis"
+  },
+  {
+   "name": "buildings_asuncion.geojson",
+   "content": "49,641 OSM building footprints (Asunción)",
+   "thesis_use": "Use for: Urban density (P0010), Mbayru bus routes (P0067), heat island"
+  },
+  {
+   "name": "roads.geojson",
+   "content": "14,835 OSM roads",
+   "thesis_use": "Use for: Road damage (P0085), route optimization (P0067), connectivity"
+  },
+  {
+   "name": "water.geojson",
+   "content": "247 water bodies",
+   "thesis_use": "Use for: River flood forecasting (P0052),"
+  },
+  {
+   "name": "catastro_parcels.geojson",
+   "content": "7,500 parcelas (Catastro)",
+   "thesis_use": "Use for: Land valuation, Cadaster mapping (P0010), indigenous territory"
+  },
+  {
+   "name": "gbif_paraguay.geojson",
+   "content": "200 species (biodiversity)",
+   "thesis_use": "Use for: Wildlife poaching (P0026), biodiversity corridor"
+  },
+  {
+   "name": "climate_risk.geojson",
+   "content": "Climate risk layer",
+   "thesis_use": "Use for: Climate change impact (P0052), MapBiomas integration"
+  },
+  {
+   "name": "flood_risk.geojson",
+   "content": "Flood risk",
+   "thesis_use": "Use for: River forecast (P0052),"
+  },
+  {
+   "name": "indigenous_territories.geojson",
+   "content": "Indigenous territory data",
+   "thesis_use": "Use for: P0012 Yvy (indigenous mapping)"
+  },
+  {
+   "name": "tile_index.json",
+   "content": "7,912 tiles × 10×10 km = all Paraguay",
+   "thesis_use": "Use for: All Paraguay-wide satellite analysis"
+  },
+  {
+   "name": "hillshade_*.jpg",
+   "content": "DEM hillshades (Copernicus GLO-30)",
+   "thesis_use": "Use for: Topographic analysis, Cartography (P0011 Chaco)"
+  },
+  {
+   "name": "bcp_snapshot.json",
+   "content": "BCP macro snapshot",
+   "thesis_use": "Use for: Economic indicators"
+  },
+  {
+   "name": "nasa_power_asuncion.json",
+   "content": "NASA POWER climate data",
+   "thesis_use": "Use for: Energy forecasting (P0005), vector habitat (P0031)"
+  },
+  {
+   "name": "inbio_zafra_2025_2026.json",
+   "content": "Crop area",
+   "thesis_use": "Use for: Soybean yield (P0025), Agriculture"
+  }
+ ],
+ "tools_count": 31,
+ "tools_list": [
+  "fetch_tile.py",
+  "fetch_bcp_rates.py",
+  "track_price_history.py",
+  "ci_playwright.py",
+  "fetch_ine_admin.py",
+  "fetch_clasipar_sitemap.py",
+  "fetch_openbusinesses.py",
+  "build_slope_aspect.py",
+  "national_tile_index.py",
+  "fetch_tulugar.py",
+  "fetch_catastro_parcels.py",
+  "data_pipeline.py",
+  "fetch_osm_buildings.py",
+  "test_visualizations.py",
+  "__init__.py",
+  "fetch_osm_roads.py",
+  "build_peaks_geojson.py",
+  "convert_to_pmtiles.py",
+  "fetch_dncp.py",
+  "fetch_inbio.py",
+  "extract_geofabrik_layers.py",
+  "duckdb_spatial_query.py",
+  "build_environmental_layers.py",
+  "build_fair_price_model.py",
+  "test_suite.py",
+  "scrub_pii.py",
+  "test_interactions.py",
+  "auto_refresh.py",
+  "build_price_surface.py",
+  "test_endpoints.py",
+  "fetch_properties.py"
+ ],
+ "tile_count": 7912,
+ "admin_layers": [
+  "catastro_dist.geojson",
+  "catastro_dpto.geojson",
+  "catastro_urba.geojson",
+  "departamentos.geojson",
+  "barrios_py.geojson",
+  "distritos.geojson",
+  "catastro_parcels_sample.geojson"
+ ]
+}
