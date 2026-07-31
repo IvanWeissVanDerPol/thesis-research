@@ -2,12 +2,12 @@
  "generated_at": "2026-07-31",
  "scope": "Global thesis + arXiv baseline for UNA FP-UNA thesis proposals — LATAM, Asia, US, EU, China, Arabic/African, Indigenous Languages",
  "method": "arXiv API search + Princeton DataSpace + selective European university repositories (UdelaR, IIIT blocked, etc.)",
- "queries_run": 5,
- "n_papers_found": 36,
- "n_p3_competitors": 18,
- "n_p2_competitors": 8,
+ "queries_run": 8,
+ "n_papers_found": 53,
+ "n_p3_competitors": 25,
+ "n_p2_competitors": 13,
  "n_p1_competitors": 8,
- "n_other": 2,
+ "n_other": 7,
  "top_findings_by_relevance": [
   {
    "id": "B001",
@@ -119,6 +119,43 @@
    "topic": "electricity_forecasting_TSFM"
   },
   {
+   "id": "B042",
+   "title": "Foundation Models and Fine-Tuning: Toward a New Generation of Models for Time Series Forecasting",
+   "authors": [
+    "Morad Laglil",
+    "Bertrand Pracca",
+    "Emilie Devijver",
+    "Eric Gaussier"
+   ],
+   "year": 2026,
+   "venue": "arXiv (Grenoble)",
+   "type": "preprint",
+   "country": "France",
+   "p_relevance": "P2",
+   "p_relevance_score": 85,
+   "url": "https://arxiv.org/abs/2607.13570",
+   "key_findings": "Comprehensive review + fine-tuning experiments on TSFMs (TimesFM, Chronos, Moirai).",
+   "differentiation_for_ivan": "Review + methodology template for P2 ANDE — best resource for choosing TSFM model.",
+   "topic": "TSFM_review"
+  },
+  {
+   "id": "B049",
+   "title": "EmoTrace: An Emotion Trajectory-Centered Framework for Psychological Support Dialogue Generation",
+   "authors": [
+    "unnamed"
+   ],
+   "year": 2026,
+   "venue": "arXiv (China)",
+   "type": "preprint",
+   "country": "China",
+   "p_relevance": "P3",
+   "p_relevance_score": 85,
+   "url": "https://arxiv.org/abs/2607.13025",
+   "key_findings": "LLM-based psychological support dialogue generation with emotional trajectory control.",
+   "differentiation_for_ivan": "DIRECT COMPETITOR for P3. Chinese parallel of Solo Escuchame (Mexico).",
+   "topic": "psychological_support_LLM"
+  },
+  {
    "id": "B004",
    "title": "Expanding the Lexicon of Ge'ez Based African Languages: A Comparative Study of Amharic and Tigrinya",
    "authors": [
@@ -175,6 +212,23 @@
    "topic": "transformer_energy_forecasting"
   },
   {
+   "id": "B041",
+   "title": "LLM as Forecasting Planner: Training-Free Text Conditioning for Time-Series Foundation Models",
+   "authors": [
+    "unnamed"
+   ],
+   "year": 2026,
+   "venue": "arXiv",
+   "type": "preprint",
+   "country": "Global",
+   "p_relevance": "P2",
+   "p_relevance_score": 80,
+   "url": "https://arxiv.org/abs/2607.14382",
+   "key_findings": "MCTS over Chronos+TimesFM trajectories with LLM policy/value. Text-conditioned forecasting.",
+   "differentiation_for_ivan": "DIRECT METHODOLOGY for P2 ANDE — LLM-driven TSFM selection. Could integrate ANDE weather/holiday data as text context.",
+   "topic": "LLM_TSFM_planner"
+  },
+  {
    "id": "B005",
    "title": "ROMEVA: Geometry-Preserving Vocabulary Expansion for Roman Urdu Language Models",
    "authors": [
@@ -226,63 +280,6 @@
    "key_findings": "OSM segmentation for UAS geolocalization when GPS degraded.",
    "differentiation_for_ivan": "Direct baseline for P1 Tava-i (Tava-i uses OSM for citizen mapping).",
    "topic": "OSM_deep_learning"
-  },
-  {
-   "id": "B013",
-   "title": "Automated LoD-2 Model Reconstruction from Very-High-Resolution Satellite-Derived Digital Surface Model and Orthophoto",
-   "authors": [
-    "Shengxi Gui",
-    "Rongjun Qin"
-   ],
-   "year": 2021,
-   "venue": "arXiv:2109.03876",
-   "type": "preprint",
-   "country": "USA",
-   "p_relevance": "P1",
-   "p_relevance_score": 75,
-   "url": "https://arxiv.org/abs/2109.03876",
-   "key_findings": "Building detection from VHR satellite + 3D reconstruction with OSM+GC refinement.",
-   "differentiation_for_ivan": "Methodology for P1 building extraction at fine resolution (Paraguay urban vs rural).",
-   "topic": "satellite_building_extraction"
-  },
-  {
-   "id": "B016",
-   "title": "Map-Repair: Deep Cadastre Maps Alignment and Temporal Inconsistencies Fix in Satellite Images",
-   "authors": [
-    "Stefano Zorzi",
-    "Ksenia Bittner",
-    "Friedrich Fraundorfer"
-   ],
-   "year": 2020,
-   "venue": "arXiv:2007.12877",
-   "type": "preprint",
-   "country": "Austria/Germany",
-   "p_relevance": "P1",
-   "p_relevance_score": 75,
-   "url": "https://arxiv.org/abs/2007.12877",
-   "key_findings": "End-to-end DL for fixing OSM misalignments in developing countries.",
-   "differentiation_for_ivan": "Direct methodology for Paraguay OSM/cadastre reconciliation (P1 Yvy, Tava-i).",
-   "topic": "cadastre_OSM_repair"
-  },
-  {
-   "id": "B020",
-   "title": "On Electric Vehicle Energy Demand Forecasting and the Effect of Federated Learning",
-   "authors": [
-    "Andreas Tritsarolis",
-    "Gil Sampaio",
-    "Nikos Pelekis",
-    "Yannis Theodoridis"
-   ],
-   "year": 2026,
-   "venue": "arXiv",
-   "type": "preprint",
-   "country": "Greece/Portugal",
-   "p_relevance": "P2",
-   "p_relevance_score": 75,
-   "url": "https://arxiv.org/abs/2602.15632",
-   "key_findings": "XGBoost > LSTM/GRU/ARIMA for EV demand; Federated learning balances accuracy + privacy.",
-   "differentiation_for_ivan": "Methodology template for federated learning approach to ANDE demand (multi-region).",
-   "topic": "energy_demand_federated"
   }
  ],
  "all_findings": [
@@ -933,6 +930,311 @@
    "key_findings": "Multilingual semantic supervision methodology.",
    "differentiation_for_ivan": "Methodology template for cross-lingual transfer to Guarani.",
    "topic": "multilingual_semantic_supervision"
+  },
+  {
+   "id": "B037",
+   "title": "A Cross-lingual Comparison of Human and Classification Model Entrainment Behavior in Code-switched Speech Settings",
+   "authors": [
+    "Debasmita Bhattacharya",
+    "Siying Ding",
+    "Alayna Nguyen",
+    "Julia Hirschberg"
+   ],
+   "year": 2026,
+   "venue": "arXiv (Columbia)",
+   "type": "preprint",
+   "country": "USA (Columbia)",
+   "p_relevance": "P3",
+   "p_relevance_score": 70,
+   "url": "https://arxiv.org/abs/2607.15890",
+   "key_findings": "Cross-lingual code-switching (Mandarin-English, Hindi-English, Spanish-English) speech entrainment analysis.",
+   "differentiation_for_ivan": "Methodology template for Guarani-Spanish (Jopara) speech + text analysis.",
+   "topic": "code_switching_speech"
+  },
+  {
+   "id": "B038",
+   "title": "Improving Code-Switching ASR with Code-Mixing Guided Synthetic Speech",
+   "authors": [
+    "unnamed"
+   ],
+   "year": 2026,
+   "venue": "arXiv",
+   "type": "preprint",
+   "country": "China (Beihang)",
+   "p_relevance": "P3",
+   "p_relevance_score": 65,
+   "url": "https://arxiv.org/abs/2606.08732",
+   "key_findings": "Code-mixing TTS for ASR augmentation; reduced MER from 12.1% to 8.9% on Mandarin-English.",
+   "differentiation_for_ivan": "Methodology for code-switching ASR/TTS — relevant for Jopara voice assistants.",
+   "topic": "code_switching_ASR"
+  },
+  {
+   "id": "B039",
+   "title": "Are you speaking my languages? On spoken language adherence in multimodal LLMs",
+   "authors": [
+    "unnamed"
+   ],
+   "year": 2026,
+   "venue": "arXiv",
+   "type": "preprint",
+   "country": "Global",
+   "p_relevance": "P3",
+   "p_relevance_score": 70,
+   "url": "https://arxiv.org/abs/2606.08420",
+   "key_findings": "Multilingual ASR + code-switching capability; soft prompting strategies.",
+   "differentiation_for_ivan": "Direct methodology for Jopara ASR in voice-based mental health screening (P3 Sy P0015).",
+   "topic": "multilingual_ASR_adherence"
+  },
+  {
+   "id": "B040",
+   "title": "TREA-Net: A Transferable Residual Epidemiological Adaptation Network for Dengue Incidence Forecasting",
+   "authors": [
+    "Inesh Shukla",
+    "Madhurima Panja",
+    "Tanujit Chakraborty",
+    "Chittaranjan Hens"
+   ],
+   "year": 2026,
+   "venue": "arXiv (India)",
+   "type": "preprint",
+   "country": "India",
+   "p_relevance": "Other",
+   "p_relevance_score": 70,
+   "url": "https://arxiv.org/abs/2607.15880",
+   "key_findings": "Transfer learning for epidemiological forecasting in data-scarce regions (Mexico/Malaysia).",
+   "differentiation_for_ivan": "DIRECT METHODOLOGY for P3 Karamanu (Chagas, P0031) + P3 Tita (Dengue, P0090) — Indian transfer learning applies to Paraguay.",
+   "topic": "epidemiological_transfer"
+  },
+  {
+   "id": "B041",
+   "title": "LLM as Forecasting Planner: Training-Free Text Conditioning for Time-Series Foundation Models",
+   "authors": [
+    "unnamed"
+   ],
+   "year": 2026,
+   "venue": "arXiv",
+   "type": "preprint",
+   "country": "Global",
+   "p_relevance": "P2",
+   "p_relevance_score": 80,
+   "url": "https://arxiv.org/abs/2607.14382",
+   "key_findings": "MCTS over Chronos+TimesFM trajectories with LLM policy/value. Text-conditioned forecasting.",
+   "differentiation_for_ivan": "DIRECT METHODOLOGY for P2 ANDE — LLM-driven TSFM selection. Could integrate ANDE weather/holiday data as text context.",
+   "topic": "LLM_TSFM_planner"
+  },
+  {
+   "id": "B042",
+   "title": "Foundation Models and Fine-Tuning: Toward a New Generation of Models for Time Series Forecasting",
+   "authors": [
+    "Morad Laglil",
+    "Bertrand Pracca",
+    "Emilie Devijver",
+    "Eric Gaussier"
+   ],
+   "year": 2026,
+   "venue": "arXiv (Grenoble)",
+   "type": "preprint",
+   "country": "France",
+   "p_relevance": "P2",
+   "p_relevance_score": 85,
+   "url": "https://arxiv.org/abs/2607.13570",
+   "key_findings": "Comprehensive review + fine-tuning experiments on TSFMs (TimesFM, Chronos, Moirai).",
+   "differentiation_for_ivan": "Review + methodology template for P2 ANDE — best resource for choosing TSFM model.",
+   "topic": "TSFM_review"
+  },
+  {
+   "id": "B043",
+   "title": "A Three-Phase Foundation Model for Tax-Aware Personalized Portfolio Management",
+   "authors": [
+    "unnamed"
+   ],
+   "year": 2026,
+   "venue": "arXiv",
+   "type": "preprint",
+   "country": "USA",
+   "p_relevance": "Other",
+   "p_relevance_score": 50,
+   "url": "https://arxiv.org/abs/2606.16976",
+   "key_findings": "Chronos + T5-base TSFM for portfolio management. Cross-asset encoder.",
+   "differentiation_for_ivan": "Adjacent methodology for P2 financial/economic forecasting.",
+   "topic": "TSFM_portfolio"
+  },
+  {
+   "id": "B044",
+   "title": "WIDE: Boosting Adaptive LLM Inference via Token-level Dynamic Width Pruning",
+   "authors": [
+    "EIT-NLP"
+   ],
+   "year": 2026,
+   "venue": "arXiv (GitHub: EIT-NLP/LLM-Pruning)",
+   "type": "preprint",
+   "country": "China/Asia",
+   "p_relevance": "P2",
+   "p_relevance_score": 60,
+   "url": "https://github.com/EIT-NLP/LLM-Pruning",
+   "key_findings": "Efficient LLM inference via token-level dynamic pruning; 1.68-4.95x speedup.",
+   "differentiation_for_ivan": "Methodology for cheap LLM inference in production (P2 Tokandu chatbot).",
+   "topic": "efficient_LLM"
+  },
+  {
+   "id": "B045",
+   "title": "HiSkill: Empowering LLM Agents with Hierarchical Skill Graphs",
+   "authors": [
+    "BUPT-GAMMA"
+   ],
+   "year": 2026,
+   "venue": "arXiv (BUPT Beijing)",
+   "type": "preprint",
+   "country": "China (BUPT)",
+   "p_relevance": "P2",
+   "p_relevance_score": 65,
+   "url": "https://github.com/BUPT-GAMMA/HiSkill",
+   "key_findings": "Hierarchical skill graph for LLM agents; outperforms flat skill retrieval.",
+   "differentiation_for_ivan": "Methodology for multi-step ANDE agent (P2 Tokandu) — energy troubleshooting skill graph.",
+   "topic": "LLM_agent_skill_graph"
+  },
+  {
+   "id": "B046",
+   "title": "Kutti AI: A Voice-First, Offline-Capable Learning Companion with Real-Time Struggle Detection for Visually-Impaired Children",
+   "authors": [
+    "unnamed"
+   ],
+   "year": 2026,
+   "venue": "arXiv (India)",
+   "type": "preprint",
+   "country": "India",
+   "p_relevance": "Other",
+   "p_relevance_score": 50,
+   "url": "https://arxiv.org/abs/2607.15820",
+   "key_findings": "Voice-first offline AI learning companion for accessibility.",
+   "differentiation_for_ivan": "Adjacent methodology for offline-capable Jopara mental health chatbot (P3 P0022).",
+   "topic": "voice_offline_AI"
+  },
+  {
+   "id": "B047",
+   "title": "Feminist voices, partisan networks: gender and political communication by MEPs on social media",
+   "authors": [
+    "Ainara Larrondo-Ureta",
+    "Simón Peña-Fernández",
+    "Julen Orbegozo-Terradillos",
+    "Jordi Morales-i-Gras"
+   ],
+   "year": 2026,
+   "venue": "arXiv (UPV/EHU Spain)",
+   "type": "preprint",
+   "country": "Spain (Basque Country)",
+   "p_relevance": "Other",
+   "p_relevance_score": 40,
+   "url": "https://arxiv.org/abs/2607.27290",
+   "key_findings": "Sentiment + network analysis of 122,972 MEPs tweets 2022 (Twitter, EU politics).",
+   "differentiation_for_ivan": "Methodology for Paraguayan political Twitter analysis (P3 Neeambota fake news).",
+   "topic": "twitter_political_analysis"
+  },
+  {
+   "id": "B048",
+   "title": "KRAFT: A Transaction-Level Dataset for Korean Apartment Sales Integrated with Contextual Indicators",
+   "authors": [
+    "Sejin Myung",
+    "Hyungjoon Kim"
+   ],
+   "year": 2026,
+   "venue": "arXiv (Korea)",
+   "type": "preprint",
+   "country": "South Korea",
+   "p_relevance": "Other",
+   "p_relevance_score": 50,
+   "url": "https://arxiv.org/abs/2607.11961",
+   "key_findings": "5.3M Korean apartment transactions 2015-2024 with 25 auxiliary indicators.",
+   "differentiation_for_ivan": "Methodology template for Paraguay INE/ANDE data fusion (P2 Tokandu could integrate).",
+   "topic": "transaction_dataset_economics"
+  },
+  {
+   "id": "B049",
+   "title": "EmoTrace: An Emotion Trajectory-Centered Framework for Psychological Support Dialogue Generation",
+   "authors": [
+    "unnamed"
+   ],
+   "year": 2026,
+   "venue": "arXiv (China)",
+   "type": "preprint",
+   "country": "China",
+   "p_relevance": "P3",
+   "p_relevance_score": 85,
+   "url": "https://arxiv.org/abs/2607.13025",
+   "key_findings": "LLM-based psychological support dialogue generation with emotional trajectory control.",
+   "differentiation_for_ivan": "DIRECT COMPETITOR for P3. Chinese parallel of Solo Escuchame (Mexico).",
+   "topic": "psychological_support_LLM"
+  },
+  {
+   "id": "B050",
+   "title": "Toward Annotation-Efficient Continuous Emotion Arousal Quantification via Group-Level EEG Dynamic Neural Synchrony",
+   "year": 2026,
+   "venue": "arXiv (Asia)",
+   "type": "preprint",
+   "country": "Asia/China",
+   "p_relevance": "P3",
+   "p_relevance_score": 70,
+   "url": "https://arxiv.org/abs/2607.14392",
+   "key_findings": "Annotation-efficient continuous emotional arousal from EEG (142 subjects, 207 hours).",
+   "differentiation_for_ivan": "Methodology template for low-annotation emotion detection — could replace heavy labeling in P3.",
+   "topic": "EEG_emotion_arousal"
+  },
+  {
+   "id": "B051",
+   "title": "Correlation between prosody and pragmatics: A case study of the discourse marker hālā in Persian",
+   "authors": [
+    "Soleiman Ghaderi",
+    "Moloud Asakereh",
+    "Kevin Tang"
+   ],
+   "year": 2026,
+   "venue": "arXiv",
+   "type": "preprint",
+   "country": "Iran",
+   "p_relevance": "P3",
+   "p_relevance_score": 50,
+   "url": "https://arxiv.org/abs/2607.27320",
+   "key_findings": "Discourse marker analysis with prosody-pragmatics correlation in Persian.",
+   "differentiation_for_ivan": "Methodology template for Guarani discourse marker analysis.",
+   "topic": "discourse_marker_prosody"
+  },
+  {
+   "id": "B053",
+   "title": "Potentials and Limitations on Different Busbar Protections in Industrial Applications",
+   "authors": [
+    "Karl M. H. Lai",
+    "Yunhe Hou",
+    "Kwunhang Wong"
+   ],
+   "year": 2026,
+   "venue": "arXiv",
+   "type": "preprint",
+   "country": "Hong Kong/Taiwan",
+   "p_relevance": "P2",
+   "p_relevance_score": 55,
+   "url": "https://arxiv.org/abs/2607.27350",
+   "key_findings": "Industrial busbar protection; lessons from Taiwan 2022 blackout.",
+   "differentiation_for_ivan": "Adjacent methodology for P2 ANDE grid reliability.",
+   "topic": "grid_protection_blackout"
+  },
+  {
+   "id": "B054",
+   "title": "HuggingFace — 38 Guarani datasets indexed",
+   "year": 2026,
+   "venue": "HuggingFace",
+   "type": "dataset_search",
+   "country": "Global",
+   "p_relevance": "P3",
+   "p_relevance_score": 75,
+   "url": "https://huggingface.co/datasets?search=guarani",
+   "key_findings": "38 Guarani datasets on HF.",
+   "differentiation_for_ivan": "P3 is the ONLY proposal with 38+ datasets available.",
+   "topic": "HF_guarani_datasets"
   }
+ ],
+ "new_queries": [
+  "arxiv: Swahili OR Yoruba OR Amharic OR Hausa sentiment (19,642 results)",
+  "arxiv: code-switching Spanish OR Quechua OR Nahuatl OR Aymara (1,710 results)",
+  "arxiv: Foundation Model time series Tsinghua OR Beihang (1,067 results)"
  ]
 }
