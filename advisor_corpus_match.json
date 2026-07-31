@@ -1,1645 +1,2731 @@
 {
  "generated_at": "2026-07-30",
- "source": "opac_una_full_v2_enriched_ckpt.json (488 enriched) + people_index.json (244 personas)",
- "n_enriched_records": 588,
- "n_people": 244,
- "n_matches": 175,
- "n_no_match": 181,
- "top_advisors": [
+ "scope": "Cross-reference 1958 enriched OPAC records × people_index.json for advisor identification",
+ "n_enriched_records": 1958,
+ "n_records_with_orientadores": 372,
+ "n_records_without_orientadores": 1586,
+ "n_unique_advisors_in_corpus": 401,
+ "n_matched_in_people_index": 398,
+ "top_advisors_by_frequency": [
   {
-   "advisor": "Lucia Janet Villalba Marín",
-   "thesis_count_in_corpus": 4,
-   "recent_3y_count": 4,
-   "years_active": [
-    2023
-   ],
-   "corpus_thesis_titles": [
-    "Estimación de área de riego por pivot central en el Departamento de Canindeyú en el período 2018-202",
-    "Estimación de área de riego por pivote central mediante teledetección para el Departamento de Caazap",
-    "Estimación de área de riego por pivot central en el Departamento de Canindeyú en el período 2018-202",
-    "Estimación de área de riego por pivote central mediante teledetección para el Departamento de Caazap"
-   ],
-   "person_record": {
-    "name": "Lucia Janet Villalba Marín",
-    "as_author": 0,
-    "as_orientador": 5,
-    "thesis_count": 5,
-    "is_advisor": true,
-    "years": [
-     "2023"
-    ],
-    "variants_count": 1,
-    "variants": [
-     "Lucia Janet Villalba Marín"
-    ]
-   }
+   "advisor": "Raúl Igmar Gregor Recalde",
+   "thesis_count": 8
   },
   {
-   "advisor": "Marcos Villagra",
-   "thesis_count_in_corpus": 3,
-   "recent_3y_count": 3,
-   "years_active": [
-    2024,
-    2025
-   ],
-   "corpus_thesis_titles": [
-    "Evaluación del desempeño de PCA con dispersión espectral",
-    "Evaluación del desempeño de PCA con dispersión espectral",
-    "Desarrollo de un sistema de monitorización y alertas en tiempo real para la detección de eventos crí"
-   ],
-   "person_record": {
-    "name": "Villagra",
-    "as_author": 0,
-    "as_orientador": 2,
-    "thesis_count": 2,
-    "is_advisor": true,
-    "years": [
-     "2024",
-     "2025"
-    ],
-    "variants_count": 1,
-    "variants": [
-     "Villagra"
-    ]
-   }
+   "advisor": "Diego Pinto Roa",
+   "thesis_count": 7
   },
   {
-   "advisor": "Von Lucken Martinez",
-   "thesis_count_in_corpus": 3,
-   "recent_3y_count": 3,
-   "years_active": [
-    2023,
-    2026
-   ],
-   "corpus_thesis_titles": [
-    "Construcción de un dataset de eucaliptos a partir de imágenes aéreas y su análisis mediante DEEP Lea",
-    "Construcción de un dataset de eucaliptos a partir de imágenes aéreas y su análisis mediante DEEP Lea",
-    "Análisis de sentimiento y predicción de publicaciones gubernamentales en redes sociales en el Paragu"
-   ],
-   "person_record": {
-    "name": "Von Lucken Martinez",
-    "as_author": 0,
-    "as_orientador": 3,
-    "thesis_count": 3,
-    "is_advisor": true,
-    "years": [
-     "2023",
-     "2026"
-    ],
-    "variants_count": 1,
-    "variants": [
-     "Von Lucken Martinez"
-    ]
-   }
+   "advisor": "Sergio Manuel Chamorro Díaz",
+   "thesis_count": 7
   },
   {
-   "advisor": "Lucas Teótimo",
-   "thesis_count_in_corpus": 3,
-   "recent_3y_count": 3,
-   "years_active": [
-    2023,
-    2025
-   ],
-   "corpus_thesis_titles": [
-    "Sistema de monitoreo y control de humedad del suelo de cultivos de plántulas de tomate en invernader",
-    "Planificación de capacidad de acceso de red asistida por machine learning, para mitigar el desacople",
-    "Planificación de capacidad de acceso de red asistida por machine learning, para mitigar el desacople"
-   ],
-   "person_record": {
-    "name": "Lucas Teótimo",
-    "as_author": 0,
-    "as_orientador": 3,
-    "thesis_count": 3,
-    "is_advisor": true,
-    "years": [
-     "2023",
-     "2025"
-    ],
-    "variants_count": 1,
-    "variants": [
-     "Lucas Teótimo"
-    ]
-   }
-  },
-  {
-   "advisor": "Enrique",
-   "thesis_count_in_corpus": 3,
-   "recent_3y_count": 2,
-   "years_active": [
-    2022,
-    2024
-   ],
-   "corpus_thesis_titles": [
-    "Análisis de alternativas de generación de energía eléctrica de fuente renovable para el abastecimien",
-    "Análisis de alternativas de generación de energía eléctrica de fuente renovable para el abastecimien",
-    "Evaluación de Heurísticas para la desfragmentación reactiva de redes opticas elásticas con Tráfico U"
-   ],
-   "person_record": {
-    "name": "Enrique",
-    "as_author": 0,
-    "as_orientador": 3,
-    "thesis_count": 3,
-    "is_advisor": true,
-    "years": [
-     "2022",
-     "2024"
-    ],
-    "variants_count": 1,
-    "variants": [
-     "Enrique"
-    ]
-   }
-  },
-  {
-   "advisor": "Mariana",
-   "thesis_count_in_corpus": 2,
-   "recent_3y_count": 2,
-   "years_active": [
-    2025
-   ],
-   "corpus_thesis_titles": [
-    "Diseño y automatización de circuitos eléctricos para el sistema de bombeo de una red de alcantarilla",
-    "Diseño y automatización de circuitos eléctricos para el sistema de bombeo de una red de alcantarilla"
-   ],
-   "person_record": {
-    "name": "Mariana",
-    "as_author": 0,
-    "as_orientador": 2,
-    "thesis_count": 2,
-    "is_advisor": true,
-    "years": [
-     "2025"
-    ],
-    "variants_count": 1,
-    "variants": [
-     "Mariana"
-    ]
-   }
-  },
-  {
-   "advisor": "Gabriel",
-   "thesis_count_in_corpus": 2,
-   "recent_3y_count": 2,
-   "years_active": [
-    2025
-   ],
-   "corpus_thesis_titles": [
-    "Diseño y automatización de circuitos eléctricos para el sistema de bombeo de una red de alcantarilla",
-    "Diseño y automatización de circuitos eléctricos para el sistema de bombeo de una red de alcantarilla"
-   ],
-   "person_record": {
-    "name": "Gabriel",
-    "as_author": 0,
-    "as_orientador": 2,
-    "thesis_count": 2,
-    "is_advisor": true,
-    "years": [
-     "2025"
-    ],
-    "variants_count": 1,
-    "variants": [
-     "Gabriel"
-    ]
-   }
-  },
-  {
-   "advisor": "Duarte Zaracho",
-   "thesis_count_in_corpus": 2,
-   "recent_3y_count": 2,
-   "years_active": [
-    2025
-   ],
-   "corpus_thesis_titles": [
-    "Diseño y automatización de circuitos eléctricos para el sistema de bombeo de una red de alcantarilla",
-    "Diseño y automatización de circuitos eléctricos para el sistema de bombeo de una red de alcantarilla"
-   ],
-   "person_record": {
-    "name": "Duarte Zaracho",
-    "as_author": 0,
-    "as_orientador": 2,
-    "thesis_count": 2,
-    "is_advisor": true,
-    "years": [
-     "2025"
-    ],
-    "variants_count": 1,
-    "variants": [
-     "Duarte Zaracho"
-    ]
-   }
-  },
-  {
-   "advisor": "Gerardo Gabriel",
-   "thesis_count_in_corpus": 2,
-   "recent_3y_count": 2,
-   "years_active": [
-    2023
-   ],
-   "corpus_thesis_titles": [
-    "Restauración de la máquina para prototipado de circuitos impresos del laboratorio de mecatrónica de ",
-    "Restauración de la máquina para prototipado de circuitos impresos del laboratorio de mecatrónica de "
-   ],
-   "person_record": {
-    "name": "Gabriel",
-    "as_author": 0,
-    "as_orientador": 2,
-    "thesis_count": 2,
-    "is_advisor": true,
-    "years": [
-     "2025"
-    ],
-    "variants_count": 1,
-    "variants": [
-     "Gabriel"
-    ]
-   }
-  },
-  {
-   "advisor": "Gómez Añazco",
-   "thesis_count_in_corpus": 2,
-   "recent_3y_count": 2,
-   "years_active": [
-    2023
-   ],
-   "corpus_thesis_titles": [
-    "Restauración de la máquina para prototipado de circuitos impresos del laboratorio de mecatrónica de ",
-    "Restauración de la máquina para prototipado de circuitos impresos del laboratorio de mecatrónica de "
-   ],
-   "person_record": {
-    "name": "Gómez Añazco",
-    "as_author": 0,
-    "as_orientador": 2,
-    "thesis_count": 2,
-    "is_advisor": true,
-    "years": [
-     "2023"
-    ],
-    "variants_count": 1,
-    "variants": [
-     "Gómez Añazco"
-    ]
-   }
-  },
-  {
-   "advisor": "Ever Arnaldo",
-   "thesis_count_in_corpus": 2,
-   "recent_3y_count": 2,
-   "years_active": [
-    2023
-   ],
-   "corpus_thesis_titles": [
-    "Restauración de la máquina para prototipado de circuitos impresos del laboratorio de mecatrónica de ",
-    "Restauración de la máquina para prototipado de circuitos impresos del laboratorio de mecatrónica de "
-   ],
-   "person_record": {
-    "name": "Ever Arnaldo",
-    "as_author": 0,
-    "as_orientador": 2,
-    "thesis_count": 2,
-    "is_advisor": true,
-    "years": [
-     "2023"
-    ],
-    "variants_count": 1,
-    "variants": [
-     "Ever Arnaldo"
-    ]
-   }
-  },
-  {
-   "advisor": "Gómez Añazco Gerardo Gabriel",
-   "thesis_count_in_corpus": 2,
-   "recent_3y_count": 2,
-   "years_active": [
-    2023
-   ],
-   "corpus_thesis_titles": [
-    "Restauración de la máquina para prototipado de circuitos impresos impresos del laboratorio de mecatr",
-    "Restauración de la máquina para prototipado de circuitos impresos impresos del laboratorio de mecatr"
-   ],
-   "person_record": {
-    "name": "Gabriel",
-    "as_author": 0,
-    "as_orientador": 2,
-    "thesis_count": 2,
-    "is_advisor": true,
-    "years": [
-     "2025"
-    ],
-    "variants_count": 1,
-    "variants": [
-     "Gabriel"
-    ]
-   }
-  },
-  {
-   "advisor": "Arnaldo",
-   "thesis_count_in_corpus": 2,
-   "recent_3y_count": 2,
-   "years_active": [
-    2023
-   ],
-   "corpus_thesis_titles": [
-    "Restauración de la máquina para prototipado de circuitos impresos impresos del laboratorio de mecatr",
-    "Restauración de la máquina para prototipado de circuitos impresos impresos del laboratorio de mecatr"
-   ],
-   "person_record": {
-    "name": "Arnaldo",
-    "as_author": 0,
-    "as_orientador": 2,
-    "thesis_count": 2,
-    "is_advisor": true,
-    "years": [
-     "2023"
-    ],
-    "variants_count": 1,
-    "variants": [
-     "Arnaldo"
-    ]
-   }
-  },
-  {
-   "advisor": "Christian Dabiel",
-   "thesis_count_in_corpus": 2,
-   "recent_3y_count": 2,
-   "years_active": [
-    2023
-   ],
-   "corpus_thesis_titles": [
-    "Construcción de un dataset de eucaliptos a partir de imágenes aéreas y su análisis mediante DEEP Lea",
-    "Construcción de un dataset de eucaliptos a partir de imágenes aéreas y su análisis mediante DEEP Lea"
-   ],
-   "person_record": {
-    "name": "Christian Dabiel",
-    "as_author": 0,
-    "as_orientador": 2,
-    "thesis_count": 2,
-    "is_advisor": true,
-    "years": [
-     "2023"
-    ],
-    "variants_count": 1,
-    "variants": [
-     "Christian Dabiel"
-    ]
-   }
-  },
-  {
-   "advisor": "Christian",
-   "thesis_count_in_corpus": 2,
-   "recent_3y_count": 2,
-   "years_active": [
-    2023
-   ],
-   "corpus_thesis_titles": [
-    "Utilización de realidad virtual para el entrenamiento de la inteligencia artificial de un brazo robó",
-    "Utilización de realidad virtual para el entrenamiento de la inteligencia artificial de un brazo robó"
-   ],
-   "person_record": {
-    "name": "Christian",
-    "as_author": 0,
-    "as_orientador": 2,
-    "thesis_count": 2,
-    "is_advisor": true,
-    "years": [
-     "2023"
-    ],
-    "variants_count": 1,
-    "variants": [
-     "Christian"
-    ]
-   }
-  },
-  {
-   "advisor": "Arturo",
-   "thesis_count_in_corpus": 2,
-   "recent_3y_count": 2,
-   "years_active": [
-    2024
-   ],
-   "corpus_thesis_titles": [
-    "Propuesta de generación de energía eléctrica renovable para la localidad de Bahía Negra - Chaco Para",
-    "Propuesta de generación de energía eléctrica renovable para la localidad de Bahía Negra - Chaco Para"
-   ],
-   "person_record": {
-    "name": "Arturo",
-    "as_author": 0,
-    "as_orientador": 2,
-    "thesis_count": 2,
-    "is_advisor": true,
-    "years": [
-     "2024"
-    ],
-    "variants_count": 1,
-    "variants": [
-     "Arturo"
-    ]
-   }
-  },
-  {
-   "advisor": "Gon´zalez",
-   "thesis_count_in_corpus": 2,
-   "recent_3y_count": 2,
-   "years_active": [
-    2024
-   ],
-   "corpus_thesis_titles": [
-    "Propuesta de generación de energía eléctrica renovable para la localidad de Bahía Negra - Chaco Para",
-    "Propuesta de generación de energía eléctrica renovable para la localidad de Bahía Negra - Chaco Para"
-   ],
-   "person_record": {
-    "name": "Gon´zalez",
-    "as_author": 0,
-    "as_orientador": 2,
-    "thesis_count": 2,
-    "is_advisor": true,
-    "years": [
-     "2024"
-    ],
-    "variants_count": 1,
-    "variants": [
-     "Gon´zalez"
-    ]
-   }
-  },
-  {
-   "advisor": "Richard",
-   "thesis_count_in_corpus": 2,
-   "recent_3y_count": 2,
-   "years_active": [
-    2024
-   ],
-   "corpus_thesis_titles": [
-    "Propuesta de generación de energía eléctrica renovable para la localidad de Bahía Negra - Chaco Para",
-    "Propuesta de generación de energía eléctrica renovable para la localidad de Bahía Negra - Chaco Para"
-   ],
-   "person_record": {
-    "name": "Richard",
-    "as_author": 0,
-    "as_orientador": 2,
-    "thesis_count": 2,
-    "is_advisor": true,
-    "years": [
-     "2024"
-    ],
-    "variants_count": 1,
-    "variants": [
-     "Richard"
-    ]
-   }
-  },
-  {
-   "advisor": "Ríos",
-   "thesis_count_in_corpus": 2,
-   "recent_3y_count": 2,
-   "years_active": [
-    2024
-   ],
-   "corpus_thesis_titles": [
-    "Propuesta de generación de energía eléctrica renovable para la localidad de Bahía Negra - Chaco Para",
-    "Propuesta de generación de energía eléctrica renovable para la localidad de Bahía Negra - Chaco Para"
-   ],
-   "person_record": {
-    "name": "Ríos",
-    "as_author": 0,
-    "as_orientador": 2,
-    "thesis_count": 2,
-    "is_advisor": true,
-    "years": [
-     "2024"
-    ],
-    "variants_count": 1,
-    "variants": [
-     "Ríos"
-    ]
-   }
-  },
-  {
-   "advisor": "González Osorio",
-   "thesis_count_in_corpus": 2,
-   "recent_3y_count": 2,
-   "years_active": [
-    2024
-   ],
-   "corpus_thesis_titles": [
-    "Análisis de alternativas de generación de energía eléctrica de fuente renovable para el abastecimien",
-    "Análisis de alternativas de generación de energía eléctrica de fuente renovable para el abastecimien"
-   ],
-   "person_record": {
-    "name": "González Osorio",
-    "as_author": 0,
-    "as_orientador": 2,
-    "thesis_count": 2,
-    "is_advisor": true,
-    "years": [
-     "2024"
-    ],
-    "variants_count": 1,
-    "variants": [
-     "González Osorio"
-    ]
-   }
-  },
-  {
-   "advisor": "Buzarquis",
-   "thesis_count_in_corpus": 2,
-   "recent_3y_count": 2,
-   "years_active": [
-    2024
-   ],
-   "corpus_thesis_titles": [
-    "Análisis de alternativas de generación de energía eléctrica de fuente renovable para el abastecimien",
-    "Análisis de alternativas de generación de energía eléctrica de fuente renovable para el abastecimien"
-   ],
-   "person_record": {
-    "name": "Buzarquis",
-    "as_author": 0,
-    "as_orientador": 2,
-    "thesis_count": 2,
-    "is_advisor": true,
-    "years": [
-     "2024"
-    ],
-    "variants_count": 1,
-    "variants": [
-     "Buzarquis"
-    ]
-   }
-  },
-  {
-   "advisor": "Félix",
-   "thesis_count_in_corpus": 2,
-   "recent_3y_count": 2,
-   "years_active": [
-    2024
-   ],
-   "corpus_thesis_titles": [
-    "Análisis de alternativas de generación de energía eléctrica de fuente renovable para el abastecimien",
-    "Análisis de alternativas de generación de energía eléctrica de fuente renovable para el abastecimien"
-   ],
-   "person_record": {
-    "name": "Félix",
-    "as_author": 0,
-    "as_orientador": 2,
-    "thesis_count": 2,
-    "is_advisor": true,
-    "years": [
-     "2024"
-    ],
-    "variants_count": 1,
-    "variants": [
-     "Félix"
-    ]
-   }
-  },
-  {
-   "advisor": "Fernández",
-   "thesis_count_in_corpus": 2,
-   "recent_3y_count": 2,
-   "years_active": [
-    2024
-   ],
-   "corpus_thesis_titles": [
-    "Análisis de alternativas de generación de energía eléctrica de fuente renovable para el abastecimien",
-    "Análisis de alternativas de generación de energía eléctrica de fuente renovable para el abastecimien"
-   ],
-   "person_record": {
-    "name": "Fernández",
-    "as_author": 0,
-    "as_orientador": 2,
-    "thesis_count": 2,
-    "is_advisor": true,
-    "years": [
-     "2024"
-    ],
-    "variants_count": 1,
-    "variants": [
-     "Fernández"
-    ]
-   }
-  },
-  {
-   "advisor": "José Gutiérrez",
-   "thesis_count_in_corpus": 2,
-   "recent_3y_count": 2,
-   "years_active": [
-    2023
-   ],
-   "corpus_thesis_titles": [
-    "Comparativa de normas de cálculo estructural de madera aserrada, aplicación al Paraguay y optimizaci",
-    "Comparativa de normas de cálculo estructural de madera aserrada, aplicación al Paraguay y optimizaci"
-   ],
-   "person_record": {
-    "name": "José Gutiérrez",
-    "as_author": 0,
-    "as_orientador": 2,
-    "thesis_count": 2,
-    "is_advisor": true,
-    "years": [
-     "2023"
-    ],
-    "variants_count": 1,
-    "variants": [
-     "José Gutiérrez"
-    ]
-   }
-  },
-  {
-   "advisor": "Hector Corvalan",
-   "thesis_count_in_corpus": 2,
-   "recent_3y_count": 2,
-   "years_active": [
-    2023
-   ],
-   "corpus_thesis_titles": [
-    "Eficiencia del sensor capacitivo 12C RS485 de bajo costo en conjunto con sistema IOT en la medición ",
-    "Eficiencia del sensor capacitivo 12C RS485 de bajo costo en conjunto con sistema IOT en la medición "
-   ],
-   "person_record": {
-    "name": "Hector Corvalan",
-    "as_author": 0,
-    "as_orientador": 2,
-    "thesis_count": 2,
-    "is_advisor": true,
-    "years": [
-     "2023"
-    ],
-    "variants_count": 1,
-    "variants": [
-     "Hector Corvalan"
-    ]
-   }
-  },
-  {
-   "advisor": "Candy Santacruz",
-   "thesis_count_in_corpus": 2,
-   "recent_3y_count": 2,
-   "years_active": [
-    2025
-   ],
-   "corpus_thesis_titles": [
-    "Sistema de monitoreo y control de humedad del suelo de cultivos de plántulas de tomate en invernader",
-    "Sistema de monitoreo del consumo eléctrico residencial mediante aplicación móvil con ESP32 e interne"
-   ],
-   "person_record": {
-    "name": "Candy Santacruz",
-    "as_author": 0,
-    "as_orientador": 2,
-    "thesis_count": 2,
-    "is_advisor": true,
-    "years": [
-     "2025"
-    ],
-    "variants_count": 1,
-    "variants": [
-     "Candy Santacruz"
-    ]
-   }
-  },
-  {
-   "advisor": "Monges",
-   "thesis_count_in_corpus": 2,
-   "recent_3y_count": 2,
-   "years_active": [
-    2023
-   ],
-   "corpus_thesis_titles": [
-    "Planificación de capacidad de acceso de red asistida por machine learning, para mitigar el desacople",
-    "Planificación de capacidad de acceso de red asistida por machine learning, para mitigar el desacople"
-   ],
-   "person_record": {
-    "name": "Monges",
-    "as_author": 0,
-    "as_orientador": 2,
-    "thesis_count": 2,
-    "is_advisor": true,
-    "years": [
-     "2023"
-    ],
-    "variants_count": 1,
-    "variants": [
-     "Monges"
-    ]
-   }
-  },
-  {
-   "advisor": "Rubén Alcídes Franco Ibars",
-   "thesis_count_in_corpus": 2,
-   "recent_3y_count": 2,
-   "years_active": [
-    2023
-   ],
-   "corpus_thesis_titles": [
-    "Estimación de área de riego por pivot central en el Departamento de Canindeyú en el período 2018-202",
-    "Estimación de área de riego por pivot central en el Departamento de Canindeyú en el período 2018-202"
-   ],
-   "person_record": {
-    "name": "Rubén Alcídes Franco Ibars",
-    "as_author": 0,
-    "as_orientador": 7,
-    "thesis_count": 7,
-    "is_advisor": true,
-    "years": [
-     "2023"
-    ],
-    "variants_count": 3,
-    "variants": [
-     "Ruben A. Franco Ibars",
-     "Rubén Alcídes Franco Ibars",
-     "Rubén Franco Ibars"
-    ]
-   }
-  },
-  {
-   "advisor": "Pinto-Roa",
-   "thesis_count_in_corpus": 2,
-   "recent_3y_count": 2,
-   "years_active": [
-    2023
-   ],
-   "corpus_thesis_titles": [
-    "Enrutamiento, multidifusión y asignación de nivel de modulación y espectro en redes ópticas elástica",
-    "Incrustación y protección de árboles multi-difusión en redes ópticas virtuales basada en algoritmos "
-   ],
-   "person_record": {
-    "name": "Pinto-Roa",
-    "as_author": 0,
-    "as_orientador": 2,
-    "thesis_count": 2,
-    "is_advisor": true,
-    "years": [
-     "2023"
-    ],
-    "variants_count": 1,
-    "variants": [
-     "Pinto-Roa"
-    ]
-   }
-  },
-  {
-   "advisor": "Juan Carlos Cristaldo",
-   "thesis_count_in_corpus": 3,
-   "recent_3y_count": 1,
-   "years_active": [
-    2019,
-    2023
-   ],
-   "corpus_thesis_titles": [
-    "Superando la brecha cartográfica : metodologías de mapeo in situ y cartografía analítica para comuni",
-    "Guía metodológica de mapeo participativo con software libre en el marco del proyecto de investigació",
-    "Atlas urbano de José Domingo Ocampos y Juan E. O'Leary, metodología de mapeo con sistemas de aeronav"
-   ],
-   "person_record": {
-    "name": "Juan Carlos Cristaldo",
-    "as_author": 0,
-    "as_orientador": 6,
-    "thesis_count": 6,
-    "is_advisor": true,
-    "years": [
-     "2019",
-     "2021",
-     "2023"
-    ],
-    "variants_count": 1,
-    "variants": [
-     "Juan Carlos Cristaldo"
-    ]
-   }
+   "advisor": "Oscar Machuca",
+   "thesis_count": 7
   },
   {
    "advisor": "María Soledad Ayala Rodríguez",
-   "thesis_count_in_corpus": 5,
-   "recent_3y_count": 0,
-   "years_active": [
-    2010,
-    2021
-   ],
-   "corpus_thesis_titles": [
-    "Organización de la serie de resoluciones 1971-2008 y clasificación de los documentos del archivo de ",
-    "Organización de la serie de resoluciones 1971-2008 y clasificación de los documentos del archivo de ",
-    "Organización de la serie de resoluciones 1971-2008, y clasificación de los documentos del Archivo de",
-    "Organización física y preservación digital del archivo de gestión de los programas de maestría y doc",
-    "Organización física y preservación digital del archivo de gestión de los programas de maestría y doc"
-   ],
-   "person_record": {
-    "name": "María Soledad Ayala Rodríguez",
-    "as_author": 0,
-    "as_orientador": 14,
-    "thesis_count": 14,
-    "is_advisor": true,
-    "years": [
-     "2010",
-     "2018",
-     "2021",
-     "2023",
-     "2024"
-    ],
-    "variants_count": 5,
-    "variants": [
-     "Ahrens Rodríguez",
-     "Ayala Rodríguez",
-     "Luís Guillermo Moré Rodríguez",
-     "Maria Soledad Ayala Rodríguez",
-     "María Soledad Ayala Rodríguez"
-    ]
-   }
+   "thesis_count": 6
+  },
+  {
+   "advisor": "Juan Carlos Cristaldo",
+   "thesis_count": 6
+  },
+  {
+   "advisor": "Jorge Esteban Rodas Benítez",
+   "thesis_count": 6
+  },
+  {
+   "advisor": "César Yegros",
+   "thesis_count": 6
+  },
+  {
+   "advisor": "Carlos Penayo",
+   "thesis_count": 6
   },
   {
    "advisor": "Juan Talavera",
-   "thesis_count_in_corpus": 4,
-   "recent_3y_count": 0,
-   "years_active": [
-    2020
-   ],
-   "corpus_thesis_titles": [
-    "Detección de anomalías en telecomunicaciones basada en una arquietectura Big Data",
-    "Detección de anomalías en telecomunicaciones basada en una arquietectura Big Data",
-    "Detección de anomalías en telecomunicaciones basada en una arquitectura big data",
-    "Detección de anomalías en telecomunicaciones basada en una arquitectura big data"
-   ],
-   "person_record": {
-    "name": "Juan Talavera",
-    "as_author": 0,
-    "as_orientador": 5,
-    "thesis_count": 5,
-    "is_advisor": true,
-    "years": [
-     "2017",
-     "2020"
-    ],
-    "variants_count": 1,
-    "variants": [
-     "Juan Talavera"
-    ]
-   }
+   "thesis_count": 5
   },
   {
-   "advisor": "Juan Pane",
-   "thesis_count_in_corpus": 4,
-   "recent_3y_count": 0,
-   "years_active": [
-    2016,
-    2017
-   ],
-   "corpus_thesis_titles": [
-    "Optimización e integración de componentes morfosintácticos de procesamiento del lenguaje natural en ",
-    "Optimización e integración de componentes morfosintácticos de procesamiento del lenguaje natural en ",
-    "Predicción de casos de dengue en el Paraguay utilizando redes neuronales artificiales",
-    "Predicción de casos de dengue en el Paraguay utilizando redes neuronales artificiales"
-   ],
-   "person_record": {
-    "name": "Juan Pane",
-    "as_author": 0,
-    "as_orientador": 5,
-    "thesis_count": 5,
-    "is_advisor": true,
-    "years": [
-     "2016",
-     "2017"
-    ],
-    "variants_count": 1,
-    "variants": [
-     "Juan Pane"
-    ]
-   }
-  },
-  {
-   "advisor": "Diego Pedro Pinto Roa",
-   "thesis_count_in_corpus": 4,
-   "recent_3y_count": 0,
-   "years_active": [
-    2015,
-    2016,
-    2017,
-    2018
-   ],
-   "corpus_thesis_titles": [
-    "Monitorización y evaluación de la calidad de la experiencia para servicios de datos móviles : un enf",
-    "Diseño de redes semi-robustas bajo incertidumbre de tráfico basado en algoritmos evolutivos multiobj",
-    "Mejora del contraste de imágenes a color utilizando un framework de optimización multiobjetivo",
-    "Análisis de la calidad de imagen en un contexto multiobjetivo basado en el SMPSO-CLAHE"
-   ],
-   "person_record": {
-    "name": "Diego Pedro Pinto Roa",
-    "as_author": 0,
-    "as_orientador": 15,
-    "thesis_count": 15,
-    "is_advisor": true,
-    "years": [
-     "2015",
-     "2016",
-     "2017",
-     "2018",
-     "2019",
-     "2020",
-     "2021",
-     "2024"
-    ],
-    "variants_count": 4,
-    "variants": [
-     "Diego P. Pinto Roa",
-     "Diego Pedro Pinto Roa",
-     "Diego Pinto Roa",
-     "Pinto Roa"
-    ]
-   }
-  },
-  {
-   "advisor": "José Quinto Paredes Fernández",
-   "thesis_count_in_corpus": 3,
-   "recent_3y_count": 0,
-   "years_active": [
-    2021
-   ],
-   "corpus_thesis_titles": [
-    "Fotogrametría aérea en levantamientos topográficos mediante el uso de vehículos aéreos no tripulados",
-    "Fotogrametría aérea en levantamientos topográficos mediante el uso de vehículos aéreos no tripulados",
-    "Fotogrametría aérea en levantamientos topográficos mediante el uso de vehículos aéreos no tripulados"
-   ],
-   "person_record": {
-    "name": "José Quinto Paredes Fernández",
-    "as_author": 0,
-    "as_orientador": 5,
-    "thesis_count": 5,
-    "is_advisor": true,
-    "years": [
-     "2018",
-     "2021"
-    ],
-    "variants_count": 2,
-    "variants": [
-     "Antonio Hernández Fernández",
-     "José Quinto Paredes Fernández"
-    ]
-   }
-  },
-  {
-   "advisor": "Mario Ramón Miño Zavala",
-   "thesis_count_in_corpus": 3,
-   "recent_3y_count": 0,
-   "years_active": [
-    2021
-   ],
-   "corpus_thesis_titles": [
-    "Fotogrametría aérea en levantamientos topográficos mediante el uso de vehículos aéreos no tripulados",
-    "Fotogrametría aérea en levantamientos topográficos mediante el uso de vehículos aéreos no tripulados",
-    "Fotogrametría aérea en levantamientos topográficos mediante el uso de vehículos aéreos no tripulados"
-   ],
-   "person_record": {
-    "name": "Mario Ramón Miño Zavala",
-    "as_author": 0,
-    "as_orientador": 3,
-    "thesis_count": 3,
-    "is_advisor": true,
-    "years": [
-     "2021"
-    ],
-    "variants_count": 1,
-    "variants": [
-     "Mario Ramón Miño Zavala"
-    ]
-   }
-  },
-  {
-   "advisor": "Diego Fermín Palacios Riquelme",
-   "thesis_count_in_corpus": 3,
-   "recent_3y_count": 0,
-   "years_active": [
-    2015,
-    2017
-   ],
-   "corpus_thesis_titles": [
-    "Diseño de un sistema de monitoreo ambiental para el Parque Nacional Ybycui a través del procesamient",
-    "Prototipo de sistema de control domótico aplicado a una vivienda por medio del reconocimiento de voz",
-    "Prototipo de sistema de control domótico aplicado a una vivienda por medio del reconocimiento de voz"
-   ],
-   "person_record": {
-    "name": "Diego Fermín Palacios Riquelme",
-    "as_author": 0,
-    "as_orientador": 3,
-    "thesis_count": 3,
-    "is_advisor": true,
-    "years": [
-     "2015",
-     "2017"
-    ],
-    "variants_count": 1,
-    "variants": [
-     "Diego Fermín Palacios Riquelme"
-    ]
-   }
-  },
-  {
-   "advisor": "Sofía Stete Borba",
-   "thesis_count_in_corpus": 2,
-   "recent_3y_count": 0,
-   "years_active": [
-    2010
-   ],
-   "corpus_thesis_titles": [
-    "Organización de la serie de resoluciones 1971-2008 y clasificación de los documentos del archivo de ",
-    "Organización de la serie de resoluciones 1971-2008 y clasificación de los documentos del archivo de "
-   ],
-   "person_record": {
-    "name": "Sofía Stete Borba",
-    "as_author": 0,
-    "as_orientador": 2,
-    "thesis_count": 2,
-    "is_advisor": true,
-    "years": [
-     "2010"
-    ],
-    "variants_count": 1,
-    "variants": [
-     "Sofía Stete Borba"
-    ]
-   }
-  },
-  {
-   "advisor": "Ernesto Lazaga",
-   "thesis_count_in_corpus": 2,
-   "recent_3y_count": 0,
-   "years_active": [
-    2016
-   ],
-   "corpus_thesis_titles": [
-    "Prácticas de pobladores ante enfermedades producidas por aedes aegypti, barrio Ciudad Nueva, Paragua",
-    "Prácticas de pobladores ante enfermedades producidas por aedes aegypti, barrio Ciudad Nueva, Paragua"
-   ],
-   "person_record": {
-    "name": "Ernesto Lazaga",
-    "as_author": 0,
-    "as_orientador": 2,
-    "thesis_count": 2,
-    "is_advisor": true,
-    "years": [
-     "2016"
-    ],
-    "variants_count": 1,
-    "variants": [
-     "Ernesto Lazaga"
-    ]
-   }
-  },
-  {
-   "advisor": "Benjamín Barán Cegla",
-   "thesis_count_in_corpus": 2,
-   "recent_3y_count": 0,
-   "years_active": [
-    2009,
-    2016
-   ],
-   "corpus_thesis_titles": [
-    "&lt;Un&gt; enfoque distribuido para la conversión de circuitos cuánticos a la arquitectura LNN",
-    "Selección óptima de protección cíclica (p-Cycles) en redes ópticas WDM"
-   ],
-   "person_record": {
-    "name": "Benjamín Barán Cegla",
-    "as_author": 0,
-    "as_orientador": 2,
-    "thesis_count": 2,
-    "is_advisor": true,
-    "years": [
-     "2009",
-     "2016"
-    ],
-    "variants_count": 1,
-    "variants": [
-     "Benjamín Barán Cegla"
-    ]
-   }
+   "advisor": "Christian Von Lücken",
+   "thesis_count": 5
   },
   {
    "advisor": "Mirta Morán",
-   "thesis_count_in_corpus": 2,
-   "recent_3y_count": 0,
-   "years_active": [
-    2020
-   ],
-   "corpus_thesis_titles": [
-    "Detección temprana del cáncer de mamas con inteligencia artificial y técnicas basadas en algoritmos ",
-    "Detección temprana del cáncer de mamas con inteligencia artificial y técnicas basadas en algoritmos "
-   ],
-   "person_record": {
-    "name": "Mirta Morán",
-    "as_author": 0,
-    "as_orientador": 5,
-    "thesis_count": 5,
-    "is_advisor": true,
-    "years": [
-     "2015",
-     "2016",
-     "2020"
-    ],
-    "variants_count": 1,
-    "variants": [
-     "Mirta Morán"
-    ]
-   }
+   "thesis_count": 5
   },
   {
-   "advisor": "Lizza A. Salgueiro Toledo",
-   "thesis_count_in_corpus": 2,
-   "recent_3y_count": 0,
-   "years_active": [
-    2015
-   ],
-   "corpus_thesis_titles": [
-    "Diagnóstico de lesiones melanocíticas asistido por computadora basado en el método ABCD",
-    "Diagnóstico de lesiones melanocíticas asistido por computadora basado en el método ABCD"
-   ],
-   "person_record": {
-    "name": "Lizza A. Salgueiro Toledo",
-    "as_author": 0,
-    "as_orientador": 2,
-    "thesis_count": 2,
-    "is_advisor": true,
-    "years": [
-     "2015"
-    ],
-    "variants_count": 1,
-    "variants": [
-     "Lizza A. Salgueiro Toledo"
-    ]
-   }
+   "advisor": "Lucas Frutos",
+   "thesis_count": 5
   },
   {
-   "advisor": "Luciana Dalila Coronel Chávez",
-   "thesis_count_in_corpus": 2,
-   "recent_3y_count": 0,
-   "years_active": [
-    2020
-   ],
-   "corpus_thesis_titles": [
-    "Sistema de domótica de bajo costo basado en internet de las cosas",
-    "Sistema de domótica de bajo costo basado en internet de las cosas"
-   ],
-   "person_record": {
-    "name": "Luciana Dalila Coronel Chávez",
-    "as_author": 0,
-    "as_orientador": 2,
-    "thesis_count": 2,
-    "is_advisor": true,
-    "years": [
-     "2020"
-    ],
-    "variants_count": 1,
-    "variants": [
-     "Luciana Dalila Coronel Chávez"
-    ]
-   }
+   "advisor": "Juan Pane",
+   "thesis_count": 5
   },
   {
-   "advisor": "César Duarte",
-   "thesis_count_in_corpus": 2,
-   "recent_3y_count": 0,
-   "years_active": [
-    2020
-   ],
-   "corpus_thesis_titles": [
-    "Sistema de domótica de bajo costo basado en internet de las cosas",
-    "Sistema de domótica de bajo costo basado en internet de las cosas"
-   ],
-   "person_record": {
-    "name": "Duarte, Marcio",
-    "as_author": 4,
-    "as_orientador": 0,
-    "thesis_count": 4,
-    "is_advisor": false,
-    "years": [
-     "2017"
-    ],
-    "variants_count": 2,
-    "variants": [
-     "Duarte Marcio",
-     "Duarte, Marcio"
-    ]
-   }
+   "advisor": "Horacio Legal Ayala",
+   "thesis_count": 5
   },
   {
-   "advisor": "Reinaldo López Colmán",
-   "thesis_count_in_corpus": 2,
-   "recent_3y_count": 0,
-   "years_active": [
-    2019
-   ],
-   "corpus_thesis_titles": [
-    "Propuesta para el mejoramiento de la eficiencia energética de residencias unifamiliares mediante la ",
-    "Propuesta para el mejoramiento de la eficiencia energética de residencias unifamiliares mediante la "
-   ],
-   "person_record": {
-    "name": "Reinaldo López Colmán",
-    "as_author": 0,
-    "as_orientador": 2,
-    "thesis_count": 2,
-    "is_advisor": true,
-    "years": [
-     "2019"
-    ],
-    "variants_count": 1,
-    "variants": [
-     "Reinaldo López Colmán"
-    ]
-   }
+   "advisor": "Lucia Janet Villalba Marín",
+   "thesis_count": 5
   },
   {
-   "advisor": "César Gustavo Duarte Fioro",
-   "thesis_count_in_corpus": 2,
-   "recent_3y_count": 0,
-   "years_active": [
-    2012
-   ],
-   "corpus_thesis_titles": [
-    "Domótica Android",
-    "Domótica Android"
-   ],
-   "person_record": {
-    "name": "César Gustavo Duarte Fioro",
-    "as_author": 0,
-    "as_orientador": 2,
-    "thesis_count": 2,
-    "is_advisor": true,
-    "years": [
-     "2012"
-    ],
-    "variants_count": 1,
-    "variants": [
-     "César Gustavo Duarte Fioro"
-    ]
-   }
+   "advisor": "Enrique Dávalos",
+   "thesis_count": 5
   },
   {
-   "advisor": "Raúl Igmar Gregor Recalde Jorge Esteban Rodas Benítez",
-   "thesis_count_in_corpus": 2,
-   "recent_3y_count": 0,
-   "years_active": [
-    2016,
-    2018
-   ],
-   "corpus_thesis_titles": [
-    "Desarrollo de algirtmos de división de polígonos orientados a la colaboración intencional de drones ",
-    "Implementación de algoritmos de control digital aplicados a vehículos aéreos no tripulados"
-   ],
-   "person_record": {
-    "name": "Raúl Igmar Gregor Recalde Jorge Esteban Rodas Benítez",
-    "as_author": 0,
-    "as_orientador": 12,
-    "thesis_count": 12,
-    "is_advisor": true,
-    "years": [
-     "2010",
-     "2015",
-     "2016",
-     "2017",
-     "2018"
-    ],
-    "variants_count": 6,
-    "variants": [
-     "Clotilde Benítez",
-     "Eudes Benítez",
-     "Jorge Esteban Rodas Benítez",
-     "Mirta Morán Eudes Benítez",
-     "Pablo Benítez",
-     "Raúl Igmar Gregor Recalde Jorge Esteban Rodas Benítez"
-    ]
-   }
+   "advisor": "Quiñonez González",
+   "thesis_count": 4
   },
   {
-   "advisor": "Mario Miño José Quinto",
-   "thesis_count_in_corpus": 2,
-   "recent_3y_count": 0,
-   "years_active": [
-    2021
-   ],
-   "corpus_thesis_titles": [
-    "Fotogrametría aérea en levantamientos topográficos mediante el uso de vehículos aéreos no tripulados",
-    "Fotogrametría aérea en levantamientos topográficos mediante el uso de vehículos aéreos no tripulados"
-   ],
-   "person_record": {
-    "name": "Mario Miño José Quinto",
-    "as_author": 0,
-    "as_orientador": 2,
-    "thesis_count": 2,
-    "is_advisor": true,
-    "years": [
-     "2021"
-    ],
-    "variants_count": 1,
-    "variants": [
-     "Mario Miño José Quinto"
-    ]
-   }
+   "advisor": "Guillermo González",
+   "thesis_count": 4
   },
   {
-   "advisor": "Raúl Igmar Gregor Recalde",
-   "thesis_count_in_corpus": 2,
-   "recent_3y_count": 0,
-   "years_active": [
-    2016,
-    2018
-   ],
-   "corpus_thesis_titles": [
-    "Desarrollo de algirtmos de división de polígonos orientados a la colaboración intencional de drones ",
-    "Implementación de algoritmos de control digital aplicados a vehículos aéreos no tripulados"
-   ],
-   "person_record": {
-    "name": "Raúl Igmar Gregor Recalde",
-    "as_author": 0,
-    "as_orientador": 8,
-    "thesis_count": 8,
-    "is_advisor": true,
-    "years": [
-     "2015",
-     "2016",
-     "2017",
-     "2018"
-    ],
-    "variants_count": 1,
-    "variants": [
-     "Raúl Igmar Gregor Recalde"
-    ]
-   }
-  },
-  {
-   "advisor": "Juan Ignacio Pane Fernandez",
-   "thesis_count_in_corpus": 2,
-   "recent_3y_count": 0,
-   "years_active": [
-    2016
-   ],
-   "corpus_thesis_titles": [
-    "Optimización e integración de componentes morfosintácticos de procesamiento del lenguaje natural en ",
-    "Optimización e integración de componentes morfosintácticos de procesamiento del lenguaje natural en "
-   ],
-   "person_record": {
-    "name": "Juan Ignacio Pane Fernandez",
-    "as_author": 0,
-    "as_orientador": 2,
-    "thesis_count": 2,
-    "is_advisor": true,
-    "years": [
-     "2016"
-    ],
-    "variants_count": 1,
-    "variants": [
-     "Juan Ignacio Pane Fernandez"
-    ]
-   }
-  },
-  {
-   "advisor": "Miguel García Torres",
-   "thesis_count_in_corpus": 2,
-   "recent_3y_count": 0,
-   "years_active": [
-    2019
-   ],
-   "corpus_thesis_titles": [
-    "Evaluación del QoE en redes móviles utilizando modelos ensamblados de Machine Learning",
-    "Evaluación del QoE en redes móviles utilizando modelos ensamblados de Machine Learning"
-   ],
-   "person_record": {
-    "name": "Miguel García Torres",
-    "as_author": 0,
-    "as_orientador": 3,
-    "thesis_count": 3,
-    "is_advisor": true,
-    "years": [
-     "2019",
-     "2025"
-    ],
-    "variants_count": 2,
-    "variants": [
-     "Germán Torres",
-     "Miguel García Torres"
-    ]
-   }
-  },
-  {
-   "advisor": "María José Fernández De Nestosa",
-   "thesis_count_in_corpus": 2,
-   "recent_3y_count": 0,
-   "years_active": [
-    2015
-   ],
-   "corpus_thesis_titles": [
-    "Simulación numérica de la movilidad electroforética de encadenados tipo A y dí,eros superenrollados ",
-    "Simulación numérica de la electroforesis bidimensional en geles de agarosa de dimeros anudados y sup"
-   ],
-   "person_record": {
-    "name": "María José Fernández De Nestosa",
-    "as_author": 0,
-    "as_orientador": 3,
-    "thesis_count": 3,
-    "is_advisor": true,
-    "years": [
-     "2014",
-     "2015"
-    ],
-    "variants_count": 2,
-    "variants": [
-     "María José Fernández De Nestosa",
-     "María José Fernández de Nestosa"
-    ]
-   }
+   "advisor": "Diego Pedro Pinto Roa",
+   "thesis_count": 4
   },
   {
    "advisor": "Christian von Lücken",
-   "thesis_count_in_corpus": 2,
-   "recent_3y_count": 0,
-   "years_active": [
-    2015
-   ],
-   "corpus_thesis_titles": [
-    "Utilización del sensor kinect con herramientas open source para el desarrollo de juegos educativos p",
-    "Utilización del sensor kinect con herramientas open source para el desarrollo de juegos educativos p"
-   ],
-   "person_record": {
-    "name": "Christian von Lücken",
-    "as_author": 0,
-    "as_orientador": 9,
-    "thesis_count": 9,
-    "is_advisor": true,
-    "years": [
-     "2015",
-     "2023",
-     "2026"
-    ],
-    "variants_count": 3,
-    "variants": [
-     "Christian Von Lücken",
-     "Christian von Lücken",
-     "Von Lücken"
-    ]
-   }
+   "thesis_count": 4
   },
   {
-   "advisor": "Santiago Gómez",
-   "thesis_count_in_corpus": 2,
-   "recent_3y_count": 0,
-   "years_active": [
-    2017
-   ],
-   "corpus_thesis_titles": [
-    "Diseño e implemetación de una solución integrada de recolección y análisis predictivo de datos open ",
-    "Diseño e implemetación de una solución integrada de recolección y análisis predictivo de datos open "
-   ],
-   "person_record": {
-    "name": "Gómez, Diego",
-    "as_author": 4,
-    "as_orientador": 0,
-    "thesis_count": 4,
-    "is_advisor": false,
-    "years": [
-     "2015"
-    ],
-    "variants_count": 1,
-    "variants": [
-     "Gómez, Diego"
-    ]
-   }
+   "advisor": "Ayala Rodríguez",
+   "thesis_count": 3
   },
   {
-   "advisor": "Rolando A. Rodríguez A",
-   "thesis_count_in_corpus": 2,
-   "recent_3y_count": 0,
-   "years_active": [
-    2018
-   ],
-   "corpus_thesis_titles": [
-    "Modelado de red neuronal artificial (RNA) en molienda de cemento, para su optimización del control y",
-    "Modelado de red neuronal artificial (RNA) en molienda de cemento, para su optimización del control y"
-   ],
-   "person_record": {
-    "name": "Rolando A. Rodríguez A",
-    "as_author": 13,
-    "as_orientador": 2,
-    "thesis_count": 15,
-    "is_advisor": true,
-    "years": [
-     "2009",
-     "2013",
-     "2017",
-     "2018",
-     "2019"
-    ],
-    "variants_count": 8,
-    "variants": [
-     "Balbuena, Pedro A",
-     "Freeman, James A",
-     "Gómez, A",
-     "Mesquita, Jorge A",
-     "Mongelós, Luis A",
-     "Osorio, Guillermo A"
-    ]
-   }
+   "advisor": "María Soledad",
+   "thesis_count": 3
   },
   {
-   "advisor": "Julio Palacio",
-   "thesis_count_in_corpus": 2,
-   "recent_3y_count": 0,
-   "years_active": [
-    2017
-   ],
-   "corpus_thesis_titles": [
-    "Predicción de casos de dengue en el Paraguay utilizando redes neuronales artificiales",
-    "Predicción de casos de dengue en el Paraguay utilizando redes neuronales artificiales"
-   ],
-   "person_record": {
-    "name": "Julio Palacio",
-    "as_author": 0,
-    "as_orientador": 2,
-    "thesis_count": 2,
-    "is_advisor": true,
-    "years": [
-     "2017"
-    ],
-    "variants_count": 1,
-    "variants": [
-     "Julio Palacio"
-    ]
-   }
+   "advisor": "Marcos Villagra",
+   "thesis_count": 3
+  },
+  {
+   "advisor": "Christian Daniel",
+   "thesis_count": 3
+  },
+  {
+   "advisor": "Von Lucken Martinez",
+   "thesis_count": 3
+  },
+  {
+   "advisor": "Diego Stalder",
+   "thesis_count": 3
+  },
+  {
+   "advisor": "Christian Emilio Schaerer Serra",
+   "thesis_count": 3
+  },
+  {
+   "advisor": "Horacio Andrés Legal Ayala",
+   "thesis_count": 3
+  },
+  {
+   "advisor": "Luciana Dalila Coronel Chávez",
+   "thesis_count": 3
+  },
+  {
+   "advisor": "César Duarte",
+   "thesis_count": 3
+  },
+  {
+   "advisor": "José Quinto Paredes Fernández",
+   "thesis_count": 3
+  },
+  {
+   "advisor": "Mario Ramón Miño Zavala",
+   "thesis_count": 3
+  },
+  {
+   "advisor": "Diego Fermín Palacios Riquelme",
+   "thesis_count": 3
+  },
+  {
+   "advisor": "Enrique",
+   "thesis_count": 3
+  },
+  {
+   "advisor": "Frutos Olmedo",
+   "thesis_count": 3
+  },
+  {
+   "advisor": "Lucas Teótimo",
+   "thesis_count": 3
+  },
+  {
+   "advisor": "María García Díaz",
+   "thesis_count": 3
+  },
+  {
+   "advisor": "José Luis Vázquez",
+   "thesis_count": 3
+  },
+  {
+   "advisor": "Rubén Franco Ibars",
+   "thesis_count": 3
+  },
+  {
+   "advisor": "José Núñez",
+   "thesis_count": 3
+  },
+  {
+   "advisor": "Diego P",
+   "thesis_count": 3
+  },
+  {
+   "advisor": "Diego P. Pinto Roa",
+   "thesis_count": 3
+  },
+  {
+   "advisor": "Vivian Fatecha",
+   "thesis_count": 3
+  },
+  {
+   "advisor": "Carlos Eliseo Enciso Villalba",
+   "thesis_count": 3
+  },
+  {
+   "advisor": "María Soledad Amoa Báez",
+   "thesis_count": 3
+  },
+  {
+   "advisor": "Ángela Ramona Mancuello Sandoval",
+   "thesis_count": 3
+  },
+  {
+   "advisor": "Sergio Manuel Chamorro Díz",
+   "thesis_count": 3
+  },
+  {
+   "advisor": "Oscar Machuca González",
+   "thesis_count": 3
+  },
+  {
+   "advisor": "Isabel Rodríguez",
+   "thesis_count": 3
   }
  ],
- "no_match_list": [
+ "matches_sample_50": [
   {
-   "orientador_name": "Cáceres Ruiz Díaz",
-   "thesis_bibnum": 182704
+   "bibnum": 182704,
+   "title": "Diseño y automatización de circuitos eléctricos para el sistema de bombeo de una red de alcantarillado propuesto para la gestión de efluentes en la FPUNA",
+   "authors": [
+    {
+     "au_id": "Samudio%20Villalba%2C%20Ricardo%20Arturo",
+     "name": "Samudio Villalba, Ricardo Arturo",
+     "role": "autor"
+    },
+    {
+     "au_id": "Takeuchi%20Hayashida%2C%20Ariel%20Yutaka",
+     "name": "Takeuchi Hayashida, Ariel Yutaka",
+     "role": "autor"
+    }
+   ],
+   "year": "2025",
+   "branch": "Biblioteca FPUNA (Centro de Información y Cultura)",
+   "callnumber": "IEL0168\n \n \n ( Navegar estantería (Abre debajo)  )",
+   "orientadores": [
+    {
+     "au_id": "Mariana",
+     "name": "Mariana",
+     "role": "orientador"
+    },
+    {
+     "au_id": "C%C3%A1ceres%20Ruiz%20D%C3%ADaz",
+     "name": "Cáceres Ruiz Díaz",
+     "role": "orientador"
+    },
+    {
+     "au_id": "Gabriel",
+     "name": "Gabriel",
+     "role": "orientador"
+    },
+    {
+     "au_id": "Duarte%20Zaracho",
+     "name": "Duarte Zaracho",
+     "role": "orientador"
+    }
+   ],
+   "matched_advisors": [
+    {
+     "name": "Mariana",
+     "matched_orient": "Mariana",
+     "in_people_index": true
+    },
+    {
+     "name": "Cáceres Ruiz Díaz",
+     "matched_orient": "Cáceres Ruiz Díaz",
+     "in_people_index": false
+    },
+    {
+     "name": "Garcete González, Alberto Gabriel",
+     "matched_orient": "Gabriel",
+     "in_people_index": true
+    },
+    {
+     "name": "Duarte Zaracho",
+     "matched_orient": "Duarte Zaracho",
+     "in_people_index": true
+    }
+   ]
   },
   {
-   "orientador_name": "Quiñonez González",
-   "thesis_bibnum": 183072
+   "bibnum": 183072,
+   "title": "Restauración de la máquina para prototipado de circuitos impresos del laboratorio de mecatrónica de la FPUNA aplicando proceso analítico jerárquico",
+   "authors": [
+    {
+     "au_id": "Lugo%20Urunaga%2C%20Cristian%20David",
+     "name": "Lugo Urunaga, Cristian David",
+     "role": "autor"
+    },
+    {
+     "au_id": "Mart%C3%ADnez%20Mu%C3%B1oz%2C%20Juan%20Miguel",
+     "name": "Martínez Muñoz, Juan Miguel",
+     "role": "autor"
+    }
+   ],
+   "year": "2023",
+   "branch": "Biblioteca FPUNA (Centro de Información y Cultura)",
+   "callnumber": "IE0265\n \n \n ( Navegar estantería (Abre debajo)  )",
+   "orientadores": [
+    {
+     "au_id": "Gerardo%20Gabriel",
+     "name": "Gerardo Gabriel",
+     "role": "orientador"
+    },
+    {
+     "au_id": "G%C3%B3mez%20A%C3%B1azco",
+     "name": "Gómez Añazco",
+     "role": "orientador"
+    },
+    {
+     "au_id": "Ever%20Arnaldo",
+     "name": "Ever Arnaldo",
+     "role": "orientador"
+    },
+    {
+     "au_id": "Qui%C3%B1onez%20Gonz%C3%A1lez",
+     "name": "Quiñonez González",
+     "role": "orientador"
+    }
+   ],
+   "matched_advisors": [
+    {
+     "name": "Gabriel",
+     "matched_orient": "Gerardo Gabriel",
+     "in_people_index": true
+    },
+    {
+     "name": "Gómez Añazco",
+     "matched_orient": "Gómez Añazco",
+     "in_people_index": true
+    },
+    {
+     "name": "Ever Arnaldo",
+     "matched_orient": "Ever Arnaldo",
+     "in_people_index": true
+    },
+    {
+     "name": "Quiñonez González",
+     "matched_orient": "Quiñonez González",
+     "in_people_index": false
+    }
+   ]
   },
   {
-   "orientador_name": "Quiñonez González",
-   "thesis_bibnum": 183098
+   "bibnum": 183098,
+   "title": "Restauración de la máquina para prototipado de circuitos impresos impresos del laboratorio de mecatrónica de la FPUNA, aplicando proceso analítico jerárquico",
+   "authors": [
+    {
+     "au_id": "Lugo%20Urunaga%2C%20Cristian%20David",
+     "name": "Lugo Urunaga, Cristian David",
+     "role": "autor"
+    },
+    {
+     "au_id": "Mart%C3%ADnez%20Mu%C3%B1oz%2C%20Juan%20Miguel",
+     "name": "Martínez Muñoz, Juan Miguel",
+     "role": "autor"
+    }
+   ],
+   "year": "2023",
+   "branch": "Biblioteca FPUNA (Centro de Información y Cultura)",
+   "callnumber": "IEO265\n \n \n ( Navegar estantería (Abre debajo)  )",
+   "orientadores": [
+    {
+     "au_id": "G%C3%B3mez%20A%C3%B1azco%20Gerardo%20Gabriel",
+     "name": "Gómez Añazco Gerardo Gabriel",
+     "role": "orientador"
+    },
+    {
+     "au_id": "Arnaldo",
+     "name": "Arnaldo",
+     "role": "orientador"
+    },
+    {
+     "au_id": "Qui%C3%B1onez%20Gonz%C3%A1lez",
+     "name": "Quiñonez González",
+     "role": "orientador"
+    }
+   ],
+   "matched_advisors": [
+    {
+     "name": "Gabriel",
+     "matched_orient": "Gómez Añazco Gerardo Gabriel",
+     "in_people_index": true
+    },
+    {
+     "name": "Ever Arnaldo",
+     "matched_orient": "Arnaldo",
+     "in_people_index": true
+    },
+    {
+     "name": "Quiñonez González",
+     "matched_orient": "Quiñonez González",
+     "in_people_index": false
+    }
+   ]
   },
   {
-   "orientador_name": "Wilma Garcete",
-   "thesis_bibnum": 185338
+   "bibnum": 185338,
+   "title": "Organización de la serie de resoluciones 1971-2008 y clasificación de los documentos del archivo de gestión de la Dirección de la Carrera Ciencias de la Información de la FPUNA",
+   "authors": [
+    {
+     "au_id": "Melgarejo%2C%20Sonia%20Luc%C3%ADa",
+     "name": "Melgarejo, Sonia Lucía",
+     "role": "autor"
+    },
+    {
+     "au_id": "Toledo%20Cabral%2C%20Mirtha%20Letizia",
+     "name": "Toledo Cabral, Mirtha Letizia",
+     "role": "autor"
+    }
+   ],
+   "year": "2010",
+   "branch": "Biblioteca FPUNA (Centro de Información y Cultura)",
+   "callnumber": "027\n \n \n ( Navegar estantería (Abre debajo)  )",
+   "orientadores": [
+    {
+     "au_id": "Sof%C3%ADa%20Stete%20Borba",
+     "name": "Sofía Stete Borba",
+     "role": "orientador"
+    },
+    {
+     "au_id": "Wilma%20Garcete",
+     "name": "Wilma Garcete",
+     "role": "orientador"
+    },
+    {
+     "au_id": "Mar%C3%ADa%20Soledad%20Ayala%20Rodr%C3%ADguez",
+     "name": "María Soledad Ayala Rodríguez",
+     "role": "orientador"
+    }
+   ],
+   "matched_advisors": [
+    {
+     "name": "Sofía Stete Borba",
+     "matched_orient": "Sofía Stete Borba",
+     "in_people_index": true
+    },
+    {
+     "name": "Wilma Garcete",
+     "matched_orient": "Wilma Garcete",
+     "in_people_index": false
+    },
+    {
+     "name": "María Soledad Ayala Rodríguez",
+     "matched_orient": "María Soledad Ayala Rodríguez",
+     "in_people_index": true
+    }
+   ]
   },
   {
-   "orientador_name": "Cáceres Ruiz Díaz",
-   "thesis_bibnum": 642153
+   "bibnum": 642153,
+   "title": "Diseño y automatización de circuitos eléctricos para el sistema de bombeo de una red de alcantarillado propuesto para la gestión de efluentes en la FPUNA",
+   "authors": [
+    {
+     "au_id": "Samudio%20Villalba%2C%20Ricardo%20Arturo",
+     "name": "Samudio Villalba, Ricardo Arturo",
+     "role": "autor"
+    },
+    {
+     "au_id": "Takeuchi%20Hayashida%2C%20Ariel%20Yutaka",
+     "name": "Takeuchi Hayashida, Ariel Yutaka",
+     "role": "autor"
+    }
+   ],
+   "year": "2025",
+   "branch": "Biblioteca FPUNA (Centro de Información y Cultura)\n  \n \n\n \n  Colección general",
+   "callnumber": "IEL0168\n \n \n ( Navegar estantería (Abre debajo)  )",
+   "orientadores": [
+    {
+     "au_id": "Duarte%20Zaracho",
+     "name": "Duarte Zaracho",
+     "role": "orientador"
+    },
+    {
+     "au_id": "Gabriel",
+     "name": "Gabriel",
+     "role": "orientador"
+    },
+    {
+     "au_id": "C%C3%A1ceres%20Ruiz%20D%C3%ADaz",
+     "name": "Cáceres Ruiz Díaz",
+     "role": "orientador"
+    },
+    {
+     "au_id": "Mariana",
+     "name": "Mariana",
+     "role": "orientador"
+    }
+   ],
+   "matched_advisors": [
+    {
+     "name": "Duarte Zaracho",
+     "matched_orient": "Duarte Zaracho",
+     "in_people_index": true
+    },
+    {
+     "name": "Garcete González, Alberto Gabriel",
+     "matched_orient": "Gabriel",
+     "in_people_index": true
+    },
+    {
+     "name": "Cáceres Ruiz Díaz",
+     "matched_orient": "Cáceres Ruiz Díaz",
+     "in_people_index": false
+    },
+    {
+     "name": "Mariana",
+     "matched_orient": "Mariana",
+     "in_people_index": true
+    }
+   ]
   },
   {
-   "orientador_name": "Quiñonez González",
-   "thesis_bibnum": 641710
+   "bibnum": 641710,
+   "title": "Restauración de la máquina para prototipado de circuitos impresos del laboratorio de mecatrónica de la FPUNA aplicando proceso analítico jerárquico",
+   "authors": [
+    {
+     "au_id": "Lugo%20Urunaga%2C%20Cristian%20David",
+     "name": "Lugo Urunaga, Cristian David",
+     "role": "autor"
+    },
+    {
+     "au_id": "Mart%C3%ADnez%20Mu%C3%B1oz%2C%20Juan%20Miguel",
+     "name": "Martínez Muñoz, Juan Miguel",
+     "role": "autor"
+    }
+   ],
+   "year": "2023",
+   "branch": "Biblioteca FPUNA (Centro de Información y Cultura)\n  \n \n\n \n  Colección general",
+   "callnumber": "IE0265\n \n \n ( Navegar estantería (Abre debajo)  )",
+   "orientadores": [
+    {
+     "au_id": "Qui%C3%B1onez%20Gonz%C3%A1lez",
+     "name": "Quiñonez González",
+     "role": "orientador"
+    },
+    {
+     "au_id": "Ever%20Arnaldo",
+     "name": "Ever Arnaldo",
+     "role": "orientador"
+    },
+    {
+     "au_id": "G%C3%B3mez%20A%C3%B1azco",
+     "name": "Gómez Añazco",
+     "role": "orientador"
+    },
+    {
+     "au_id": "Gerardo%20Gabriel",
+     "name": "Gerardo Gabriel",
+     "role": "orientador"
+    }
+   ],
+   "matched_advisors": [
+    {
+     "name": "Quiñonez González",
+     "matched_orient": "Quiñonez González",
+     "in_people_index": false
+    },
+    {
+     "name": "Ever Arnaldo",
+     "matched_orient": "Ever Arnaldo",
+     "in_people_index": true
+    },
+    {
+     "name": "Gómez Añazco",
+     "matched_orient": "Gómez Añazco",
+     "in_people_index": true
+    },
+    {
+     "name": "Gabriel",
+     "matched_orient": "Gerardo Gabriel",
+     "in_people_index": true
+    }
+   ]
   },
   {
-   "orientador_name": "Quiñonez González",
-   "thesis_bibnum": 641682
+   "bibnum": 641682,
+   "title": "Restauración de la máquina para prototipado de circuitos impresos impresos del laboratorio de mecatrónica de la FPUNA, aplicando proceso analítico jerárquico",
+   "authors": [
+    {
+     "au_id": "Lugo%20Urunaga%2C%20Cristian%20David",
+     "name": "Lugo Urunaga, Cristian David",
+     "role": "autor"
+    },
+    {
+     "au_id": "Mart%C3%ADnez%20Mu%C3%B1oz%2C%20Juan%20Miguel",
+     "name": "Martínez Muñoz, Juan Miguel",
+     "role": "autor"
+    }
+   ],
+   "year": "2023",
+   "branch": "Biblioteca FPUNA (Centro de Información y Cultura)\n  \n \n\n \n  Colección general",
+   "callnumber": "IEO265\n \n \n ( Navegar estantería (Abre debajo)  )",
+   "orientadores": [
+    {
+     "au_id": "Qui%C3%B1onez%20Gonz%C3%A1lez",
+     "name": "Quiñonez González",
+     "role": "orientador"
+    },
+    {
+     "au_id": "Arnaldo",
+     "name": "Arnaldo",
+     "role": "orientador"
+    },
+    {
+     "au_id": "G%C3%B3mez%20A%C3%B1azco%20Gerardo%20Gabriel",
+     "name": "Gómez Añazco Gerardo Gabriel",
+     "role": "orientador"
+    }
+   ],
+   "matched_advisors": [
+    {
+     "name": "Quiñonez González",
+     "matched_orient": "Quiñonez González",
+     "in_people_index": false
+    },
+    {
+     "name": "Ever Arnaldo",
+     "matched_orient": "Arnaldo",
+     "in_people_index": true
+    },
+    {
+     "name": "Gabriel",
+     "matched_orient": "Gómez Añazco Gerardo Gabriel",
+     "in_people_index": true
+    }
+   ]
   },
   {
-   "orientador_name": "Ever Quiñónez",
-   "thesis_bibnum": 611490
+   "bibnum": 264633,
+   "title": "Organización de la serie de resoluciones 1971-2008, y clasificación de los documentos del Archivo de Gestión de la Dirección de la Carrera de Ciencias de la Información, FPUNA",
+   "authors": [
+    {
+     "au_id": "Melgarejo%2C%20Sonia%20Luc%C3%ADa",
+     "name": "Melgarejo, Sonia Lucía",
+     "role": "autor"
+    },
+    {
+     "au_id": "Toledo%20Cabral%2C%20Mirtha%20Letizia",
+     "name": "Toledo Cabral, Mirtha Letizia",
+     "role": "autor"
+    }
+   ],
+   "year": "2010",
+   "branch": "Biblioteca Central. Trabajos de Fin de Grado y Tesis de Postgrado",
+   "callnumber": "651.53\n \n \n ( Navegar estantería (Abre debajo)  )",
+   "orientadores": [
+    {
+     "au_id": "Mar%C3%ADa%20Soledad%20Ayala%20Rodr%C3%ADguez%20Wilma%20Mercedes%20Garcete",
+     "name": "María Soledad Ayala Rodríguez Wilma Mercedes Garcete",
+     "role": "orientador"
+    }
+   ],
+   "matched_advisors": [
+    {
+     "name": "María Soledad Ayala Rodríguez",
+     "matched_orient": "María Soledad Ayala Rodríguez Wilma Mercedes Garcete",
+     "in_people_index": true
+    }
+   ]
   },
   {
-   "orientador_name": "Wilma Garcete",
-   "thesis_bibnum": 639520
+   "bibnum": 268593,
+   "title": "Restauración de la máquina para prototipado de circuitos impresos del laboratorio de mecatrónica de la FPUNA, aplicando proceso analítico jerárquico",
+   "authors": [
+    {
+     "au_id": "Lugo%20Urunaga%2C%20Cristian%20David",
+     "name": "Lugo Urunaga, Cristian David",
+     "role": "autor"
+    },
+    {
+     "au_id": "Mart%C3%ADnez%20Mu%C3%B1oz%2C%20Juan%20Miguel",
+     "name": "Martínez Muñoz, Juan Miguel",
+     "role": "autor"
+    }
+   ],
+   "year": "2023",
+   "branch": "Biblioteca Central. Trabajos de Fin de Grado y Tesis de Postgrado",
+   "callnumber": "621.381\n \n \n ( Navegar estantería (Abre debajo)  )",
+   "orientadores": [
+    {
+     "au_id": "Ever%20Qui%C3%B1%C3%B3nez%20Gerardo%20G%C3%B3mez",
+     "name": "Ever Quiñónez Gerardo Gómez",
+     "role": "orientador"
+    }
+   ],
+   "matched_advisors": [
+    {
+     "name": "Ever Quiñónez Gerardo Gómez",
+     "matched_orient": "Ever Quiñónez Gerardo Gómez",
+     "in_people_index": true
+    }
+   ]
   },
   {
-   "orientador_name": "Wilma Mercedes Garcete",
-   "thesis_bibnum": 605747
+   "bibnum": 611490,
+   "title": "Restauración de la máquina para prototipado de circuitos impresos del laboratorio de mecatrónica de la FPUNA, aplicando proceso analítico jerárquico",
+   "authors": [
+    {
+     "au_id": "Lugo%20Urunaga%2C%20Cristian%20David",
+     "name": "Lugo Urunaga, Cristian David",
+     "role": "autor"
+    },
+    {
+     "au_id": "Mart%C3%ADnez%20Mu%C3%B1oz%2C%20Juan%20Miguel",
+     "name": "Martínez Muñoz, Juan Miguel",
+     "role": "autor"
+    }
+   ],
+   "year": "2023",
+   "branch": "Biblioteca Central. Trabajos de Fin de Grado y Tesis de Postgrado\n  \n \n\n \n  Colección general",
+   "callnumber": "621.381 L967r\n \n \n ( Navegar estantería (Abre debajo)  )",
+   "orientadores": [
+    {
+     "au_id": "Ever%20Qui%C3%B1%C3%B3nez",
+     "name": "Ever Quiñónez",
+     "role": "orientador"
+    },
+    {
+     "au_id": "Gerardo%20G%C3%B3mez",
+     "name": "Gerardo Gómez",
+     "role": "orientador"
+    }
+   ],
+   "matched_advisors": [
+    {
+     "name": "Ever Quiñónez Gerardo Gómez",
+     "matched_orient": "Ever Quiñónez",
+     "in_people_index": true
+    },
+    {
+     "name": "Ever Quiñónez Gerardo Gómez",
+     "matched_orient": "Gerardo Gómez",
+     "in_people_index": true
+    }
+   ]
   },
   {
-   "orientador_name": "Galeano",
-   "thesis_bibnum": 446661
+   "bibnum": 639520,
+   "title": "Organización de la serie de resoluciones 1971-2008 y clasificación de los documentos del archivo de gestión de la Dirección de la Carrera Ciencias de la Información de la FPUNA",
+   "authors": [
+    {
+     "au_id": "Melgarejo%2C%20Sonia%20Luc%C3%ADa",
+     "name": "Melgarejo, Sonia Lucía",
+     "role": "autor"
+    },
+    {
+     "au_id": "Toledo%20Cabral%2C%20Mirtha%20Letizia",
+     "name": "Toledo Cabral, Mirtha Letizia",
+     "role": "autor"
+    }
+   ],
+   "year": "2010",
+   "branch": "Biblioteca FPUNA (Centro de Información y Cultura)\n  \n \n\n \n  Colección general",
+   "callnumber": "027 M484o\n \n \n ( Navegar estantería (Abre debajo)  )",
+   "orientadores": [
+    {
+     "au_id": "Mar%C3%ADa%20Soledad%20Ayala%20Rodr%C3%ADguez",
+     "name": "María Soledad Ayala Rodríguez",
+     "role": "orientador"
+    },
+    {
+     "au_id": "Wilma%20Garcete",
+     "name": "Wilma Garcete",
+     "role": "orientador"
+    },
+    {
+     "au_id": "Sof%C3%ADa%20Stete%20Borba",
+     "name": "Sofía Stete Borba",
+     "role": "orientador"
+    }
+   ],
+   "matched_advisors": [
+    {
+     "name": "María Soledad Ayala Rodríguez",
+     "matched_orient": "María Soledad Ayala Rodríguez",
+     "in_people_index": true
+    },
+    {
+     "name": "Wilma Garcete",
+     "matched_orient": "Wilma Garcete",
+     "in_people_index": false
+    },
+    {
+     "name": "Sofía Stete Borba",
+     "matched_orient": "Sofía Stete Borba",
+     "in_people_index": true
+    }
+   ]
   },
   {
-   "orientador_name": "Raúl Felipe",
-   "thesis_bibnum": 446661
+   "bibnum": 605747,
+   "title": "Organización de la serie de resoluciones 1971-2008, y clasificación de los documentos del Archivo de Gestión de la Dirección de la Carrera de Ciencias de la Información, FPUNA",
+   "authors": [
+    {
+     "au_id": "Melgarejo%2C%20Sonia%20Luc%C3%ADa",
+     "name": "Melgarejo, Sonia Lucía",
+     "role": "autor"
+    },
+    {
+     "au_id": "Toledo%20Cabral%2C%20Mirtha%20Letizia",
+     "name": "Toledo Cabral, Mirtha Letizia",
+     "role": "autor"
+    }
+   ],
+   "year": "2010",
+   "branch": "Biblioteca Central. Trabajos de Fin de Grado y Tesis de Postgrado\n  \n \n\n \n  Colección general",
+   "callnumber": "651.53\n \n \n ( Navegar estantería (Abre debajo)  )",
+   "orientadores": [
+    {
+     "au_id": "Mar%C3%ADa%20Soledad%20Ayala%20Rodr%C3%ADguez",
+     "name": "María Soledad Ayala Rodríguez",
+     "role": "orientador"
+    },
+    {
+     "au_id": "Wilma%20Mercedes%20Garcete",
+     "name": "Wilma Mercedes Garcete",
+     "role": "orientador"
+    }
+   ],
+   "matched_advisors": [
+    {
+     "name": "María Soledad Ayala Rodríguez",
+     "matched_orient": "María Soledad Ayala Rodríguez",
+     "in_people_index": true
+    },
+    {
+     "name": "María Soledad Ayala Rodríguez Wilma Mercedes Garcete",
+     "matched_orient": "Wilma Mercedes Garcete",
+     "in_people_index": true
+    }
+   ]
   },
   {
-   "orientador_name": "Ayala Rodríguez",
-   "thesis_bibnum": 642587
+   "bibnum": 446661,
+   "title": "Sistema Gerenciador de Control de Circulación y Préstamos para Biblioteca BiblioSystem",
+   "authors": [
+    {
+     "au_id": "Santos%20G.%2C%20H.%20Hern%C3%A1n",
+     "name": "Santos G., H. Hernán",
+     "role": "autor"
+    }
+   ],
+   "year": "2004",
+   "branch": "Biblioteca FPUNA Coronel Oviedo\n  \n \n\n \n  Colección general",
+   "callnumber": "LCIK06\n \n \n ( Navegar estantería (Abre debajo)  )",
+   "orientadores": [
+    {
+     "au_id": "Galeano",
+     "name": "Galeano",
+     "role": "orientador"
+    },
+    {
+     "au_id": "Ra%C3%BAl%20Felipe",
+     "name": "Raúl Felipe",
+     "role": "orientador"
+    }
+   ],
+   "matched_advisors": [
+    {
+     "name": "Galeano Bate, Santiago Lorenzo",
+     "matched_orient": "Galeano",
+     "in_people_index": true
+    },
+    {
+     "name": "Raúl Felipe",
+     "matched_orient": "Raúl Felipe",
+     "in_people_index": false
+    }
+   ]
   },
   {
-   "orientador_name": "María Soledad",
-   "thesis_bibnum": 642587
+   "bibnum": 642587,
+   "title": "Indicadores  bibliométricos de la producción científica en la Licenciatura de Ciencias de la Información en Paraguay cohorte 2008-2023",
+   "authors": [
+    {
+     "au_id": "Navarro%20Fretes%2C%20Anah%C3%AD%20Mar%C3%ADa%20del%20Sol",
+     "name": "Navarro Fretes, Anahí María del Sol",
+     "role": "autor"
+    }
+   ],
+   "year": "2024",
+   "branch": "Biblioteca FPUNA (Centro de Información y Cultura)\n  \n \n\n \n  Colección general",
+   "callnumber": "LCI99\n \n \n ( Navegar estantería (Abre debajo)  )",
+   "orientadores": [
+    {
+     "au_id": "Ayala%20Rodr%C3%ADguez",
+     "name": "Ayala Rodríguez",
+     "role": "orientador"
+    },
+    {
+     "au_id": "Mar%C3%ADa%20Soledad",
+     "name": "María Soledad",
+     "role": "orientador"
+    }
+   ],
+   "matched_advisors": [
+    {
+     "name": "María Soledad Ayala Rodríguez",
+     "matched_orient": "Ayala Rodríguez",
+     "in_people_index": true
+    },
+    {
+     "name": "María Soledad Ayala Rodríguez",
+     "matched_orient": "María Soledad",
+     "in_people_index": true
+    }
+   ]
   },
   {
-   "orientador_name": "Guillermo González",
-   "thesis_bibnum": 264342
+   "bibnum": 264342,
+   "title": "Optimización de la vigilancia y control de criaderos del aedes aegypti utilizando computación móvil y sistemas de información geográfica",
+   "authors": [
+    {
+     "au_id": "S%C3%A1nchez%20Kov%C3%A1cs%2C%20Ignacio%20Luis",
+     "name": "Sánchez Kovács, Ignacio Luis",
+     "role": "autor"
+    },
+    {
+     "au_id": "Mendoza%20Barrientos%2C%20Juan%20Angel",
+     "name": "Mendoza Barrientos, Juan Angel",
+     "role": "autor"
+    }
+   ],
+   "year": "2019",
+   "branch": "Biblioteca Central. Trabajos de Fin de Grado y Tesis de Postgrado",
+   "callnumber": "614.48\n \n \n ( Navegar estantería (Abre debajo)  )",
+   "orientadores": [
+    {
+     "au_id": "Guillermo%20Gonz%C3%A1lez",
+     "name": "Guillermo González",
+     "role": "orientador"
+    }
+   ],
+   "matched_advisors": [
+    {
+     "name": "Guillermo González",
+     "matched_orient": "Guillermo González",
+     "in_people_index": false
+    }
+   ]
   },
   {
-   "orientador_name": "Nilsa González Britez",
-   "thesis_bibnum": 609601
+   "bibnum": 267104,
+   "title": "Prácticas de pobladores ante enfermedades producidas por aedes aegypti, barrio Ciudad Nueva, Paraguarí - Paraguay 2016",
+   "authors": [
+    {
+     "au_id": "Rojas%20de%20Bracho%2C%20Amalia%20Alberta",
+     "name": "Rojas de Bracho, Amalia Alberta",
+     "role": "autor"
+    }
+   ],
+   "year": "2016",
+   "branch": "Biblioteca Central. Trabajos de Fin de Grado y Tesis de Postgrado",
+   "callnumber": "616.921\n \n \n ( Navegar estantería (Abre debajo)  )",
+   "orientadores": [
+    {
+     "au_id": "Ernesto%20Lazaga",
+     "name": "Ernesto Lazaga",
+     "role": "orientador"
+    }
+   ],
+   "matched_advisors": [
+    {
+     "name": "Ernesto Lazaga",
+     "matched_orient": "Ernesto Lazaga",
+     "in_people_index": true
+    }
+   ]
   },
   {
-   "orientador_name": "Nelson Alvarenga",
-   "thesis_bibnum": 609601
+   "bibnum": 270740,
+   "title": "Actividad larvicida de extractos de cuatro especies vegetales sobre aedes aegypti",
+   "authors": [
+    {
+     "au_id": "Ojeda%20Oviedo%2C%20Cristhian%20Antolin",
+     "name": "Ojeda Oviedo, Cristhian Antolin",
+     "role": "autor"
+    }
+   ],
+   "year": "2021",
+   "branch": "Biblioteca Central. Trabajos de Fin de Grado y Tesis de Postgrado",
+   "callnumber": "633.898\n \n \n ( Navegar estantería (Abre debajo)  )",
+   "orientadores": [
+    {
+     "au_id": "Nilsa%20Gonz%C3%A1lez%20Britez%20Nelson%20Alvarenga%20Silvia%20Caballero",
+     "name": "Nilsa González Britez Nelson Alvarenga Silvia Caballero",
+     "role": "orientador"
+    }
+   ],
+   "matched_advisors": [
+    {
+     "name": "Nilsa González Britez Nelson Alvarenga Silvia Caballero",
+     "matched_orient": "Nilsa González Britez Nelson Alvarenga Silvia Caballero",
+     "in_people_index": true
+    }
+   ]
   },
   {
-   "orientador_name": "Silvia Caballero",
-   "thesis_bibnum": 609601
+   "bibnum": 612843,
+   "title": "Prácticas de pobladores ante enfermedades producidas por aedes aegypti, barrio Ciudad Nueva, Paraguarí - Paraguay 2016",
+   "authors": [
+    {
+     "au_id": "Rojas%20de%20Bracho%2C%20Amalia%20Alberta",
+     "name": "Rojas de Bracho, Amalia Alberta",
+     "role": "autor"
+    }
+   ],
+   "year": "2016",
+   "branch": "Biblioteca Central. Trabajos de Fin de Grado y Tesis de Postgrado\n  \n \n\n \n  Colección general",
+   "callnumber": "616.921 R638p\n \n \n ( Navegar estantería (Abre debajo)  )",
+   "orientadores": [
+    {
+     "au_id": "Ernesto%20Lazaga",
+     "name": "Ernesto Lazaga",
+     "role": "orientador"
+    }
+   ],
+   "matched_advisors": [
+    {
+     "name": "Ernesto Lazaga",
+     "matched_orient": "Ernesto Lazaga",
+     "in_people_index": true
+    }
+   ]
   },
   {
-   "orientador_name": "Guillermo González",
-   "thesis_bibnum": 606030
+   "bibnum": 609601,
+   "title": "Actividad larvicida de extractos de cuatro especies vegetales sobre aedes aegypti",
+   "authors": [
+    {
+     "au_id": "Ojeda%20Oviedo%2C%20Cristhian%20Antolin",
+     "name": "Ojeda Oviedo, Cristhian Antolin",
+     "role": "autor"
+    }
+   ],
+   "year": "2021",
+   "branch": "Biblioteca Central. Trabajos de Fin de Grado y Tesis de Postgrado\n  \n \n\n \n  Colección general",
+   "callnumber": "633.898 Oj2a\n \n \n ( Navegar estantería (Abre debajo)  )",
+   "orientadores": [
+    {
+     "au_id": "Nilsa%20Gonz%C3%A1lez%20Britez",
+     "name": "Nilsa González Britez",
+     "role": "orientador"
+    },
+    {
+     "au_id": "Nelson%20Alvarenga",
+     "name": "Nelson Alvarenga",
+     "role": "orientador"
+    },
+    {
+     "au_id": "Silvia%20Caballero",
+     "name": "Silvia Caballero",
+     "role": "orientador"
+    }
+   ],
+   "matched_advisors": [
+    {
+     "name": "Nilsa González Britez Nelson Alvarenga Silvia Caballero",
+     "matched_orient": "Nilsa González Britez",
+     "in_people_index": true
+    },
+    {
+     "name": "Nilsa González Britez Nelson Alvarenga Silvia Caballero",
+     "matched_orient": "Nelson Alvarenga",
+     "in_people_index": true
+    },
+    {
+     "name": "Nilsa González Britez Nelson Alvarenga Silvia Caballero",
+     "matched_orient": "Silvia Caballero",
+     "in_people_index": true
+    }
+   ]
   },
   {
-   "orientador_name": "Julio Manuel Paciello Coronel",
-   "thesis_bibnum": 183886
+   "bibnum": 606030,
+   "title": "Optimización de la vigilancia y control de criaderos del aedes aegypti utilizando computación móvil y sistemas de información geográfica",
+   "authors": [
+    {
+     "au_id": "S%C3%A1nchez%20Kov%C3%A1cs%2C%20Ignacio%20Luis",
+     "name": "Sánchez Kovács, Ignacio Luis",
+     "role": "autor"
+    },
+    {
+     "au_id": "Mendoza%20Barrientos%2C%20Juan%20Angel",
+     "name": "Mendoza Barrientos, Juan Angel",
+     "role": "autor"
+    }
+   ],
+   "year": "2019",
+   "branch": "Biblioteca Central. Trabajos de Fin de Grado y Tesis de Postgrado\n  \n \n\n \n  Colección general",
+   "callnumber": "614.48\n \n \n ( Navegar estantería (Abre debajo)  )",
+   "orientadores": [
+    {
+     "au_id": "Guillermo%20Gonz%C3%A1lez",
+     "name": "Guillermo González",
+     "role": "orientador"
+    }
+   ],
+   "matched_advisors": [
+    {
+     "name": "Guillermo González",
+     "matched_orient": "Guillermo González",
+     "in_people_index": false
+    }
+   ]
+  },
+  {
+   "bibnum": 183886,
+   "title": "Data Lake : un caso de estudio de una arquitectura de análisis de Big Data aplicando a contrataciones públicas",
+   "authors": [
+    {
+     "au_id": "Sosa%20Ortiz%2C%20Oscar%20David",
+     "name": "Sosa Ortiz, Oscar David",
+     "role": "autor"
+    }
+   ],
+   "year": "2021",
+   "branch": "Biblioteca FPUNA (Centro de Información y Cultura)",
+   "callnumber": "II0174\n \n \n ( Navegar estantería (Abre debajo)  )",
+   "orientadores": [
+    {
+     "au_id": "Julio%20Manuel%20Paciello%20Coronel",
+     "name": "Julio Manuel Paciello Coronel",
+     "role": "orientador"
+    }
+   ],
+   "matched_advisors": [
+    {
+     "name": "Julio Manuel Paciello Coronel",
+     "matched_orient": "Julio Manuel Paciello Coronel",
+     "in_people_index": false
+    }
+   ]
+  },
+  {
+   "bibnum": 641127,
+   "title": "Data Lake : un caso de estudio de una arquitectura de análisis de Big Data aplicando a contrataciones públicas",
+   "authors": [
+    {
+     "au_id": "Sosa%20Ortiz%2C%20Oscar%20David",
+     "name": "Sosa Ortiz, Oscar David",
+     "role": "autor"
+    }
+   ],
+   "year": "2021",
+   "branch": "Biblioteca FPUNA (Centro de Información y Cultura)\n  \n \n\n \n  Colección general",
+   "callnumber": "II0174\n \n \n ( Navegar estantería (Abre debajo)  )",
+   "orientadores": [
+    {
+     "au_id": "Julio%20Manuel%20Paciello%20Coronel",
+     "name": "Julio Manuel Paciello Coronel",
+     "role": "orientador"
+    }
+   ],
+   "matched_advisors": [
+    {
+     "name": "Julio Manuel Paciello Coronel",
+     "matched_orient": "Julio Manuel Paciello Coronel",
+     "in_people_index": false
+    }
+   ]
+  },
+  {
+   "bibnum": 184099,
+   "title": "Detección de anomalías en telecomunicaciones basada en una arquietectura Big Data",
+   "authors": [
+    {
+     "au_id": "Carlos%20Segovia",
+     "name": "Carlos Segovia",
+     "role": "autor"
+    },
+    {
+     "au_id": "Figueredo%2C%20Rub%C3%A9n%20Figueredo",
+     "name": "Figueredo, Rubén Figueredo",
+     "role": "autor"
+    }
+   ],
+   "year": "2020",
+   "branch": "Biblioteca FPUNA (Centro de Información y Cultura)",
+   "callnumber": "II0154\n \n \n ( Navegar estantería (Abre debajo)  )",
+   "orientadores": [
+    {
+     "au_id": "Juan%20Talavera",
+     "name": "Juan Talavera",
+     "role": "orientador"
+    }
+   ],
+   "matched_advisors": [
+    {
+     "name": "Juan Talavera",
+     "matched_orient": "Juan Talavera",
+     "in_people_index": true
+    }
+   ]
+  },
+  {
+   "bibnum": 640776,
+   "title": "Detección de anomalías en telecomunicaciones basada en una arquietectura Big Data",
+   "authors": [
+    {
+     "au_id": "Carlos%20Segovia",
+     "name": "Carlos Segovia",
+     "role": "autor"
+    },
+    {
+     "au_id": "Figueredo%2C%20Rub%C3%A9n%20Figueredo",
+     "name": "Figueredo, Rubén Figueredo",
+     "role": "autor"
+    }
+   ],
+   "year": "2020",
+   "branch": "Biblioteca FPUNA (Centro de Información y Cultura)\n  \n \n\n \n  Colección general",
+   "callnumber": "II0154\n \n \n ( Navegar estantería (Abre debajo)  )",
+   "orientadores": [
+    {
+     "au_id": "Juan%20Talavera",
+     "name": "Juan Talavera",
+     "role": "orientador"
+    }
+   ],
+   "matched_advisors": [
+    {
+     "name": "Juan Talavera",
+     "matched_orient": "Juan Talavera",
+     "in_people_index": true
+    }
+   ]
+  },
+  {
+   "bibnum": 271374,
+   "title": "Data Lake: un caso de estudio de una arquitectura de análisis de Big Data aplicado a contrataciones públicas",
+   "authors": [
+    {
+     "au_id": "Sosa%20Ortiz%2C%20Oscar%20David",
+     "name": "Sosa Ortiz, Oscar David",
+     "role": "autor"
+    }
+   ],
+   "year": "2021",
+   "branch": "Biblioteca Central. Trabajos de Fin de Grado y Tesis de Postgrado",
+   "callnumber": "621.382\n \n \n ( Navegar estantería (Abre debajo)  )",
+   "orientadores": [
+    {
+     "au_id": "Julio%20Manuel",
+     "name": "Julio Manuel",
+     "role": "orientador"
+    },
+    {
+     "au_id": "Paciello%20Coronel",
+     "name": "Paciello Coronel",
+     "role": "orientador"
+    }
+   ],
+   "matched_advisors": [
+    {
+     "name": "Julio Manuel",
+     "matched_orient": "Julio Manuel",
+     "in_people_index": false
+    },
+    {
+     "name": "Paciello Coronel",
+     "matched_orient": "Paciello Coronel",
+     "in_people_index": false
+    }
+   ]
+  },
+  {
+   "bibnum": 609014,
+   "title": "Data Lake: un caso de estudio de una arquitectura de análisis de Big Data aplicado a contrataciones públicas",
+   "authors": [
+    {
+     "au_id": "Sosa%20Ortiz%2C%20Oscar%20David",
+     "name": "Sosa Ortiz, Oscar David",
+     "role": "autor"
+    }
+   ],
+   "year": "2021",
+   "branch": "Biblioteca Central. Trabajos de Fin de Grado y Tesis de Postgrado\n  \n \n\n \n  Colección general",
+   "callnumber": "621.382 Sos71d\n \n \n ( Navegar estantería (Abre debajo)  )",
+   "orientadores": [
+    {
+     "au_id": "Paciello%20Coronel",
+     "name": "Paciello Coronel",
+     "role": "orientador"
+    },
+    {
+     "au_id": "Julio%20Manuel",
+     "name": "Julio Manuel",
+     "role": "orientador"
+    }
+   ],
+   "matched_advisors": [
+    {
+     "name": "Paciello Coronel",
+     "matched_orient": "Paciello Coronel",
+     "in_people_index": false
+    },
+    {
+     "name": "Julio Manuel",
+     "matched_orient": "Julio Manuel",
+     "in_people_index": false
+    }
+   ]
+  },
+  {
+   "bibnum": 266927,
+   "title": "Detección de anomalías en telecomunicaciones basada en una arquitectura big data",
+   "authors": [
+    {
+     "au_id": "Segovia%2C%20Carlos",
+     "name": "Segovia, Carlos",
+     "role": "autor"
+    },
+    {
+     "au_id": "Figueredo%2C%20Rub%C3%A9n",
+     "name": "Figueredo, Rubén",
+     "role": "autor"
+    }
+   ],
+   "year": "2020",
+   "branch": "Biblioteca Central. Trabajos de Fin de Grado y Tesis de Postgrado",
+   "callnumber": "621.382\n \n \n ( Navegar estantería (Abre debajo)  )",
+   "orientadores": [
+    {
+     "au_id": "Juan%20Talavera",
+     "name": "Juan Talavera",
+     "role": "orientador"
+    }
+   ],
+   "matched_advisors": [
+    {
+     "name": "Juan Talavera",
+     "matched_orient": "Juan Talavera",
+     "in_people_index": true
+    }
+   ]
+  },
+  {
+   "bibnum": 606033,
+   "title": "Detección de anomalías en telecomunicaciones basada en una arquitectura big data",
+   "authors": [
+    {
+     "au_id": "Segovia%2C%20Carlos",
+     "name": "Segovia, Carlos",
+     "role": "autor"
+    },
+    {
+     "au_id": "Figueredo%2C%20Rub%C3%A9n",
+     "name": "Figueredo, Rubén",
+     "role": "autor"
+    }
+   ],
+   "year": "2020",
+   "branch": "Biblioteca Central. Trabajos de Fin de Grado y Tesis de Postgrado\n  \n \n\n \n  Colección general",
+   "callnumber": "621.382\n \n \n ( Navegar estantería (Abre debajo)  )",
+   "orientadores": [
+    {
+     "au_id": "Juan%20Talavera",
+     "name": "Juan Talavera",
+     "role": "orientador"
+    }
+   ],
+   "matched_advisors": [
+    {
+     "name": "Juan Talavera",
+     "matched_orient": "Juan Talavera",
+     "in_people_index": true
+    }
+   ]
+  },
+  {
+   "bibnum": 149708,
+   "title": "Cartografía de áreas quemadas mediante imágenes satelitales de mediana resolución espacial, en la zona norte de la Región Oriental del Paraguay",
+   "authors": [
+    {
+     "au_id": "Balbuena%20Ferreiro%2C%20C%C3%A9sar%20Omar",
+     "name": "Balbuena Ferreiro, César Omar",
+     "role": "autor"
+    }
+   ],
+   "year": "2009",
+   "branch": "Biblioteca de la Facultad de Ciencias Agrarias — Sede Central (San Lorenzo)",
+   "callnumber": "634.9618\n \n \n ( Navegar estantería (Abre debajo)  )",
+   "orientadores": [
+    {
+     "au_id": "Larissa%20Rejalaga",
+     "name": "Larissa Rejalaga",
+     "role": "orientador"
+    }
+   ],
+   "matched_advisors": [
+    {
+     "name": "Larissa Rejalaga",
+     "matched_orient": "Larissa Rejalaga",
+     "in_people_index": false
+    }
+   ]
+  },
+  {
+   "bibnum": 255772,
+   "title": "Superando la brecha cartográfica : metodologías de mapeo in situ y cartografía analítica para comunidades en áreas informales (caso Chacarita Alta)",
+   "authors": [
+    {
+     "au_id": "Britez%20Gonz%C3%A1lez%2C%20Guillermo%20Luis",
+     "name": "Britez González, Guillermo Luis",
+     "role": "autor"
+    }
+   ],
+   "year": "2019",
+   "branch": "Biblioteca Central. Trabajos de Fin de Grado y Tesis de Postgrado",
+   "callnumber": "526\n \n \n ( Navegar estantería (Abre debajo)  )",
+   "orientadores": [
+    {
+     "au_id": "Juan%20Carlos%20Cristaldo",
+     "name": "Juan Carlos Cristaldo",
+     "role": "orientador"
+    }
+   ],
+   "matched_advisors": [
+    {
+     "name": "Juan Carlos Cristaldo",
+     "matched_orient": "Juan Carlos Cristaldo",
+     "in_people_index": true
+    }
+   ]
+  },
+  {
+   "bibnum": 269012,
+   "title": "Cartografía de áreas vulnerables a incendios forestales en el parque nacional Caazapá empleando modelos combustibles",
+   "authors": [
+    {
+     "au_id": "R%C3%ADos%20Zaldivar%2C%20Macarena%20Elizabeth",
+     "name": "Ríos Zaldivar, Macarena Elizabeth",
+     "role": "autor"
+    },
+    {
+     "au_id": "Garc%C3%ADa%20Smith%2C%20Vanina%20Bel%C3%A9n",
+     "name": "García Smith, Vanina Belén",
+     "role": "autor"
+    }
+   ],
+   "year": "2022",
+   "branch": "Biblioteca Central. Trabajos de Fin de Grado y Tesis de Postgrado",
+   "callnumber": "526\n \n \n ( Navegar estantería (Abre debajo)  )",
+   "orientadores": [
+    {
+     "au_id": "Nestor%20Cabral%20Rosal%C3%ADa%20Fari%C3%B1a%20Federico%20Ferreira%20Luis%20Mor%C3%ADnigo",
+     "name": "Nestor Cabral Rosalía Fariña Federico Ferreira Luis Morínigo",
+     "role": "orientador"
+    }
+   ],
+   "matched_advisors": [
+    {
+     "name": "Federico Ferreira",
+     "matched_orient": "Nestor Cabral Rosalía Fariña Federico Ferreira Luis Morínigo",
+     "in_people_index": true
+    }
+   ]
+  },
+  {
+   "bibnum": 269890,
+   "title": "Desempeño de las pruebas serológicas hemoaglutinación e inmunofluorescencia indirecta como herramienta en el diagnóstico de la enfermedad de chagas",
+   "authors": [
+    {
+     "au_id": "Chamorro%20Correa%2C%20Luz%20Rocio",
+     "name": "Chamorro Correa, Luz Rocio",
+     "role": "autor"
+    }
+   ],
+   "year": "2022",
+   "branch": "Biblioteca Central. Trabajos de Fin de Grado y Tesis de Postgrado",
+   "callnumber": "616.9363\n \n \n ( Navegar estantería (Abre debajo)  )",
+   "orientadores": [
+    {
+     "au_id": "Leticia%20Ruffinelli%20Sara%20Benegas",
+     "name": "Leticia Ruffinelli Sara Benegas",
+     "role": "orientador"
+    }
+   ],
+   "matched_advisors": [
+    {
+     "name": "Leticia Ruffinelli Sara Benegas",
+     "matched_orient": "Leticia Ruffinelli Sara Benegas",
+     "in_people_index": false
+    }
+   ]
+  },
+  {
+   "bibnum": 261911,
+   "title": "Rol de Triatoma sordida en la transmisión de la enfermedad de Chagas en Paraguay",
+   "authors": [
+    {
+     "au_id": "S%C3%A1nchez%20Le%C3%B3n%2C%20Zunilda%20Elizabeth",
+     "name": "Sánchez León, Zunilda Elizabeth",
+     "role": "autor"
+    }
+   ],
+   "year": "2011",
+   "branch": "Biblioteca Central. Trabajos de Fin de Grado y Tesis de Postgrado",
+   "callnumber": "616.9363\n \n \n ( Navegar estantería (Abre debajo)  )",
+   "orientadores": [
+    {
+     "au_id": "Rosa%20Mar%C3%ADa%20Guill%C3%A9n%20Fretes%20Graciela%20Russomando",
+     "name": "Rosa María Guillén Fretes Graciela Russomando",
+     "role": "orientador"
+    }
+   ],
+   "matched_advisors": [
+    {
+     "name": "Rosa María Guillén Fretes Graciela Russomando",
+     "matched_orient": "Rosa María Guillén Fretes Graciela Russomando",
+     "in_people_index": false
+    }
+   ]
+  },
+  {
+   "bibnum": 262693,
+   "title": "Nivel de conocimiento de pobladores sobre la enfermedad de chagas, San José de los Arroyos, Paraguay, 2016",
+   "authors": [
+    {
+     "au_id": "Santacruz%20Mendoza%2C%20Angel%20Agustin",
+     "name": "Santacruz Mendoza, Angel Agustin",
+     "role": "autor"
+    }
+   ],
+   "year": "2016",
+   "branch": "Biblioteca Central. Trabajos de Fin de Grado y Tesis de Postgrado",
+   "callnumber": "616.9363\n \n \n ( Navegar estantería (Abre debajo)  )",
+   "orientadores": [
+    {
+     "au_id": "Juan%20Gerardo%20Candia%20Ar%C3%A9valos",
+     "name": "Juan Gerardo Candia Arévalos",
+     "role": "orientador"
+    }
+   ],
+   "matched_advisors": [
+    {
+     "name": "Juan Gerardo Candia Arévalos",
+     "matched_orient": "Juan Gerardo Candia Arévalos",
+     "in_people_index": false
+    }
+   ]
+  },
+  {
+   "bibnum": 262875,
+   "title": "Conocimiento de pobladores sobre enfermedad de chagas, Tacuara, San Estanislao, San Pedro - Paraguay, 2015",
+   "authors": [
+    {
+     "au_id": "G%C3%B3mez%20Mieres%2C%20Liz%20Gabriela",
+     "name": "Gómez Mieres, Liz Gabriela",
+     "role": "autor"
+    }
+   ],
+   "year": "2015",
+   "branch": "Biblioteca Central. Trabajos de Fin de Grado y Tesis de Postgrado",
+   "callnumber": "616.9363\n \n \n ( Navegar estantería (Abre debajo)  )",
+   "orientadores": [
+    {
+     "au_id": "Shirley%20Beatr%C3%ADz%20Speranza%20de%20Gim%C3%A9nez",
+     "name": "Shirley Beatríz Speranza de Giménez",
+     "role": "orientador"
+    }
+   ],
+   "matched_advisors": [
+    {
+     "name": "Shirley Beatríz Speranza de Giménez",
+     "matched_orient": "Shirley Beatríz Speranza de Giménez",
+     "in_people_index": true
+    }
+   ]
+  },
+  {
+   "bibnum": 264571,
+   "title": "&lt;Un&gt; enfoque distribuido para la conversión de circuitos cuánticos a la arquitectura LNN",
+   "authors": [
+    {
+     "au_id": "Meza%20F.%2C%20Edgar%20I.",
+     "name": "Meza F., Edgar I",
+     "role": "autor"
+    },
+    {
+     "au_id": "Fern%C3%A1ndez%20C.%2C%20Joni",
+     "name": "Fernández C., Joni",
+     "role": "autor"
+    }
+   ],
+   "year": "2016",
+   "branch": "Biblioteca Central. Trabajos de Fin de Grado y Tesis de Postgrado",
+   "callnumber": "001.64\n \n \n ( Navegar estantería (Abre debajo)  )",
+   "orientadores": [
+    {
+     "au_id": "Benjam%C3%ADn%20Bar%C3%A1n%20Cegla%20Joaqu%C3%ADn%20Lima",
+     "name": "Benjamín Barán Cegla Joaquín Lima",
+     "role": "orientador"
+    }
+   ],
+   "matched_advisors": [
+    {
+     "name": "Benjamín Barán Cegla Joaquín Lima",
+     "matched_orient": "Benjamín Barán Cegla Joaquín Lima",
+     "in_people_index": true
+    }
+   ]
+  },
+  {
+   "bibnum": 268512,
+   "title": "Evaluación del desempeño de PCA con dispersión espectral",
+   "authors": [
+    {
+     "au_id": "Bueno%20Knoop%2C%20Ricardo%20Enrique",
+     "name": "Bueno Knoop, Ricardo Enrique",
+     "role": "autor"
+    }
+   ],
+   "year": "2024",
+   "branch": "Biblioteca Central. Trabajos de Fin de Grado y Tesis de Postgrado",
+   "callnumber": "001.64\n \n \n ( Navegar estantería (Abre debajo)  )",
+   "orientadores": [
+    {
+     "au_id": "Marcos%20Villagra",
+     "name": "Marcos Villagra",
+     "role": "orientador"
+    }
+   ],
+   "matched_advisors": [
+    {
+     "name": "Villagra",
+     "matched_orient": "Marcos Villagra",
+     "in_people_index": true
+    }
+   ]
+  },
+  {
+   "bibnum": 611552,
+   "title": "Evaluación del desempeño de PCA con dispersión espectral",
+   "authors": [
+    {
+     "au_id": "Bueno%20Knoop%2C%20Ricardo%20Enrique",
+     "name": "Bueno Knoop, Ricardo Enrique",
+     "role": "autor"
+    }
+   ],
+   "year": "2024",
+   "branch": "Biblioteca Central. Trabajos de Fin de Grado y Tesis de Postgrado\n  \n \n\n \n  Colección general",
+   "callnumber": "001.64 B862e\n \n \n ( Navegar estantería (Abre debajo)  )",
+   "orientadores": [
+    {
+     "au_id": "Marcos%20Villagra",
+     "name": "Marcos Villagra",
+     "role": "orientador"
+    }
+   ],
+   "matched_advisors": [
+    {
+     "name": "Villagra",
+     "matched_orient": "Marcos Villagra",
+     "in_people_index": true
+    }
+   ]
+  },
+  {
+   "bibnum": 605818,
+   "title": "&lt;Un&gt; enfoque distribuido para la conversión de circuitos cuánticos a la arquitectura LNN",
+   "authors": [
+    {
+     "au_id": "Meza%20F.%2C%20Edgar%20I.",
+     "name": "Meza F., Edgar I",
+     "role": "autor"
+    },
+    {
+     "au_id": "Fern%C3%A1ndez%20C.%2C%20Joni",
+     "name": "Fernández C., Joni",
+     "role": "autor"
+    }
+   ],
+   "year": "2016",
+   "branch": "Biblioteca Central. Trabajos de Fin de Grado y Tesis de Postgrado\n  \n \n\n \n  Colección general",
+   "callnumber": "001.64\n \n \n ( Navegar estantería (Abre debajo)  )",
+   "orientadores": [
+    {
+     "au_id": "Benjam%C3%ADn%20Bar%C3%A1n%20Cegla",
+     "name": "Benjamín Barán Cegla",
+     "role": "orientador"
+    },
+    {
+     "au_id": "Joaqu%C3%ADn%20Lima",
+     "name": "Joaquín Lima",
+     "role": "orientador"
+    }
+   ],
+   "matched_advisors": [
+    {
+     "name": "Benjamín Barán Cegla Joaquín Lima",
+     "matched_orient": "Benjamín Barán Cegla",
+     "in_people_index": true
+    },
+    {
+     "name": "Benjamín Barán Cegla Joaquín Lima",
+     "matched_orient": "Joaquín Lima",
+     "in_people_index": true
+    }
+   ]
+  },
+  {
+   "bibnum": 183074,
+   "title": "Construcción de un dataset de eucaliptos a partir de imágenes aéreas y su análisis mediante DEEP Learning",
+   "authors": [
+    {
+     "au_id": "Ben%C3%ADtez%20Ver%C3%B3n%2C%20Jos%C3%A9%20Luis",
+     "name": "Benítez Verón, José Luis",
+     "role": "autor"
+    },
+    {
+     "au_id": "Murto%20Gonz%C3%A1lez%2C%20Jos%C3%A9%20Manuel",
+     "name": "Murto González, José Manuel",
+     "role": "autor"
+    }
+   ],
+   "year": "2023",
+   "branch": "Biblioteca FPUNA (Centro de Información y Cultura)",
+   "callnumber": "II0202\n \n \n ( Navegar estantería (Abre debajo)  )",
+   "orientadores": [
+    {
+     "au_id": "Christian%20Daniel",
+     "name": "Christian Daniel",
+     "role": "orientador"
+    },
+    {
+     "au_id": "Von%20Lucken%20Mart%C3%ADnez",
+     "name": "Von Lucken Martínez",
+     "role": "orientador"
+    }
+   ],
+   "matched_advisors": [
+    {
+     "name": "Christian",
+     "matched_orient": "Christian Daniel",
+     "in_people_index": true
+    },
+    {
+     "name": "Von Lucken Martínez",
+     "matched_orient": "Von Lucken Martínez",
+     "in_people_index": false
+    }
+   ]
+  },
+  {
+   "bibnum": 183091,
+   "title": "Construcción de un dataset de eucaliptos a partir de imágenes aéreas y su análisis mediante DEEP Learning",
+   "authors": [
+    {
+     "au_id": "Ben%C3%ADtez%20Ver%C3%B3n%2C%20Jos%C3%A9%20Luis",
+     "name": "Benítez Verón, José Luis",
+     "role": "autor"
+    },
+    {
+     "au_id": "Murto%20Gonz%C3%A1lez%2C%20Jose%20Manuel",
+     "name": "Murto González, Jose Manuel",
+     "role": "autor"
+    }
+   ],
+   "year": "2023",
+   "branch": "Biblioteca FPUNA (Centro de Información y Cultura)",
+   "callnumber": "IIO202\n \n \n ( Navegar estantería (Abre debajo)  )",
+   "orientadores": [
+    {
+     "au_id": "Christian%20Dabiel",
+     "name": "Christian Dabiel",
+     "role": "orientador"
+    },
+    {
+     "au_id": "Von%20Lucken%20Martinez",
+     "name": "Von Lucken Martinez",
+     "role": "orientador"
+    }
+   ],
+   "matched_advisors": [
+    {
+     "name": "Christian Dabiel",
+     "matched_orient": "Christian Dabiel",
+     "in_people_index": true
+    },
+    {
+     "name": "Von Lucken Martinez",
+     "matched_orient": "Von Lucken Martinez",
+     "in_people_index": true
+    }
+   ]
+  },
+  {
+   "bibnum": 183168,
+   "title": "Utilización de realidad virtual para el entrenamiento de la inteligencia artificial de un brazo robótico virtual utilizando técnicas de deep learning.",
+   "authors": [
+    {
+     "au_id": "Lena%20Cadenasso%2C%20Sebasti%C3%A1n",
+     "name": "Lena Cadenasso, Sebastián",
+     "role": "autor"
+    }
+   ],
+   "year": "2023",
+   "branch": "Biblioteca FPUNA (Centro de Información y Cultura)",
+   "callnumber": "II0191\n \n \n ( Navegar estantería (Abre debajo)  )",
+   "orientadores": [
+    {
+     "au_id": "Christian",
+     "name": "Christian",
+     "role": "orientador"
+    },
+    {
+     "au_id": "Von%20L%C3%BCcken",
+     "name": "Von Lücken",
+     "role": "orientador"
+    }
+   ],
+   "matched_advisors": [
+    {
+     "name": "Christian von Lücken",
+     "matched_orient": "Christian",
+     "in_people_index": true
+    },
+    {
+     "name": "Christian von Lücken",
+     "matched_orient": "Von Lücken",
+     "in_people_index": true
+    }
+   ]
+  },
+  {
+   "bibnum": 267200,
+   "title": "Diseño de un modelo de deep learning basado en la arquitectura temporal fusion transformer para la predicción horaria a corto plazo de la demanda eléctrica nacional",
+   "authors": [
+    {
+     "au_id": "Aguilar%20Velazco%2C%20Silvio%20Jos%C3%A9",
+     "name": "Aguilar Velazco, Silvio José",
+     "role": "autor"
+    },
+    {
+     "au_id": "Vargas%20Garc%C3%ADa%2C%20Santiago%20Dionisio",
+     "name": "Vargas García, Santiago Dionisio",
+     "role": "autor"
+    }
+   ],
+   "year": "2023",
+   "branch": "Biblioteca Central. Trabajos de Fin de Grado y Tesis de Postgrado",
+   "callnumber": "005.13\n \n \n ( Navegar estantería (Abre debajo)  )",
+   "orientadores": [
+    {
+     "au_id": "Diego%20Stalder%20Carlos%20Sauer%20F%C3%A9lix%20Morales",
+     "name": "Diego Stalder Carlos Sauer Félix Morales",
+     "role": "orientador"
+    }
+   ],
+   "matched_advisors": [
+    {
+     "name": "Diego Stalder Carlos Sauer Félix Morales",
+     "matched_orient": "Diego Stalder Carlos Sauer Félix Morales",
+     "in_people_index": true
+    }
+   ]
+  },
+  {
+   "bibnum": 268616,
+   "title": "Utilización de realidad virtual para el entrenamiento de la inteligencia artificial de un brazo robótico virtual utilizando técnicas de deep learning",
+   "authors": [
+    {
+     "au_id": "Lena%20Cadenasso%2C%20Sebasti%C3%A1n",
+     "name": "Lena Cadenasso, Sebastián",
+     "role": "autor"
+    }
+   ],
+   "year": "2023",
+   "branch": "Biblioteca Central. Trabajos de Fin de Grado y Tesis de Postgrado",
+   "callnumber": "629.892\n \n \n ( Navegar estantería (Abre debajo)  )",
+   "orientadores": [
+    {
+     "au_id": "Christian%20Von%20L%C3%BCcken",
+     "name": "Christian Von Lücken",
+     "role": "orientador"
+    }
+   ],
+   "matched_advisors": [
+    {
+     "name": "Christian von Lücken",
+     "matched_orient": "Christian Von Lücken",
+     "in_people_index": true
+    }
+   ]
+  },
+  {
+   "bibnum": 268633,
+   "title": "Construcción de un dataset de eucaliptos a partir de imágenes aéreas y su análisis mediante deep learning",
+   "authors": [
+    {
+     "au_id": "Ben%C3%ADtez%20Ver%C3%B3n%2C%20Jos%C3%A9%20Luis",
+     "name": "Benítez Verón, José Luis",
+     "role": "autor"
+    },
+    {
+     "au_id": "Murto%20Gonz%C3%A1lez%2C%20Jos%C3%A9%20Manuel",
+     "name": "Murto González, José Manuel",
+     "role": "autor"
+    }
+   ],
+   "year": "2023",
+   "branch": "Biblioteca Central. Trabajos de Fin de Grado y Tesis de Postgrado",
+   "callnumber": "004.0151\n \n \n ( Navegar estantería (Abre debajo)  )",
+   "orientadores": [
+    {
+     "au_id": "Christian%20Von%20L%C3%BCcken",
+     "name": "Christian Von Lücken",
+     "role": "orientador"
+    }
+   ],
+   "matched_advisors": [
+    {
+     "name": "Christian von Lücken",
+     "matched_orient": "Christian Von Lücken",
+     "in_people_index": true
+    }
+   ]
+  },
+  {
+   "bibnum": 270131,
+   "title": "Deep learning aplicado a la identificación de muones del experimento CONNIE",
+   "authors": [
+    {
+     "au_id": "Bernal%20Sigala%2C%20Javier%20Alberto",
+     "name": "Bernal Sigala, Javier Alberto",
+     "role": "autor"
+    }
+   ],
+   "year": "2021",
+   "branch": "Biblioteca Central. Trabajos de Fin de Grado y Tesis de Postgrado",
+   "callnumber": "005.13\n \n \n ( Navegar estantería (Abre debajo)  )",
+   "orientadores": [
+    {
+     "au_id": "Diego%20Stalder%20Jorge%20Molina",
+     "name": "Diego Stalder Jorge Molina",
+     "role": "orientador"
+    }
+   ],
+   "matched_advisors": [
+    {
+     "name": "Diego Stalder Jorge Molina",
+     "matched_orient": "Diego Stalder Jorge Molina",
+     "in_people_index": true
+    }
+   ]
+  },
+  {
+   "bibnum": 271576,
+   "title": "Detección temprana del cáncer de mamas con inteligencia artificial y técnicas basadas en algoritmos de deep learning",
+   "authors": [
+    {
+     "au_id": "Lezcano%20Romero%2C%20Miguel%20Angel%20Mar%C3%ADa",
+     "name": "Lezcano Romero, Miguel Angel María",
+     "role": "autor"
+    }
+   ],
+   "year": "2020",
+   "branch": "Biblioteca Central. Trabajos de Fin de Grado y Tesis de Postgrado",
+   "callnumber": "618.19\n \n \n ( Navegar estantería (Abre debajo)  )",
+   "orientadores": [
+    {
+     "au_id": "Mirta%20Mor%C3%A1n",
+     "name": "Mirta Morán",
+     "role": "orientador"
+    }
+   ],
+   "matched_advisors": [
+    {
+     "name": "Mirta Morán",
+     "matched_orient": "Mirta Morán",
+     "in_people_index": true
+    }
+   ]
+  },
+  {
+   "bibnum": 271749,
+   "title": "Utilización de deep learning y software de simulación de movilidad urbana para la predicción de variables del tráfico en la zona de Ybera - San Lorenzo",
+   "authors": [
+    {
+     "au_id": "Mart%C3%ADnez%20Mart%C3%ADnez%2C%20Elvia%20Patricia",
+     "name": "Martínez Martínez, Elvia Patricia",
+     "role": "autor"
+    },
+    {
+     "au_id": "Gamarra%2C%20Walter%20Guillermo%20Daniel",
+     "name": "Gamarra, Walter Guillermo Daniel",
+     "role": "autor"
+    }
+   ],
+   "year": "2020",
+   "branch": "Biblioteca Central. Trabajos de Fin de Grado y Tesis de Postgrado",
+   "callnumber": "001.535\n \n \n ( Navegar estantería (Abre debajo)  )",
+   "orientadores": [
+    {
+     "au_id": "Derlis%20Gregor%20Kevin%20Cikel%20Jos%C3%A9%20Colber%20Aurora%20N%C3%BA%C3%B1ez",
+     "name": "Derlis Gregor Kevin Cikel José Colber Aurora Núñez",
+     "role": "orientador"
+    }
+   ],
+   "matched_advisors": [
+    {
+     "name": "Derlis Gregor Kevin Cikel José Colber Aurora Núñez",
+     "matched_orient": "Derlis Gregor Kevin Cikel José Colber Aurora Núñez",
+     "in_people_index": true
+    }
+   ]
+  },
+  {
+   "bibnum": 612757,
+   "title": "Diseño de un modelo de deep learning basado en la arquitectura temporal fusion transformer para la predicción horaria a corto plazo de la demanda eléctrica nacional",
+   "authors": [
+    {
+     "au_id": "Aguilar%20Velazco%2C%20Silvio%20Jos%C3%A9",
+     "name": "Aguilar Velazco, Silvio José",
+     "role": "autor"
+    },
+    {
+     "au_id": "Vargas%20Garc%C3%ADa%2C%20Santiago%20Dionisio",
+     "name": "Vargas García, Santiago Dionisio",
+     "role": "autor"
+    }
+   ],
+   "year": "2023",
+   "branch": "Biblioteca Central. Trabajos de Fin de Grado y Tesis de Postgrado\n  \n \n\n \n  Colección general",
+   "callnumber": "005.13 Ag93d\n \n \n ( Navegar estantería (Abre debajo)  )",
+   "orientadores": [
+    {
+     "au_id": "Diego%20Stalder",
+     "name": "Diego Stalder",
+     "role": "orientador"
+    },
+    {
+     "au_id": "Carlos%20Sauer",
+     "name": "Carlos Sauer",
+     "role": "orientador"
+    },
+    {
+     "au_id": "F%C3%A9lix%20Morales",
+     "name": "Félix Morales",
+     "role": "orientador"
+    }
+   ],
+   "matched_advisors": [
+    {
+     "name": "Diego Pinto Max Pasten Diego Stalder",
+     "matched_orient": "Diego Stalder",
+     "in_people_index": true
+    },
+    {
+     "name": "Diego Stalder Carlos Sauer Félix Morales",
+     "matched_orient": "Carlos Sauer",
+     "in_people_index": true
+    },
+    {
+     "name": "Diego Stalder Carlos Sauer Félix Morales",
+     "matched_orient": "Félix Morales",
+     "in_people_index": true
+    }
+   ]
+  },
+  {
+   "bibnum": 611470,
+   "title": "Utilización de realidad virtual para el entrenamiento de la inteligencia artificial de un brazo robótico virtual utilizando técnicas de deep learning",
+   "authors": [
+    {
+     "au_id": "Lena%20Cadenasso%2C%20Sebasti%C3%A1n",
+     "name": "Lena Cadenasso, Sebastián",
+     "role": "autor"
+    }
+   ],
+   "year": "2023",
+   "branch": "Biblioteca Central. Trabajos de Fin de Grado y Tesis de Postgrado\n  \n \n\n \n  Colección general",
+   "callnumber": "629.892 L545u\n \n \n ( Navegar estantería (Abre debajo)  )",
+   "orientadores": [
+    {
+     "au_id": "Christian%20Von%20L%C3%BCcken",
+     "name": "Christian Von Lücken",
+     "role": "orientador"
+    }
+   ],
+   "matched_advisors": [
+    {
+     "name": "Christian von Lücken",
+     "matched_orient": "Christian Von Lücken",
+     "in_people_index": true
+    }
+   ]
+  }
+ ],
+ "no_match_sample_50": [
+  {
+   "bibnum": 446720,
+   "title": "Sistema de Gestión Dental",
+   "year": "2014",
+   "branch": "Biblioteca FPUNA Coronel Oviedo\n  \n \n\n \n  Colección general",
+   "authors": [
+    {
+     "au_id": "Gonz%C3%A1lez%20Bruno%2C%20Luis%20Alberto",
+     "name": "González Bruno, Luis Alberto",
+     "role": "autor"
+    }
+   ]
+  },
+  {
+   "bibnum": 182081,
+   "title": "Hotel Casino San Bernardino",
+   "year": "2012",
+   "branch": "Biblioteca FPUNA (Centro de Información y Cultura)",
+   "authors": [
+    {
+     "au_id": "Lezcano%20Meaurio%2C%20Vanina%20Elizabeth",
+     "name": "Lezcano Meaurio, Vanina Elizabeth",
+     "role": "autor"
+    }
+   ]
+  },
+  {
+   "bibnum": 182197,
+   "title": "Roma : ayer, hoy",
+   "year": "2003",
+   "branch": "Biblioteca FPUNA (Centro de Información y Cultura)",
+   "authors": [
+    {
+     "au_id": "Pereira%20Ayala%2C%20Zunilda%20Ignacia",
+     "name": "Pereira Ayala, Zunilda Ignacia",
+     "role": "autor"
+    }
+   ]
+  },
+  {
+   "bibnum": 182207,
+   "title": "Historia Naval del Paraguay",
+   "year": "2000",
+   "branch": "Biblioteca FPUNA (Centro de Información y Cultura)",
+   "authors": [
+    {
+     "au_id": "Izquierdo%2C%20C%C3%A9sar%20Alberto",
+     "name": "Izquierdo, César Alberto",
+     "role": "autor"
+    }
+   ]
+  },
+  {
+   "bibnum": 182209,
+   "title": "Syswork comunicaciones PC/AS400",
+   "year": "2002",
+   "branch": "Biblioteca FPUNA (Centro de Información y Cultura)",
+   "authors": [
+    {
+     "au_id": "Caballero%20Grance%2C%20Jorge%20Alberto",
+     "name": "Caballero Grance, Jorge Alberto",
+     "role": "autor"
+    }
+   ]
+  },
+  {
+   "bibnum": 182210,
+   "title": "Virtual tutor",
+   "year": "2001",
+   "branch": "Biblioteca FPUNA (Centro de Información y Cultura)",
+   "authors": [
+    {
+     "au_id": "Colm%C3%A1n%20Irala%2C%20Edgar%20A.",
+     "name": "Colmán Irala, Edgar A",
+     "role": "autor"
+    }
+   ]
+  },
+  {
+   "bibnum": 182213,
+   "title": "Astro Tutor",
+   "year": "2000",
+   "branch": "Biblioteca FPUNA (Centro de Información y Cultura)",
+   "authors": [
+    {
+     "au_id": "Robles%2C%20Jorge%20Luis%20%2F%20Dur%C3%A9%2C%20V%C3%ADctor",
+     "name": "Robles, Jorge Luis / Duré, Víctor",
+     "role": "autor"
+    }
+   ]
+  },
+  {
+   "bibnum": 182223,
+   "title": "\"UsWORLD - Mapamundi\"",
+   "year": "1996",
+   "branch": "Biblioteca FPUNA (Centro de Información y Cultura)",
+   "authors": [
+    {
+     "au_id": "Ramos%20Gimenez%2C%20Miguel%20Angel",
+     "name": "Ramos Gimenez, Miguel Angel",
+     "role": "autor"
+    }
+   ]
+  },
+  {
+   "bibnum": 182224,
+   "title": "Sistema de gestión académica \"Scholar\"",
+   "year": "2007",
+   "branch": "Biblioteca FPUNA (Centro de Información y Cultura)",
+   "authors": [
+    {
+     "au_id": "Kulman%2C%20Felicito%20Hermosa",
+     "name": "Kulman, Felicito Hermosa",
+     "role": "autor"
+    }
+   ]
+  },
+  {
+   "bibnum": 182309,
+   "title": "Sibaris Bistró",
+   "year": "2021",
+   "branch": "Biblioteca FPUNA (Centro de Información y Cultura)",
+   "authors": [
+    {
+     "au_id": "Cabrera%20Gonz%C3%A1lez%2C%20Carmen",
+     "name": "Cabrera González, Carmen",
+     "role": "autor"
+    }
+   ]
+  },
+  {
+   "bibnum": 182628,
+   "title": "Bautistas en el Paraguay",
+   "year": "2002",
+   "branch": "Biblioteca FPUNA (Centro de Información y Cultura)",
+   "authors": [
+    {
+     "au_id": "Sozko%2C%20Pablo",
+     "name": "Sozko, Pablo",
+     "role": "autor"
+    }
+   ]
+  },
+  {
+   "bibnum": 182639,
+   "title": "Planner",
+   "year": "1995",
+   "branch": "Biblioteca FPUNA (Centro de Información y Cultura)",
+   "authors": [
+    {
+     "au_id": "Colm%C3%A1n%20Barbosa%2C%20Dalila",
+     "name": "Colmán Barbosa, Dalila",
+     "role": "autor"
+    }
+   ]
+  },
+  {
+   "bibnum": 182656,
+   "title": "Sistema de estatuto",
+   "year": "2002",
+   "branch": "Biblioteca FPUNA (Centro de Información y Cultura)",
+   "authors": [
+    {
+     "au_id": "Cabrera%2C%20Celia",
+     "name": "Cabrera, Celia",
+     "role": "autor"
+    }
+   ]
+  },
+  {
+   "bibnum": 182658,
+   "title": "Sistema de cuentos infantiles SCI",
+   "year": "2002",
+   "branch": "Biblioteca FPUNA (Centro de Información y Cultura)",
+   "authors": [
+    {
+     "au_id": "Carballo%20Valdez%2C%20Rogelia%20Elizabeth",
+     "name": "Carballo Valdez, Rogelia Elizabeth",
+     "role": "autor"
+    }
+   ]
+  },
+  {
+   "bibnum": 182667,
+   "title": "Sistema gerenciador de pedidos \"S.G.P.\"",
+   "year": "2008",
+   "branch": "Biblioteca FPUNA (Centro de Información y Cultura)",
+   "authors": [
+    {
+     "au_id": "Mart%C3%ADnez%20Acevedo%2C%20Edgar%20Wilfrido",
+     "name": "Martínez Acevedo, Edgar Wilfrido",
+     "role": "autor"
+    }
+   ]
+  },
+  {
+   "bibnum": 183200,
+   "title": "Sistema de gestion academica ACASYS",
+   "year": "2022",
+   "branch": "Biblioteca FPUNA (Centro de Información y Cultura)",
+   "authors": [
+    {
+     "au_id": "Facultad%20Polit%C3%A9cnica",
+     "name": "Facultad Politécnica",
+     "role": "autor"
+    }
+   ]
+  },
+  {
+   "bibnum": 247873,
+   "title": "Actividad larvicida de extractos de cuatro especies vegetales sobre aedes aegypti",
+   "year": "2021",
+   "branch": "Biblioteca de la Facultad de Ciencias Químicas — Sede Central (San Lorenzo)",
+   "authors": [
+    {
+     "au_id": "Ojeda%20Oviedo%2CCristhian%20Antolin.",
+     "name": "Ojeda Oviedo,Cristhian Antolin",
+     "role": "autor"
+    }
+   ]
+  },
+  {
+   "bibnum": 249518,
+   "title": "Determinación de la efectividad del uso de productos naturales en insecticidas de espirales contra mosquitos de la especie aedes aegypti",
+   "year": "2010",
+   "branch": "Biblioteca de la Facultad de Ciencias Químicas — Sede Central (San Lorenzo)",
+   "authors": [
+    {
+     "au_id": "Irala%20Pe%C3%B1a%2C%20Liz%20Marlene",
+     "name": "Irala Peña, Liz Marlene",
+     "role": "autor"
+    }
+   ]
+  },
+  {
+   "bibnum": 273623,
+   "title": "Safety assessment of trangenic organisms en the Environment volume 8 OECD consensus document of the biology of mosquito aedes aegypti",
+   "year": "2018",
+   "branch": "Biblioteca e Internet FACEN",
+   "authors": []
+  },
+  {
+   "bibnum": 518411,
+   "title": "Safety assessment of trangenic organisms en the Environment volume 8 OECD consensus document of the biology of mosquito aedes aegypti",
+   "year": "2018",
+   "branch": "Biblioteca e Internet FACEN\n  \n \n\n \n  Colección general",
+   "authors": []
+  },
+  {
+   "bibnum": 245487,
+   "title": "Manual de normas técnicas y operativas para el control del Aedes Aegypti en Paraguay",
+   "year": "2002",
+   "branch": "Biblioteca de la Facultad de Ciencias Médicas",
+   "authors": [
+    {
+     "au_id": "Paraguay.%20Ministerio%20de%20Salud%20P%C3%BAblica%20y%20Bienestar%20Social.%20Servicio%20Nacional%20de%20Erradicaci%C3%B3n%20del%20Paludismo%20-%20SENEPA%20-",
+     "name": "Paraguay. Ministerio de Salud Pública y Bienestar Social. Servicio Nacional de Erradicación del Paludismo - SENEPA -",
+     "role": "autor"
+    }
+   ]
+  },
+  {
+   "bibnum": 274153,
+   "title": "Evaluacion de la Resistencia de temefos en larvas de Aedes Aegypti procedentes del municipio de Fernando de la Mora - Zona sur",
+   "year": "2022",
+   "branch": "Biblioteca e Internet FACEN",
+   "authors": [
+    {
+     "au_id": "Valle%20Albrecht%2C%20Lidia%20Arami",
+     "name": "Valle Albrecht, Lidia Arami",
+     "role": "autor"
+    }
+   ]
+  },
+  {
+   "bibnum": 274388,
+   "title": "Actividad larvicida del extracto etanólico de Dysphania ambrosioides (L) \"Ka'are\" Mosyakin &amp; Clemants sobre larvas de Aedes aegypti (L)",
+   "year": "2018",
+   "branch": "Biblioteca e Internet FACEN",
+   "authors": [
+    {
+     "au_id": "Britos%20Molinas%2C%20Milena%20Beatr%C3%ADz",
+     "name": "Britos Molinas, Milena Beatríz",
+     "role": "autor"
+    }
+   ]
+  },
+  {
+   "bibnum": 519237,
+   "title": "Evaluacion de la Resistencia de temefos en larvas de Aedes Aegypti procedentes del municipio de Fernando de la Mora - Zona sur",
+   "year": "2022",
+   "branch": "Biblioteca e Internet FACEN\n  \n \n\n \n  Colección general",
+   "authors": [
+    {
+     "au_id": "Valle%20Albrecht%2C%20Lidia%20Arami",
+     "name": "Valle Albrecht, Lidia Arami",
+     "role": "autor"
+    }
+   ]
+  },
+  {
+   "bibnum": 518446,
+   "title": "Actividad larvicida del extracto etanólico de Dysphania ambrosioides (L) \"Ka'are\" Mosyakin &amp; Clemants sobre larvas de Aedes aegypti (L)",
+   "year": "2018",
+   "branch": "Biblioteca e Internet FACEN\n  \n \n\n \n  Colección general",
+   "authors": [
+    {
+     "au_id": "Britos%20Molinas%2C%20Milena%20Beatr%C3%ADz",
+     "name": "Britos Molinas, Milena Beatríz",
+     "role": "autor"
+    }
+   ]
+  },
+  {
+   "bibnum": 547102,
+   "title": "Actividad larvicida de extractos de cuatro especies vegetales sobre aedes aegypti  Cristhian Antolin Ojeda Oviedo",
+   "year": "2021",
+   "branch": "Biblioteca de la Facultad de Ciencias Químicas — Sede Central (San Lorenzo)\n  \n \n\n \n  Colección general",
+   "authors": [
+    {
+     "au_id": "Ojeda%20Oviedo%2CCristhian%20Antolin.",
+     "name": "Ojeda Oviedo,Cristhian Antolin",
+     "role": "autor"
+    }
+   ]
+  },
+  {
+   "bibnum": 545444,
+   "title": "Determinación de la efectividad del uso de productos naturales en insecticidas de espirales contra mosquitos de la especie aedes aegypti  Liz Marlene Irala Peña",
+   "year": "2010",
+   "branch": "Biblioteca de la Facultad de Ciencias Químicas — Sede Central (San Lorenzo)\n  \n \n\n \n  Colección general",
+   "authors": [
+    {
+     "au_id": "Irala%20Pe%C3%B1a%2C%20Liz%20Marlene",
+     "name": "Irala Peña, Liz Marlene",
+     "role": "autor"
+    }
+   ]
+  },
+  {
+   "bibnum": 548330,
+   "title": "Bioensayos en laboratorio de pinturas insecticidas con propoxur y transflutrina sobre poblaciones de Aedes Aegypti de un municipio del departamento central, paraguay  Liz karina Cabrera Espinola",
+   "year": "2025",
+   "branch": "Biblioteca de la Facultad de Ciencias Químicas — Sede Central (San Lorenzo)\n  \n \n\n \n  Referencia",
+   "authors": [
+    {
+     "au_id": "Cabrera%20Espinola%2C%20Liz%20karina",
+     "name": "Cabrera Espinola, Liz karina",
+     "role": "autor"
+    }
+   ]
+  },
+  {
+   "bibnum": 654242,
+   "title": "Evalaución por bioensayo de pinturas con insecticidas microencapsulados frente a cepas de mosquitos aedes aegypti del departamento central, paraguay  Hanahi Benegas Ujiie",
+   "year": "2025",
+   "branch": "Biblioteca FPUNA",
+   "authors": [
+    {
+     "au_id": "Benegas%20Ujiie%2C%20Hanahi",
+     "name": "Benegas Ujiie, Hanahi",
+     "role": "autor"
+    }
+   ]
+  },
+  {
+   "bibnum": 337588,
+   "title": "Efectos de variables meteorológicas sobre el aumento de enfermedades por el Aedes aegypti.  Alejandro Max Pasten; Maria Sol Benitez; Meteorologos; co-investigadores",
+   "year": "",
+   "branch": "Archivo de Investigación de la Dirección General de Investigación Científica y Tecnológica",
+   "authors": [
+    {
+     "au_id": "Armoa%20Ca%C3%B1ete%2C%20Jorge%20Concepcion",
+     "name": "Armoa Cañete, Jorge Concepcion",
+     "role": "autor"
+    }
+   ]
+  },
+  {
+   "bibnum": 242079,
+   "title": "Aspectos Bioèticos y Jurìdicos de Big Data en Salud.  Con CD",
+   "year": "2018",
+   "branch": "Biblioteca de la Facultad de Ciencias Médicas",
+   "authors": [
+    {
+     "au_id": "Alvarenga%2CNoelia%20Beatriz.",
+     "name": "Alvarenga,Noelia Beatriz",
+     "role": "autor"
+    }
+   ]
+  },
+  {
+   "bibnum": 273197,
+   "title": "En las entrañas del Big data: una aproximación a la estadistica",
+   "year": "2019",
+   "branch": "Biblioteca e Internet FACEN",
+   "authors": [
+    {
+     "au_id": "Lahoz%20-%20Beltra%2C%20Rafael",
+     "name": "Lahoz - Beltra, Rafael",
+     "role": "autor"
+    }
+   ]
+  },
+  {
+   "bibnum": 519149,
+   "title": "En las entrañas del Big data: una aproximación a la estadistica",
+   "year": "2019",
+   "branch": "Biblioteca e Internet FACEN\n  \n \n\n \n  Colección general",
+   "authors": [
+    {
+     "au_id": "Lahoz%20-%20Beltra%2C%20Rafael",
+     "name": "Lahoz - Beltra, Rafael",
+     "role": "autor"
+    }
+   ]
+  },
+  {
+   "bibnum": 183957,
+   "title": "Investigación de mercados  traducción Enrique C. Mercado González, revisión técnica María de los ángeles Ramos Solano",
+   "year": "2016",
+   "branch": "Biblioteca FPUNA (Centro de Información y Cultura)",
+   "authors": [
+    {
+     "au_id": "McDaniel%2C%20Carl%20%2F%20Gates%2C%20Roger",
+     "name": "McDaniel, Carl / Gates, Roger",
+     "role": "autor"
+    }
+   ]
+  },
+  {
+   "bibnum": 279963,
+   "title": "Investigación de mercados  Roger Gates; traducido por Enrique C. Mercado González ; revisado por María de los Angeles Ramos Solano",
+   "year": "2016",
+   "branch": "Biblioteca Central de la Universidad Nacional de Asunción",
+   "authors": [
+    {
+     "au_id": "McDaniel%20Jr.%2C%20Carl",
+     "name": "McDaniel Jr., Carl",
+     "role": "autor"
+    }
+   ]
+  },
+  {
+   "bibnum": 503274,
+   "title": "ESCRITO A MAQUINA",
+   "year": "2014",
+   "branch": "Biblioteca de la Facultad de Ciencias Sociales\n  \n \n\n \n  Colección general",
+   "authors": [
+    {
+     "au_id": "LUDWIG%20WITTGNSTEIN",
+     "name": "LUDWIG WITTGNSTEIN",
+     "role": "autor"
+    }
+   ]
+  },
+  {
+   "bibnum": 571480,
+   "title": "Investigación de mercados  Roger Gates; traducido por Enrique C. Mercado González ; revisado por María de los Angeles Ramos Solano",
+   "year": "2016",
+   "branch": "Biblioteca Central de la Universidad Nacional de Asunción\n  \n \n\n \n  Colección general",
+   "authors": [
+    {
+     "au_id": "McDaniel%20Jr.%2C%20Carl",
+     "name": "McDaniel Jr., Carl",
+     "role": "autor"
+    }
+   ]
+  },
+  {
+   "bibnum": 640954,
+   "title": "Investigación de mercados  traducción Enrique C. Mercado González, revisión técnica María de los ángeles Ramos Solano",
+   "year": "2016",
+   "branch": "Biblioteca FPUNA (Centro de Información y Cultura)\n  \n \n\n \n  Colección general",
+   "authors": [
+    {
+     "au_id": "McDaniel%2C%20Carl",
+     "name": "McDaniel, Carl",
+     "role": "autor"
+    },
+    {
+     "au_id": "Gates%2C%20Roger",
+     "name": "Gates, Roger",
+     "role": "autor"
+    }
+   ]
+  },
+  {
+   "bibnum": 182752,
+   "title": "Certificados académicos seguros utilizando tecnología basada en Blockchain  Orentadores: Von Lucken Martínez, Christian Daniel; Riveros Valdez, Lilian",
+   "year": "2024",
+   "branch": "Biblioteca FPUNA (Centro de Información y Cultura)",
+   "authors": [
+    {
+     "au_id": "Ben%C3%ADtez%20Caballero%2C%20Laura%20Mabel%3B%20Acu%C3%B1a%20Cantero%2C%20Juan%20Jos%C3%A9",
+     "name": "Benítez Caballero, Laura Mabel; Acuña Cantero, Juan José",
+     "role": "autor"
+    }
+   ]
+  },
+  {
+   "bibnum": 642114,
+   "title": "Certificados académicos seguros utilizando tecnología basada en Blockchain  Orentadores: Von Lucken Martínez, Christian Daniel; Riveros Valdez, Lilian",
+   "year": "2024",
+   "branch": "Biblioteca FPUNA (Centro de Información y Cultura)\n  \n \n\n \n  Colección general",
+   "authors": [
+    {
+     "au_id": "Ben%C3%ADtez%20Caballero%2C%20Laura%20Mabel",
+     "name": "Benítez Caballero, Laura Mabel",
+     "role": "autor"
+    },
+    {
+     "au_id": "Acu%C3%B1a%20Cantero%2C%20Juan%20Jos%C3%A9",
+     "name": "Acuña Cantero, Juan José",
+     "role": "autor"
+    }
+   ]
+  },
+  {
+   "bibnum": 622135,
+   "title": "Cartografía",
+   "year": "",
+   "branch": "Biblioteca de la Facultad de Ingeniería — Sede Central (San Lorenzo)\n  \n \n\n \n  Colección general",
+   "authors": [
+    {
+     "au_id": "Dagnino%20Pastore%2C%20Lorenzo",
+     "name": "Dagnino Pastore, Lorenzo",
+     "role": "autor"
+    },
+    {
+     "au_id": "Cichero%2C%20Fortunato%20L.",
+     "name": "Cichero, Fortunato L",
+     "role": "autor"
+    }
+   ]
+  },
+  {
+   "bibnum": 278266,
+   "title": "Geodesia y cartografía : revista de geodesia y cartografía",
+   "year": "",
+   "branch": "Biblioteca e Internet FACEN",
+   "authors": []
+  },
+  {
+   "bibnum": 513852,
+   "title": "Geodesia y cartografía : revista de geodesia y cartografía",
+   "year": "",
+   "branch": "Biblioteca e Internet FACEN\n  \n \n\n \n  Colección general",
+   "authors": []
+  },
+  {
+   "bibnum": 143579,
+   "title": "Apuntes cartografía forestal",
+   "year": "1980",
+   "branch": "Biblioteca de la Facultad de Ciencias Agrarias — Sede Central (San Lorenzo)",
+   "authors": [
+    {
+     "au_id": "Luna%20Lugo%2C%20Anibal",
+     "name": "Luna Lugo, Anibal",
+     "role": "autor"
+    }
+   ]
+  },
+  {
+   "bibnum": 137513,
+   "title": "Apuntes cartografía forestal",
+   "year": "1980",
+   "branch": "Biblioteca de la Facultad de Ciencias Agrarias — Sede Central (San Lorenzo)",
+   "authors": [
+    {
+     "au_id": "Luna%20Lugo%2C%20Anibal",
+     "name": "Luna Lugo, Anibal",
+     "role": "autor"
+    }
+   ]
+  },
+  {
+   "bibnum": 159704,
+   "title": "Prácticas de cartografía",
+   "year": "",
+   "branch": "Biblioteca de la Facultad de Ciencias Agrarias — Sede Central (San Lorenzo)",
+   "authors": [
+    {
+     "au_id": "Torcal%20Saing%2C%20Luisa%2FPardo%20Garc%C3%ADa%2C%20Elena",
+     "name": "Torcal Saing, Luisa/Pardo García, Elena",
+     "role": "autor"
+    }
+   ]
+  },
+  {
+   "bibnum": 189396,
+   "title": "Cartografía digital desarrollo de software interno",
+   "year": "1992",
+   "branch": "Biblioteca FPUNA (Centro de Información y Cultura)",
+   "authors": [
+    {
+     "au_id": "Mena%20Berrios%2C%20Juan",
+     "name": "Mena Berrios, Juan",
+     "role": "autor"
+    }
+   ]
+  },
+  {
+   "bibnum": 276010,
+   "title": "Atlas Paraguay: cartografía didáctica",
+   "year": "2000",
+   "branch": "Biblioteca e Internet FACEN",
+   "authors": [
+    {
+     "au_id": "Ferreira%20M.%2C%20Hern%C3%A1n",
+     "name": "Ferreira M., Hernán",
+     "role": "autor"
+    }
+   ]
+  },
+  {
+   "bibnum": 139548,
+   "title": "Prácticas de cartografía",
+   "year": "",
+   "branch": "Biblioteca de la Facultad de Ciencias Agrarias — Sede Central (San Lorenzo)",
+   "authors": [
+    {
+     "au_id": "Torcal%20Saing%2C%20Luisa%2FPardo%20Garc%C3%ADa%2C%20Elena",
+     "name": "Torcal Saing, Luisa/Pardo García, Elena",
+     "role": "autor"
+    }
+   ]
+  },
+  {
+   "bibnum": 142121,
+   "title": "Laboratorio de cartografía",
+   "year": "1988",
+   "branch": "Biblioteca de la Facultad de Ciencias Agrarias — Sede Central (San Lorenzo)",
+   "authors": [
+    {
+     "au_id": "Estrada%20Espinoza%20de%20los%20Monteros%2C%20Jos%C3%A9%20M.",
+     "name": "Estrada Espinoza de los Monteros, José M",
+     "role": "autor"
+    }
+   ]
   }
  ]
 }
