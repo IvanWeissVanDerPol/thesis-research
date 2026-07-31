@@ -1,13 +1,8 @@
 {
- "harvested_at": "2026-07-30",
+ "harvested_at": "2026-07-29",
+ "source": "https://koha.cnc.una.py/cgi-bin/koha/opac-detail.pl",
  "total_records": 2217,
- "enriched": 1958,
- "n_with_orientador": 372,
- "n_with_year": 1000,
- "n_with_branch": 1958,
- "n_with_callnumber": 1903,
- "n_with_authors": 1788,
- "n_with_subjects": 0,
+ "enriched": 2171,
  "records": [
   {
    "bibnum": 182704,
@@ -22878,190 +22873,6 @@
    "callnumber": "923.2 M468v\n \n \n ( Navegar estantería (Abre debajo)  )"
   },
   {
-   "bibnum": 566093,
-   "title": "El río de mi sangre memorias",
-   "year": null,
-   "query": "ciencias_contables",
-   "tags": [
-    "ciencias_contables"
-   ],
-   "authors": [
-    {
-     "au_id": "Fern%C3%A1ndez%20Mac-Gregor%2C%20Genaro",
-     "name": "Fernández Mac-Gregor, Genaro",
-     "role": "autor"
-    }
-   ],
-   "branch": "Biblioteca Central de la Universidad Nacional de Asunción\n  \n \n\n \n  Colección general",
-   "callnumber": "923.43 F391r\n \n \n ( Navegar estantería (Abre debajo)  )"
-  },
-  {
-   "bibnum": 570094,
-   "title": "La agro-industria en el Chaco experiencia de las Colonias Mennonitas",
-   "year": null,
-   "query": "ciencias_contables",
-   "tags": [
-    "ciencias_contables"
-   ],
-   "authors": [
-    {
-     "au_id": "Universidad%20Nacional%20de%20Asunci%C3%B3n%2C%20Facultad%20de%20Ciencias%20Econ%C3%B3micas%20Administrativas%20y%20Contables",
-     "name": "Universidad Nacional de Asunción, Facultad de Ciencias Económicas Administrativas y Contables",
-     "role": "autor"
-    }
-   ],
-   "branch": "Biblioteca Central de la Universidad Nacional de Asunción\n  \n \n\n \n  Colección general",
-   "callnumber": "338.18922 Un3a\n \n \n ( Navegar estantería (Abre debajo)  )"
-  },
-  {
-   "bibnum": 240677,
-   "title": "Administración de empresas agropecuarias : el proceso de toma de decisiones  Manning H. Becker",
-   "year": null,
-   "query": "administracion_empresas",
-   "tags": [
-    "administracion_empresas"
-   ],
-   "authors": [
-    {
-     "au_id": "Castle%2C%20Emery%20N.",
-     "name": "Castle, Emery N",
-     "role": "autor"
-    }
-   ],
-   "branch": "Biblioteca FCV San Lorenzo - Prof. Dr. C. Arsenio Vasconsellos",
-   "callnumber": "658.9163\n \n \n ( Navegar estantería (Abre debajo)  )"
-  },
-  {
-   "bibnum": 281524,
-   "title": "Principios de administración financiera de las empresas",
-   "year": null,
-   "query": "administracion_empresas",
-   "tags": [
-    "administracion_empresas"
-   ],
-   "authors": [
-    {
-     "au_id": "Albornoz%2C%20C%C3%A9sar%20H.",
-     "name": "Albornoz, César H",
-     "role": "autor"
-    }
-   ],
-   "branch": "Biblioteca Central de la Universidad Nacional de Asunción",
-   "callnumber": "658.15\n \n \n ( Navegar estantería (Abre debajo)  )"
-  },
-  {
-   "bibnum": 299531,
-   "title": "Administración, gestión y control de empresas agropecuarias",
-   "year": null,
-   "query": "administracion_empresas",
-   "tags": [
-    "administracion_empresas"
-   ],
-   "authors": [
-    {
-     "au_id": "Arce%2C%20Hugo%20Santiago",
-     "name": "Arce, Hugo Santiago",
-     "role": "autor"
-    }
-   ],
-   "branch": "Biblioteca FCE - Prof. Thomas E. Cunningham",
-   "callnumber": "658.15963\n \n \n ( Navegar estantería (Abre debajo)  )"
-  },
-  {
-   "bibnum": 145595,
-   "title": "Manual de administración de empresas agropecuarias",
-   "year": null,
-   "query": "administracion_empresas",
-   "tags": [
-    "administracion_empresas"
-   ],
-   "authors": [
-    {
-     "au_id": "Guerra%2C%20Guillermo",
-     "name": "Guerra, Guillermo",
-     "role": "autor"
-    }
-   ],
-   "branch": "Biblioteca de la Facultad de Ciencias Agrarias — Sede Central (San Lorenzo)",
-   "callnumber": "338.5\n \n \n ( Navegar estantería (Abre debajo)  )"
-  },
-  {
-   "bibnum": 628707,
-   "title": "Administración aplicada a empresas agropecuarias  Idalberto Chiavenato ... /et al./",
-   "year": null,
-   "query": "administracion_empresas",
-   "tags": [
-    "administracion_empresas"
-   ],
-   "branch": "Biblioteca de la Facultad de Ciencias Agrarias, Filial Caazapá\n  \n \n\n \n  Colección general",
-   "callnumber": "658.9 Ad65a\n \n \n ( Navegar estantería (Abre debajo)  )"
-  },
-  {
-   "bibnum": 560271,
-   "title": "Administración aplicada a empresas agropecuarias  Idalberto Chiavenato; Ana María Arras Vota; Luis R. Gómez Mejía; Luz Ernestina Fierro Murga; Sergio Hernández y Rodríguez; Alfre Aguilar Valdés",
-   "year": null,
-   "query": "administracion_empresas",
-   "tags": [
-    "administracion_empresas"
-   ],
-   "branch": "Biblioteca Central de la Universidad Nacional de Asunción\n  \n \n\n \n  Colección general",
-   "callnumber": "658.9163 Ad65a\n \n \n ( Navegar estantería (Abre debajo)  )"
-  },
-  {
-   "bibnum": 382149,
-   "title": "Manual de administración de empresas agropecuarias",
-   "year": null,
-   "query": "administracion_empresas",
-   "tags": [
-    "administracion_empresas"
-   ],
-   "authors": [
-    {
-     "au_id": "Guerra%2C%20Guillermo.",
-     "name": "Guerra, Guillermo",
-     "role": "autor"
-    }
-   ],
-   "branch": "Biblioteca de la Facultad de Ciencias Agrarias, Filial Pedro Juan Caballero\n  \n \n\n \n  Colección general",
-   "callnumber": "338.5 G934m\n \n \n ( Navegar estantería (Abre debajo)  )"
-  },
-  {
-   "bibnum": 575214,
-   "title": "Manual de administración de empresas agropecuarias",
-   "year": null,
-   "query": "administracion_empresas",
-   "tags": [
-    "administracion_empresas"
-   ],
-   "authors": [
-    {
-     "au_id": "Guerra%2C%20Guillermo",
-     "name": "Guerra, Guillermo",
-     "role": "autor"
-    }
-   ],
-   "branch": "Biblioteca de la Facultad de Ciencias Agrarias — Sede Central (San Lorenzo)\n  \n \n\n \n  Colección general",
-   "callnumber": "338.5 G934m\n \n \n ( Navegar estantería (Abre debajo)  )"
-  },
-  {
-   "bibnum": 145003,
-   "title": "Elementos de administración participante",
-   "year": null,
-   "query": "administracion_empresas",
-   "tags": [
-    "administracion_empresas"
-   ],
-   "authors": [
-    {
-     "au_id": "Neira%20A.%2C%20V%C3%ADctor",
-     "name": "Neira A., Víctor",
-     "role": "autor"
-    }
-   ],
-   "branch": "Biblioteca de la Facultad de Ciencias Agrarias — Sede Central (San Lorenzo)",
-   "callnumber": "658.4\n \n \n ( Navegar estantería (Abre debajo)  )"
-  },
-  {
    "bibnum": 272808,
    "title": "50 años de empresario a pecho descubierto: mis memorias",
    "year": null,
@@ -23331,6 +23142,62 @@
    ],
    "branch": "Biblioteca de la Facultad de Ciencias Agrarias — Sede Central (San Lorenzo)\n  \n \n\n \n  Colección general",
    "callnumber": "658.4092 D451d\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 617415,
+   "title": "Dirección de producción : decisiones tácticas",
+   "year": null,
+   "query": "administracion_empresas",
+   "tags": [
+    "administracion_empresas"
+   ],
+   "authors": [
+    {
+     "au_id": "Heizer%2C%20Jay",
+     "name": "Heizer, Jay",
+     "role": "autor"
+    },
+    {
+     "au_id": "Render%2C%20Barry",
+     "name": "Render, Barry",
+     "role": "autor"
+    },
+    {
+     "au_id": "traducci%C3%B3n%20Esperanza%20Barenys%20de%20Lacha",
+     "name": "traducción Esperanza Barenys de Lacha",
+     "role": "autor"
+    },
+    {
+     "au_id": "revisi%C3%B3n%20t%C3%A9cnica%20Jos%C3%A9%20Luis%20Mart%C3%ADnez%20Parra.",
+     "name": "revisión técnica José Luis Martínez Parra",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca de la Facultad de Ingeniería — Sede Central (San Lorenzo)\n  \n \n\n \n  Colección general",
+   "callnumber": "658.503 6 H366di\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 585667,
+   "title": "El gerenciamiento agropecuario en el siglo XXI hacia un enfoque sistemático sustentable  colaboradores Marine Analía Sánchez ... /et al./",
+   "year": null,
+   "query": "administracion_empresas",
+   "tags": [
+    "administracion_empresas"
+   ],
+   "authors": [
+    {
+     "au_id": "Dur%C3%A1n%2C%20Regina",
+     "name": "Durán, Regina",
+     "role": "autor"
+    },
+    {
+     "au_id": "Liliana%20Scoponi",
+     "name": "Liliana Scoponi",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca de la Facultad de Ciencias Agrarias — Sede Central (San Lorenzo)\n  \n \n\n \n  Colección general",
+   "callnumber": "658.9 D931gh\n \n \n ( Navegar estantería (Abre debajo)  )"
   },
   {
    "bibnum": 144879,
@@ -29078,6 +28945,258 @@
    "callnumber": "9/20\n \n \n ( Navegar estantería (Abre debajo)  )"
   },
   {
+   "bibnum": 248115,
+   "title": "Determinación de la toxicidad aguda, sub-crónica, perfil comportamental y evaluación de la actividad hepatoprotectora del extracto metanólico de sida rhombifolia L en ratones",
+   "year": null,
+   "query": "bioquimica",
+   "tags": [
+    "bioquimica"
+   ],
+   "authors": [
+    {
+     "au_id": "Scotto%20G%C3%B3mez%2C%20Anal%C3%ADa%20Irene",
+     "name": "Scotto Gómez, Analía Irene",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca de la Facultad de Ciencias Químicas — Sede Central (San Lorenzo)",
+   "callnumber": "10/20\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 248116,
+   "title": "Direfenciación de células monocíticas humanas a un modelo de macrófagos inflamatorios del tipo M1",
+   "year": null,
+   "query": "bioquimica",
+   "tags": [
+    "bioquimica"
+   ],
+   "authors": [
+    {
+     "au_id": "Alfonso%20Alarc%C3%B3n%2C%20Mar%C3%ADa%20Laura",
+     "name": "Alfonso Alarcón, María Laura",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca de la Facultad de Ciencias Químicas — Sede Central (San Lorenzo)",
+   "callnumber": "3/20\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 248118,
+   "title": "Detección de microplásticos en muestras de sedimentos provenientes de diferentes puntos de la Bhía de Asunción",
+   "year": null,
+   "query": "bioquimica",
+   "tags": [
+    "bioquimica"
+   ],
+   "authors": [
+    {
+     "au_id": "Trauth%20Orrego%2C%20Christian%20Agust%C3%ADn",
+     "name": "Trauth Orrego, Christian Agustín",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca de la Facultad de Ciencias Químicas — Sede Central (San Lorenzo)",
+   "callnumber": "5/20\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 248119,
+   "title": "Determinación de la composición química y de la actividad antibacteriana in vitro del extracto metanólico y fracciones de ludwigia hassleriana (Chodat) ramamoorthy sobre escherichia coli y pseudomonas",
+   "year": null,
+   "query": "bioquimica",
+   "tags": [
+    "bioquimica"
+   ],
+   "authors": [
+    {
+     "au_id": "Gim%C3%A9nez%20Britos%2C%20Leticia%20Marianela",
+     "name": "Giménez Britos, Leticia Marianela",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca de la Facultad de Ciencias Químicas — Sede Central (San Lorenzo)",
+   "callnumber": "6/20\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 248122,
+   "title": "Potencial antioxidante de los diferentes estados de madurez de la pulpa y semilla de los frutos de anisocapparis speciosa silvestre colectada en Fuerte Olimpo, Chaco paraguayo",
+   "year": null,
+   "query": "bioquimica",
+   "tags": [
+    "bioquimica"
+   ],
+   "authors": [
+    {
+     "au_id": "Suguino%20Got%C3%B3%2C%20Miho%20Vanessa",
+     "name": "Suguino Gotó, Miho Vanessa",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca de la Facultad de Ciencias Químicas — Sede Central (San Lorenzo)",
+   "callnumber": "1/20\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 249435,
+   "title": "Frecuencia de parásitos intestinales en niños escolares de una escuela pública de la ciudad de San Lorenzo en el año 2015",
+   "year": null,
+   "query": "bioquimica",
+   "tags": [
+    "bioquimica"
+   ],
+   "authors": [
+    {
+     "au_id": "Paleari%2C%20Mar%C3%ADa%20Virginia",
+     "name": "Paleari, María Virginia",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca de la Facultad de Ciencias Químicas — Sede Central (San Lorenzo)",
+   "callnumber": "13/15\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 249436,
+   "title": "Conocimiento y actitudes sobre infecciones sexualmente transmisibles (ITS) de estudiantes del área de la salud ingresantes del año 2014 de la Facultad de Ciencias Químicas - UNA",
+   "year": null,
+   "query": "bioquimica",
+   "tags": [
+    "bioquimica"
+   ],
+   "authors": [
+    {
+     "au_id": "Rotela%20L%C3%B3pez%2C%20Mar%C3%ADa%20Mercedes",
+     "name": "Rotela López, María Mercedes",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca de la Facultad de Ciencias Químicas — Sede Central (San Lorenzo)",
+   "callnumber": "18/15\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 249440,
+   "title": "Conocimientos, actitudes y prácticas sobre higiene y saneamiento de agua potable en una comunidad de escolares de la ciudad de San Lorenzo",
+   "year": null,
+   "query": "bioquimica",
+   "tags": [
+    "bioquimica"
+   ],
+   "authors": [
+    {
+     "au_id": "Romero%20Yegros%2C%20Alberto%20Sebastian",
+     "name": "Romero Yegros, Alberto Sebastian",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca de la Facultad de Ciencias Químicas — Sede Central (San Lorenzo)",
+   "callnumber": "14/15\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 249688,
+   "title": "Comparación de 2 procedimientos operativos en la determinación de lectura de valores de eritrosedimentación",
+   "year": null,
+   "query": "bioquimica",
+   "tags": [
+    "bioquimica"
+   ],
+   "authors": [
+    {
+     "au_id": "Salgueiro%2C%20A.",
+     "name": "Salgueiro, A",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca de la Facultad de Ciencias Químicas — Sede Central (San Lorenzo)",
+   "callnumber": "20/07\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 250509,
+   "title": "Incidencia de fenotipos D débiles en donantes de sangre que concurrieron al Banco de Sangre del Hospital Central del Instituto de Previsión Social en el periodo de marzo 2007-marzo 2008",
+   "year": null,
+   "query": "bioquimica",
+   "tags": [
+    "bioquimica"
+   ],
+   "authors": [
+    {
+     "au_id": "Iriarte%2C%20S.",
+     "name": "Iriarte, S",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca de la Facultad de Ciencias Químicas — Sede Central (San Lorenzo)",
+   "callnumber": "20/08\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 250529,
+   "title": "Evaluación de errores pre-analíticos de muestras recibidas en el Laboratorio de Análisis Clínicos del Centro Materno Infantil-Hospital de Clínicas-Facultad de Ciencias Médicas,UNA",
+   "year": null,
+   "query": "bioquimica",
+   "tags": [
+    "bioquimica"
+   ],
+   "authors": [
+    {
+     "au_id": "Sanabria%2C%20D.",
+     "name": "Sanabria, D",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca de la Facultad de Ciencias Químicas — Sede Central (San Lorenzo)",
+   "callnumber": "29/09\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 250531,
+   "title": "Prevalencia y tipos de anemia en niños con malnutrición proteico energética leve y moderada,internados en el Hospital General Pediátrico Niños de Acosta Ñu,dados de alta de mayo a setiembre de 2009",
+   "year": null,
+   "query": "bioquimica",
+   "tags": [
+    "bioquimica"
+   ],
+   "authors": [
+    {
+     "au_id": "N%C3%BA%C3%B1ez%2C%20R.",
+     "name": "Núñez, R",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca de la Facultad de Ciencias Químicas — Sede Central (San Lorenzo)",
+   "callnumber": "22/09\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 250532,
+   "title": "Anemia en pacientes ambulatorios sometidos a hemodialisis en el Hospital Nacional de Itauguá de Salud Pública y Bienestar Social desde enero a agosto 2009",
+   "year": null,
+   "query": "bioquimica",
+   "tags": [
+    "bioquimica"
+   ],
+   "authors": [
+    {
+     "au_id": "Olmedo%2C%20G.",
+     "name": "Olmedo, G",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca de la Facultad de Ciencias Químicas — Sede Central (San Lorenzo)",
+   "callnumber": "23/09\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 250533,
+   "title": "Determinación de valores de referencia de glicemias en pacientes ambulatorios del Instituto de Enfermedades Respiratorias y de Ambiente",
+   "year": null,
+   "query": "bioquimica",
+   "tags": [
+    "bioquimica"
+   ],
+   "authors": [
+    {
+     "au_id": "Ortiz%2C%20V.",
+     "name": "Ortiz, V",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca de la Facultad de Ciencias Químicas — Sede Central (San Lorenzo)",
+   "callnumber": "24/09\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
    "bibnum": 250534,
    "title": "Carga viral y conteo de linfocitos T CD4 al momento del diagnóstico de infección por VIH,en pacientes que concurren al Programa Nacional de Control del SIDA/ITS",
    "year": null,
@@ -30377,60 +30496,6 @@
    ],
    "branch": "Biblioteca DER Caacupé\n  \n \n\n \n  Colección general",
    "callnumber": "340.9 W43d\n \n \n ( Navegar estantería (Abre debajo)  )"
-  },
-  {
-   "bibnum": 396155,
-   "title": "Derecho y ética en Eduardo J, Couture el hombre , el jurísta, el humanista exégesis de los mandamientos del abogado",
-   "year": null,
-   "query": "derecho",
-   "tags": [
-    "derecho"
-   ],
-   "authors": [
-    {
-     "au_id": "Centuri%C3%B3n%20Mor%C3%ADnigo%2C%20Ubaldo",
-     "name": "Centurión Morínigo, Ubaldo",
-     "role": "autor"
-    }
-   ],
-   "branch": "Biblioteca DER Caacupé\n  \n \n\n \n  Colección general",
-   "callnumber": "340.1 C333d\n \n \n ( Navegar estantería (Abre debajo)  )"
-  },
-  {
-   "bibnum": 396162,
-   "title": "Humanismo y filosofía del derecho en cinco pensadores",
-   "year": null,
-   "query": "derecho",
-   "tags": [
-    "derecho"
-   ],
-   "authors": [
-    {
-     "au_id": "Centuri%C3%B3n%20Mor%C3%ADnigo%2C%20Ubaldo",
-     "name": "Centurión Morínigo, Ubaldo",
-     "role": "autor"
-    }
-   ],
-   "branch": "Biblioteca DER Caacupé\n  \n \n\n \n  Colección general",
-   "callnumber": "340.1 C333h\n \n \n ( Navegar estantería (Abre debajo)  )"
-  },
-  {
-   "bibnum": 396166,
-   "title": "Jornadas sobre derecho y democracia",
-   "year": null,
-   "query": "derecho",
-   "tags": [
-    "derecho"
-   ],
-   "authors": [
-    {
-     "au_id": "Centuri%C3%B3n%20Mor%C3%ADnigo%2C%20Ubaldo",
-     "name": "Centurión Morínigo, Ubaldo",
-     "role": "autor"
-    }
-   ],
-   "branch": "Biblioteca DER Caacupé\n  \n \n\n \n  Colección general",
-   "callnumber": "340 C333j\n \n \n ( Navegar estantería (Abre debajo)  )"
   },
   {
    "bibnum": 396176,
@@ -35295,6 +35360,181 @@
    "callnumber": "00000\n \n \n ( Navegar estantería (Abre debajo)  )"
   },
   {
+   "bibnum": 311446,
+   "title": "Sucesos de Vida Estresantes en Adolecentes de Educación Media de 15 a 18 Años de Edad de Paraguay y de México. Mgter. en Psicología Clínica Nº : 02 -- ( TUTOR :Prof. Dr. Nicolás Garcete Benítez )",
+   "year": "2011",
+   "query": "psicologia",
+   "tags": [
+    "psicologia"
+   ],
+   "authors": [
+    {
+     "au_id": "Gonz%C3%A1lez%20Ar%C3%A9valo%2C%20Liz%20Anselma%20Liduvina.",
+     "name": "González Arévalo, Liz Anselma Liduvina",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca &quot;Abraham Lincoln&quot; de la Facultad de Filosofía",
+   "callnumber": "00000\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 311447,
+   "title": "Prevalencia e incidencia de los estilos de comportamientos interpersonales en la convivencia de los alumnos del Primer y Segundo Ciclo Regional de Educación de Pilar Ñeembucú. Mgter. en Psicología Clínica Nº : 03 -- ( TUTOR :Prof. Dr. Nicolás Garcete Benítez )",
+   "year": "2013",
+   "query": "psicologia",
+   "tags": [
+    "psicologia"
+   ],
+   "authors": [
+    {
+     "au_id": "Bogado%20Recalde%2C%20Jos%C3%A9%20F%C3%A9lix.",
+     "name": "Bogado Recalde, José Félix",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca &quot;Abraham Lincoln&quot; de la Facultad de Filosofía",
+   "callnumber": "00000\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 311449,
+   "title": "Análisis de las Estrategias de Afrontamiento utilizadas por Adultos Mayores Jubilados en edades comprendidas entre 60 a 70 años, según la Funcionalidad Familiar y su Nivel de Autoestima. Mgter. en Psicología Clínica Nº : 04 -- ( TUTORA : Prof. Mgter. María Angélica del Puerto Maricevich )",
+   "year": "2014",
+   "query": "psicologia",
+   "tags": [
+    "psicologia"
+   ],
+   "authors": [
+    {
+     "au_id": "Balbuena%20Llamosas%2C%20Mariel%20Adelaida.",
+     "name": "Balbuena Llamosas, Mariel Adelaida",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca &quot;Abraham Lincoln&quot; de la Facultad de Filosofía",
+   "callnumber": "00000\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 311452,
+   "title": "Cyberbullying en estudiantes de nivel medio de un colegio público de la ciudad de Asunción. Psicología Clínica Nº : 566 - ( TUTOR : Prof. Lic. Oscar Gaona )",
+   "year": "2017",
+   "query": "psicologia",
+   "tags": [
+    "psicologia"
+   ],
+   "authors": [
+    {
+     "au_id": "Bsrros%2C%20Noelia.",
+     "name": "Bsrros, Noelia",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca &quot;Abraham Lincoln&quot; de la Facultad de Filosofía",
+   "callnumber": "00000\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 311733,
+   "title": "Análisis de las redes de apoyo de mujeres de 20 años o menos durante el periodo de embarazo en la comunidad divino niño. Psicología Comunitaria Nº : 27 - ( TUTORA : Prof. Lic. Diana Rodríguez )",
+   "year": "2022",
+   "query": "psicologia",
+   "tags": [
+    "psicologia"
+   ],
+   "authors": [
+    {
+     "au_id": "Melgarejo%20Medina%2C%20Gloria%20Patricia.",
+     "name": "Melgarejo Medina, Gloria Patricia",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca &quot;Abraham Lincoln&quot; de la Facultad de Filosofía",
+   "callnumber": "00000\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 650438,
+   "title": "El trabajo social y las necesidades humanas basicas",
+   "year": null,
+   "query": "trabajo_social",
+   "tags": [
+    "trabajo_social"
+   ],
+   "authors": [
+    {
+     "au_id": "Towle%2C%20Charlotte",
+     "name": "Towle, Charlotte",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca DER Central\n  \n \n\n \n  Colección general",
+   "callnumber": "361.38 T659t\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 500931,
+   "title": "El Trabajo Social en las políticas sociales del estado paraguayo (1900-2000)  Maria del Carmen García",
+   "year": null,
+   "query": "trabajo_social",
+   "tags": [
+    "trabajo_social"
+   ],
+   "authors": [
+    {
+     "au_id": "Garc%C3%ADa%20Ag%C3%BCero%2C%20Stella%20Mary",
+     "name": "García Agüero, Stella Mary",
+     "role": "autor"
+    }
+   ],
+   "branch": "Archivo de Investigación de la Dirección General de Investigación Científica y Tecnológica\n  \n \n\n \n  Colección general",
+   "callnumber": "ITS/04/17\n \n \n ( Navegar estantería (Abre debajo)  )",
+   "online_resources": [
+    "http://sdi.cnc.una.py/catbib/documentos/DGICT880.pdf"
+   ]
+  },
+  {
+   "bibnum": 503884,
+   "title": "TRABAJO SOCIAL EN EL CAMPO GERONTOLÓGICO APORTES A LOS EJES DE UN DEBATE",
+   "year": null,
+   "query": "trabajo_social",
+   "tags": [
+    "trabajo_social"
+   ],
+   "authors": [
+    {
+     "au_id": "JORGE%20PAOLA",
+     "name": "JORGE PAOLA",
+     "role": "autor"
+    },
+    {
+     "au_id": "NATALIA%20SAMTER",
+     "name": "NATALIA SAMTER",
+     "role": "autor"
+    },
+    {
+     "au_id": "ROMINA%20MANES",
+     "name": "ROMINA MANES",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca de la Facultad de Ciencias Sociales\n  \n \n\n \n  Colección general",
+   "callnumber": "361.3 P211t\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 568417,
+   "title": "Manual para el trabajo social comunitario  Elena Rosello Nadal",
+   "year": null,
+   "query": "trabajo_social",
+   "tags": [
+    "trabajo_social"
+   ],
+   "authors": [
+    {
+     "au_id": "Lillo%20Herranz%2C%20Nieves",
+     "name": "Lillo Herranz, Nieves",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca Central de la Universidad Nacional de Asunción\n  \n \n\n \n  Colección general",
+   "callnumber": "361.8 L628m\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
    "bibnum": 272802,
    "title": "Conflictos de trabajo y cambio social",
    "year": null,
@@ -35437,198 +35677,6 @@
    ],
    "branch": "Biblioteca de la Facultad de Ciencias Sociales\n  \n \n\n \n  Colección general",
    "callnumber": "1981 1981\n \n \n ( Navegar estantería (Abre debajo)  )"
-  },
-  {
-   "bibnum": 241678,
-   "title": "Obesidad y abandono del tratamiento nutricional en el consultorio de nutrición del Hospital Central del Instituto de Previsión Social.  Facultad de Ciencias Médicas",
-   "year": null,
-   "query": "trabajo_social",
-   "tags": [
-    "trabajo_social"
-   ],
-   "authors": [
-    {
-     "au_id": "Dur%C3%A1n%20Leite%2C%20Fernanda%20Mar%C3%ADa.",
-     "name": "Durán Leite, Fernanda María",
-     "role": "autor"
-    }
-   ],
-   "branch": "Biblioteca de la Facultad de Ciencias Médicas",
-   "callnumber": "614.44 /SL\n \n \n ( Navegar estantería (Abre debajo)  )"
-  },
-  {
-   "bibnum": 271839,
-   "title": "Impacto de la piscicultura en el desarrollo económico social de productores de tilapia de Acahay, Paraguarí, año 2018",
-   "year": "2019",
-   "query": "trabajo_social",
-   "tags": [
-    "trabajo_social"
-   ],
-   "authors": [
-    {
-     "au_id": "Roche%20Gonz%C3%A1lez%2C%20Federico%20Fernando",
-     "name": "Roche González, Federico Fernando",
-     "role": "autor"
-    }
-   ],
-   "orientadores": [
-    {
-     "au_id": "Mirtha%20Valenzuela%20Ferreira%20Jorge%20Luis%20Maciel%20Gim%C3%A9nez%20Edgar%20Daniel%20Balbuena",
-     "name": "Mirtha Valenzuela Ferreira Jorge Luis Maciel Giménez Edgar Daniel Balbuena",
-     "role": "orientador"
-    }
-   ],
-   "branch": "Biblioteca Central. Trabajos de Fin de Grado y Tesis de Postgrado",
-   "callnumber": "639.3\n \n \n ( Navegar estantería (Abre debajo)  )"
-  },
-  {
-   "bibnum": 398587,
-   "title": "Inseguridad social la previsión social bajo el régimen stronista",
-   "year": null,
-   "query": "trabajo_social",
-   "tags": [
-    "trabajo_social"
-   ],
-   "authors": [
-    {
-     "au_id": "Guill%C3%A9n%2C%20Mar%C3%ADa%20Cristina",
-     "name": "Guillén, María Cristina",
-     "role": "autor"
-    }
-   ],
-   "branch": "Biblioteca DER San Juan Bautista\n  \n \n\n \n  Colección general",
-   "callnumber": "305 G945i\n \n \n ( Navegar estantería (Abre debajo)  )"
-  },
-  {
-   "bibnum": 653548,
-   "title": "Políticas públicas y control social apuntes de filosofía política contemporánea",
-   "year": null,
-   "query": "trabajo_social",
-   "tags": [
-    "trabajo_social"
-   ],
-   "authors": [
-    {
-     "au_id": "Estigarribia%2C%20Angel",
-     "name": "Estigarribia, Angel",
-     "role": "autor"
-    }
-   ],
-   "branch": "Biblioteca DER Central\n  \n \n\n \n  Colección general",
-   "callnumber": "320.1 Es86p\n \n \n ( Navegar estantería (Abre debajo)  )"
-  },
-  {
-   "bibnum": 504516,
-   "title": "CAUSAS DEL BAJO RENDIMIENTO ESCOLAR ESTUDIO DE LAS CAUSAS DEL BAJO RENDIMIENTO ESCOLAR DE LAS ESCUELAS \"FRANKLIN DELANO ROOSEVALT\" Y \"TOMASA FEREIRA DE MEZA\" EN EL CURRICULUM RENOVADO DEL CENTRO REGIONAL DE EDUCACIÓN \"SATURIO RIOS\" DE S",
-   "year": "1977",
-   "query": "trabajo_social",
-   "tags": [
-    "trabajo_social"
-   ],
-   "authors": [
-    {
-     "au_id": "TERESITA%20DEL%20NI%C3%91O%20JESUS%20SCKELL%20SAUCEDO",
-     "name": "TERESITA DEL NIÑO JESUS SCKELL SAUCEDO",
-     "role": "autor"
-    }
-   ],
-   "branch": "Biblioteca de la Facultad de Ciencias Sociales\n  \n \n\n \n  Colección general",
-   "callnumber": "1977 1977\n \n \n ( Navegar estantería (Abre debajo)  )"
-  },
-  {
-   "bibnum": 608597,
-   "title": "Impacto de la piscicultura en el desarrollo económico social de productores de tilapia de Acahay, Paraguarí, año 2018",
-   "year": "2019",
-   "query": "trabajo_social",
-   "tags": [
-    "trabajo_social"
-   ],
-   "authors": [
-    {
-     "au_id": "Roche%20Gonz%C3%A1lez%2C%20Federico%20Fernando",
-     "name": "Roche González, Federico Fernando",
-     "role": "autor"
-    }
-   ],
-   "orientadores": [
-    {
-     "au_id": "Mirtha%20Valenzuela%20Ferreira",
-     "name": "Mirtha Valenzuela Ferreira",
-     "role": "orientador"
-    },
-    {
-     "au_id": "Jorge%20Luis%20Maciel%20Gim%C3%A9nez",
-     "name": "Jorge Luis Maciel Giménez",
-     "role": "orientador"
-    },
-    {
-     "au_id": "Edgar%20Daniel%20Balbuena",
-     "name": "Edgar Daniel Balbuena",
-     "role": "orientador"
-    }
-   ],
-   "branch": "Biblioteca Central. Trabajos de Fin de Grado y Tesis de Postgrado\n  \n \n\n \n  Colección general",
-   "callnumber": "639.3 R583i\n \n \n ( Navegar estantería (Abre debajo)  )",
-   "online_resources": [
-    "http://sdi.cnc.una.py/catbib/documentos/tesis/15001.pdf"
-   ]
-  },
-  {
-   "bibnum": 603981,
-   "title": "Estudio de factibilidad en la alimentación en alta tensión 66 Kv e instalación de una subestación convencional 66/23 kv de 20 MVA en el predio del Hospital de IPS",
-   "year": "2007",
-   "query": "trabajo_social",
-   "tags": [
-    "trabajo_social"
-   ],
-   "authors": [
-    {
-     "au_id": "Duarte%20Maidana%2C%20Osmar%20Fabian",
-     "name": "Duarte Maidana, Osmar Fabian",
-     "role": "autor"
-    }
-   ],
-   "branch": "Biblioteca Central. Trabajos de Fin de Grado y Tesis de Postgrado\n  \n \n\n \n  Colección general",
-   "callnumber": "621.31913\n \n \n ( Navegar estantería (Abre debajo)  )",
-   "online_resources": [
-    "http://sdi.cnc.una.py/catbib/documentos/tesis/10385.pdf"
-   ]
-  },
-  {
-   "bibnum": 647819,
-   "title": "Estudio de la constitucion del paraguay",
-   "year": null,
-   "query": "trabajo_social",
-   "tags": [
-    "trabajo_social"
-   ],
-   "authors": [
-    {
-     "au_id": "Paiva%2C%20Felix.",
-     "name": "Paiva, Felix",
-     "role": "autor"
-    }
-   ],
-   "branch": "Biblioteca DER Central\n  \n \n\n \n  Colección general",
-   "callnumber": "342.023 P154e\n \n \n ( Navegar estantería (Abre debajo)  )"
-  },
-  {
-   "bibnum": 544721,
-   "title": "Diseño de un manual de tecnovigilancia para la implementación en Dirección de Vigilancia Sanitaria del Ministerio de Salud Pública y Bienestar Social  María José Alfonso Arvez",
-   "year": "2014",
-   "query": "trabajo_social",
-   "tags": [
-    "trabajo_social"
-   ],
-   "authors": [
-    {
-     "au_id": "Alfonso%20Arvez%2C%20Mar%C3%ADa%20Jos%C3%A9",
-     "name": "Alfonso Arvez, María José",
-     "role": "autor"
-    }
-   ],
-   "branch": "Biblioteca de la Facultad de Ciencias Químicas — Sede Central (San Lorenzo)\n  \n \n\n \n  Colección general",
-   "callnumber": "614.47 F\n \n \n ( Navegar estantería (Abre debajo)  )"
   },
   {
    "bibnum": 272131,
@@ -40986,7 +41034,4151 @@
    ],
    "branch": "Biblioteca de la Facultad de Ciencias Agrarias — Sede Central (San Lorenzo)",
    "callnumber": "633.202\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 187937,
+   "title": "Selección de materiales bibliográficos para la biblioteca de la Facultad de Quimica de la Universidad Nacional de Asunción",
+   "year": null,
+   "query": "quimica",
+   "tags": [
+    "quimica"
+   ],
+   "authors": [
+    {
+     "au_id": "Garcete%20de%20Martinez%2C%20Wilma%20Mercedes",
+     "name": "Garcete de Martinez, Wilma Mercedes",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca FPUNA (Centro de Información y Cultura)",
+   "callnumber": "025.218 77\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 233846,
+   "title": "Suelos : su química y fertilidad en zonas tropicales  D. P. Motiramani ; Y. P. Bali ; colaborador Roy L. Donahue",
+   "year": null,
+   "query": "quimica",
+   "tags": [
+    "quimica"
+   ],
+   "authors": [
+    {
+     "au_id": "Tamhane%2C%20R.%20V.",
+     "name": "Tamhane, R. V",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca FCV San Lorenzo - Prof. Dr. C. Arsenio Vasconsellos",
+   "callnumber": "631.4\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 236792,
+   "title": "Composición química y precursores de ácidos vaccénico y ruménico en especies forrajeras en Baja California Sur, México  Eduardo Alberto Toyes-Vargas, Bernardo Murillo-Amador, José Luis Espinoza-Villavicencio",
+   "year": null,
+   "query": "quimica",
+   "tags": [
+    "quimica"
+   ],
+   "branch": "Biblioteca FCV San Lorenzo - Prof. Dr. C. Arsenio Vasconsellos",
+   "callnumber": "PP/EXT/158\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 276138,
+   "title": "Biología",
+   "year": null,
+   "query": "biologia",
+   "tags": [
+    "biologia"
+   ],
+   "authors": [
+    {
+     "au_id": "Mader%2C%20Sylvia%20S.",
+     "name": "Mader, Sylvia S",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca e Internet FACEN",
+   "callnumber": "574\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 307875,
+   "title": "Biología",
+   "year": null,
+   "query": "biologia",
+   "tags": [
+    "biologia"
+   ],
+   "authors": [
+    {
+     "au_id": "Villee%2C%20Claude%20A.",
+     "name": "Villee, Claude A",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca &quot;Abraham Lincoln&quot; de la Facultad de Filosofía",
+   "callnumber": "574\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 145109,
+   "title": "Biologia  traducción Ramón Elizando Mota ; revisión técnica Avedis Aznavurian",
+   "year": null,
+   "query": "biologia",
+   "tags": [
+    "biologia"
+   ],
+   "authors": [
+    {
+     "au_id": "Fried%2C%20George%20H.",
+     "name": "Fried, George H",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca de la Facultad de Ciencias Agrarias — Sede Central (San Lorenzo)",
+   "callnumber": "574\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 145110,
+   "title": "Biología  traducción de Ovidio Nuñez",
+   "year": null,
+   "query": "biologia",
+   "tags": [
+    "biologia"
+   ],
+   "authors": [
+    {
+     "au_id": "Curtis%2C%20Helena%2FN.%20Sue%20Barnes",
+     "name": "Curtis, Helena/N. Sue Barnes",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca de la Facultad de Ciencias Agrarias — Sede Central (San Lorenzo)",
+   "callnumber": "574\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 17,
+   "title": "Biología",
+   "year": null,
+   "query": "biologia",
+   "tags": [
+    "biologia"
+   ],
+   "authors": [
+    {
+     "au_id": "Villee%2C%20Claude",
+     "name": "Villee, Claude",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca de la Facultad de Odontología"
+  },
+  {
+   "bibnum": 566938,
+   "title": "Biología  Linda R. Berg, Diana W. Martin ; traducidos por Roberto Palacios Martinez, Gabriel González Loyola",
+   "year": null,
+   "query": "biologia",
+   "tags": [
+    "biologia"
+   ],
+   "authors": [
+    {
+     "au_id": "Solomon%2C%20Eldra%20Pearl",
+     "name": "Solomon, Eldra Pearl",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca Central de la Universidad Nacional de Asunción\n  \n \n\n \n  Colección general",
+   "callnumber": "574 Sol47b\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 566833,
+   "title": "Biología  Jane B. Reece; colaboradores y consultores Lisa Urry, Manuel Molles, Carl Zimmer, Christopher Wills",
+   "year": null,
+   "query": "biologia",
+   "tags": [
+    "biologia"
+   ],
+   "authors": [
+    {
+     "au_id": "Campbell%2C%20Neil%20A.",
+     "name": "Campbell, Neil A",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca Central de la Universidad Nacional de Asunción\n  \n \n\n \n  Colección general",
+   "callnumber": "574 C152b\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 583195,
+   "title": "Biología  traducción Roberto Martínez, Gabriel González Loyola",
+   "year": null,
+   "query": "biologia",
+   "tags": [
+    "biologia"
+   ],
+   "authors": [
+    {
+     "au_id": "Solomon%2C%20Eldra%20Pearl",
+     "name": "Solomon, Eldra Pearl",
+     "role": "autor"
+    },
+    {
+     "au_id": "Berg%2C%20Linda%20R.",
+     "name": "Berg, Linda R",
+     "role": "autor"
+    },
+    {
+     "au_id": "Martin%2C%20Diana%20W.",
+     "name": "Martin, Diana W",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca de la Facultad de Ciencias Agrarias — Sede Central (San Lorenzo)\n  \n \n\n \n  Colección general",
+   "callnumber": "574 Sol47b\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 144982,
+   "title": "Biología celular y molecular de De Robertis",
+   "year": null,
+   "query": "biologia",
+   "tags": [
+    "biologia"
+   ],
+   "authors": [
+    {
+     "au_id": "De%20Robertis%2C%20Eduardo%20M.%20F.%2FJos%C3%A9%20Hib%2FRoberto%20Ponzio",
+     "name": "De Robertis, Eduardo M. F./José Hib/Roberto Ponzio",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca de la Facultad de Ciencias Agrarias — Sede Central (San Lorenzo)",
+   "callnumber": "574.8\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 234028,
+   "title": "Citogenética básica y biología de los cromosomas Serie de biología no 20",
+   "year": "1978",
+   "query": "biologia",
+   "tags": [
+    "biologia"
+   ],
+   "authors": [
+    {
+     "au_id": "S%C3%A1enz%2C%20Francisco%20A.",
+     "name": "Sáenz, Francisco A",
+     "role": "autor"
+    }
+   ],
+   "orientadores": [
+    {
+     "au_id": "t%C3%A9cnico%20Nestor%20O.%20Bianchi",
+     "name": "técnico Nestor O. Bianchi",
+     "role": "orientador"
+    },
+    {
+     "au_id": "editora%20Eva%20V.%20Chesnear",
+     "name": "editora Eva V. Chesnear",
+     "role": "orientador"
+    },
+    {
+     "au_id": "Horacio%20Cardozo",
+     "name": "Horacio Cardozo",
+     "role": "orientador"
+    }
+   ],
+   "branch": "Biblioteca FCV San Lorenzo - Prof. Dr. C. Arsenio Vasconsellos",
+   "callnumber": "574.8\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 381621,
+   "title": "Producciones ganaderas biología de los animales fundamentos de agricultura moderna - 3  K. O. Cambell ... /et al./",
+   "year": null,
+   "query": "biologia",
+   "tags": [
+    "biologia"
+   ],
+   "branch": "Biblioteca de la Facultad de Ciencias Agrarias, Filial Pedro Juan Caballero\n  \n \n\n \n  Colección general",
+   "callnumber": "636.2 P942p\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 513521,
+   "title": "Citogenética básica y biología de los cromosomas",
+   "year": null,
+   "query": "biologia",
+   "tags": [
+    "biologia"
+   ],
+   "authors": [
+    {
+     "au_id": "Saez%2C%20Francisco%20A.",
+     "name": "Saez, Francisco A",
+     "role": "autor"
+    },
+    {
+     "au_id": "Cardozo%2C%20Horacio",
+     "name": "Cardozo, Horacio",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca e Internet FACEN\n  \n \n\n \n  Colección general",
+   "callnumber": "575.21 Sae16c\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 550809,
+   "title": "Citogenética básica y biología de los cromosomas Serie de biología no 20",
+   "year": "1978",
+   "query": "biologia",
+   "tags": [
+    "biologia"
+   ],
+   "authors": [
+    {
+     "au_id": "S%C3%A1enz%2C%20Francisco%20A.",
+     "name": "Sáenz, Francisco A",
+     "role": "autor"
+    }
+   ],
+   "orientadores": [
+    {
+     "au_id": "Horacio",
+     "name": "Horacio",
+     "role": "orientador"
+    },
+    {
+     "au_id": "Cardozo",
+     "name": "Cardozo",
+     "role": "orientador"
+    },
+    {
+     "au_id": "editora%20Eva%20V.%20Chesnear",
+     "name": "editora Eva V. Chesnear",
+     "role": "orientador"
+    },
+    {
+     "au_id": "t%C3%A9cnico%20Nestor%20O.%20Bianchi",
+     "name": "técnico Nestor O. Bianchi",
+     "role": "orientador"
+    }
+   ],
+   "branch": "Biblioteca FCV San Lorenzo - Prof. Dr. C. Arsenio Vasconsellos\n  \n \n\n \n  Colección general",
+   "callnumber": "574.8 Sae127c\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 143099,
+   "title": "Biologia general",
+   "year": null,
+   "query": "biologia",
+   "tags": [
+    "biologia"
+   ],
+   "authors": [
+    {
+     "au_id": "Bianchi%20Lischetti%2C%20Angel",
+     "name": "Bianchi Lischetti, Angel",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca de la Facultad de Ciencias Agrarias — Sede Central (San Lorenzo)",
+   "callnumber": "574\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 145399,
+   "title": "Biología celular y molecular de De Robertis",
+   "year": null,
+   "query": "biologia",
+   "tags": [
+    "biologia"
+   ],
+   "authors": [
+    {
+     "au_id": "De%20Robertis%2C%20Eduardo%20M.%20F.%2FJos%C3%A9%20Hib%2FRoberto%20Ponzio",
+     "name": "De Robertis, Eduardo M. F./José Hib/Roberto Ponzio",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca de la Facultad de Ciencias Agrarias — Sede Central (San Lorenzo)",
+   "callnumber": "574.8\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 517596,
+   "title": "Biología celular y molecular",
+   "year": null,
+   "query": "biologia",
+   "tags": [
+    "biologia"
+   ],
+   "authors": [
+    {
+     "au_id": "De%20Robertis%20(H)%2C%20Eduardo",
+     "name": "De Robertis (H), Eduardo",
+     "role": "autor"
+    },
+    {
+     "au_id": "Hib%2C%20Jos%C3%A9",
+     "name": "Hib, José",
+     "role": "autor"
+    },
+    {
+     "au_id": "Ponzio%2C%20Roberto",
+     "name": "Ponzio, Roberto",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca e Internet FACEN\n  \n \n\n \n  Colección general",
+   "callnumber": "574.88 R54b\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 179,
+   "title": "Biología Celular y Molecular",
+   "year": null,
+   "query": "biologia",
+   "tags": [
+    "biologia"
+   ],
+   "authors": [
+    {
+     "au_id": "Robertis%20(h.)%20Hib%20Ponzio",
+     "name": "Robertis (h.) Hib Ponzio",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca de la Facultad de Odontología"
+  },
+  {
+   "bibnum": 337891,
+   "title": "Biología de Dichotomius anaglypticus (Manheim, 1829) y método de Multiplicación de Onthophagus gazella (F) durante la fase invernal, bajo condiciones controladas  Y. Kawata, Néstor Catumi",
+   "year": null,
+   "query": "biologia",
+   "tags": [
+    "biologia"
+   ],
+   "authors": [
+    {
+     "au_id": "Ru%C3%ADz%20D%C3%ADaz%2C%20Miguel%20A.",
+     "name": "Ruíz Díaz, Miguel A",
+     "role": "autor"
+    }
+   ],
+   "branch": "Archivo de Investigación de la Dirección General de Investigación Científica y Tecnológica",
+   "callnumber": "FCA/11/96 Proy. Inve\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 500116,
+   "title": "Biología de Dichotomius anaglypticus (Manheim, 1829) y método de Multiplicación de Onthophagus gazella (F) durante la fase invernal, bajo condiciones controladas  Y. Kawata, Néstor Catumi",
+   "year": null,
+   "query": "biologia",
+   "tags": [
+    "biologia"
+   ],
+   "authors": [
+    {
+     "au_id": "Ru%C3%ADz%20D%C3%ADaz%2C%20Miguel%20A.",
+     "name": "Ruíz Díaz, Miguel A",
+     "role": "autor"
+    }
+   ],
+   "branch": "Archivo de Investigación de la Dirección General de Investigación Científica y Tecnológica\n  \n \n\n \n  Referencia",
+   "callnumber": "FCA/11/96\n \n \n ( Navegar estantería (Abre debajo)  )",
+   "online_resources": [
+    "http://sdi.cnc.una.py/catbib/documentos/64.pdf"
+   ]
+  },
+  {
+   "bibnum": 543763,
+   "title": "Biología celular y molecular  Harvey Lodish. ...[et. al.].",
+   "year": null,
+   "query": "biologia",
+   "tags": [
+    "biologia"
+   ],
+   "authors": [
+    {
+     "au_id": "Lodish%2C%20Harvey",
+     "name": "Lodish, Harvey",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca de la Facultad de Ciencias Químicas — Sede Central (San Lorenzo)\n  \n \n\n \n  Colección general",
+   "callnumber": "611.018 1 B615b\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 543522,
+   "title": "Texto ilustrado de biología molecular e ingeniería genética conceptos, técnicas y aplicaciones en ciencias de la salud  José  Luque Cabrera, Angel Herráez Sánchez",
+   "year": null,
+   "query": "biologia",
+   "tags": [
+    "biologia"
+   ],
+   "authors": [
+    {
+     "au_id": "Luque%20Cabrera%2C%20Jos%C3%A9",
+     "name": "Luque Cabrera, José",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca de la Facultad de Ciencias Químicas — Sede Central (San Lorenzo)\n  \n \n\n \n  Colección general",
+   "callnumber": "572.8 L967t\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 990,
+   "title": "Histologia: Texto y atlas color con biologia celular y molecular 6.°",
+   "year": null,
+   "query": "biologia",
+   "tags": [
+    "biologia"
+   ],
+   "authors": [
+    {
+     "au_id": "Ross%2C%20Michael%20H.%20Pawlina%2C%20Wojciech",
+     "name": "Ross, Michael H. Pawlina, Wojciech",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca de la Facultad de Odontología"
+  },
+  {
+   "bibnum": 234035,
+   "title": "La genética y la revolución en las ciencias biológicas Serie de biología : monografía no 1",
+   "year": null,
+   "query": "biologia",
+   "tags": [
+    "biologia"
+   ],
+   "authors": [
+    {
+     "au_id": "Reissing%2C%20Jos%C3%A9%20Lu%C3%ADs",
+     "name": "Reissing, José Luís",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca FCV San Lorenzo - Prof. Dr. C. Arsenio Vasconsellos",
+   "callnumber": "574\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 574803,
+   "title": "Qué es la diferenciación celular?  Susana Tereyra Alfonso",
+   "year": null,
+   "query": "biologia",
+   "tags": [
+    "biologia"
+   ],
+   "authors": [
+    {
+     "au_id": "Garc%C3%ADa%2C%20Roberto%20B.",
+     "name": "García, Roberto B",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca de la Facultad de Ciencias Agrarias — Sede Central (San Lorenzo)\n  \n \n\n \n  Colección general",
+   "callnumber": "574.87 G165q\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 234037,
+   "title": "Genética de poblaciones humanas Serie de biología : monografía no 15",
+   "year": null,
+   "query": "biologia",
+   "tags": [
+    "biologia"
+   ],
+   "authors": [
+    {
+     "au_id": "Rothhaner%2C%20Francisco",
+     "name": "Rothhaner, Francisco",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca FCV San Lorenzo - Prof. Dr. C. Arsenio Vasconsellos",
+   "callnumber": "574\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 234038,
+   "title": "Introducción a la ecología del bentos marino Serie de biología : monografía no 9",
+   "year": null,
+   "query": "biologia",
+   "tags": [
+    "biologia"
+   ],
+   "authors": [
+    {
+     "au_id": "Vegas%20V%C3%A9lez%2C%20Manuel",
+     "name": "Vegas Vélez, Manuel",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca FCV San Lorenzo - Prof. Dr. C. Arsenio Vasconsellos",
+   "callnumber": "574\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 398440,
+   "title": "Del homo al embrión etica y biología para el siglo XXI",
+   "year": null,
+   "query": "biologia",
+   "tags": [
+    "biologia"
+   ],
+   "authors": [
+    {
+     "au_id": "Vel%C3%A1zquez%2C%20Jos%C3%A9%20Lu%C3%ADs",
+     "name": "Velázquez, José Luís",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca DER San Juan Bautista\n  \n \n\n \n  Colección general",
+   "callnumber": "170 V541h\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 513524,
+   "title": "Transporte a travéz de la membrana celular",
+   "year": null,
+   "query": "biologia",
+   "tags": [
+    "biologia"
+   ],
+   "authors": [
+    {
+     "au_id": "Garrahan%2C%20P.%20J.",
+     "name": "Garrahan, P. J",
+     "role": "autor"
+    },
+    {
+     "au_id": "Rega%2C%20A.%20F.",
+     "name": "Rega, A. F",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca e Internet FACEN\n  \n \n\n \n  Colección general",
+   "callnumber": "574.875 G191t\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 513523,
+   "title": "Microorganismos",
+   "year": null,
+   "query": "biologia",
+   "tags": [
+    "biologia"
+   ],
+   "authors": [
+    {
+     "au_id": "Gutierrez-Vazquez%2C%20J.%20M.",
+     "name": "Gutierrez-Vazquez, J. M",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca e Internet FACEN\n  \n \n\n \n  Colección general",
+   "callnumber": "576 G985m\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 566826,
+   "title": "Inmunología biología y patología del sistema inmune  Carlos López Larrea",
+   "year": null,
+   "query": "biologia",
+   "tags": [
+    "biologia"
+   ],
+   "authors": [
+    {
+     "au_id": "Regueiro%2C%20Jos%C3%A9%20R.",
+     "name": "Regueiro, José R",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca Central de la Universidad Nacional de Asunción\n  \n \n\n \n  Colección general",
+   "callnumber": "574.29 R265i\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 144865,
+   "title": "Histología  Ilustraciones de Lydia V. Kibiuk",
+   "year": null,
+   "query": "biologia",
+   "tags": [
+    "biologia"
+   ],
+   "authors": [
+    {
+     "au_id": "Ross%2C%20Michael%20H.",
+     "name": "Ross, Michael H",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca de la Facultad de Ciencias Agrarias — Sede Central (San Lorenzo)",
+   "callnumber": "574.824\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 271915,
+   "title": "Molecular biology of the cell",
+   "year": null,
+   "query": "biologia",
+   "tags": [
+    "biologia"
+   ],
+   "branch": "Biblioteca e Internet FACEN",
+   "callnumber": "574.88\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 271946,
+   "title": "Biology: the world of life",
+   "year": null,
+   "query": "biologia",
+   "tags": [
+    "biologia"
+   ],
+   "authors": [
+    {
+     "au_id": "Wallace%2C%20Robert%20A.",
+     "name": "Wallace, Robert A",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca e Internet FACEN",
+   "callnumber": "574\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 272244,
+   "title": "Ciencias biológicas de las moléculas al hombre",
+   "year": null,
+   "query": "biologia",
+   "tags": [
+    "biologia"
+   ],
+   "branch": "Biblioteca e Internet FACEN",
+   "callnumber": "574\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 517510,
+   "title": "Técnicas biológicas selectas de laboratorio y de campo",
+   "year": null,
+   "query": "biologia",
+   "tags": [
+    "biologia"
+   ],
+   "authors": [
+    {
+     "au_id": "Gavi%C3%B1o%20de%20la%20Torre%2C%20Gonzalo",
+     "name": "Gaviño de la Torre, Gonzalo",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca e Internet FACEN\n  \n \n\n \n  Colección general",
+   "callnumber": "574.028 G245t\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 271868,
+   "title": "Biology",
+   "year": null,
+   "query": "biologia",
+   "tags": [
+    "biologia"
+   ],
+   "authors": [
+    {
+     "au_id": "Johnson%2C%20Leland%20G.",
+     "name": "Johnson, Leland G",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca e Internet FACEN",
+   "callnumber": "574\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 271872,
+   "title": "Biology",
+   "year": null,
+   "query": "biologia",
+   "tags": [
+    "biologia"
+   ],
+   "authors": [
+    {
+     "au_id": "Kimball%2C%20John%20W.",
+     "name": "Kimball, John W",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca e Internet FACEN",
+   "callnumber": "574\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 271875,
+   "title": "Biology",
+   "year": null,
+   "query": "biologia",
+   "tags": [
+    "biologia"
+   ],
+   "authors": [
+    {
+     "au_id": "Mader%2C%20Sylvia%20S.",
+     "name": "Mader, Sylvia S",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca e Internet FACEN",
+   "callnumber": "574\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 271876,
+   "title": "Life",
+   "year": null,
+   "query": "biologia",
+   "tags": [
+    "biologia"
+   ],
+   "authors": [
+    {
+     "au_id": "Lewis%2C%20Ricki",
+     "name": "Lewis, Ricki",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca e Internet FACEN",
+   "callnumber": "574\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 272573,
+   "title": "Introducao à técnica de CRISPR",
+   "year": null,
+   "query": "biologia",
+   "tags": [
+    "biologia"
+   ],
+   "branch": "Biblioteca e Internet FACEN",
+   "callnumber": "574.88\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 272592,
+   "title": "The biotic world and man",
+   "year": null,
+   "query": "biologia",
+   "tags": [
+    "biologia"
+   ],
+   "authors": [
+    {
+     "au_id": "Milne%2C%20Lorus%20J.%3B%20Milne%2C%20Margery",
+     "name": "Milne, Lorus J.; Milne, Margery",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca e Internet FACEN",
+   "callnumber": "574\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 272621,
+   "title": "Biology: concepts and connections",
+   "year": null,
+   "query": "biologia",
+   "tags": [
+    "biologia"
+   ],
+   "authors": [
+    {
+     "au_id": "Rhoades%2C%20Fred%20M.",
+     "name": "Rhoades, Fred M",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca e Internet FACEN",
+   "callnumber": "574\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 272627,
+   "title": "Biologic readings for today'sstudents",
+   "year": null,
+   "query": "biologia",
+   "tags": [
+    "biologia"
+   ],
+   "authors": [
+    {
+     "au_id": "%3B%20Edited%20by%20Nelson%20Gideon%20E.",
+     "name": "; Edited by Nelson Gideon E",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca e Internet FACEN",
+   "callnumber": "574\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 517797,
+   "title": "Anurofauna de la rererva de recursos manejados Ybyturuzú, Dpto. Guairá Paraguay",
+   "year": "2011",
+   "query": "biologia",
+   "tags": [
+    "biologia"
+   ],
+   "authors": [
+    {
+     "au_id": "Airaldi%20Wood%2C%20Katia%20Mar%C3%ADa%20Celina",
+     "name": "Airaldi Wood, Katia María Celina",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca e Internet FACEN\n  \n \n\n \n  Colección general",
+   "callnumber": "574.5 Ai298a\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 517642,
+   "title": "Virología médica",
+   "year": null,
+   "query": "biologia",
+   "tags": [
+    "biologia"
+   ],
+   "authors": [
+    {
+     "au_id": "Carballal%2C%20Guadalupe",
+     "name": "Carballal, Guadalupe",
+     "role": "autor"
+    },
+    {
+     "au_id": "Oubi%C3%B1a%2C%20Jos%C3%A9%20Ra%C3%BAl",
+     "name": "Oubiña, José Raúl",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca e Internet FACEN\n  \n \n\n \n  Colección general",
+   "callnumber": "576 C177v\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 516903,
+   "title": "102 aves comunes del Paraguay",
+   "year": null,
+   "query": "biologia",
+   "tags": [
+    "biologia"
+   ],
+   "branch": "Biblioteca e Internet FACEN\n  \n \n\n \n  Colección general",
+   "callnumber": "598.2 C487a\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 543744,
+   "title": "Chemical mechanisms in bioenergetics  D. Rao Sanadi, editor",
+   "year": null,
+   "query": "biologia",
+   "tags": [
+    "biologia"
+   ],
+   "authors": [
+    {
+     "au_id": "Rao%20Sanadi%2C%20D.",
+     "name": "Rao Sanadi, D",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca de la Facultad de Ciencias Químicas — Sede Central (San Lorenzo)\n  \n \n\n \n  Colección general",
+   "callnumber": "574.1 9121 Ch517c\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 518610,
+   "title": "Hidrogeología e hidroquímica del Acuífero Somero en torno a la laguna de la Ciudad de Mariscal José Félix Estigarribia, Región Occidental - Chaco Paraguayo",
+   "year": "2017",
+   "query": "geologia",
+   "tags": [
+    "geologia"
+   ],
+   "authors": [
+    {
+     "au_id": "Paredes%20Rol%C3%B3n%2C%20Jos%C3%A9%20Lu%C3%ADs",
+     "name": "Paredes Rolón, José Luís",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca e Internet FACEN\n  \n \n\n \n  Colección general",
+   "callnumber": "551.49 P215h\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 574538,
+   "title": "La ecología al servicio del desarrollo",
+   "year": null,
+   "query": "geologia",
+   "tags": [
+    "geologia"
+   ],
+   "authors": [
+    {
+     "au_id": "Naciones%20Unidas",
+     "name": "Naciones Unidas",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca de la Facultad de Ciencias Agrarias — Sede Central (San Lorenzo)\n  \n \n\n \n  Colección general",
+   "callnumber": "333.715 N113e\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 651162,
+   "title": "Organización política del Paraguay",
+   "year": "1944",
+   "query": "doctorado_derecho",
+   "tags": [
+    "doctorado_derecho"
+   ],
+   "authors": [
+    {
+     "au_id": "Sanabria%2C%20Salustiano",
+     "name": "Sanabria, Salustiano",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca DER Central\n  \n \n\n \n  Colección general",
+   "callnumber": "Tesis San51o\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 651153,
+   "title": "Legislación uniforme",
+   "year": "1920",
+   "query": "doctorado_derecho",
+   "tags": [
+    "doctorado_derecho"
+   ],
+   "authors": [
+    {
+     "au_id": "Martinez%20Berges%2C%20Julio",
+     "name": "Martinez Berges, Julio",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca DER Central\n  \n \n\n \n  Colección general",
+   "callnumber": "Tesis M366l\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 651148,
+   "title": "Condición del extranjero",
+   "year": "1933",
+   "query": "doctorado_derecho",
+   "tags": [
+    "doctorado_derecho"
+   ],
+   "authors": [
+    {
+     "au_id": "Gardel%2C%20Emilio",
+     "name": "Gardel, Emilio",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca DER Central\n  \n \n\n \n  Colección general",
+   "callnumber": "Tesis G166c\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 651139,
+   "title": "Verificación de creditos su alcance",
+   "year": "1917",
+   "query": "doctorado_derecho",
+   "tags": [
+    "doctorado_derecho"
+   ],
+   "authors": [
+    {
+     "au_id": "Appleyard%2C%20C.%20B",
+     "name": "Appleyard, C. B",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca DER Central\n  \n \n\n \n  Colección general",
+   "callnumber": "Tesis Ap37v\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 651166,
+   "title": "El mandato y el registro G. de Poderes",
+   "year": "1916",
+   "query": "doctorado_derecho",
+   "tags": [
+    "doctorado_derecho"
+   ],
+   "authors": [
+    {
+     "au_id": "V%C3%A1zquez%2C%20Amulio",
+     "name": "Vázquez, Amulio",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca DER Central\n  \n \n\n \n  Colección general",
+   "callnumber": "Tesis V479m\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 651165,
+   "title": "La patria potestad y la tutela en la filiación natural",
+   "year": "1919",
+   "query": "doctorado_derecho",
+   "tags": [
+    "doctorado_derecho"
+   ],
+   "authors": [
+    {
+     "au_id": "Velazquez%2C%20Celso%20R.",
+     "name": "Velazquez, Celso R",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca DER Central\n  \n \n\n \n  Colección general",
+   "callnumber": "Tesis V541p\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 651164,
+   "title": "Un caso de obligación de hacer",
+   "year": "1925",
+   "query": "doctorado_derecho",
+   "tags": [
+    "doctorado_derecho"
+   ],
+   "authors": [
+    {
+     "au_id": "Sisa%2C%20Manuel",
+     "name": "Sisa, Manuel",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca DER Central\n  \n \n\n \n  Colección general",
+   "callnumber": "Tesis Sis81c\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 651161,
+   "title": "Propositos fundamentales y politica del plan monetario y financiero de Bretton Woodos",
+   "year": "1946",
+   "query": "doctorado_derecho",
+   "tags": [
+    "doctorado_derecho"
+   ],
+   "authors": [
+    {
+     "au_id": "Salvador%20Ochoa%2C%20Jos%C3%A9",
+     "name": "Salvador Ochoa, José",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca DER Central\n  \n \n\n \n  Colección general",
+   "callnumber": "Tesis Sal38p\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 651159,
+   "title": "Defensa de la educación laica y democratica a la luz de nuestra tradición jurídica y texto constitucionales.",
+   "year": "6511",
+   "query": "doctorado_derecho",
+   "tags": [
+    "doctorado_derecho"
+   ],
+   "authors": [
+    {
+     "au_id": "Recalde%20C%C3%A9spedes%2C%20Manuel",
+     "name": "Recalde Céspedes, Manuel",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca DER Central\n  \n \n\n \n  Colección general",
+   "callnumber": "Tesis R244d\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 651158,
+   "title": "Politica monetaria y financiera del Paraguay",
+   "year": "1979",
+   "query": "doctorado_derecho",
+   "tags": [
+    "doctorado_derecho"
+   ],
+   "authors": [
+    {
+     "au_id": "Rivarola%20Paoli%2C%20Juan%20Bautista.",
+     "name": "Rivarola Paoli, Juan Bautista",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca DER Central\n  \n \n\n \n  Colección general",
+   "callnumber": "Tesis R522p\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 651157,
+   "title": "La codificación en el Paraguay",
+   "year": "1960",
+   "query": "doctorado_derecho",
+   "tags": [
+    "doctorado_derecho"
+   ],
+   "authors": [
+    {
+     "au_id": "Rienzi%20Galeano%2C%20Wildo",
+     "name": "Rienzi Galeano, Wildo",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca DER Central\n  \n \n\n \n  Colección general",
+   "callnumber": "Tesis R445c\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 651156,
+   "title": "Concepto jurídico acerca de la naturaleza de la posesión",
+   "year": "1913",
+   "query": "doctorado_derecho",
+   "tags": [
+    "doctorado_derecho"
+   ],
+   "authors": [
+    {
+     "au_id": "Olmedo%2C%20Hermenegildo%20A",
+     "name": "Olmedo, Hermenegildo A",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca DER Central\n  \n \n\n \n  Colección general",
+   "callnumber": "Tesis Ol5e\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 651155,
+   "title": "Interpretación y correlación de los articulos del código civil que se refieren a los plazos dentro de los cuales el heredero debe ejercer su derecho de opción",
+   "year": "1937",
+   "query": "doctorado_derecho",
+   "tags": [
+    "doctorado_derecho"
+   ],
+   "authors": [
+    {
+     "au_id": "Mojoli%2C%20Ra%C3%BAl",
+     "name": "Mojoli, Raúl",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca DER Central\n  \n \n\n \n  Colección general",
+   "callnumber": "Tesis M728i\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 651154,
+   "title": "La función técnica de la justicia en la ley fundamental",
+   "year": "1966",
+   "query": "doctorado_derecho",
+   "tags": [
+    "doctorado_derecho"
+   ],
+   "authors": [
+    {
+     "au_id": "Martinez%2C%20Deidama%20A.",
+     "name": "Martinez, Deidama A",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca DER Central\n  \n \n\n \n  Colección general",
+   "callnumber": "Tesis M366f\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 651173,
+   "title": "El subdesarrollo económico y social, caracteres y causas del desarrollo",
+   "year": "1970",
+   "query": "doctorado_derecho",
+   "tags": [
+    "doctorado_derecho"
+   ],
+   "authors": [
+    {
+     "au_id": "Silva%20Alonso%2C%20Ramiro",
+     "name": "Silva Alonso, Ramiro",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca DER Central\n  \n \n\n \n  Colección general",
+   "callnumber": "Tesis Sil38s\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 651172,
+   "title": "De la legitimación",
+   "year": "1901",
+   "query": "doctorado_derecho",
+   "tags": [
+    "doctorado_derecho"
+   ],
+   "authors": [
+    {
+     "au_id": "Ortiz%2C%20Gregorio",
+     "name": "Ortiz, Gregorio",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca DER Central\n  \n \n\n \n  Colección general",
+   "callnumber": "Tesis On8l\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 651163,
+   "title": "Momento en que se perfeccionan los contratos por correspondencia",
+   "year": "1931",
+   "query": "doctorado_derecho",
+   "tags": [
+    "doctorado_derecho"
+   ],
+   "authors": [
+    {
+     "au_id": "Sapena%20Pastor%2C%20Ra%C3%BAl",
+     "name": "Sapena Pastor, Raúl",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca DER Central\n  \n \n\n \n  Colección general",
+   "callnumber": "Tesis Sap66m\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 651160,
+   "title": "Intervención del estado en las sociedades anónimas",
+   "year": "1919",
+   "query": "doctorado_derecho",
+   "tags": [
+    "doctorado_derecho"
+   ],
+   "authors": [
+    {
+     "au_id": "Rojas%20O.%2C%20Di%C3%B3genes",
+     "name": "Rojas O., Diógenes",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca DER Central\n  \n \n\n \n  Colección general",
+   "callnumber": "Tesis R638i\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 651151,
+   "title": "El privilegio del crédito hipotecario tiene preferencia sobre el de los gastos de justicia que no le han beneficiado",
+   "year": "1915",
+   "query": "doctorado_derecho",
+   "tags": [
+    "doctorado_derecho"
+   ],
+   "authors": [
+    {
+     "au_id": "Jacquet%2C%20Enrique",
+     "name": "Jacquet, Enrique",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca DER Central\n  \n \n\n \n  Colección general",
+   "callnumber": "Tesis J166p\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 651149,
+   "title": "Las sociedades de responsabilidad limitada",
+   "year": "1944",
+   "query": "doctorado_derecho",
+   "tags": [
+    "doctorado_derecho"
+   ],
+   "authors": [
+    {
+     "au_id": "Garay%2C%20C%C3%A9sar",
+     "name": "Garay, César",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca DER Central\n  \n \n\n \n  Colección general",
+   "callnumber": "Tesis G162s\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 651145,
+   "title": "El concordato entre la iglesia libre y el estado libre",
+   "year": "1952",
+   "query": "doctorado_derecho",
+   "tags": [
+    "doctorado_derecho"
+   ],
+   "authors": [
+    {
+     "au_id": "Fari%C3%B1a%20Ferreira%2C%20Joaquin",
+     "name": "Fariña Ferreira, Joaquin",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca DER Central\n  \n \n\n \n  Colección general",
+   "callnumber": "Tesis F225c\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 651143,
+   "title": "Indemnizaciòn de los daños y perjuicios",
+   "year": "1922",
+   "query": "doctorado_derecho",
+   "tags": [
+    "doctorado_derecho"
+   ],
+   "authors": [
+    {
+     "au_id": "Bidondo%2C%20Julio%20Cesar",
+     "name": "Bidondo, Julio Cesar",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca DER Central\n  \n \n\n \n  Colección general",
+   "callnumber": "Tesis B475i\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 651142,
+   "title": "Estado economía intervención del estado a la luz de la experiencia",
+   "year": "1931",
+   "query": "doctorado_derecho",
+   "tags": [
+    "doctorado_derecho"
+   ],
+   "authors": [
+    {
+     "au_id": "Berthomier%2C%20Lu%C3%ADs%20A.",
+     "name": "Berthomier, Luís A",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca DER Central\n  \n \n\n \n  Colección general",
+   "callnumber": "Tesis B461e\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 241563,
+   "title": "Limitación del esfuerzo terapeutico en pediatria.  Facultad de Ciencias Médicas",
+   "year": null,
+   "query": "especializacion_pediatria",
+   "tags": [
+    "especializacion_pediatria"
+   ],
+   "authors": [
+    {
+     "au_id": "Nu%C3%B1ez%20Arias%2C%20Debora%20Nathalia.",
+     "name": "Nuñez Arias, Debora Nathalia",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca de la Facultad de Ciencias Médicas",
+   "callnumber": "170.202 /SL\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 547585,
+   "title": "Convulsión febril compleja en niños. Frecuencia y características clínico - epidemiológicas de pacientes atendidos en el Hospital de Clínicas entre el 2015 a 2020  Jorge Daniel Ortiz Rolón",
+   "year": "2022",
+   "query": "especializacion_pediatria",
+   "tags": [
+    "especializacion_pediatria"
+   ],
+   "authors": [
+    {
+     "au_id": "Ortiz%20Rol%C3%B3n%2CJorge%20Daniel",
+     "name": "Ortiz Rolón,Jorge Daniel",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca de la Facultad de Ciencias Químicas — Sede Central (San Lorenzo)\n  \n \n\n \n  Colección general",
+   "callnumber": "47/22 ESP\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 600011,
+   "title": "Gastrosquisis : a propósito  de cinco casos",
+   "year": "1999",
+   "query": "especializacion_pediatria",
+   "tags": [
+    "especializacion_pediatria"
+   ],
+   "authors": [
+    {
+     "au_id": "Rol%C3%B3n%20Vicioso%2C%20Julio%20Javier",
+     "name": "Rolón Vicioso, Julio Javier",
+     "role": "autor"
+    }
+   ],
+   "orientadores": [
+    {
+     "au_id": "Aida%20Galeano",
+     "name": "Aida Galeano",
+     "role": "orientador"
+    }
+   ],
+   "branch": "Biblioteca Central. Trabajos de Fin de Grado y Tesis de Postgrado\n  \n \n\n \n  Colección general",
+   "callnumber": "618.92\n \n \n ( Navegar estantería (Abre debajo)  )",
+   "online_resources": [
+    "http://sdi.cnc.una.py/catbib/documentos/tesis/6415.pdf"
+   ]
+  },
+  {
+   "bibnum": 641381,
+   "title": "Estrategia de control pasivo tolerante a fallas basado en logica difusa para un sistema de un solo tanque con deficiencias en el sistema y perturbaciones del proceso  Quintana Almeida, Cristhian David",
+   "year": "2022",
+   "query": "inteligencia_artificial",
+   "tags": [
+    "inteligencia_artificial"
+   ],
+   "authors": [
+    {
+     "au_id": "Acu%C3%B1a%20Pereira%2C%20Oscar%20Mathias",
+     "name": "Acuña Pereira, Oscar Mathias",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca FPUNA (Centro de Información y Cultura)\n  \n \n\n \n  Colección general",
+   "callnumber": "IE0237\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 315010,
+   "title": "La revolución de los robots  Fritz Erler",
+   "year": null,
+   "query": "inteligencia_artificial",
+   "tags": [
+    "inteligencia_artificial"
+   ],
+   "branch": "Biblioteca &quot;Abraham Lincoln&quot; de la Facultad de Filosofía",
+   "callnumber": "001.535\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 193115,
+   "title": "Biblioteca básica informática Dbase II y Dbase III  Antonio M. Ferrer Abello, ed.",
+   "year": null,
+   "query": "inteligencia_artificial",
+   "tags": [
+    "inteligencia_artificial"
+   ],
+   "branch": "Biblioteca FPUNA (Centro de Información y Cultura)",
+   "callnumber": "004\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 269332,
+   "title": "Predicción de riesgo de extinción en aves del bosque atlántico a partir de atributos de su nicho climático",
+   "year": "2021",
+   "query": "redes_neuronales",
+   "tags": [
+    "redes_neuronales"
+   ],
+   "authors": [
+    {
+     "au_id": "Jim%C3%A9nez%20Zacur%2C%20Marcela%20Noem%C3%AD",
+     "name": "Jiménez Zacur, Marcela Noemí",
+     "role": "autor"
+    }
+   ],
+   "orientadores": [
+    {
+     "au_id": "Alberto%20Esquivel%20Pastor%20P%C3%A9rez",
+     "name": "Alberto Esquivel Pastor Pérez",
+     "role": "orientador"
+    }
+   ],
+   "branch": "Biblioteca Central. Trabajos de Fin de Grado y Tesis de Postgrado",
+   "callnumber": "598.2\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 622432,
+   "title": "Evolución artificial y robótica autónoma",
+   "year": null,
+   "query": "robotica",
+   "tags": [
+    "robotica"
+   ],
+   "authors": [
+    {
+     "au_id": "Santos%20Reyes%2C%20Jos%C3%A9",
+     "name": "Santos Reyes, José",
+     "role": "autor"
+    },
+    {
+     "au_id": "Duro%2C%20Richard%20J.",
+     "name": "Duro, Richard J",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca de la Facultad de Ingeniería — Sede Central (San Lorenzo)\n  \n \n\n \n  Colección general",
+   "callnumber": "629.892 San59e\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 580880,
+   "title": "The World Bank ande the environment a progress reporf fiscal 1991",
+   "year": null,
+   "query": "ande",
+   "tags": [
+    "ande"
+   ],
+   "authors": [
+    {
+     "au_id": "The%20World%20Bank",
+     "name": "The World Bank",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca de la Facultad de Ciencias Agrarias — Sede Central (San Lorenzo)\n  \n \n\n \n  Colección general",
+   "callnumber": "B333.7 W893wa\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 621703,
+   "title": "Pliego de tarifas Nº 20",
+   "year": null,
+   "query": "ande",
+   "tags": [
+    "ande"
+   ],
+   "authors": [
+    {
+     "au_id": "Administraci%C3%B3n%20Nacional%20de%20Electricidad",
+     "name": "Administración Nacional de Electricidad",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca de la Facultad de Ingeniería — Sede Central (San Lorenzo)\n  \n \n\n \n  Referencia",
+   "callnumber": "Pa621.319 2 P212p\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 571020,
+   "title": "Guía de la República del Paraguay  publicado por Anuario Kraft",
+   "year": null,
+   "query": "ande",
+   "tags": [
+    "ande"
+   ],
+   "branch": "Biblioteca Central de la Universidad Nacional de Asunción\n  \n \n\n \n  Colección general",
+   "callnumber": "989.025 G940g\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 626006,
+   "title": "Estudio de factibilidad de una planta solar fotovoltaica flotante en la bahía de Asunción",
+   "year": "2020",
+   "query": "ande",
+   "tags": [
+    "ande"
+   ],
+   "authors": [
+    {
+     "au_id": "Castillo%20Luraschi%2C%20Mart%C3%ADn%20Federico",
+     "name": "Castillo Luraschi, Martín Federico",
+     "role": "autor"
+    },
+    {
+     "au_id": "Pesoa%20Mart%C3%ADnez%2C%20Marcos%20Hernan",
+     "name": "Pesoa Martínez, Marcos Hernan",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca de la Facultad de Ingeniería — Sede Central (San Lorenzo)\n  \n \n\n \n  Colección general",
+   "callnumber": "T2039\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 623946,
+   "title": "Auditoria energética y propuestas de implementación de medidas correctivas para la eficiencia energética: caso Hotel Los Alpes",
+   "year": "2014",
+   "query": "ande",
+   "tags": [
+    "ande"
+   ],
+   "authors": [
+    {
+     "au_id": "Figueredo%20L%C3%B3pez%2C%20Fabio",
+     "name": "Figueredo López, Fabio",
+     "role": "autor"
+    },
+    {
+     "au_id": "D%C3%A1valos%20Ocampos%2C%20Marcelo%20Emilio",
+     "name": "Dávalos Ocampos, Marcelo Emilio",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca de la Facultad de Ingeniería — Sede Central (San Lorenzo)\n  \n \n\n \n  Colección general",
+   "callnumber": "T1429\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 145029,
+   "title": "Calculo de la energía solar",
+   "year": null,
+   "query": "energia_solar",
+   "tags": [
+    "energia_solar"
+   ],
+   "authors": [
+    {
+     "au_id": "Garc%C3%ADa-Badell%2C%20Jos%C3%A9%20Javier",
+     "name": "García-Badell, José Javier",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca de la Facultad de Ciencias Agrarias — Sede Central (San Lorenzo)",
+   "callnumber": "333.7923\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 145673,
+   "title": "Calculo de la energía solar",
+   "year": null,
+   "query": "energia_solar",
+   "tags": [
+    "energia_solar"
+   ],
+   "authors": [
+    {
+     "au_id": "Garc%C3%ADa-Badell%2C%20Jos%C3%A9%20Javier",
+     "name": "García-Badell, José Javier",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca de la Facultad de Ciencias Agrarias — Sede Central (San Lorenzo)",
+   "callnumber": "333.7923\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 247703,
+   "title": "Potencial de producción de hidrógeno electrolítico a partir de energía solar fotovoltaica en el Paraguay y su uso como vector energético",
+   "year": null,
+   "query": "energia_solar",
+   "tags": [
+    "energia_solar"
+   ],
+   "authors": [
+    {
+     "au_id": "Baranda%20Ben%C3%ADtez%2CC%C3%A9sar%20Elias",
+     "name": "Baranda Benítez,César Elias",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca de la Facultad de Ciencias Químicas — Sede Central (San Lorenzo)",
+   "callnumber": "2/20\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 145278,
+   "title": "Análisis técnico y económico de instalación y extracción de agua de pozos artesianos con dos sistemas: energía solar y eléctrica, localidad Picada 500 Departamento de Boquerón",
+   "year": "2017",
+   "query": "energia_solar",
+   "tags": [
+    "energia_solar"
+   ],
+   "authors": [
+    {
+     "au_id": "Escalante%2C%20Rolando%20Andr%C3%A9s",
+     "name": "Escalante, Rolando Andrés",
+     "role": "autor"
+    }
+   ],
+   "orientadores": [
+    {
+     "au_id": "Ricardo%20D.%20Ch%C3%A1vez%20C",
+     "name": "Ricardo D. Chávez C",
+     "role": "orientador"
+    },
+    {
+     "au_id": "Emiliano%20Serv%C3%ADn",
+     "name": "Emiliano Servín",
+     "role": "orientador"
+    }
+   ],
+   "branch": "Biblioteca de la Facultad de Ciencias Agrarias — Sede Central (San Lorenzo)",
+   "callnumber": "628.114\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 626013,
+   "title": "Diseño de planta desalinizadora por ósmosis inversa mediante energía solar fotovoltaica",
+   "year": "2020",
+   "query": "energia_solar",
+   "tags": [
+    "energia_solar"
+   ],
+   "authors": [
+    {
+     "au_id": "Duarte%20Bogado%2C%20Alejandro%20Daniel",
+     "name": "Duarte Bogado, Alejandro Daniel",
+     "role": "autor"
+    },
+    {
+     "au_id": "Schweiss%20Szwako%2C%20Joseph%20Rudolf",
+     "name": "Schweiss Szwako, Joseph Rudolf",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca de la Facultad de Ingeniería — Sede Central (San Lorenzo)\n  \n \n\n \n  Colección general",
+   "callnumber": "T2046\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 137321,
+   "title": "Generación de energía en el medio rural",
+   "year": null,
+   "query": "energia_solar",
+   "tags": [
+    "energia_solar"
+   ],
+   "authors": [
+    {
+     "au_id": "Alvargonz%C3%A1lez%20Cruz%2C%20Rafael",
+     "name": "Alvargonzález Cruz, Rafael",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca de la Facultad de Ciencias Agrarias — Sede Central (San Lorenzo)",
+   "callnumber": "333.79\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 622401,
+   "title": "Energías renovables para el desarrollo",
+   "year": null,
+   "query": "energia_solar",
+   "tags": [
+    "energia_solar"
+   ],
+   "authors": [
+    {
+     "au_id": "De%20Juana%20Sard%C3%B3n%2C%20Jos%C3%A9%20M%C2%AA",
+     "name": "De Juana Sardón, José Mª",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca de la Facultad de Ingeniería — Sede Central (San Lorenzo)\n  \n \n\n \n  Colección general",
+   "callnumber": "621.312 44 En27e\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 624496,
+   "title": "Energías renovables",
+   "year": null,
+   "query": "energia_eolica",
+   "tags": [
+    "energia_eolica"
+   ],
+   "authors": [
+    {
+     "au_id": "Creus%20Sol%C3%A9%2C%20Antonio",
+     "name": "Creus Solé, Antonio",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca de la Facultad de Ingeniería — Sede Central (San Lorenzo)\n  \n \n\n \n  Colección general",
+   "callnumber": "621.47 C866e\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 623034,
+   "title": "Grid converters for photovoltaic and wind power systems",
+   "year": null,
+   "query": "energia_eolica",
+   "tags": [
+    "energia_eolica"
+   ],
+   "authors": [
+    {
+     "au_id": "Teodorescu%2C%20Remus",
+     "name": "Teodorescu, Remus",
+     "role": "autor"
+    },
+    {
+     "au_id": "Liserre%2C%20Marco",
+     "name": "Liserre, Marco",
+     "role": "autor"
+    },
+    {
+     "au_id": "Rodr%C3%ADguez%2C%20Pedro",
+     "name": "Rodríguez, Pedro",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca de la Facultad de Ingeniería — Sede Central (San Lorenzo)\n  \n \n\n \n  Colección general",
+   "callnumber": "621.312 44 T264g\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 619753,
+   "title": "Elements of power system analysis",
+   "year": null,
+   "query": "redes_electricas",
+   "tags": [
+    "redes_electricas"
+   ],
+   "authors": [
+    {
+     "au_id": "Stevenson%2C%20William%20D.",
+     "name": "Stevenson, William D",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca de la Facultad de Ingeniería — Sede Central (San Lorenzo)\n  \n \n\n \n  Colección general",
+   "callnumber": "CITEC621.319 2 Ste48e\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 617769,
+   "title": "Corrientes de cortocircuito de redes trífasicas",
+   "year": null,
+   "query": "redes_electricas",
+   "tags": [
+    "redes_electricas"
+   ],
+   "authors": [
+    {
+     "au_id": "Roeper%2C%20Richard",
+     "name": "Roeper, Richard",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca de la Facultad de Ingeniería — Sede Central (San Lorenzo)\n  \n \n\n \n  Colección general",
+   "callnumber": "621.319 13 R627c\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 621816,
+   "title": "Programa didáctico para simulación de flujo de carga y cortocircuitos en sistemas eléctricos de potencia",
+   "year": "2006",
+   "query": "redes_electricas",
+   "tags": [
+    "redes_electricas"
+   ],
+   "authors": [
+    {
+     "au_id": "Br%C3%ADtez%20Maidana%2C%20C%C3%A9sar",
+     "name": "Brítez Maidana, César",
+     "role": "autor"
+    },
+    {
+     "au_id": "Shin%2C%20Hyun%20Ho",
+     "name": "Shin, Hyun Ho",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca de la Facultad de Ingeniería — Sede Central (San Lorenzo)\n  \n \n\n \n  Colección general",
+   "callnumber": "T959\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 619877,
+   "title": "Análisis moderno de circuitos",
+   "year": null,
+   "query": "redes_electricas",
+   "tags": [
+    "redes_electricas"
+   ],
+   "authors": [
+    {
+     "au_id": "Calahan%2C%20Donald",
+     "name": "Calahan, Donald",
+     "role": "autor"
+    },
+    {
+     "au_id": "Macnee%2C%20Alan%20B.",
+     "name": "Macnee, Alan B",
+     "role": "autor"
+    },
+    {
+     "au_id": "McMahon%2C%20E.%20Lawrence",
+     "name": "McMahon, E. Lawrence",
+     "role": "autor"
+    },
+    {
+     "au_id": "traducido%20por%20Hortensia%20Corona%20de%20Contin",
+     "name": "traducido por Hortensia Corona de Contin",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca de la Facultad de Ingeniería — Sede Central (San Lorenzo)\n  \n \n\n \n  Colección general",
+   "callnumber": "CITEC621.319 2 C125a\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 576484,
+   "title": "Modelos y cartografía de estimaciones climáticas termopluviométricas para la España Peninsular",
+   "year": null,
+   "query": "cartografia",
+   "tags": [
+    "cartografia"
+   ],
+   "authors": [
+    {
+     "au_id": "S%C3%A1nchez%20Palomares%2C%20O.",
+     "name": "Sánchez Palomares, O",
+     "role": "autor"
+    },
+    {
+     "au_id": "F.%20S%C3%A1nchez%20Serrano",
+     "name": "F. Sánchez Serrano",
+     "role": "autor"
+    },
+    {
+     "au_id": "Ma.%20P.%20Carretero%20Carrero",
+     "name": "Ma. P. Carretero Carrero",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca de la Facultad de Ciencias Agrarias — Sede Central (San Lorenzo)\n  \n \n\n \n  Colección general",
+   "callnumber": "551.6 San55m\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 510935,
+   "title": "Enrique Careaga cartografía personal, muestra antológica 1965 - 2005  Adriana Almada, edición y diseño",
+   "year": null,
+   "query": "cartografia",
+   "tags": [
+    "cartografia"
+   ],
+   "branch": "Biblioteca de la Facultad de Arquitectura, Diseño y Arte\n  \n \n\n \n  Colección general",
+   "callnumber": "PAR/759 ENRe\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 573110,
+   "title": "Súmula da X reuniao técnica de levantamento de solos  EMBRAPA. Servicio Nacional de Levantamento e Conservacao de Solos",
+   "year": null,
+   "query": "cartografia",
+   "tags": [
+    "cartografia"
+   ],
+   "branch": "Biblioteca de la Facultad de Ciencias Agrarias — Sede Central (San Lorenzo)\n  \n \n\n \n  Colección general",
+   "callnumber": "631.4 R318s\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 624565,
+   "title": "Actualización del catastro de un sector de la ciudad de Guarambaré con propuesta de delimitación del casco urbano",
+   "year": "2015",
+   "query": "cartografia",
+   "tags": [
+    "cartografia"
+   ],
+   "authors": [
+    {
+     "au_id": "Ledesma%20Portillo%2C%20Jos%C3%A9%20Vidal",
+     "name": "Ledesma Portillo, José Vidal",
+     "role": "autor"
+    },
+    {
+     "au_id": "Reckziegel%20Klein%C3%BCbing%2C%20Rodolfo%20Marcelo",
+     "name": "Reckziegel Kleinübing, Rodolfo Marcelo",
+     "role": "autor"
+    },
+    {
+     "au_id": "Ovejero%20Saldivar%2C%20Carlos%20Rub%C3%A9n",
+     "name": "Ovejero Saldivar, Carlos Rubén",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca de la Facultad de Ingeniería — Sede Central (San Lorenzo)\n  \n \n\n \n  Colección general",
+   "callnumber": "T1576\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 622321,
+   "title": "Sistemas y análisis de la información geográfica : manual de autoaprendizaje con ArcGIS  Moreno Jiménez, Antonio coord.",
+   "year": null,
+   "query": "cartografia",
+   "tags": [
+    "cartografia"
+   ],
+   "branch": "Biblioteca de la Facultad de Ingeniería — Sede Central (San Lorenzo)\n  \n \n\n \n  Colección general",
+   "callnumber": "003.209 Sis84s\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 168958,
+   "title": "Sistemas de información geográfica prácticas con PC ARC/INFO e IDRISI",
+   "year": null,
+   "query": "sistemas_informacion_geografica",
+   "tags": [
+    "sistemas_informacion_geografica"
+   ],
+   "authors": [
+    {
+     "au_id": "Bosque%2C%20Joaqu%C3%ADn%2FEscobar%2C%20Fco.%20JAvier%2FGarc%C3%ADa%2C%20Ernesto%2FSalado%2C%20MA.%20Jes%C3%BAs",
+     "name": "Bosque, Joaquín/Escobar, Fco. JAvier/García, Ernesto/Salado, MA. Jesús",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca de la Facultad de Ciencias Agrarias — Sede Central (San Lorenzo)",
+   "callnumber": "621.3678\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 236672,
+   "title": "La utilidad de los sistemas de información geográfica en la predicción de la distribución regional de la tuberculosis bovina  H. Zendejas Martínez, F. Milián Suazo, L. García Casanova, G. Cruz Bello, A. M. Anaya Escalera",
+   "year": null,
+   "query": "sistemas_informacion_geografica",
+   "tags": [
+    "sistemas_informacion_geografica"
+   ],
+   "branch": "Biblioteca FCV San Lorenzo - Prof. Dr. C. Arsenio Vasconsellos",
+   "callnumber": "TPM/PP/EXT/19\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 622322,
+   "title": "Sistemas de información geográfica y evaluación multicriterio en la ordenación del territorio",
+   "year": null,
+   "query": "sistemas_informacion_geografica",
+   "tags": [
+    "sistemas_informacion_geografica"
+   ],
+   "authors": [
+    {
+     "au_id": "G%C3%B3mez%20Delgado%2C%20Montserrat",
+     "name": "Gómez Delgado, Montserrat",
+     "role": "autor"
+    },
+    {
+     "au_id": "Barreto%20Cano%2C%20Jos%C3%A9%20Ignacio",
+     "name": "Barreto Cano, José Ignacio",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca de la Facultad de Ingeniería — Sede Central (San Lorenzo)\n  \n \n\n \n  Colección general",
+   "callnumber": "003.209 G586s\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 626993,
+   "title": "Diagnóstico territorial del municipio de Villeta a través de la aplicación de indicadores de sostenibilidad urbana",
+   "year": "2025",
+   "query": "sistemas_informacion_geografica",
+   "tags": [
+    "sistemas_informacion_geografica"
+   ],
+   "authors": [
+    {
+     "au_id": "Gamarra%20Insfr%C3%A1n%2C%20Pelusa%20Alecxandra",
+     "name": "Gamarra Insfrán, Pelusa Alecxandra",
+     "role": "autor"
+    },
+    {
+     "au_id": "Recalde%20Ferreira%2C%20Mar%C3%ADa%20Eugenia",
+     "name": "Recalde Ferreira, María Eugenia",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca de la Facultad de Ingeniería — Sede Central (San Lorenzo)\n  \n \n\n \n  Colección general",
+   "callnumber": "T2573\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 144978,
+   "title": "Determinación del estado de conservación de la Reserva Natural Cerrados de Tagatiyá, Departamento de Concepción a través del índice de vegetación de diferencia normalizada",
+   "year": "2012",
+   "query": "sistemas_informacion_geografica",
+   "tags": [
+    "sistemas_informacion_geografica"
+   ],
+   "authors": [
+    {
+     "au_id": "Quintana%20Lezcano%2C%20Felipe%20David",
+     "name": "Quintana Lezcano, Felipe David",
+     "role": "autor"
+    }
+   ],
+   "orientadores": [
+    {
+     "au_id": "Clara%20Graciela%20Echeverr%C3%ADa",
+     "name": "Clara Graciela Echeverría",
+     "role": "orientador"
+    },
+    {
+     "au_id": "Stella%20Mary%20Amarilla%20Rodriguez",
+     "name": "Stella Mary Amarilla Rodriguez",
+     "role": "orientador"
+    }
+   ],
+   "branch": "Biblioteca de la Facultad de Ciencias Agrarias — Sede Central (San Lorenzo)",
+   "callnumber": "333.78316\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 623219,
+   "title": "Topografía",
+   "year": null,
+   "query": "sistemas_informacion_geografica",
+   "tags": [
+    "sistemas_informacion_geografica"
+   ],
+   "authors": [
+    {
+     "au_id": "McCormac%2C%20Jack",
+     "name": "McCormac, Jack",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca de la Facultad de Ingeniería — Sede Central (San Lorenzo)\n  \n \n\n \n  Colección general",
+   "callnumber": "526.9 M137t\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 161123,
+   "title": "/Temas presentados/: Curso de Entrenamiento en Técnicas de Sensores Remotos y SIG Aplicadas al Estudio de los Recursos Naturales y Medio Ambiente (4a : 1998 nov. 9-20 : San Lorenzo, Paraguay)  Carrera de Ingieneria Forestal, Facultad de Ciencias Agrarias, UNA/ Programa de Desarrollo de Investigación de Teledetección , Universidad Nacional d",
+   "year": null,
+   "query": "teledeteccion",
+   "tags": [
+    "teledeteccion"
+   ],
+   "authors": [
+    {
+     "au_id": "Curso%20de%20Entrenamiento%20en%20T%C3%A9cnicas%20de%20Sensores%20Remotos%20y%20SIG%20Aplicadas%20al%20Estudio%20de%20los%20Recursos%20Na",
+     "name": "Curso de Entrenamiento en Técnicas de Sensores Remotos y SIG Aplicadas al Estudio de los Recursos Na",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca de la Facultad de Ciencias Agrarias — Sede Central (San Lorenzo)",
+   "callnumber": "621.3678\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 161402,
+   "title": "/Temas presentados/: Curso de Entrenamiento en Técnicas de Sensores Remotos y SIG Aplicadas al Estudio de los Recursos Naturales y Medio Ambiente (4a : 1998 nov. 9-20 : San Lorenzo, Paraguay)  Carrera de Ingieneria Forestal, Facultad de Ciencias Agrarias, UNA/ Programa de Desarrollo de Investigación de Teledetección , Universidad Nacional d",
+   "year": null,
+   "query": "teledeteccion",
+   "tags": [
+    "teledeteccion"
+   ],
+   "authors": [
+    {
+     "au_id": "Curso%20de%20Entrenamiento%20en%20T%C3%A9cnicas%20de%20Sensores%20Remotos%20y%20SIG%20Aplicadas%20al%20Estudio%20de%20los%20Recursos%20Na",
+     "name": "Curso de Entrenamiento en Técnicas de Sensores Remotos y SIG Aplicadas al Estudio de los Recursos Na",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca de la Facultad de Ciencias Agrarias — Sede Central (San Lorenzo)",
+   "callnumber": "621.3678\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 576358,
+   "title": "/Temas presentados/: Curso de Entrenamiento en Técnicas de Sensores Remotos y SIG Aplicadas al Estudio de los Recursos Naturales y Medio Ambiente (4a : 1998 nov. 9-20 : San Lorenzo, Paraguay)  Carrera de Ingieneria Forestal, Facultad de Ciencias Agrarias, UNA/ Programa de Desarrollo de Investigación de Teledetección , Universidad Nacional d",
+   "year": null,
+   "query": "teledeteccion",
+   "tags": [
+    "teledeteccion"
+   ],
+   "authors": [
+    {
+     "au_id": "Curso%20de%20Entrenamiento%20en%20T%C3%A9cnicas%20de%20Sensores%20Remotos%20y%20SIG%20Aplicadas%20al%20Estudio%20de%20los%20Recursos%20Na",
+     "name": "Curso de Entrenamiento en Técnicas de Sensores Remotos y SIG Aplicadas al Estudio de los Recursos Na",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca de la Facultad de Ciencias Agrarias — Sede Central (San Lorenzo)\n  \n \n\n \n  Colección general",
+   "callnumber": "621.3678 C938t\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 268177,
+   "title": "Análisis de la presencia de islas de calor urbana superficial en la ciudad de Encarnación en los veranos de los años 1994 y 2018",
+   "year": "2019",
+   "query": "teledeteccion",
+   "tags": [
+    "teledeteccion"
+   ],
+   "authors": [
+    {
+     "au_id": "Almeida%20Estigarribia%2C%20Sof%C3%ADa%20Beatriz",
+     "name": "Almeida Estigarribia, Sofía Beatriz",
+     "role": "autor"
+    }
+   ],
+   "orientadores": [
+    {
+     "au_id": "Luc%C3%ADa%20Villalba%20Julio%20Bord%C3%B3n%20Carlos%20Enciso",
+     "name": "Lucía Villalba Julio Bordón Carlos Enciso",
+     "role": "orientador"
+    }
+   ],
+   "branch": "Biblioteca Central. Trabajos de Fin de Grado y Tesis de Postgrado",
+   "callnumber": "551.5252\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 591434,
+   "title": "Distribución multitemporal de la población de guanaco (Lama guanicoe) en el Parque Nacional Médanos del Chaco",
+   "year": "2020",
+   "query": "teledeteccion",
+   "tags": [
+    "teledeteccion"
+   ],
+   "authors": [
+    {
+     "au_id": "Acosta%20Prieto%2C%20Bel%C3%A9n%20Mar%C3%ADa%20Ariane",
+     "name": "Acosta Prieto, Belén María Ariane",
+     "role": "autor"
+    }
+   ],
+   "orientadores": [
+    {
+     "au_id": "Lucia%20Janet%20Villalba%20Mar%C3%ADa",
+     "name": "Lucia Janet Villalba María",
+     "role": "orientador"
+    },
+    {
+     "au_id": "Laura%20Villalba",
+     "name": "Laura Villalba",
+     "role": "orientador"
+    }
+   ],
+   "branch": "Biblioteca de la Facultad de Ciencias Agrarias — Sede Central (San Lorenzo)\n  \n \n\n \n  Colección general",
+   "callnumber": "591 Ac72d\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 586651,
+   "title": "Cambio de cobertura de la tierra y estimación de pérdida y almacenamiento de carbono en el área para Parque Nacional San Rafael, año 2008 - 2013",
+   "year": "2013",
+   "query": "teledeteccion",
+   "tags": [
+    "teledeteccion"
+   ],
+   "authors": [
+    {
+     "au_id": "Peralta%20Ojeda%2C%20Fabi%C3%A1n%20Miguel",
+     "name": "Peralta Ojeda, Fabián Miguel",
+     "role": "autor"
+    }
+   ],
+   "orientadores": [
+    {
+     "au_id": "Larissa%20Karina%20Rejalaga%20Noguera",
+     "name": "Larissa Karina Rejalaga Noguera",
+     "role": "orientador"
+    }
+   ],
+   "branch": "Biblioteca de la Facultad de Ciencias Agrarias — Sede Central (San Lorenzo)\n  \n \n\n \n  Colección general",
+   "callnumber": "333.783 P41c\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 582487,
+   "title": "Caracterización de incendios a través de imágenes satélitales de mediana y alta resolución en la Reserva de Recursos Manejados San Rafael y su zona de amortiguamiento, Región Oriental, Paraguay",
+   "year": "2005",
+   "query": "teledeteccion",
+   "tags": [
+    "teledeteccion"
+   ],
+   "authors": [
+    {
+     "au_id": "Delphin%20P%C3%A9rez%2C%20Sonia%20Elsa",
+     "name": "Delphin Pérez, Sonia Elsa",
+     "role": "autor"
+    }
+   ],
+   "orientadores": [
+    {
+     "au_id": "Jorge%20Pinazzo",
+     "name": "Jorge Pinazzo",
+     "role": "orientador"
+    },
+    {
+     "au_id": "Hugo%20Huespe%20Fatecha",
+     "name": "Hugo Huespe Fatecha",
+     "role": "orientador"
+    },
+    {
+     "au_id": "Stella%20Mary%20Amarilla",
+     "name": "Stella Mary Amarilla",
+     "role": "orientador"
+    }
+   ],
+   "branch": "Biblioteca de la Facultad de Ciencias Agrarias — Sede Central (San Lorenzo)\n  \n \n\n \n  Colección general",
+   "callnumber": "634.9618 D377c\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 289386,
+   "title": "Epidemiología básica  R. Bonita",
+   "year": null,
+   "query": "epidemiologia",
+   "tags": [
+    "epidemiologia"
+   ],
+   "authors": [
+    {
+     "au_id": "Beaglehole%2C%20R.",
+     "name": "Beaglehole, R",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca Central de la Universidad Nacional de Asunción",
+   "callnumber": "614.4\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 646856,
+   "title": "ESPECIALISTA EN CONTROL DE INFECCIONES Y EPIDEMIOLOGIA HOSPITALARIA  LIC. NANCY HOLT",
+   "year": "2014",
+   "query": "epidemiologia",
+   "tags": [
+    "epidemiologia"
+   ],
+   "authors": [
+    {
+     "au_id": "RIQUELME%20VARGAS%2C%20GLADYS",
+     "name": "RIQUELME VARGAS, GLADYS",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca de la Facultad de Enfermería y Obstetricia\n  \n \n\n \n  Colección general",
+   "callnumber": "TESPG R594\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 243178,
+   "title": "Megacolon chagasico:epidemiologia,caracteristicas clinicas y resultados del tratamiento",
+   "year": "2002",
+   "query": "epidemiologia",
+   "tags": [
+    "epidemiologia"
+   ],
+   "authors": [
+    {
+     "au_id": "Saguier%20G%2C%20Guillermo%20O",
+     "name": "Saguier G, Guillermo O",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca de la Facultad de Ciencias Médicas",
+   "callnumber": "614.4\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 481,
+   "title": "Epidemiología básica",
+   "year": null,
+   "query": "epidemiologia",
+   "tags": [
+    "epidemiologia"
+   ],
+   "authors": [
+    {
+     "au_id": "Beaglehole%2C%20Robert.%20Bonita",
+     "name": "Beaglehole, Robert. Bonita",
+     "role": "autor"
+    },
+    {
+     "au_id": "Ruth.%20Kjelistrom%2C%20Tord",
+     "name": "Ruth. Kjelistrom, Tord",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca de la Facultad de Odontología"
+  },
+  {
+   "bibnum": 472,
+   "title": "Epidemiología Clinica Investigación clínica aplicada",
+   "year": null,
+   "query": "epidemiologia",
+   "tags": [
+    "epidemiologia"
+   ],
+   "authors": [
+    {
+     "au_id": "Ruiz%20Morales%2C%20%C3%81lvaro",
+     "name": "Ruiz Morales, Álvaro",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca de la Facultad de Odontología"
+  },
+  {
+   "bibnum": 586011,
+   "title": "Epidemiología y control del virus del sésamo  María Bernarda Ramírez de López, Diego Dionisio González Espínola, Osmar René Arias Ruiz Díaz",
+   "year": null,
+   "query": "epidemiologia",
+   "tags": [
+    "epidemiologia"
+   ],
+   "authors": [
+    {
+     "au_id": "Gonz%C3%A1lez%20Segnana%2C%20Lu%C3%ADs%20R.",
+     "name": "González Segnana, Luís R",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca de la Facultad de Ciencias Agrarias — Sede Central (San Lorenzo)\n  \n \n\n \n  Colección general",
+   "callnumber": "632.8 Ep41e\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 237874,
+   "title": "Estudio de una enfermedad epidemica  Elvira Torre Manas",
+   "year": null,
+   "query": "epidemiologia",
+   "tags": [
+    "epidemiologia"
+   ],
+   "authors": [
+    {
+     "au_id": "Novell%20Bada%2C%20Mar%C3%ADa%20Elena",
+     "name": "Novell Bada, María Elena",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca FCV San Lorenzo - Prof. Dr. C. Arsenio Vasconsellos",
+   "callnumber": "B/PP/EXT/48\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 279671,
+   "title": "Greenspan endrocrinología básica y clínica  editado por David G. Gardner, Dolores Shoback ; traducido por Bernardo Rivera Muñoz, Gloria Estela Padilla Sierra",
+   "year": null,
+   "query": "epidemiologia",
+   "tags": [
+    "epidemiologia"
+   ],
+   "branch": "Biblioteca Central de la Universidad Nacional de Asunción",
+   "callnumber": "616.4\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 270579,
+   "title": "Conocimiento de pacientes acerca del dengue, servicio de clínica médica. Instituto de Previsión Social de Concepción, 2020",
+   "year": "2020",
+   "query": "dengue",
+   "tags": [
+    "dengue"
+   ],
+   "authors": [
+    {
+     "au_id": "Jara%20Del%20Padre%2C%20Silvio",
+     "name": "Jara Del Padre, Silvio",
+     "role": "autor"
+    }
+   ],
+   "orientadores": [
+    {
+     "au_id": "Gladys%20Matilde%20Kurth",
+     "name": "Gladys Matilde Kurth",
+     "role": "orientador"
+    }
+   ],
+   "branch": "Biblioteca Central. Trabajos de Fin de Grado y Tesis de Postgrado",
+   "callnumber": "616.921\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 251238,
+   "title": "Valoración de tiempo de protombina,tiempo de tromboplastina parcial activado,plaquetas y glóbulos blancos en pacientes con dengue que acudieron al servicio de urgencias del Hospital de Clínicas-San Lo",
+   "year": null,
+   "query": "dengue",
+   "tags": [
+    "dengue"
+   ],
+   "authors": [
+    {
+     "au_id": "Santacruz%2C%20G.",
+     "name": "Santacruz, G",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca de la Facultad de Ciencias Químicas — Sede Central (San Lorenzo)",
+   "callnumber": "20/13\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 262742,
+   "title": "Conocimientos sobre el dengue y prácticas preventivas de los pobladores de Villa Boquerón, distrito de Liberación, San Pedro - Paraguay, 2016",
+   "year": "2016",
+   "query": "dengue",
+   "tags": [
+    "dengue"
+   ],
+   "authors": [
+    {
+     "au_id": "Vallejos%20Romero%2C%20Bel%C3%A9n",
+     "name": "Vallejos Romero, Belén",
+     "role": "autor"
+    }
+   ],
+   "orientadores": [
+    {
+     "au_id": "Rosaura%20Ester%20Florent%C3%ADn",
+     "name": "Rosaura Ester Florentín",
+     "role": "orientador"
+    }
+   ],
+   "branch": "Biblioteca Central. Trabajos de Fin de Grado y Tesis de Postgrado",
+   "callnumber": "616.921\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 274282,
+   "title": "Condiciones biologicas y socioambientales para la presencia del vector del dengue Aedes (Stegomyia) aegypti (Díptera: Culicidae) en el distrito de san Antonio, Central - Paraguay en el periodo 2018-20",
+   "year": null,
+   "query": "dengue",
+   "tags": [
+    "dengue"
+   ],
+   "authors": [
+    {
+     "au_id": "Ferreira%20Coronel%2C%20Maria%20Concepcion",
+     "name": "Ferreira Coronel, Maria Concepcion",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca e Internet FACEN",
+   "callnumber": "616.921\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 518746,
+   "title": "Condiciones biologicas y socioambientales para la presencia del vector del dengue Aedes (Stegomyia) aegypti (Díptera: Culicidae) en el distrito de san Antonio, Central - Paraguay en el periodo 2018-20",
+   "year": "2021",
+   "query": "dengue",
+   "tags": [
+    "dengue"
+   ],
+   "authors": [
+    {
+     "au_id": "Ferreira%20Coronel%2C%20Maria%20Concepcion",
+     "name": "Ferreira Coronel, Maria Concepcion",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca e Internet FACEN\n  \n \n\n \n  Colección general",
+   "callnumber": "616.921 F413c\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 543797,
+   "title": "Valoración de tiempo de protombina,tiempo de tromboplastina parcial activado,plaquetas y glóbulos blancos en pacientes con dengue que acudieron al servicio de urgencias del Hospital de Clínicas-San Lo  G. Santacruz",
+   "year": null,
+   "query": "dengue",
+   "tags": [
+    "dengue"
+   ],
+   "authors": [
+    {
+     "au_id": "Santacruz%2C%20G.",
+     "name": "Santacruz, G",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca de la Facultad de Ciencias Químicas — Sede Central (San Lorenzo)\n  \n \n\n \n  Colección general",
+   "callnumber": "20/13 PB\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 250535,
+   "title": "Análisis filogenético de los genes C-PRM del virus del dengue 3 de Paraguay,Argentina y otros países,durante la epidemia paraguaya del 2007",
+   "year": null,
+   "query": "dengue",
+   "tags": [
+    "dengue"
+   ],
+   "authors": [
+    {
+     "au_id": "Laneri%2C%20J.%20C.",
+     "name": "Laneri, J. C",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca de la Facultad de Ciencias Químicas — Sede Central (San Lorenzo)",
+   "callnumber": "18/09\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 149,
+   "title": "Encuesta Online sobre manifestaciones orales del dengue. Paraguay",
+   "year": "2024",
+   "query": "dengue",
+   "tags": [
+    "dengue"
+   ],
+   "authors": [
+    {
+     "au_id": "Ag%C3%BCero%20Rolon%2C%20Nathalia%20Dahiana.%20Franco%20Oviedo",
+     "name": "Agüero Rolon, Nathalia Dahiana. Franco Oviedo",
+     "role": "autor"
+    },
+    {
+     "au_id": "Isaias%20Ignacio.%20Rivas%20Rolon%2C%20Cecilia%20Mar%C3%ADa",
+     "name": "Isaias Ignacio. Rivas Rolon, Cecilia María",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca de la Facultad de Odontología"
+  },
+  {
+   "bibnum": 645314,
+   "title": "Organización Panamericana de la Salud Sistematización de lecciones aprendidas en proyectos COMBI en dengue en la región de las Américas / Organización Panamericana de Salud",
+   "year": null,
+   "query": "dengue",
+   "tags": [
+    "dengue"
+   ],
+   "authors": [
+    {
+     "au_id": "OPS",
+     "name": "OPS",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca de la Facultad de Enfermería y Obstetricia\n  \n \n\n \n  Colección general",
+   "callnumber": "616.921 ORG\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 278961,
+   "title": "Mosquitos importantes para la salud pública : como combatirlos",
+   "year": null,
+   "query": "dengue",
+   "tags": [
+    "dengue"
+   ],
+   "authors": [
+    {
+     "au_id": "Pratt%2C%20Harry%3B%20Litting%2C%20Kent%3B%20Barnes%2C%20Ralph",
+     "name": "Pratt, Harry; Litting, Kent; Barnes, Ralph",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca e Internet FACEN",
+   "callnumber": "614.4323\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 546881,
+   "title": "Tendencia de la seroprevalencia de la enfermedad de chagas en embarazadasdel Paraguay durante el periodo 2014-2019  Mirian Mercedes  Villalba Meza",
+   "year": "2020",
+   "query": "chagas",
+   "tags": [
+    "chagas"
+   ],
+   "authors": [
+    {
+     "au_id": "Villalba%20Meza%2C%20Mirian%20Mercedes",
+     "name": "Villalba Meza, Mirian Mercedes",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca de la Facultad de Ciencias Químicas — Sede Central (San Lorenzo)\n  \n \n\n \n  Colección general",
+   "callnumber": "25/20 B\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 500173,
+   "title": "Prevalencia de la enfermedad de chagas y condicionantes biológicos y socioculturales de niños en edad escolar de las zonas marginales de Asunción  Maldonado, Marisel ; Yaluff, Gloria ; Sanabria, Sanabria ; Rojas de Arias, Antonieta ; Simancas, Luis",
+   "year": null,
+   "query": "chagas",
+   "tags": [
+    "chagas"
+   ],
+   "authors": [
+    {
+     "au_id": "Vera%20de%20Bilbao%2C%20Ninfa%20Isabel",
+     "name": "Vera de Bilbao, Ninfa Isabel",
+     "role": "autor"
+    }
+   ],
+   "branch": "Archivo de Investigación de la Dirección General de Investigación Científica y Tecnológica\n  \n \n\n \n  Referencia",
+   "callnumber": "IICS/02/93\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 337437,
+   "title": "Evaluación de la actividad tripanocida específica in vitro de nuevos compuestos 5 - notroindazolin - 3 - onas 1, 2 sustituidos.  Mirian Soledad Rolón; Vicente J. Aran",
+   "year": null,
+   "query": "chagas",
+   "tags": [
+    "chagas"
+   ],
+   "authors": [
+    {
+     "au_id": "Vega%20G%C3%B3mez%2C%20Mar%C3%ADa%20Celeste",
+     "name": "Vega Gómez, María Celeste",
+     "role": "autor"
+    }
+   ],
+   "branch": "Archivo de Investigación de la Dirección General de Investigación Científica y Tecnológica",
+   "callnumber": "FACEN/01/11 Proy. Inve\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 500583,
+   "title": "Evaluación de la actividad tripanocida específica in vitro de nuevos compuestos 5 - notroindazolin - 3 - onas 1, 2 sustituidos.  Mirian Soledad Rolón; Vicente J. Aran",
+   "year": null,
+   "query": "chagas",
+   "tags": [
+    "chagas"
+   ],
+   "authors": [
+    {
+     "au_id": "Vega%20G%C3%B3mez%2C%20Mar%C3%ADa%20Celeste",
+     "name": "Vega Gómez, María Celeste",
+     "role": "autor"
+    }
+   ],
+   "branch": "Archivo de Investigación de la Dirección General de Investigación Científica y Tecnológica\n  \n \n\n \n  Referencia",
+   "callnumber": "FACEN/01/11\n \n \n ( Navegar estantería (Abre debajo)  )",
+   "online_resources": [
+    "http://sdi.cnc.una.py/catbib/documentos/531.pdf"
+   ]
+  },
+  {
+   "bibnum": 610449,
+   "title": "Genotipificación molecular de poblaciones de trypanosoma cruzi presentes en especies secundarias de triatominos capturados en etapa de vigilancia entomológica entre los años 2010-2016 en las ...",
+   "year": "2021",
+   "query": "chagas",
+   "tags": [
+    "chagas"
+   ],
+   "authors": [
+    {
+     "au_id": "Pineda%20Sanabria%2C%20Daysi%20Karina",
+     "name": "Pineda Sanabria, Daysi Karina",
+     "role": "autor"
+    }
+   ],
+   "orientadores": [
+    {
+     "au_id": "Zunilda%20S%C3%A1nchez",
+     "name": "Zunilda Sánchez",
+     "role": "orientador"
+    },
+    {
+     "au_id": "Graciela%20Russomando",
+     "name": "Graciela Russomando",
+     "role": "orientador"
+    }
+   ],
+   "branch": "Biblioteca Central. Trabajos de Fin de Grado y Tesis de Postgrado\n  \n \n\n \n  Colección general",
+   "callnumber": "616.9363 P653g\n \n \n ( Navegar estantería (Abre debajo)  )",
+   "online_resources": [
+    "http://sdi.cnc.una.py/catbib/documentos/tesis/16853.pdf"
+   ]
+  },
+  {
+   "bibnum": 329837,
+   "title": "Enfermedades infecciosas",
+   "year": null,
+   "query": "chagas",
+   "tags": [
+    "chagas"
+   ],
+   "authors": [
+    {
+     "au_id": "Palmieri%2C%20Omar%20J.",
+     "name": "Palmieri, Omar J",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca de la Facultad de Enfermería y Obstetricia",
+   "callnumber": "616.9\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 570396,
+   "title": "Memorias 1993",
+   "year": null,
+   "query": "chagas",
+   "tags": [
+    "chagas"
+   ],
+   "authors": [
+    {
+     "au_id": "Universidad%20Nacional%20de%20Asunci%C3%B3n%2C%20Instituto%20de%20Investigaci%C3%B3nes%20en%20Ciencias%20de%20la%20Salud",
+     "name": "Universidad Nacional de Asunción, Instituto de Investigaciónes en Ciencias de la Salud",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca Central de la Universidad Nacional de Asunción\n  \n \n\n \n  Colección general",
+   "callnumber": "616.936 Un3m\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 337381,
+   "title": "Actividad tripanocida y citotóxica in vitro de Calendula officinalis  Celeste Vega; Alfredo Meneces; Jorge Alfonso, Cathia Coronel",
+   "year": null,
+   "query": "chagas",
+   "tags": [
+    "chagas"
+   ],
+   "authors": [
+    {
+     "au_id": "Rol%C3%B3n%2C%20Mirian%20Soledad",
+     "name": "Rolón, Mirian Soledad",
+     "role": "autor"
+    }
+   ],
+   "branch": "Archivo de Investigación de la Dirección General de Investigación Científica y Tecnológica",
+   "callnumber": "FACEN/04/12 Proy. Inve\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 500644,
+   "title": "Actividad tripanocida y citotóxica in vitro de Calendula officinalis  Celeste Vega; Alfredo Meneces; Jorge Alfonso, Cathia Coronel",
+   "year": null,
+   "query": "chagas",
+   "tags": [
+    "chagas"
+   ],
+   "authors": [
+    {
+     "au_id": "Rol%C3%B3n%2C%20Mirian%20Soledad",
+     "name": "Rolón, Mirian Soledad",
+     "role": "autor"
+    }
+   ],
+   "branch": "Archivo de Investigación de la Dirección General de Investigación Científica y Tecnológica\n  \n \n\n \n  Referencia",
+   "callnumber": "FACEN/04/12\n \n \n ( Navegar estantería (Abre debajo)  )",
+   "online_resources": [
+    "http://sdi.cnc.una.py/catbib/documentos/592.pdf"
+   ]
+  },
+  {
+   "bibnum": 631059,
+   "title": "Tarjetas inteligentes  Mayor, Juan Carlos",
+   "year": null,
+   "query": "criptografia",
+   "tags": [
+    "criptografia"
+   ],
+   "authors": [
+    {
+     "au_id": "Sandoval%2C%20Juan%20Domingo",
+     "name": "Sandoval, Juan Domingo",
+     "role": "autor"
+    },
+    {
+     "au_id": "Brito%2C%20Ricardo",
+     "name": "Brito, Ricardo",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca FPUNA (Centro de Información y Cultura)\n  \n \n\n \n  Colección general",
+   "callnumber": "004.56 San57t\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 591697,
+   "title": "Didáctica y curriculum un diálogo necesario en la formación docente  IV Jornadas Internacionales Problemáticas entorno a la enseñanza en la Educación Superior, 6, 13, 18, 19 y 20 de noviembre de 2020",
+   "year": null,
+   "query": "educacion_virtual",
+   "tags": [
+    "educacion_virtual"
+   ],
+   "authors": [
+    {
+     "au_id": "Picco%2C%20Sof%C3%ADa",
+     "name": "Picco, Sofía",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca de la Facultad de Ciencias Agrarias — Sede Central (San Lorenzo)\n  \n \n\n \n  Colección general",
+   "callnumber": "Enl enlínea\n \n \n ( Navegar estantería (Abre debajo)  )",
+   "online_resources": [
+    "https://www.memoria.fahce.unlp.edu.ar/trab_eventos/ev.14032/ev.14032.pdf"
+   ]
+  },
+  {
+   "bibnum": 559565,
+   "title": "Enseñanza virtual para la innovación universitaria  Andrea Gongora Rojas, Ma. Dolores Pérez Vicente, Francisco López Mijano, José Alfonso Accino, Sonia Lara Ríos; coordinado por Manuel Cebrián",
+   "year": null,
+   "query": "educacion_virtual",
+   "tags": [
+    "educacion_virtual"
+   ],
+   "branch": "Biblioteca Central de la Universidad Nacional de Asunción\n  \n \n\n \n  Colección general",
+   "callnumber": "378 En77e\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 591702,
+   "title": "Cambio en las estrategías de enseñanza-aprendizaje para la nueva generación Z o de los \"nativos digitales\"  Norma Patricia Caro, Eduardo Jesus Gauna",
+   "year": null,
+   "query": "educacion_virtual",
+   "tags": [
+    "educacion_virtual"
+   ],
+   "authors": [
+    {
+     "au_id": "D%C3%ADas%2C%20Cecilia%20Beatriz",
+     "name": "Días, Cecilia Beatriz",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca de la Facultad de Ciencias Agrarias — Sede Central (San Lorenzo)\n  \n \n\n \n  Colección general",
+   "callnumber": "Enl enlínea\n \n \n ( Navegar estantería (Abre debajo)  )",
+   "online_resources": [
+    "http://reposital.cuaieed.unam.mx:8080/xmlui/bitstream/handle/20.500.12579/4134/VE14.164.pdf"
+   ]
+  },
+  {
+   "bibnum": 591699,
+   "title": "Escribir a través del curriculum tres modelos para hacerlo en la universidad  En Acosta Goméz, Israel, Pedagogía en el aula: temas linguo-literarios para formar argumentos. La Habana (Cuba): Editorial Universitaria del Ministeri",
+   "year": null,
+   "query": "educacion_virtual",
+   "tags": [
+    "educacion_virtual"
+   ],
+   "authors": [
+    {
+     "au_id": "Carlino%2C%20Paula",
+     "name": "Carlino, Paula",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca de la Facultad de Ciencias Agrarias — Sede Central (San Lorenzo)\n  \n \n\n \n  Colección general",
+   "callnumber": "Enl enlínea\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 145519,
+   "title": "Física para ciencias e ingeniería  traducción Víctor Campos Olguín; revisión técnica Misael Flores Rosas",
+   "year": null,
+   "query": "e-learning",
+   "tags": [
+    "e-learning"
+   ],
+   "authors": [
+    {
+     "au_id": "Serway%2C%20Raymond%20A.%2FJewett%2C%20John%20W.",
+     "name": "Serway, Raymond A./Jewett, John W",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca de la Facultad de Ciencias Agrarias — Sede Central (San Lorenzo)",
+   "callnumber": "530\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 279673,
+   "title": "Álgebra elemental  Karen L. Schwitters; traducido por Valeria Gómez Pourroy ; revisado por Gloria Patricia León Beltrán",
+   "year": null,
+   "query": "e-learning",
+   "tags": [
+    "e-learning"
+   ],
+   "authors": [
+    {
+     "au_id": "Kaufmann%2C%20Jerome%20E.",
+     "name": "Kaufmann, Jerome E",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca Central de la Universidad Nacional de Asunción",
+   "callnumber": "512\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 628694,
+   "title": "Fisiología de las plantas 1 células, agua, soluciones y superficies",
+   "year": null,
+   "query": "e-learning",
+   "tags": [
+    "e-learning"
+   ],
+   "authors": [
+    {
+     "au_id": "Salisbury%2C%20Frank%20B.",
+     "name": "Salisbury, Frank B",
+     "role": "autor"
+    },
+    {
+     "au_id": "Cleon%20W.%20Ross",
+     "name": "Cleon W. Ross",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca de la Facultad de Ciencias Agrarias, Filial Caazapá\n  \n \n\n \n  Colección general",
+   "callnumber": "581.1 Sal34f\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 624446,
+   "title": "Ciencia e ingeniería de materiales",
+   "year": null,
+   "query": "e-learning",
+   "tags": [
+    "e-learning"
+   ],
+   "authors": [
+    {
+     "au_id": "Askeland%2C%20Donald%20R.",
+     "name": "Askeland, Donald R",
+     "role": "autor"
+    },
+    {
+     "au_id": "Fulay%2C%20Pradeep%20P.",
+     "name": "Fulay, Pradeep P",
+     "role": "autor"
+    },
+    {
+     "au_id": "Wright%2C%20Wendelin%20J.",
+     "name": "Wright, Wendelin J",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca de la Facultad de Ingeniería — Sede Central (San Lorenzo)\n  \n \n\n \n  Colección general",
+   "callnumber": "620.112 As47c\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 544001,
+   "title": "Ecuaciones diferenciales con aplicaciones de modelado  Dennis G. Zill",
+   "year": null,
+   "query": "e-learning",
+   "tags": [
+    "e-learning"
+   ],
+   "authors": [
+    {
+     "au_id": "Zill%2C%20Dennis%20G.",
+     "name": "Zill, Dennis G",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca de la Facultad de Ciencias Químicas — Sede Central (San Lorenzo)\n  \n \n\n \n  Colección general",
+   "callnumber": "515.35 Zill69e\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 624575,
+   "title": "Campus virtual para la Universidad Nacional de Asunción (UNA) con gestión centralizada. Diseño y prototipo",
+   "year": "2016",
+   "query": "e-learning",
+   "tags": [
+    "e-learning"
+   ],
+   "authors": [
+    {
+     "au_id": "Duarte%20Ovelar%2C%20Ram%C3%B3n%20Hernando",
+     "name": "Duarte Ovelar, Ramón Hernando",
+     "role": "autor"
+    },
+    {
+     "au_id": "Adorno%20Lottermann%2C%20Victor%20Manuel",
+     "name": "Adorno Lottermann, Victor Manuel",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca de la Facultad de Ingeniería — Sede Central (San Lorenzo)\n  \n \n\n \n  Colección general",
+   "callnumber": "T1586\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 624438,
+   "title": "Cálculo",
+   "year": null,
+   "query": "e-learning",
+   "tags": [
+    "e-learning"
+   ],
+   "authors": [
+    {
+     "au_id": "Larson%2C%20Ron",
+     "name": "Larson, Ron",
+     "role": "autor"
+    },
+    {
+     "au_id": "Edwards%2C%20Bruce",
+     "name": "Edwards, Bruce",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca FPUNA"
+  },
+  {
+   "bibnum": 623316,
+   "title": "Industría paraguaya una propuesta de desarrollo humano",
+   "year": null,
+   "query": "industria_4",
+   "tags": [
+    "industria_4"
+   ],
+   "authors": [
+    {
+     "au_id": "Stanley%2C%20Guillermo",
+     "name": "Stanley, Guillermo",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca de la Facultad de Ingeniería — Sede Central (San Lorenzo)\n  \n \n\n \n  Colección general",
+   "callnumber": "Pa338.4 Sta25i\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 135267,
+   "title": "Korean Industrial policy legacies of the past and directions for the future  Piter a Petri",
+   "year": null,
+   "query": "industria_4",
+   "tags": [
+    "industria_4"
+   ],
+   "authors": [
+    {
+     "au_id": "Leipziger%2C%20Danny%20M.",
+     "name": "Leipziger, Danny M",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca de la Facultad de Ciencias Agrarias — Sede Central (San Lorenzo)",
+   "callnumber": "B338.9519\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 272225,
+   "title": "Plásticos modernos",
+   "year": null,
+   "query": "industria_4",
+   "tags": [
+    "industria_4"
+   ],
+   "authors": [
+    {
+     "au_id": "Barron%2C%20Harry",
+     "name": "Barron, Harry",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca e Internet FACEN",
+   "callnumber": "668.4\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 249193,
+   "title": "Diseño y proyecto de un laboratorio de control de calidad para una industria elaboradora de medallones de lentejas con especias,picante y sin sal  Romina Elizabeth Blasser Grance; Juan José Echagüe Escobar; Noelia Alejandra Quiñe Peralta",
+   "year": null,
+   "query": "industria_4",
+   "tags": [
+    "industria_4"
+   ],
+   "authors": [
+    {
+     "au_id": "Blasser%20Grance%2CRomina%20Elizabeth",
+     "name": "Blasser Grance,Romina Elizabeth",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca de la Facultad de Ciencias Químicas — Sede Central (San Lorenzo)",
+   "callnumber": "4/20\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 516715,
+   "title": "Defensa de la competencia",
+   "year": null,
+   "query": "industria_4",
+   "tags": [
+    "industria_4"
+   ],
+   "authors": [
+    {
+     "au_id": "Paraguay.%20Ministerio%20de%20Industria%20y%20Comercio",
+     "name": "Paraguay. Ministerio de Industria y Comercio",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca e Internet FACEN\n  \n \n\n \n  Colección general",
+   "callnumber": "350.82 P212d\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 516713,
+   "title": "Propiedad Intelectual",
+   "year": null,
+   "query": "industria_4",
+   "tags": [
+    "industria_4"
+   ],
+   "authors": [
+    {
+     "au_id": "Paraguay.%20Ministerio%20de%20Industria%20y%20Comercio",
+     "name": "Paraguay. Ministerio de Industria y Comercio",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca e Internet FACEN\n  \n \n\n \n  Colección general",
+   "callnumber": "350.824 P212p\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 518103,
+   "title": "Propuesta de innovación tecnológica para la mejora de la carne porcina producida por UPISA",
+   "year": "2014",
+   "query": "industria_4",
+   "tags": [
+    "industria_4"
+   ],
+   "authors": [
+    {
+     "au_id": "Vel%C3%A1zquez%20L%C3%B3pez%2C%20Jorge",
+     "name": "Velázquez López, Jorge",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca e Internet FACEN\n  \n \n\n \n  Colección general",
+   "callnumber": "636.4 V434p\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 578636,
+   "title": "Programa de acción para prevenir, combatir y eliminar el tráfico ilícito de armas pequeñas y legeras en todos sus aspectos",
+   "year": null,
+   "query": "industria_4",
+   "tags": [
+    "industria_4"
+   ],
+   "authors": [
+    {
+     "au_id": "Naciones%20Unidas",
+     "name": "Naciones Unidas",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca de la Facultad de Ciencias Agrarias — Sede Central (San Lorenzo)\n  \n \n\n \n  Colección general",
+   "callnumber": "683.4 N\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 382051,
+   "title": "Aguardiente fabricación em pequenas destilarios",
+   "year": null,
+   "query": "industria_4",
+   "tags": [
+    "industria_4"
+   ],
+   "authors": [
+    {
+     "au_id": "Lima%2C%20Urgel%20de%20Almeida",
+     "name": "Lima, Urgel de Almeida",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca de la Facultad de Ciencias Agrarias, Filial Pedro Juan Caballero\n  \n \n\n \n  Colección general",
+   "callnumber": "663.5 L628a\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 382311,
+   "title": "Reproducción y manejo de los rodeos de cría",
+   "year": null,
+   "query": "industria_4",
+   "tags": [
+    "industria_4"
+   ],
+   "authors": [
+    {
+     "au_id": "Rovira%2C%20Jaime",
+     "name": "Rovira, Jaime",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca de la Facultad de Ciencias Agrarias, Filial Pedro Juan Caballero\n  \n \n\n \n  Colección general",
+   "callnumber": "636.088 R875r\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 500111,
+   "title": "Volumen de madera desaprovechada en los desmontes con fines agropecuarios en los bosques tipo \"Selva de Alto Paraná y Selva Central\"",
+   "year": null,
+   "query": "industria_4",
+   "tags": [
+    "industria_4"
+   ],
+   "authors": [
+    {
+     "au_id": "Quinteros%2C%20Mart%C3%ADn",
+     "name": "Quinteros, Martín",
+     "role": "autor"
+    }
+   ],
+   "branch": "Archivo de Investigación de la Dirección General de Investigación Científica y Tecnológica\n  \n \n\n \n  Referencia",
+   "callnumber": "FCA/06/96\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 580521,
+   "title": "La industria maderera",
+   "year": null,
+   "query": "industria_4",
+   "tags": [
+    "industria_4"
+   ],
+   "authors": [
+    {
+     "au_id": "Brown%2C%20Nelson%20Courtlans",
+     "name": "Brown, Nelson Courtlans",
+     "role": "autor"
+    },
+    {
+     "au_id": "James%20Samuel%20Bethel",
+     "name": "James Samuel Bethel",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca de la Facultad de Ciencias Agrarias — Sede Central (San Lorenzo)\n  \n \n\n \n  Colección general",
+   "callnumber": "674.8 B814i\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 575639,
+   "title": "Actas  Jorge Ogasawara, Victor Santander, Maria C. Noce (Editores)",
+   "year": null,
+   "query": "industria_4",
+   "tags": [
+    "industria_4"
+   ],
+   "authors": [
+    {
+     "au_id": "Reuni%C3%B3n%20de%20la%20Comisi%C3%B3n%20de%20Ensayo%20e%20Investigaci%C3%B3n%20Agraria%20(16a%20%3A%201992%20nov.%2019-20%20%3A%20San%20Lorenzo%2C%20Paraguay)",
+     "name": "Reunión de la Comisión de Ensayo e Investigación Agraria (16a : 1992 nov. 19-20 : San Lorenzo, Paraguay)",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca de la Facultad de Ciencias Agrarias — Sede Central (San Lorenzo)\n  \n \n\n \n  Colección general",
+   "callnumber": "630 R318a\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 517880,
+   "title": "Análisis de datos multivariados",
+   "year": null,
+   "query": "analisis_datos",
+   "tags": [
+    "analisis_datos"
+   ],
+   "authors": [
+    {
+     "au_id": "Fen%C3%A1ndez%2C%20Pedro",
+     "name": "Fenández, Pedro",
+     "role": "autor"
+    },
+    {
+     "au_id": "Yahari%2C%20Victor",
+     "name": "Yahari, Victor",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca e Internet FACEN\n  \n \n\n \n  Colección general",
+   "callnumber": "519.5028 F391a\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 648908,
+   "title": "Hábeas data la protección jurídica de los datos personales",
+   "year": null,
+   "query": "analisis_datos",
+   "tags": [
+    "analisis_datos"
+   ],
+   "authors": [
+    {
+     "au_id": "Carranza%20Torres%2C%20Lu%C3%ADs%20R",
+     "name": "Carranza Torres, Luís R",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca DER Central\n  \n \n\n \n  Colección general",
+   "callnumber": "342.0982 C231h\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 517605,
+   "title": "Data analysis A model comparison approach",
+   "year": null,
+   "query": "analisis_datos",
+   "tags": [
+    "analisis_datos"
+   ],
+   "authors": [
+    {
+     "au_id": "Judd%2C%20Charles%20M.",
+     "name": "Judd, Charles M",
+     "role": "autor"
+    },
+    {
+     "au_id": "McClelland%2C%20Gary%20H.",
+     "name": "McClelland, Gary H",
+     "role": "autor"
+    },
+    {
+     "au_id": "Ryan%2C%20Carey%20S.",
+     "name": "Ryan, Carey S",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca e Internet FACEN\n  \n \n\n \n  Colección general",
+   "callnumber": "515 J882d\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 631107,
+   "title": "Análisis y diseño de sistemas",
+   "year": null,
+   "query": "analisis_datos",
+   "tags": [
+    "analisis_datos"
+   ],
+   "authors": [
+    {
+     "au_id": "Kendall%2C%20Kenneth%20E.",
+     "name": "Kendall, Kenneth E",
+     "role": "autor"
+    },
+    {
+     "au_id": "Kendall%2C%20Julie%20E.",
+     "name": "Kendall, Julie E",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca FPUNA (Centro de Información y Cultura)\n  \n \n\n \n  Colección general",
+   "callnumber": "004.21 K334a\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 236838,
+   "title": "Emisión de metano entérico por rumiants y su contribución al calentamiento global y al cambio climático. Revisión  Clemente Lemus Flores",
+   "year": null,
+   "query": "analisis_datos",
+   "tags": [
+    "analisis_datos"
+   ],
+   "authors": [
+    {
+     "au_id": "Bonilla%20C%C3%A1rdenas%2C%20Jorge%20Armando",
+     "name": "Bonilla Cárdenas, Jorge Armando",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca FCV San Lorenzo - Prof. Dr. C. Arsenio Vasconsellos",
+   "callnumber": "PP/EXT/158\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 271262,
+   "title": "Incidencia de la inclusion financiera sobre la pobreza en el Departamento Central - Paraguay, periodo 2013-2017",
+   "year": "2019",
+   "query": "analisis_datos",
+   "tags": [
+    "analisis_datos"
+   ],
+   "authors": [
+    {
+     "au_id": "Alarc%C3%B3n%20Migone%2C%20Mat%C3%ADas%20Iv%C3%A1n",
+     "name": "Alarcón Migone, Matías Iván",
+     "role": "autor"
+    }
+   ],
+   "orientadores": [
+    {
+     "au_id": "Gloria%20Rodr%C3%ADguez",
+     "name": "Gloria Rodríguez",
+     "role": "orientador"
+    }
+   ],
+   "branch": "Biblioteca Central. Trabajos de Fin de Grado y Tesis de Postgrado",
+   "callnumber": "338.9\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 624584,
+   "title": "Propuesta de mejoramiento del sistema de aparcamiento de vehículos en una terminal aeroportuaria",
+   "year": "2016",
+   "query": "analisis_datos",
+   "tags": [
+    "analisis_datos"
+   ],
+   "authors": [
+    {
+     "au_id": "N%C3%BA%C3%B1ez%20Ch%C3%A1vez%2C%20Carol%20Jazmin",
+     "name": "Núñez Chávez, Carol Jazmin",
+     "role": "autor"
+    },
+    {
+     "au_id": "Vel%C3%A1zquez%20Ferreira%2C%20Alba%20Mar%C3%ADa",
+     "name": "Velázquez Ferreira, Alba María",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca de la Facultad de Ingeniería — Sede Central (San Lorenzo)\n  \n \n\n \n  Colección general",
+   "callnumber": "T1595\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 624579,
+   "title": "Análisis del wikos 1.0 utilizando simulación computarizada con el software energy plus Caso aula magna FIUNA",
+   "year": "2016",
+   "query": "analisis_datos",
+   "tags": [
+    "analisis_datos"
+   ],
+   "authors": [
+    {
+     "au_id": "Gonz%C3%A1lez%20Jara%2C%20Julio%20Marcelo",
+     "name": "González Jara, Julio Marcelo",
+     "role": "autor"
+    },
+    {
+     "au_id": "Duarte%20Acha%2C%20Tom%C3%A1s%20Manuel",
+     "name": "Duarte Acha, Tomás Manuel",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca de la Facultad de Ingeniería — Sede Central (San Lorenzo)\n  \n \n\n \n  Colección general",
+   "callnumber": "T1590\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 624576,
+   "title": "Proyecto de densificación de estaciones hidrométricas y medición de caudal con fines a desarrollar un modelo matemático de predicción de niveles en el rio Paraguay",
+   "year": "2016",
+   "query": "analisis_datos",
+   "tags": [
+    "analisis_datos"
+   ],
+   "authors": [
+    {
+     "au_id": "Cabral%20Samaniego%2C%20Rub%C3%A9n%20Dario",
+     "name": "Cabral Samaniego, Rubén Dario",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca de la Facultad de Ingeniería — Sede Central (San Lorenzo)\n  \n \n\n \n  Colección general",
+   "callnumber": "T1587\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 624414,
+   "title": "Evaluación de eficiencia y oportunidades de mejora en calderas industriales caso Frigorífico Guaraní S.A.",
+   "year": "2015",
+   "query": "analisis_datos",
+   "tags": [
+    "analisis_datos"
+   ],
+   "authors": [
+    {
+     "au_id": "C%C3%A1ceres%20Sandoval%2C%20Alejandro%20Iv%C3%A1n",
+     "name": "Cáceres Sandoval, Alejandro Iván",
+     "role": "autor"
+    },
+    {
+     "au_id": "Gim%C3%A9nez%20C%C3%A1ceres%2C%20Roberto%20Manuel",
+     "name": "Giménez Cáceres, Roberto Manuel",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca de la Facultad de Ingeniería — Sede Central (San Lorenzo)\n  \n \n\n \n  Colección general",
+   "callnumber": "T1508\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 591686,
+   "title": "Importancia y pasos para la elaboración del estado del arte en un anteproyecto o proyecto de investigación",
+   "year": null,
+   "query": "analisis_datos",
+   "tags": [
+    "analisis_datos"
+   ],
+   "authors": [
+    {
+     "au_id": "Huergo-Tobar%2C%20Pedro%20Luis",
+     "name": "Huergo-Tobar, Pedro Luis",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca de la Facultad de Ciencias Agrarias — Sede Central (San Lorenzo)\n  \n \n\n \n  Colección general",
+   "callnumber": "Enl enl{inea\n \n \n ( Navegar estantería (Abre debajo)  )",
+   "online_resources": [
+    "https://repository.ucc.edu.co/bitstream/20.500.12494/191/5/2015_NC_Importancia%20y%20pasos_Huergo.pdf"
+   ]
+  },
+  {
+   "bibnum": 337228,
+   "title": "Asignación de Recursos a Redes Ópticas virtuales y Data Centers para la Computación en la nube Véase además título modificado: \"Asignación de recursos a redes ópticas virtuales utilizando Traffic Grooming\"",
+   "year": null,
+   "query": "redes_opticas",
+   "tags": [
+    "redes_opticas"
+   ],
+   "authors": [
+    {
+     "au_id": "D%C3%A1valos%20Gim%C3%A9nez%2C%20Enrique%20Javier",
+     "name": "Dávalos Giménez, Enrique Javier",
+     "role": "autor"
+    }
+   ],
+   "branch": "Archivo de Investigación de la Dirección General de Investigación Científica y Tecnológica",
+   "callnumber": "FP/08/15 Proy. Inve\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 641339,
+   "title": "Evaluación de Heurísticas para la desfragmentación reactiva de redes opticas elásticas con Tráfico Unicast",
+   "year": "2022",
+   "query": "redes_opticas",
+   "tags": [
+    "redes_opticas"
+   ],
+   "authors": [
+    {
+     "au_id": "Rojas%2C%20Bruno",
+     "name": "Rojas, Bruno",
+     "role": "autor"
+    }
+   ],
+   "orientadores": [
+    {
+     "au_id": "D%C3%A1valos",
+     "name": "Dávalos",
+     "role": "orientador"
+    },
+    {
+     "au_id": "Enrique",
+     "name": "Enrique",
+     "role": "orientador"
+    }
+   ],
+   "branch": "Biblioteca FPUNA (Centro de Información y Cultura)\n  \n \n\n \n  Colección general",
+   "callnumber": "IIO185\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 641337,
+   "title": "Evaluación de métricas de fragmetación para el disparo de procesos de desfragmentación en redes ópticas elásticas.  Dávalos, Enrique",
+   "year": "2022",
+   "query": "redes_opticas",
+   "tags": [
+    "redes_opticas"
+   ],
+   "authors": [
+    {
+     "au_id": "Flor%2C%20Jorge%20El%C3%ADas",
+     "name": "Flor, Jorge Elías",
+     "role": "autor"
+    },
+    {
+     "au_id": "Meza%20Torales%2C%20Jorge%20Alfredo",
+     "name": "Meza Torales, Jorge Alfredo",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca FPUNA (Centro de Información y Cultura)\n  \n \n\n \n  Colección general",
+   "callnumber": "IIO183\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 337231,
+   "title": "Paralelización de algoritmos evolutivos multi-objetivo utilizando agrupamiento espectral",
+   "year": null,
+   "query": "algoritmo_evolutivo",
+   "tags": [
+    "algoritmo_evolutivo"
+   ],
+   "authors": [
+    {
+     "au_id": "Von%20L%C3%BCcken%20Mart%C3%ADnez%2C%20Christian%20Daniel",
+     "name": "Von Lücken Martínez, Christian Daniel",
+     "role": "autor"
+    }
+   ],
+   "branch": "Archivo de Investigación de la Dirección General de Investigación Científica y Tecnológica",
+   "callnumber": "FP/03/15 Proy. Inve\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 624564,
+   "title": "Localización óptima de condensadores en redes de distribución",
+   "year": "2016",
+   "query": "algoritmo_evolutivo",
+   "tags": [
+    "algoritmo_evolutivo"
+   ],
+   "authors": [
+    {
+     "au_id": "Ortellado%20Rosty%2C%20Ren%C3%A9",
+     "name": "Ortellado Rosty, René",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca de la Facultad de Ingeniería — Sede Central (San Lorenzo)\n  \n \n\n \n  Colección general",
+   "callnumber": "T1575\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 185784,
+   "title": "Expansión óptima y políticas de crecimiento de la demanda en sistemas de transmisión, un enfoque basado en el optimización multi-objetivo bi-nivel",
+   "year": "2012",
+   "query": "optimizacion",
+   "tags": [
+    "optimizacion"
+   ],
+   "authors": [
+    {
+     "au_id": "Ag%C3%BCero%2C%20Fernando%20Miguel",
+     "name": "Agüero, Fernando Miguel",
+     "role": "autor"
+    },
+    {
+     "au_id": "Barquinero%20Ram%C3%ADrez%2C%20Jos%C3%A9%20Miguel",
+     "name": "Barquinero Ramírez, José Miguel",
+     "role": "autor"
+    }
+   ],
+   "orientadores": [
+    {
+     "au_id": "Diego%20Pinto",
+     "name": "Diego Pinto",
+     "role": "orientador"
+    },
+    {
+     "au_id": "Gerardo%20Blanco",
+     "name": "Gerardo Blanco",
+     "role": "orientador"
+    }
+   ],
+   "branch": "Biblioteca FPUNA (Centro de Información y Cultura)",
+   "callnumber": "IEL0031\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 185799,
+   "title": "Optimización de la planificación y control de la producción de una planta procesadora de cal",
+   "year": "2013",
+   "query": "optimizacion",
+   "tags": [
+    "optimizacion"
+   ],
+   "authors": [
+    {
+     "au_id": "G%C3%B3mez%20Gin%C3%A9s%2C%20Melissa%20Macarena",
+     "name": "Gómez Ginés, Melissa Macarena",
+     "role": "autor"
+    },
+    {
+     "au_id": "Coronel%20R%C3%ADos%2C%20Alicia%20Ramona",
+     "name": "Coronel Ríos, Alicia Ramona",
+     "role": "autor"
+    }
+   ],
+   "orientadores": [
+    {
+     "au_id": "Dalila%20Coronel",
+     "name": "Dalila Coronel",
+     "role": "orientador"
+    },
+    {
+     "au_id": "Ana%20Coop",
+     "name": "Ana Coop",
+     "role": "orientador"
+    }
+   ],
+   "branch": "Biblioteca FPUNA (Centro de Información y Cultura)",
+   "callnumber": "ISP002\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 247694,
+   "title": "Optimización de una técnica voltamperométrica aplicada a la cuantificación de hierro contenido en una presentación farmacéutica líquida contrastada con el método espectrofotométrico",
+   "year": null,
+   "query": "optimizacion",
+   "tags": [
+    "optimizacion"
+   ],
+   "authors": [
+    {
+     "au_id": "Torales%20Acu%C3%B1a%2CCarolina%20Montserrat",
+     "name": "Torales Acuña,Carolina Montserrat",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca de la Facultad de Ciencias Químicas — Sede Central (San Lorenzo)",
+   "callnumber": "20/21\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 248133,
+   "title": "Evaluación del impacto del programa de optimización de antimicrobianos en la prescripción clínica en la unidad de terapia intensiva adulto de un hospital privado de Asunción",
+   "year": null,
+   "query": "optimizacion",
+   "tags": [
+    "optimizacion"
+   ],
+   "authors": [
+    {
+     "au_id": "Ibarrola%20de%20%C3%81vila%2C%20Lisa",
+     "name": "Ibarrola de Ávila, Lisa",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca de la Facultad de Ciencias Químicas — Sede Central (San Lorenzo)",
+   "callnumber": "1/20\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 253942,
+   "title": "Optimización de la productividad de soja con diferentes niveles de fertilización con fósforo y potasio en un oxisol de Yguazú, Alto Paraná",
+   "year": null,
+   "query": "optimizacion",
+   "tags": [
+    "optimizacion"
+   ],
+   "authors": [
+    {
+     "au_id": "Kubomae%20Yamawaki%2C%20Nelson%20Hajime",
+     "name": "Kubomae Yamawaki, Nelson Hajime",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca Central. Trabajos de Fin de Grado y Tesis de Postgrado",
+   "callnumber": "633.34\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 517827,
+   "title": "Análisi de optimización de la protecón radiológica en radiología convencional, con el software caldose_X 4.1",
+   "year": null,
+   "query": "optimizacion",
+   "tags": [
+    "optimizacion"
+   ],
+   "authors": [
+    {
+     "au_id": "Alvarez%20Ojeda%2C%20Rodi%20Ram%C3%B3n",
+     "name": "Alvarez Ojeda, Rodi Ramón",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca e Internet FACEN\n  \n \n\n \n  Colección general",
+   "callnumber": "537.535 Al86a\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 542602,
+   "title": "Modelado, simulación y optimización de procesos químicos  Nicolas José Scenna",
+   "year": null,
+   "query": "optimizacion",
+   "tags": [
+    "optimizacion"
+   ],
+   "authors": [
+    {
+     "au_id": "Scenna%2C%20Nicolas%20Jos%C3%A9",
+     "name": "Scenna, Nicolas José",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca de la Facultad de Ciencias Químicas — Sede Central (San Lorenzo)\n  \n \n\n \n  Colección general",
+   "callnumber": "660.284 Sce62m\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 547278,
+   "title": "Optimización de una técnica voltamperométrica aplicada a la cuantificación de hierro contenido en una presentación farmacéutica líquida contrastada con el método espectrofotométrico  Carolina Montserrat Torales Acuña",
+   "year": "2021",
+   "query": "optimizacion",
+   "tags": [
+    "optimizacion"
+   ],
+   "authors": [
+    {
+     "au_id": "Torales%20Acu%C3%B1a%2CCarolina%20Montserrat",
+     "name": "Torales Acuña,Carolina Montserrat",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca de la Facultad de Ciencias Químicas — Sede Central (San Lorenzo)\n  \n \n\n \n  Colección general",
+   "callnumber": "572.517 T676o\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 611473,
+   "title": "Algoritmo genético basado en permutación para la optimización en el proceso de ensamblado de semiconductores en placas electrónicas",
+   "year": "2022",
+   "query": "optimizacion",
+   "tags": [
+    "optimizacion"
+   ],
+   "authors": [
+    {
+     "au_id": "Fleytas%20Ben%C3%ADtez%2C%20Sonia%20Beatriz",
+     "name": "Fleytas Benítez, Sonia Beatriz",
+     "role": "autor"
+    }
+   ],
+   "orientadores": [
+    {
+     "au_id": "Jos%C3%A9%20Colbes",
+     "name": "José Colbes",
+     "role": "orientador"
+    },
+    {
+     "au_id": "Diego%20Pinto",
+     "name": "Diego Pinto",
+     "role": "orientador"
+    }
+   ],
+   "branch": "Biblioteca Central. Trabajos de Fin de Grado y Tesis de Postgrado\n  \n \n\n \n  Colección general",
+   "callnumber": "621.381 F639a\n \n \n ( Navegar estantería (Abre debajo)  )",
+   "online_resources": [
+    "http://sdi.cnc.una.py/catbib/documentos/tesis/17877.pdf"
+   ]
+  },
+  {
+   "bibnum": 508212,
+   "title": "Puesta en valor de la casa Fernández Márquez proyecto de intervención arquitectónica para su optimización como \"Casa del arquitecto\"",
+   "year": "2011",
+   "query": "optimizacion",
+   "tags": [
+    "optimizacion"
+   ],
+   "authors": [
+    {
+     "au_id": "C%C3%A1ceres%20Salinas%2C%20F%C3%A1tima%20Mar%C3%ADa",
+     "name": "Cáceres Salinas, Fátima María",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca de la Facultad de Arquitectura, Diseño y Arte\n  \n \n\n \n  Colección general",
+   "callnumber": "PAR/T/728 CACp\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 508202,
+   "title": "Valorización  de La Casona Julio Correa de la Ciudad de Luque propuesta de optimización de sus instalaciones para su rehabilitación como Museo del Teatro Popular Paraguayo",
+   "year": "2011",
+   "query": "optimizacion",
+   "tags": [
+    "optimizacion"
+   ],
+   "authors": [
+    {
+     "au_id": "Barrios%20Hermosillas%2C%20Luciana%20Margarita",
+     "name": "Barrios Hermosillas, Luciana Margarita",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca de la Facultad de Arquitectura, Diseño y Arte\n  \n \n\n \n  Colección general",
+   "callnumber": "PAR/T/725.9 BARv\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 336881,
+   "title": "Evaluacion de tolerancia a condiciones de salinidad de Hibiscus sabdariffa L. (Malvaceae) de variedades locales e inducidas a mutacion  Héctor David Nakayama, Pablo Caballero, Isaura Cantero, Juan Venancio Benitez, Raquel Armoa, Manuel Enciso",
+   "year": null,
+   "query": "optimizacion",
+   "tags": [
+    "optimizacion"
+   ],
+   "authors": [
+    {
+     "au_id": "Antonio%20Samudio%20Oggero",
+     "name": "Antonio Samudio Oggero",
+     "role": "autor"
+    }
+   ],
+   "branch": "Archivo de Investigación de la Dirección General de Investigación Científica y Tecnológica",
+   "callnumber": "CEMIT/03/22 Proy. Inve\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 255828,
+   "title": "Lineamientos para movilidad urbana más sostenible en el micro centro de San Lorenzo",
+   "year": "2019",
+   "query": "movilidad_urbana",
+   "tags": [
+    "movilidad_urbana"
+   ],
+   "authors": [
+    {
+     "au_id": "Barrios%2C%20Guillermo%20Jos%C3%A9",
+     "name": "Barrios, Guillermo José",
+     "role": "autor"
+    }
+   ],
+   "orientadores": [
+    {
+     "au_id": "Cynthia%20Yanes",
+     "name": "Cynthia Yanes",
+     "role": "orientador"
+    }
+   ],
+   "branch": "Biblioteca Central. Trabajos de Fin de Grado y Tesis de Postgrado",
+   "callnumber": "711.4\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 507890,
+   "title": "Lineamientos estratégicos para la movilidad urbana sostenible, del área metropolitana de Asunción",
+   "year": "2010",
+   "query": "movilidad_urbana",
+   "tags": [
+    "movilidad_urbana"
+   ],
+   "authors": [
+    {
+     "au_id": "Gulino%20Mor%C3%ADnigio%2C%20Daniel%20Alberto",
+     "name": "Gulino Morínigio, Daniel Alberto",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca de la Facultad de Arquitectura, Diseño y Arte\n  \n \n\n \n  Colección general",
+   "callnumber": "PAR/T/711 GULl\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 398341,
+   "title": "Derecho administrativo",
+   "year": null,
+   "query": "transporte_publico",
+   "tags": [
+    "transporte_publico"
+   ],
+   "authors": [
+    {
+     "au_id": "Pe%C3%B1a%20Villamil%2C%20Manuel",
+     "name": "Peña Villamil, Manuel",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca DER San Juan Bautista\n  \n \n\n \n  Colección general",
+   "callnumber": "342.06 P31d\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 580754,
+   "title": "La agricultura en el proceso económico nacional",
+   "year": null,
+   "query": "transporte_publico",
+   "tags": [
+    "transporte_publico"
+   ],
+   "authors": [
+    {
+     "au_id": "Pe%C3%B1a%2C%20Jaime%20R.",
+     "name": "Peña, Jaime R",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca de la Facultad de Ciencias Agrarias — Sede Central (San Lorenzo)\n  \n \n\n \n  Colección general",
+   "callnumber": "P630 P389a\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 272196,
+   "title": "Bioestadística",
+   "year": null,
+   "query": "bioestadistica",
+   "tags": [
+    "bioestadistica"
+   ],
+   "authors": [
+    {
+     "au_id": "Lewis%2C%20Alvin%20E.",
+     "name": "Lewis, Alvin E",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca e Internet FACEN",
+   "callnumber": "574.0212\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 630160,
+   "title": "Bioestadística  Vanessa Labrada Martagón",
+   "year": null,
+   "query": "bioestadistica",
+   "tags": [
+    "bioestadistica"
+   ],
+   "authors": [
+    {
+     "au_id": "Celis%20de%20la%20Rosa%2C%20Alfredo%20de%20Jes%C3%BAs",
+     "name": "Celis de la Rosa, Alfredo de Jesús",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca FCV San Juan Bautista\n  \n \n\n \n  Colección general",
+   "callnumber": "574.015195 C330b\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 474,
+   "title": "Bioestadística",
+   "year": null,
+   "query": "bioestadistica",
+   "tags": [
+    "bioestadistica"
+   ],
+   "authors": [
+    {
+     "au_id": "Norman%2C%20Geoffrey.%20Streiner%2C%20David",
+     "name": "Norman, Geoffrey. Streiner, David",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca de la Facultad de Odontología"
+  },
+  {
+   "bibnum": 517576,
+   "title": "Bioestadistica",
+   "year": null,
+   "query": "bioestadistica",
+   "tags": [
+    "bioestadistica"
+   ],
+   "authors": [
+    {
+     "au_id": "Rius%20D%C3%ADaz%2C%20Francisca",
+     "name": "Rius Díaz, Francisca",
+     "role": "autor"
+    },
+    {
+     "au_id": "Bar%C3%B3n%20L%C3%B3pez%2CFrancisco%20Javier",
+     "name": "Barón López,Francisco Javier",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca e Internet FACEN\n  \n \n\n \n  Colección general",
+   "callnumber": "574.0212 R52t\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 517575,
+   "title": "Bioestadistica",
+   "year": null,
+   "query": "bioestadistica",
+   "tags": [
+    "bioestadistica"
+   ],
+   "authors": [
+    {
+     "au_id": "Rius%20D%C3%ADaz%2C%20Francisca",
+     "name": "Rius Díaz, Francisca",
+     "role": "autor"
+    },
+    {
+     "au_id": "Bar%C3%B3n%20L%C3%B3pez%2C%20Francisco",
+     "name": "Barón López, Francisco",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca e Internet FACEN\n  \n \n\n \n  Colección general",
+   "callnumber": "574.0212 R52b\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 517568,
+   "title": "Bioestadística",
+   "year": null,
+   "query": "bioestadistica",
+   "tags": [
+    "bioestadistica"
+   ],
+   "authors": [
+    {
+     "au_id": "Rius%20D%C3%ADaz%2C%20Francisca",
+     "name": "Rius Díaz, Francisca",
+     "role": "autor"
+    },
+    {
+     "au_id": "Bar%C3%B3n%20L%C3%B3pez%2C%20Francisco%20Javier",
+     "name": "Barón López, Francisco Javier",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca e Internet FACEN\n  \n \n\n \n  Colección general",
+   "callnumber": "574.0212 R52b\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 615812,
+   "title": "Bioestadística : base para el análisis de las ciencias de l salud.",
+   "year": null,
+   "query": "bioestadistica",
+   "tags": [
+    "bioestadistica"
+   ],
+   "authors": [
+    {
+     "au_id": "Daniel%2C%20Wayne%20W.",
+     "name": "Daniel, Wayne W",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca de la Facultad de Ingeniería — Sede Central (San Lorenzo)\n  \n \n\n \n  Colección general",
+   "callnumber": "310 D227b\n \n \n ( Navegar estantería (Abre debajo)  )"
+  },
+  {
+   "bibnum": 566939,
+   "title": "Fundamentos de bioestadística  Kimberlee Gauvreau",
+   "year": null,
+   "query": "bioestadistica",
+   "tags": [
+    "bioestadistica"
+   ],
+   "authors": [
+    {
+     "au_id": "Pagano%2C%20Marcello",
+     "name": "Pagano, Marcello",
+     "role": "autor"
+    }
+   ],
+   "branch": "Biblioteca Central de la Universidad Nacional de Asunción\n  \n \n\n \n  Colección general",
+   "callnumber": "519.5 P14f\n \n \n ( Navegar estantería (Abre debajo)  )"
   }
- ],
- "note": "Final enrichment snapshot from v3 enrichment job. Original 600-record ckpt + 1358 newly enriched = 1958 total enriched (88% of 2,217 unique bibnums)."
+ ]
 }

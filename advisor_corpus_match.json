@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-07-30",
- "scope": "Cross-reference 1958 enriched OPAC records × people_index.json for advisor identification",
- "n_enriched_records": 1958,
- "n_records_with_orientadores": 372,
- "n_records_without_orientadores": 1586,
- "n_unique_advisors_in_corpus": 401,
- "n_matched_in_people_index": 398,
+ "generated_at": "2026-07-31",
+ "scope": "Final v4 cross-reference: 2171 enriched OPAC records × people_index.json for advisor identification",
+ "n_enriched_records": 2171,
+ "n_records_with_orientadores": 389,
+ "n_records_without_orientadores": 1782,
+ "n_unique_advisors_in_corpus": 424,
+ "n_matched_in_people_index": 405,
  "top_advisors_by_frequency": [
   {
    "advisor": "Raúl Igmar Gregor Recalde",
@@ -84,6 +84,10 @@
    "thesis_count": 4
   },
   {
+   "advisor": "Enrique",
+   "thesis_count": 4
+  },
+  {
    "advisor": "Diego Pedro Pinto Roa",
    "thesis_count": 4
   },
@@ -144,15 +148,15 @@
    "thesis_count": 3
   },
   {
-   "advisor": "Enrique",
-   "thesis_count": 3
-  },
-  {
    "advisor": "Frutos Olmedo",
    "thesis_count": 3
   },
   {
    "advisor": "Lucas Teótimo",
+   "thesis_count": 3
+  },
+  {
+   "advisor": "Diego Pinto",
    "thesis_count": 3
   },
   {
@@ -206,6 +210,122 @@
   {
    "advisor": "Isabel Rodríguez",
    "thesis_count": 3
+  },
+  {
+   "advisor": "Carlos Ramón Chirife",
+   "thesis_count": 3
+  },
+  {
+   "advisor": "Mariana",
+   "thesis_count": 2
+  },
+  {
+   "advisor": "Cáceres Ruiz Díaz",
+   "thesis_count": 2
+  },
+  {
+   "advisor": "Gabriel",
+   "thesis_count": 2
+  },
+  {
+   "advisor": "Duarte Zaracho",
+   "thesis_count": 2
+  },
+  {
+   "advisor": "Gerardo Gabriel",
+   "thesis_count": 2
+  },
+  {
+   "advisor": "Gómez Añazco",
+   "thesis_count": 2
+  },
+  {
+   "advisor": "Ever Arnaldo",
+   "thesis_count": 2
+  },
+  {
+   "advisor": "Gómez Añazco Gerardo Gabriel",
+   "thesis_count": 2
+  },
+  {
+   "advisor": "Arnaldo",
+   "thesis_count": 2
+  },
+  {
+   "advisor": "Sofía Stete Borba",
+   "thesis_count": 2
+  },
+  {
+   "advisor": "Wilma Garcete",
+   "thesis_count": 2
+  },
+  {
+   "advisor": "Ernesto Lazaga",
+   "thesis_count": 2
+  },
+  {
+   "advisor": "Julio Manuel Paciello Coronel",
+   "thesis_count": 2
+  },
+  {
+   "advisor": "Julio Manuel",
+   "thesis_count": 2
+  },
+  {
+   "advisor": "Paciello Coronel",
+   "thesis_count": 2
+  },
+  {
+   "advisor": "Benjamín Barán Cegla",
+   "thesis_count": 2
+  },
+  {
+   "advisor": "Joaquín Lima",
+   "thesis_count": 2
+  },
+  {
+   "advisor": "Von Lucken Martínez",
+   "thesis_count": 2
+  },
+  {
+   "advisor": "Christian Dabiel",
+   "thesis_count": 2
+  },
+  {
+   "advisor": "Christian",
+   "thesis_count": 2
+  },
+  {
+   "advisor": "Von Lücken",
+   "thesis_count": 2
+  },
+  {
+   "advisor": "Lizza A. Salgueiro Toledo",
+   "thesis_count": 2
+  },
+  {
+   "advisor": "José L. Vázquez Noguera",
+   "thesis_count": 2
+  },
+  {
+   "advisor": "Maria Soledad Ayala Rodríguez",
+   "thesis_count": 2
+  },
+  {
+   "advisor": "Benjamín Barán",
+   "thesis_count": 2
+  },
+  {
+   "advisor": "Luciana Dalila Coronel",
+   "thesis_count": 2
+  },
+  {
+   "advisor": "Reinaldo López Colmán",
+   "thesis_count": 2
+  },
+  {
+   "advisor": "Mili Saito",
+   "thesis_count": 2
   }
  ],
  "matches_sample_50": [
