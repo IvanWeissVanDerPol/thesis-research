@@ -1,0 +1,185 @@
+[
+ {
+  "name": "BUNDLE 1: FADA SATELLITE-EARTH OBSERVATION MEGA-PROJECT",
+  "advisor": "Cristaldo (FADA)",
+  "thesis_count": 4,
+  "shared_data": "Sentinel-2 + Planet + OSM Paraguay + Cristaldo's 1M polygons",
+  "shared_faculty": "FADA",
+  "shared_papers": "Global ForesWatch, Verra VCS, Ideam Paraguay",
+  "ideas": [
+   {
+    "id": "P0012",
+    "title": "Yvy: Indigenous territory mapping",
+    "novelty": "Very high",
+    "pub": "World Development"
+   },
+   {
+    "id": "P0011",
+    "title": "Yvytu: Chaco deforestation alerts",
+    "novelty": "High",
+    "pub": "Remote Sensing"
+   },
+   {
+    "id": "P0100",
+    "title": "Yvyra: Carbon-credit verification",
+    "novelty": "Very high",
+    "pub": "Nature Climate Change"
+   },
+   {
+    "id": "P0010",
+    "title": "Tava-i: Multi-modal OSM mapping",
+    "novelty": "Med-High",
+    "pub": "Transactions in GIS"
+   }
+  ],
+  "synergy": "Same Sentinel-2 pipeline + same Paraguay polygon dataset + shared OSM expertise. Cristaldo's 4 prior cartography theses as baseline.",
+  "funding": "$0-1500 total (mostly free satellite data)",
+  "months": "12-18 months (all 4 sequentially) or 6-9 months (1 thesis with 4 sub-studies)",
+  "publications": "Each idea = 1 paper, so 4 publications from 1 megaproyect",
+  "novelty_advantage": "No Paraguayan satellite cartography thesis exists. Combined contribute to Paraguay's national carbon verification system."
+ },
+ {
+  "name": "BUNDLE 2: FCM-UNA MENTAL HEALTH + CLINICAL NLP MEGA-PROJECT",
+  "advisor": "Torales + Barrios (FCM-UNA)",
+  "thesis_count": 4,
+  "shared_data": "FCM-UNA clinical recordings + IRB + Jopara/Spanish corpora",
+  "shared_faculty": "FCM-UNA",
+  "shared_papers": "Solo Escuchame, EmoTrace, Diaz 2021/2023, Princeton theses",
+  "ideas": [
+   {
+    "id": "P0015",
+    "title": "Sy: Whisper clinical scribe",
+    "novelty": "High",
+    "pub": "JAMIA"
+   },
+   {
+    "id": "P0031",
+    "title": "Karamanu: Chagas vector heatmap",
+    "novelty": "High",
+    "pub": "Parasites & Vectors"
+   },
+   {
+    "id": "P0005",
+    "title": "Tokandu: ANDE forecasting (chatbot layer)",
+    "novelty": "Med-High",
+    "pub": "Applied Energy"
+   },
+   {
+    "id": "P0001",
+    "title": "JoparaBot mental health chatbot",
+    "novelty": "Medium (5+ competitors)",
+    "pub": "JAMIA"
+   }
+  ],
+  "synergy": "Same FCM-UNA clinical access + IRB + Torales/Barrios as dual PIs. Combined clinical NLP + public health + vector surveillance.",
+  "funding": "$500-3000 total",
+  "months": "12-18 months (4 theses sequentially) or 8-10 months (1 thesis with 4 sub-studies)",
+  "publications": "4 papers in JAMIA, PLoS NTD, Applied Energy, JAMIA",
+  "novelty_advantage": "Combined UNIQUE: use Jopara clinical chatbot to monitor Chagas anxiety + chronic disease + energy poverty. PUBLISHABLE AS A 'SYSTEM OF CARE' PAPER."
+ },
+ {
+  "name": "BUNDLE 3: FP-UNA ENGINEERING + TRANSPORT + ROAD MEGA-PROJECT",
+  "advisor": "Legal Ayala (FP-UNA) + multi-advisor",
+  "thesis_count": 3,
+  "shared_data": "MOPC drone + OSM roads + GTFS feeds",
+  "shared_faculty": "FP-UNA",
+  "shared_papers": "YOLO v8, RDD2022, SUMO simulator",
+  "ideas": [
+   {
+    "id": "P0085",
+    "title": "Yvykui: Road damage detection",
+    "novelty": "Medium",
+    "pub": "Computer-Aided Civil"
+   },
+   {
+    "id": "P0067",
+    "title": "Mbayru: Bus route optimization",
+    "novelty": "High",
+    "pub": "Transportation Research"
+   },
+   {
+    "id": "P0035",
+    "title": "Tatakua: Air quality forecasting",
+    "novelty": "Med-High",
+    "pub": "Atmospheric Environment"
+   }
+  ],
+  "synergy": "Same drone + satellite + OSM infrastructure. Could combine as 'Asunción urban AI infrastructure' megaproyect.",
+  "funding": "$0-500",
+  "months": "6-12 months",
+  "publications": "3 papers in civil engineering + transport + atmospheric env journals",
+  "novelty_advantage": "Combined: 'Smarter Asunción' — road quality + transit + air quality → 1 paper at Nature Cities or Sustainable Cities and Society."
+ },
+ {
+  "name": "BUNDLE 4: EDUCATION + RURAL PARAGUAY + LLM MEGA-PROJECT",
+  "advisor": "MEC + academia mentor",
+  "thesis_count": 3,
+  "shared_data": "MEC curriculum + rural school networks + Jopara + Guaraní",
+  "shared_faculty": "FP-UNA + MEC",
+  "shared_papers": "GPT-4, Mita arandu original idea",
+  "ideas": [
+   {
+    "id": "P0021",
+    "title": "Mita arandu: Coding tutor",
+    "novelty": "High",
+    "pub": "CHI"
+   },
+   {
+    "id": "P0040",
+    "title": "Kuatianee: OCR Guaraní historical",
+    "novelty": "High",
+    "pub": "Digital Scholarship"
+   },
+   {
+    "id": "P0051",
+    "title": "Hendape: Indigenous heritage annotation",
+    "novelty": "Med-High",
+    "pub": "J. Cultural Analytics"
+   }
+  ],
+  "synergy": "All touch Guaraní + rural education + low-resource NLP. Could combine into 'Guaraní NLP for education' megaproyect.",
+  "funding": "$100-500",
+  "months": "6-12 months",
+  "publications": "3 papers in CHI, Digital Scholarship, Cultural Analytics",
+  "novelty_advantage": "Combined: 'Guaraní NLP pipeline' — OCR + heritage + education = 1 Ecosystem paper at ACL or similar."
+ },
+ {
+  "name": "BUNDLE 5: GUARANÍ SPEECH + INDIGENOUS LANGUAGE TECH MEGA-PROJECT",
+  "advisor": "Cristaldo + Guaraní academics",
+  "thesis_count": 4,
+  "shared_data": "38 Guaraní datasets on HuggingFace + Whisper + Speaker diarization",
+  "shared_faculty": "FADA + multi-faculty",
+  "shared_papers": "B037 Columbia, B038 Beihang, B039 Multilingual ASR",
+  "ideas": [
+   {
+    "id": "P0015",
+    "title": "Sy: Whisper clinical scribe (Guaraní modal)",
+    "novelty": "High",
+    "pub": "JAMIA"
+   },
+   {
+    "id": "P0012",
+    "title": "Yvy: Indigenous territory (Guaraní names)",
+    "novelty": "Very High",
+    "pub": "World Development"
+   },
+   {
+    "id": "P0040",
+    "title": "Kuatianee: OCR Guaraní historical",
+    "novelty": "High",
+    "pub": "Digital Scholarship"
+   },
+   {
+    "id": "P0051",
+    "title": "Hendape: Indigenous heritage annotation",
+    "novelty": "Med-High",
+    "pub": "Cultural Analytics"
+   }
+  ],
+  "synergy": "All process Guaraní language data. Could combine into 'Guaraní language technology stack' megaproyect.",
+  "funding": "$500-2000",
+  "months": "12-18 months",
+  "publications": "4 papers in NLP + clinical + cultural + education",
+  "novelty_advantage": "Combined: 'Guaraní LLM' — OCR + heritage + ASR + clinical = 1 Foundation Model paper at EMNLP or NAACL."
+ }
+]
