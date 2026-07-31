@@ -1,0 +1,19 @@
+# Raw HTML snapshots (regenerable, too big for git)
+raw_html_snapshots/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
