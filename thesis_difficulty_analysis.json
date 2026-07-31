@@ -1,0 +1,480 @@
+{
+  "generated_at": "2026-07-31",
+  "scope": "Difficulty/effort analysis for top 30 thesis ideas after global baseline re-ranking",
+  "scoring_method": "8 factors rated 1-10, lower = harder. Overall = average normalized 1-10 (1=easiest, 10=hardest).",
+  "factor_definitions": {
+    "data_exists": "How much of the data is already freely available online or via existing partnerships (10=all free, 1=need IRB + custom collection)",
+    "tools_maturity": "Open-source tooling maturity (10=turnkey libraries, 1=need to write everything from scratch)",
+    "advisor_real": "Real-world advisor/accessibility (10=advisor available + partners ready, 1=advisor unclear + no partners)",
+    "novelty_required": "Novel work required (10=highly novel, publication magnet; 1=standard reproduction)",
+    "shippability": "How fast can the working system be demoed (10=4 months, 1=18+ months)",
+    "cost": "Funding required (10=$0, 1=$$$ for compute/data/licensing)",
+    "pub_venue": "Publication venue match (10=top Q1 like Nature, 1=workshop only)",
+    "compute": "Compute needs (10=CPU/colab, 1=multi-GPU cluster)"
+  },
+  "top30_analysis": [
+    {
+      "rank": 1,
+      "id": "P0012",
+      "title": "Yvy: Indigenous community territory mapping with participatory AI + GPT-4V",
+      "overall_difficulty": "2.9/10",
+      "months": 6,
+      "thesis_type": "research",
+      "data_exists": 7,
+      "tools_maturity": 8,
+      "advisor_real": 7,
+      "novelty_required": 9,
+      "shippability": 7,
+      "cost": 8,
+      "pub_venue": 9,
+      "compute": 8,
+      "data_online": [
+        "GPT-4V API (OpenAI)",
+        "OSM Paraguay (Geofabrik download)",
+        "INDI (Instituto Nacional del Indígena) data portal",
+        "Indigenous land registry (公开 data via UN-Habitat)",
+        "Cristaldo's 1M polygon dataset (FADA)"
+      ],
+      "tools_needed": [
+        "PyTorch + OpenAI API",
+        "OSMnx, geopandas, QGIS",
+        "Custom Flask/Django validation app",
+        "label-studio for native-language labels",
+        "HuggingFace transformers (for local LLaMA-3 alternative)"
+      ],
+      "novel_work_pct": 70,
+      "novel_work": "Indigenous territory validation framework + cultural sensitivity layer for Guaraní place names + participatory AI design",
+      "existing_assets": [
+        "Cristaldo FADA lab has 1M polygons mapped (CRISTALDO_ADVISOR_PROFILE)",
+        "UN-Habitat Open Day 2025 partnership",
+        "FADA Carta-base Asunción + GISPA"
+      ],
+      "funding_needed": "$200-800 (GPT-4 API calls + Geopremium subscription)",
+      "advisor_chain": "Cristaldo (FADA) + UN-Habitat contact + INDI liaison",
+      "publish_target": ["World Development", "J. Latin American Geography", "ACM CHI"],
+      "verification_steps": ["survey 5+ indigenous communities", "INDI ethical clearance", "GPT-4V F1 > 0.80 on test set"],
+      "open_source_reuse": 75
+    },
+    {
+      "rank": 2,
+      "id": "P0011",
+      "title": "Yvytu: Multi-temporal satellite CV for Chaco deforestation alerts",
+      "overall_difficulty": "2.5/10",
+      "months": 5,
+      "thesis_type": "engineering",
+      "data_exists": 9,
+      "tools_maturity": 9,
+      "advisor_real": 8,
+      "novelty_required": 7,
+      "shippability": 8,
+      "cost": 9,
+      "pub_venue": 9,
+      "compute": 8,
+      "data_online": [
+        "Sentinel-2 (free, ESA Copernicus) — 10m resolution",
+        "Landsat 9 (free, NASA)",
+        "MODIS (free, daily)",
+        "Planet (free for academic research)",
+        "Global Forest Watch API",
+        "IDEAM Paraguay data"
+      ],
+      "tools_needed": [
+        "PyTorch + segmentation-models-pytorch",
+        "rasterio, geemap, xarray",
+        "Google Earth Engine (free for non-commercial)",
+        "QGIS, custom Streamlit dashboard"
+      ],
+      "novel_work_pct": 50,
+      "novel_work": "Chaco-specific multi-temporal CV (unique dry-forest biome, not Amazon) + alert system",
+      "existing_assets": [
+        "Cristaldo's prior 4 cartography theses as comparison baselines",
+        "FADA UN-Habitat partnership",
+        "GEE free tier for Paraguay"
+      ],
+      "funding_needed": "$0-300 (free satellite + GEE free tier)",
+      "advisor_chain": "Cristaldo (FADA) + INFONA contact",
+      "publish_target": ["Remote Sensing of Environment", "ISPRS", "J. Applied Remote Sensing"],
+      "verification_steps": ["download 5 years of Sentinel-2 over Chaco", "F1 > 0.85 vs manual labels", "real-time alert demo"],
+      "open_source_reuse": 85
+    },
+    {
+      "rank": 3,
+      "id": "P0085",
+      "title": "Yvykui: Road damage detection from MOPC drone imagery (YOLOv8 + RDD2022)",
+      "overall_difficulty": "2.3/10",
+      "months": 4,
+      "thesis_type": "engineering",
+      "data_exists": 8,
+      "tools_maturity": 9,
+      "advisor_real": 9,
+      "novelty_required": 7,
+      "shippability": 9,
+      "cost": 9,
+      "pub_venue": 8,
+      "compute": 9,
+      "data_online": [
+        "MOPC (Ministerio de Obras Públicas) drone program",
+        "RDD2022 dataset (Japan road damage)",
+        "CRDDC2022 (China road damage)",
+        "OpenStreetMap Paraguay roads",
+        "Roboflow public road damage dataset"
+      ],
+      "tools_needed": [
+        "PyTorch + YOLOv8 (ultralytics)",
+        "MMDetection, Roboflow (annotation)",
+        "labelImg, label-studio",
+        "QGIS for spatial analysis"
+      ],
+      "novel_work_pct": 40,
+      "novel_work": "Paraguay-specific road damage taxonomy (vs Japanese/Chinese categories) + MOPC drone integration",
+      "existing_assets": [
+        "Legal Ayala (FP-UNA) advisor — already active in Paraguay transport projects",
+        "MOPC has drone imagery program",
+        "RDD2022 baseline (Japan model fine-tunes well)"
+      ],
+      "funding_needed": "$0-200 (YOLO training is cheap, MOPC data free)",
+      "advisor_chain": "Legal Ayala (FP-UNA) + MOPC liaison",
+      "publish_target": ["Computer-Aided Civil and Infrastructure Engineering", "Automation in Construction"],
+      "verification_steps": ["label 500+ MOPC drone images", "YOLOv8 mAP > 0.70 on Paraguay-specific test set", "compare with RDD2022 model"],
+      "open_source_reuse": 90
+    },
+    {
+      "rank": 4,
+      "id": "P0067",
+      "title": "Mbayru: Asuncion city bus route optimization with MOEA + real-time GTFS",
+      "overall_difficulty": "3.2/10",
+      "months": 6,
+      "thesis_type": "engineering",
+      "data_exists": 7,
+      "tools_maturity": 7,
+      "advisor_real": 7,
+      "novelty_required": 8,
+      "shippability": 7,
+      "cost": 8,
+      "pub_venue": 7,
+      "compute": 9,
+      "data_online": [
+        "Google Maps Transit API",
+        "Moovit API",
+        "OSM Paraguay roads (Geofabrik)",
+        "Asunción municipal open data portal",
+        "GTFS feeds (if available)"
+      ],
+      "tools_needed": [
+        "SUMO traffic simulator",
+        "NSGA-II (pymoo) for multi-objective",
+        "GTFS data tools",
+        "networkx, OSMnx, geopandas"
+      ],
+      "novel_work_pct": 60,
+      "novel_work": "Paraguayan bus equity (low-income neighborhoods + indigenous areas access optimization)",
+      "existing_assets": [
+        "FADA-Transit (if exists)",
+        "No direct Paraguayan transit thesis known (high novelty)",
+        "SUMO has Buenos Aires model as reference"
+      ],
+      "funding_needed": "$0-100 (mostly software)",
+      "advisor_chain": "Multi-advisor (FADA + transit authority + possibly Stalder)",
+      "publish_target": ["Transportation Research Part C", "Public Transport", "J. Transport Geography"],
+      "verification_steps": ["collect GTFS data for Asunción", "build SUMO model", "compare MOEA vs current routes"],
+      "open_source_reuse": 70
+    },
+    {
+      "rank": 5,
+      "id": "P0100",
+      "title": "Yvyra: Carbon-credit verification (satellite CV + Paraguayan carbon market)",
+      "overall_difficulty": "2.7/10",
+      "months": 6,
+      "thesis_type": "research",
+      "data_exists": 8,
+      "tools_maturity": 8,
+      "advisor_real": 7,
+      "novelty_required": 9,
+      "shippability": 8,
+      "cost": 8,
+      "pub_venue": 9,
+      "compute": 8,
+      "data_online": [
+        "Sentinel-2 (free, ESA Copernicus)",
+        "Planet (free academic)",
+        "Verra VCS registry (public)",
+        "Gold Standard registry",
+        "INFONA (Paraguayan forestry agency) data"
+      ],
+      "tools_needed": [
+        "PyTorch + segmentation-models-pytorch",
+        "QGIS, Google Earth Engine",
+        "Custom Streamlit dashboard",
+        "Verra VCS API integration"
+      ],
+      "novel_work_pct": 70,
+      "novel_work": "Paraguayan carbon market validation — Asunción Stock Exchange + INFONA integration + automated verification",
+      "existing_assets": [
+        "Cristaldo's prior forest work",
+        "No Paraguayan carbon-credit ML thesis known (very high novelty)"
+      ],
+      "funding_needed": "$0-400 (free satellite + free cloud credits)",
+      "advisor_chain": "Cristaldo (FADA) + INFONA + Asunción Stock Exchange contact",
+      "publish_target": ["Nature Climate Change (if ambitious)", "Carbon Balance and Management", "Climate Policy"],
+      "verification_steps": ["integrate Verra VCS API", "build Paraguay deforestation baseline", "validate against INFONA manual audits"],
+      "open_source_reuse": 75
+    },
+    {
+      "rank": 6,
+      "id": "P0010",
+      "title": "Tava-i: Multi-modal AI for collaborative OSM mapping in Paraguay (GPT-4 + YOLO)",
+      "overall_difficulty": "2.5/10",
+      "months": 5,
+      "thesis_type": "engineering",
+      "data_exists": 9,
+      "tools_maturity": 8,
+      "advisor_real": 9,
+      "novelty_required": 7,
+      "shippability": 8,
+      "cost": 9,
+      "pub_venue": 8,
+      "compute": 9,
+      "data_online": [
+        "OSM Paraguay (Geofabrik)",
+        "Mapillary API (street-level imagery)",
+        "HOT-OSM tasking manager",
+        "OpenCities AI challenge dataset",
+        "Cristaldo's 1M polygon dataset"
+      ],
+      "tools_needed": [
+        "PyTorch + detectron2/YOLOv8",
+        "label-studio for native-language labels",
+        "OSMnx, geopandas",
+        "Custom OSM plugin for native languages"
+      ],
+      "novel_work_pct": 50,
+      "novel_work": "GPT-4V integration for native-language place names + rural Chaco specifics",
+      "existing_assets": [
+        "Cristaldo FADA lab has 1M polygons mapped",
+        "UN-Habitat partnership for validation"
+      ],
+      "funding_needed": "$0-500 (GPU credits from Colab Pro + free HF Spaces)",
+      "advisor_chain": "Cristaldo (FADA)",
+      "publish_target": ["Transactions in GIS", "IJGI", "ISPRS"],
+      "verification_steps": ["F1 > 0.80 against OSM ground truth", "GPT-4V accuracy > 75% on place names", "field validation in 3 communities"],
+      "open_source_reuse": 75
+    },
+    {
+      "rank": 7,
+      "id": "P0015",
+      "title": "Sy: Whisper-based clinical scribe for FCM-UNA (Asuncion medical)",
+      "overall_difficulty": "3.4/10",
+      "months": 7,
+      "thesis_type": "engineering",
+      "data_exists": 5,
+      "tools_maturity": 8,
+      "advisor_real": 8,
+      "novelty_required": 8,
+      "shippability": 7,
+      "cost": 7,
+      "pub_venue": 8,
+      "compute": 8,
+      "data_online": [
+        "Whisper (OpenAI, open-source)",
+        "Mozilla Common Voice (Spanish subset)",
+        "FCM-UNA clinical recordings (NEED PERMISSION)",
+        "Solo Escuchame codebase (B003 reference)"
+      ],
+      "tools_needed": [
+        "Whisper, faster-whisper",
+        "pyannote (speaker diarization)",
+        "spaCy Spanish (medical)",
+        "Custom EHR integration",
+        "Hugging Face Inference API"
+      ],
+      "novel_work_pct": 60,
+      "novel_work": "FCM-UNA Spanish medical scribe — different dialect from Solo Escuchame (Mexican Spanish)",
+      "existing_assets": [
+        "FCM-UNA Torales/Barrios clinical access"
+      ],
+      "funding_needed": "$300-1000 (Whisper API or local GPU)",
+      "advisor_chain": "Torales + Barrios (FCM-UNA)",
+      "publish_target": ["JAMIA", "npj Digital Medicine", "J. Biomedical Informatics"],
+      "verification_steps": ["IRB approval FCM-UNA", "collect 50+ clinical recordings", "WER < 15% on medical vocabulary"],
+      "open_source_reuse": 70
+    },
+    {
+      "rank": 8,
+      "id": "P0021",
+      "title": "Mita arandu: Coding-education tutor for rural Paraguayan students (Jopara + GPT-4)",
+      "overall_difficulty": "2.8/10",
+      "months": 5,
+      "thesis_type": "engineering",
+      "data_exists": 6,
+      "tools_maturity": 9,
+      "advisor_real": 7,
+      "novelty_required": 8,
+      "shippability": 8,
+      "cost": 9,
+      "pub_venue": 8,
+      "compute": 9,
+      "data_online": [
+        "Open edX/Moodle",
+        "Codecademy datasets",
+        "Khan Academy Spanish",
+        "MIT OCW",
+        "FreeCodeCamp Spanish"
+      ],
+      "tools_needed": [
+        "GPT-4 API",
+        "CodeMirror / Monaco editor",
+        "Pyodide (in-browser Python)",
+        "Telegram Bot API",
+        "MEC curriculum data"
+      ],
+      "novel_work_pct": 65,
+      "novel_work": "Jopara + Guaraní interaction in coding context (huge gap — no Guaraní coding education exists)",
+      "existing_assets": [
+        "Rural Paraguayan education context",
+        "Possible MEC (Ministerio de Educación) data"
+      ],
+      "funding_needed": "$100-500 (GPT-4 API)",
+      "advisor_chain": "MEC + rural school system + academia mentor",
+      "publish_target": ["CHI", "Learning @ Scale", "Computers & Education"],
+      "verification_steps": ["pilot with 20+ rural students", "GPT-4 vs baseline A/B test", "engagement metrics > 60%"],
+      "open_source_reuse": 70
+    },
+    {
+      "rank": 9,
+      "id": "P0031",
+      "title": "Karamanu: Chagas vector heatmap (Phytoseiulus for Aedes aegypti model)",
+      "overall_difficulty": "3.1/10",
+      "months": 7,
+      "thesis_type": "research",
+      "data_exists": 5,
+      "tools_maturity": 8,
+      "advisor_real": 9,
+      "novelty_required": 8,
+      "shippability": 7,
+      "cost": 8,
+      "pub_venue": 8,
+      "compute": 8,
+      "data_online": [
+        "WorldClim (climate)",
+        "SISSER (Paraguayan health)",
+        "PAHO/WHO Chagas reports",
+        "Kaggle dengue datasets (similar vector)",
+        "TREA-Net B040 (transfer from India/Mexico/Malaysia)"
+      ],
+      "tools_needed": [
+        "XGBoost, scikit-learn",
+        "geopandas, rasterio, QGIS",
+        "TREA-Net (transfer learning)",
+        "SENEPA surveillance data"
+      ],
+      "novel_work_pct": 60,
+      "novel_work": "Chagas-specific vector (Triatoma) habitat modeling in Paraguay (TREA-Net B040 applies from India)",
+      "existing_assets": [
+        "FCM-UNA Torales/Barrios clinical + SENEPA (Paraguayan Chagas program)"
+      ],
+      "funding_needed": "$0-300",
+      "advisor_chain": "FCM-UNA + SENEPA + Torales/Barrios",
+      "publish_target": ["Parasites & Vectors", "PLOS NTD", "Memorias do Instituto Oswaldo Cruz"],
+      "verification_steps": ["get SENEPA data", "build Chagas vector habitat model", "compare with TREA-Net"],
+      "open_source_reuse": 65
+    },
+    {
+      "rank": 10,
+      "id": "P0040",
+      "title": "Kuatianee: OCR for Guarani historical documents from 19th century",
+      "overall_difficulty": "3.2/10",
+      "months": 5,
+      "thesis_type": "engineering",
+      "data_exists": 6,
+      "tools_maturity": 7,
+      "advisor_real": 7,
+      "novelty_required": 8,
+      "shippability": 8,
+      "cost": 8,
+      "pub_venue": 8,
+      "compute": 8,
+      "data_online": [
+        "Biblioteca Nacional del Paraguay (free scans)",
+        "Internet Archive Guaraní texts",
+        "Jesuita texts digitalizados",
+        "Tesseract Spanish model (fine-tune base)"
+      ],
+      "tools_needed": [
+        "Tesseract OCR (fine-tune)",
+        "EasyOCR, PaddleOCR (strong for Latin script)",
+        "TrOCR (Microsoft transformer OCR)",
+        "Custom fine-tune pipeline"
+      ],
+      "novel_work_pct": 65,
+      "novel_work": "19th-century Guaraní script recognition (vs modern Guaraní) + diacritics",
+      "existing_assets": [
+        "Biblioteca Nacional digitization project"
+      ],
+      "funding_needed": "$0-300",
+      "advisor_chain": "Biblioteca Nacional + historian consultant",
+      "publish_target": ["Digital Scholarship in the Humanities", "J. Cultural Analytics"],
+      "verification_steps": ["collect 1000+ scanned pages", "fine-tune on 200 labeled pages", "CER < 10%"],
+      "open_source_reuse": 75
+    }
+  ],
+  "additional_30_minus_50_theses": "Documented in thesis_difficulty_analysis.json (30 ideas analyzed)",
+  "general_patterns": {
+    "easiest_theses_4_to_6_months": [
+      "P0085 (Road damage) — MOPC drone data + YOLO",
+      "P0011 (Chaco deforestation) — Sentinel-2 + CV",
+      "P0010 (Tava-i OSM) — OSM + GPT-4V",
+      "P0021 (Mita arandu coding tutor) — GPT-4 + Telegram",
+      "P0040 (Kuatianee OCR) — Tesseract + PaddleOCR"
+    ],
+    "medium_theses_6_to_9_months": [
+      "P0012 (Yvy indigenous) — needs INDI ethical clearance",
+      "P0067 (Mbayru bus routes) — needs GTFS data",
+      "P0100 (Yvyra carbon credits) — needs Verra integration",
+      "P0015 (Sy clinical scribe) — needs IRB",
+      "P0031 (Karamanu Chagas) — needs SENEPA data",
+      "P0005 (Tokandu ANDE forecasting) — needs TSFM training"
+    ],
+    "hard_theses_9_to_12_months": [
+      "P0001 (JoparaBot mental health) — clinical trial + 5+ competitors",
+      "P0016 (Karu youth MH) — school recruitment + IRB",
+      "P0055 (Kany federated clinical) — multi-hospital coordination"
+    ],
+    "thesis_type_distribution": {
+      "engineering": 18,
+      "research": 12
+    },
+    "compute_distribution": {
+      "cpu_or_colab": 21,
+      "single_GPU": 7,
+      "multi_GPU_or_cloud": 2
+    }
+  },
+  "data_summary": {
+    "all_free_online": ["P0085", "P0011", "P0010", "P0021", "P0040", "P0100"],
+    "needs_local_partnership": ["P0012 (INDI)", "P0015 (FCM)", "P0031 (SENEPA)", "P0067 (municipal)"],
+    "needs_clinical_irb": ["P0015", "P0031", "P0090", "P0001", "P0016"],
+    "needs_academic_license": []
+  },
+  "funding_summary": {
+    "zero_funding_needed": ["P0085", "P0011", "P0067", "P0031", "P0040"],
+    "low_$0_500": ["P0012", "P0010", "P0021", "P0100", "P0005"],
+    "medium_$500_2000": ["P0015", "P0001", "P0016", "P0055"],
+    "high_$2000_plus": []
+  },
+  "comparison_table": {
+    "headers": ["Rank", "ID", "Title (short)", "Months", "Difficulty", "Cost", "Novelty", "Best advisor"],
+    "rows": [
+      [1, "P0012", "Yvy indigenous mapping", 6, "2.9/10", "$200-800", "Very High", "Cristaldo"],
+      [2, "P0011", "Yvytu Chaco deforestation", 5, "2.5/10", "$0-300", "High", "Cristaldo"],
+      [3, "P0085", "Yvykui road damage", 4, "2.3/10", "$0-200", "Medium", "Legal Ayala"],
+      [4, "P0067", "Mbayru bus routes", 6, "3.2/10", "$0-100", "High", "Multi-advisor"],
+      [5, "P0100", "Yvyra carbon credits", 6, "2.7/10", "$0-400", "Very High", "Cristaldo"],
+      [6, "P0010", "Tava-i OSM mapping", 5, "2.5/10", "$0-500", "Medium-High", "Cristaldo"],
+      [7, "P0015", "Sy clinical scribe", 7, "3.4/10", "$300-1000", "High", "Torales+Barrios"],
+      [8, "P0021", "Mita arandu tutor", 5, "2.8/10", "$100-500", "High", "MEC"],
+      [9, "P0031", "Karamanu Chagas", 7, "3.1/10", "$0-300", "High", "Torales+Barrios"],
+      [10, "P0040", "Kuatianee OCR", 5, "3.2/10", "$0-300", "High", "Biblioteca Nacional"],
+      [26, "P0005", "Tokandu ANDE", 6, "3.0/10", "$200-1000", "Medium-High", "Stalder"]
+    ]
+  }
+}
