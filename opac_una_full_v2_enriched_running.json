@@ -1,0 +1,237 @@
+{
+ "note": "Live running enrichment snapshot — v4 resuming from 750 to 2217",
+ "running": true,
+ "n_done": 950,
+ "n_enriched": 938,
+ "n_with_orient": 301,
+ "n_with_year": 800,
+ "n_with_branch": 938,
+ "snapshot_at": "2026-07-31",
+ "sample_records": [
+  {
+   "bibnum": 182704,
+   "title": "Diseño y automatización de circuitos eléctricos para el sistema de bombeo de una red de alcantarillado propuesto para la gestión de efluentes en la FPUNA",
+   "year": "2025",
+   "authors": [
+    {
+     "au_id": "Samudio%20Villalba%2C%20Ricardo%20Arturo",
+     "name": "Samudio Villalba, Ricardo Arturo",
+     "role": "autor"
+    },
+    {
+     "au_id": "Takeuchi%20Hayashida%2C%20Ariel%20Yutaka",
+     "name": "Takeuchi Hayashida, Ariel Yutaka",
+     "role": "autor"
+    }
+   ],
+   "orientadores": [
+    {
+     "au_id": "Mariana",
+     "name": "Mariana",
+     "role": "orientador"
+    },
+    {
+     "au_id": "C%C3%A1ceres%20Ruiz%20D%C3%ADaz",
+     "name": "Cáceres Ruiz Díaz",
+     "role": "orientador"
+    },
+    {
+     "au_id": "Gabriel",
+     "name": "Gabriel",
+     "role": "orientador"
+    },
+    {
+     "au_id": "Duarte%20Zaracho",
+     "name": "Duarte Zaracho",
+     "role": "orientador"
+    }
+   ],
+   "branch_text": "Biblioteca FPUNA (Centro de Información y Cultura)",
+   "callnumber": "IEL0168\n \n \n ( Navegar estantería (Abre debajo)  )",
+   "diss_note": "Tesis.",
+   "is_thesis": true,
+   "tags": [
+    "FPUNA"
+   ],
+   "branch": "Biblioteca FPUNA (Centro de Información y Cultura)"
+  },
+  {
+   "bibnum": 183072,
+   "title": "Restauración de la máquina para prototipado de circuitos impresos del laboratorio de mecatrónica de la FPUNA aplicando proceso analítico jerárquico",
+   "year": "2023",
+   "authors": [
+    {
+     "au_id": "Lugo%20Urunaga%2C%20Cristian%20David",
+     "name": "Lugo Urunaga, Cristian David",
+     "role": "autor"
+    },
+    {
+     "au_id": "Mart%C3%ADnez%20Mu%C3%B1oz%2C%20Juan%20Miguel",
+     "name": "Martínez Muñoz, Juan Miguel",
+     "role": "autor"
+    }
+   ],
+   "orientadores": [
+    {
+     "au_id": "Gerardo%20Gabriel",
+     "name": "Gerardo Gabriel",
+     "role": "orientador"
+    },
+    {
+     "au_id": "G%C3%B3mez%20A%C3%B1azco",
+     "name": "Gómez Añazco",
+     "role": "orientador"
+    },
+    {
+     "au_id": "Ever%20Arnaldo",
+     "name": "Ever Arnaldo",
+     "role": "orientador"
+    },
+    {
+     "au_id": "Qui%C3%B1onez%20Gonz%C3%A1lez",
+     "name": "Quiñonez González",
+     "role": "orientador"
+    }
+   ],
+   "branch_text": "Biblioteca FPUNA (Centro de Información y Cultura)",
+   "callnumber": "IE0265\n \n \n ( Navegar estantería (Abre debajo)  )",
+   "diss_note": "Tesis.",
+   "is_thesis": true,
+   "tags": [
+    "FPUNA"
+   ],
+   "branch": "Biblioteca FPUNA (Centro de Información y Cultura)"
+  },
+  {
+   "bibnum": 183098,
+   "title": "Restauración de la máquina para prototipado de circuitos impresos impresos del laboratorio de mecatrónica de la FPUNA, aplicando proceso analítico jerárquico",
+   "year": "2023",
+   "authors": [
+    {
+     "au_id": "Lugo%20Urunaga%2C%20Cristian%20David",
+     "name": "Lugo Urunaga, Cristian David",
+     "role": "autor"
+    },
+    {
+     "au_id": "Mart%C3%ADnez%20Mu%C3%B1oz%2C%20Juan%20Miguel",
+     "name": "Martínez Muñoz, Juan Miguel",
+     "role": "autor"
+    }
+   ],
+   "orientadores": [
+    {
+     "au_id": "G%C3%B3mez%20A%C3%B1azco%20Gerardo%20Gabriel",
+     "name": "Gómez Añazco Gerardo Gabriel",
+     "role": "orientador"
+    },
+    {
+     "au_id": "Arnaldo",
+     "name": "Arnaldo",
+     "role": "orientador"
+    },
+    {
+     "au_id": "Qui%C3%B1onez%20Gonz%C3%A1lez",
+     "name": "Quiñonez González",
+     "role": "orientador"
+    }
+   ],
+   "branch_text": "Biblioteca FPUNA (Centro de Información y Cultura)",
+   "callnumber": "IEO265\n \n \n ( Navegar estantería (Abre debajo)  )",
+   "diss_note": "Tesis.",
+   "is_thesis": true,
+   "tags": [
+    "FPUNA"
+   ],
+   "branch": "Biblioteca FPUNA (Centro de Información y Cultura)"
+  },
+  {
+   "bibnum": 185338,
+   "title": "Organización de la serie de resoluciones 1971-2008 y clasificación de los documentos del archivo de gestión de la Dirección de la Carrera Ciencias de la Información de la FPUNA",
+   "year": "2010",
+   "authors": [
+    {
+     "au_id": "Melgarejo%2C%20Sonia%20Luc%C3%ADa",
+     "name": "Melgarejo, Sonia Lucía",
+     "role": "autor"
+    },
+    {
+     "au_id": "Toledo%20Cabral%2C%20Mirtha%20Letizia",
+     "name": "Toledo Cabral, Mirtha Letizia",
+     "role": "autor"
+    }
+   ],
+   "orientadores": [
+    {
+     "au_id": "Sof%C3%ADa%20Stete%20Borba",
+     "name": "Sofía Stete Borba",
+     "role": "orientador"
+    },
+    {
+     "au_id": "Wilma%20Garcete",
+     "name": "Wilma Garcete",
+     "role": "orientador"
+    },
+    {
+     "au_id": "Mar%C3%ADa%20Soledad%20Ayala%20Rodr%C3%ADguez",
+     "name": "María Soledad Ayala Rodríguez",
+     "role": "orientador"
+    }
+   ],
+   "branch_text": "Biblioteca FPUNA (Centro de Información y Cultura)",
+   "callnumber": "027\n \n \n ( Navegar estantería (Abre debajo)  )",
+   "diss_note": "Tesis.",
+   "is_thesis": true,
+   "tags": [
+    "FPUNA"
+   ],
+   "branch": "Biblioteca FPUNA (Centro de Información y Cultura)"
+  },
+  {
+   "bibnum": 642153,
+   "title": "Diseño y automatización de circuitos eléctricos para el sistema de bombeo de una red de alcantarillado propuesto para la gestión de efluentes en la FPUNA",
+   "year": "2025",
+   "authors": [
+    {
+     "au_id": "Samudio%20Villalba%2C%20Ricardo%20Arturo",
+     "name": "Samudio Villalba, Ricardo Arturo",
+     "role": "autor"
+    },
+    {
+     "au_id": "Takeuchi%20Hayashida%2C%20Ariel%20Yutaka",
+     "name": "Takeuchi Hayashida, Ariel Yutaka",
+     "role": "autor"
+    }
+   ],
+   "orientadores": [
+    {
+     "au_id": "Duarte%20Zaracho",
+     "name": "Duarte Zaracho",
+     "role": "orientador"
+    },
+    {
+     "au_id": "Gabriel",
+     "name": "Gabriel",
+     "role": "orientador"
+    },
+    {
+     "au_id": "C%C3%A1ceres%20Ruiz%20D%C3%ADaz",
+     "name": "Cáceres Ruiz Díaz",
+     "role": "orientador"
+    },
+    {
+     "au_id": "Mariana",
+     "name": "Mariana",
+     "role": "orientador"
+    }
+   ],
+   "branch_text": "Biblioteca FPUNA (Centro de Información y Cultura)",
+   "callnumber": "IEL0168\n \n \n ( Navegar estantería (Abre debajo)  )",
+   "diss_note": "Tesis.",
+   "is_thesis": true,
+   "tags": [
+    "FPUNA"
+   ],
+   "branch": "Biblioteca FPUNA (Centro de Información y Cultura)\n  \n \n\n \n  Colección general"
+  }
+ ]
+}
