@@ -1,0 +1,938 @@
+{
+ "generated_at": "2026-07-31",
+ "scope": "Global thesis + arXiv baseline for UNA FP-UNA thesis proposals — LATAM, Asia, US, EU, China, Arabic/African, Indigenous Languages",
+ "method": "arXiv API search + Princeton DataSpace + selective European university repositories (UdelaR, IIIT blocked, etc.)",
+ "queries_run": 5,
+ "n_papers_found": 36,
+ "n_p3_competitors": 18,
+ "n_p2_competitors": 8,
+ "n_p1_competitors": 8,
+ "n_other": 2,
+ "top_findings_by_relevance": [
+  {
+   "id": "B001",
+   "title": "Multidimensional Affective Analysis for Low-Resource Languages: A Use Case with Guarani-Spanish Code-Switching Language",
+   "authors": [
+    "Diaz, et al."
+   ],
+   "year": 2023,
+   "venue": "Cognitive Computation (Springer)",
+   "type": "journal_paper",
+   "country": "Argentina/Paraguay",
+   "p_relevance": "P3",
+   "p_relevance_score": 95,
+   "url": "https://link.springer.com/article/10.1007/s12559-023-10165-0",
+   "key_findings": "First multi-dimensional affective analysis for Jopara; 3 dimensions (emotion, sentiment, intensity) annotated on Guarani-Spanish tweets.",
+   "differentiation_for_ivan": "DIRECT BASELINE. P3 must engage with this paper explicitly and position as extension/improvement.",
+   "topic": "jopara_low_resource_sentiment"
+  },
+  {
+   "id": "B002",
+   "title": "On the logistical difficulties and findings of Jopara Sentiment Analysis",
+   "authors": [
+    "Diaz, et al."
+   ],
+   "year": 2021,
+   "venue": "arXiv:2105.02947",
+   "type": "preprint",
+   "country": "Argentina/Paraguay",
+   "p_relevance": "P3",
+   "p_relevance_score": 95,
+   "url": "https://arxiv.org/abs/2105.02947",
+   "key_findings": "First Jopara sentiment analysis using Guarani-dominant tweets.",
+   "differentiation_for_ivan": "Foundational paper for P3 — same research group, exact same problem.",
+   "topic": "jopara_low_resource_sentiment"
+  },
+  {
+   "id": "B003",
+   "title": "Sólo Escúchame: Spanish Emotional Accompaniment Chatbot",
+   "authors": [
+    "Bruno Gil Ramírez",
+    "Jessica López Espejel",
+    "María del Carmen Santiago Díaz",
+    "Gustavo Trinidad Rubín Linares"
+   ],
+   "year": 2024,
+   "venue": "arXiv (Mexico)",
+   "type": "preprint",
+   "country": "Mexico",
+   "p_relevance": "P3",
+   "p_relevance_score": 90,
+   "url": "https://arxiv.org/abs/2408.00560",
+   "key_findings": "First Spanish emotional assistance chatbot using LLaMA-2-7b-Chat with HEAR dataset.",
+   "differentiation_for_ivan": "DIRECT COMPETITOR for P3 Spanish chatbot. P3 must add clinical validation (vs their psychological-assistance framing).",
+   "topic": "spanish_mental_health_chatbot"
+  },
+  {
+   "id": "B018",
+   "title": "Empirical Assessment of Time-Series Foundation Models For Power System Forecasting Applications",
+   "authors": [
+    "Muhy Eddin Za'ter",
+    "Bri-Mathias Hodge"
+   ],
+   "year": 2026,
+   "venue": "arXiv (CU Boulder/NREL)",
+   "type": "preprint",
+   "country": "USA",
+   "p_relevance": "P2",
+   "p_relevance_score": 90,
+   "url": "https://arxiv.org/abs/2604.15000",
+   "key_findings": "Comprehensive benchmark of TimesFM, Chronos, Moirai, MOMENT, TTM, TFT, PatchTST, TimeXer for ERCOT solar/wind/load forecasting.",
+   "differentiation_for_ivan": "DIRECT baseline for P2 — applies same TSFM benchmark to ANDE.",
+   "topic": "power_grid_forecasting"
+  },
+  {
+   "id": "B019",
+   "title": "Assessing the Performance-Efficiency Trade-off of Foundation Models in Probabilistic Electricity Price Forecasting",
+   "authors": [
+    "Jan Niklas Lettner",
+    "Hadeer El Ashhab",
+    "Veit Hagenmeyer",
+    "Benjamin Schäfer"
+   ],
+   "year": 2026,
+   "venue": "arXiv (Karlsruhe)",
+   "type": "preprint",
+   "country": "Germany",
+   "p_relevance": "P2",
+   "p_relevance_score": 85,
+   "url": "https://arxiv.org/abs/2604.12284",
+   "key_findings": "TSFMs (Moirai, ChronosX) vs task-specific (NHITS+QRA) for European bidding zones.",
+   "differentiation_for_ivan": "Baseline for P2 probabilistic forecasting with TSFM comparison.",
+   "topic": "electricity_price_forecasting"
+  },
+  {
+   "id": "B021",
+   "title": "Day-Ahead Electricity Price Forecasting for Volatile Markets Using Foundation Models with Regularization Strategy",
+   "authors": [
+    "unnamed"
+   ],
+   "year": 2026,
+   "venue": "arXiv",
+   "type": "preprint",
+   "country": "Singapore",
+   "p_relevance": "P2",
+   "p_relevance_score": 85,
+   "url": "https://arxiv.org/abs/2602.03500",
+   "key_findings": "TSFMs beat ARIMA/LSTM/CNN-LSTM on Singapore volatile wholesale market; +37.4% MAPE.",
+   "differentiation_for_ivan": "DIRECT baseline for P2 — Singapore methodology transfers to ANDE Paraguay.",
+   "topic": "electricity_forecasting_TSFM"
+  },
+  {
+   "id": "B004",
+   "title": "Expanding the Lexicon of Ge'ez Based African Languages: A Comparative Study of Amharic and Tigrinya",
+   "authors": [
+    "Hailay Kidu Teklehaymanot",
+    "Debela Desalegn Yadeta",
+    "Wolfgang Nejdl"
+   ],
+   "year": 2026,
+   "venue": "arXiv:2607.15209",
+   "type": "preprint",
+   "country": "Germany/Ethiopia",
+   "p_relevance": "P3",
+   "p_relevance_score": 80,
+   "url": "https://arxiv.org/abs/2607.15209",
+   "key_findings": "Vocabulary-extended XLM-R for low-resource Ge'ez script; sentiment, NER, QA improvements.",
+   "differentiation_for_ivan": "Methodology template for low-resource GuaraniBERT-style extensions. Could replicate with Guarani.",
+   "topic": "low_resource_vocabulary_extension"
+  },
+  {
+   "id": "B014",
+   "title": "PP-LinkNet: Improving Semantic Segmentation of High Resolution Satellite Imagery",
+   "authors": [
+    "An Tran",
+    "Ali Zonoozi",
+    "Jagannadan Varadarajan",
+    "Hannes Kruppa"
+   ],
+   "year": 2020,
+   "venue": "arXiv:2010.06960",
+   "type": "preprint",
+   "country": "Vietnam/Germany",
+   "p_relevance": "P1",
+   "p_relevance_score": 80,
+   "url": "https://arxiv.org/abs/2010.06960",
+   "key_findings": "Pyramid Pooling-LinkNet for road/building segmentation; pseudo-labels from OSM.",
+   "differentiation_for_ivan": "Pseudo-labeling methodology template for Paraguay OSM training.",
+   "topic": "satellite_segmentation_OSM"
+  },
+  {
+   "id": "B022",
+   "title": "DDT: A Dual-Masking Dual-Expert Transformer for Energy Time-Series Forecasting",
+   "authors": [
+    "unnamed"
+   ],
+   "year": 2026,
+   "venue": "arXiv",
+   "type": "preprint",
+   "country": "China",
+   "p_relevance": "P2",
+   "p_relevance_score": 80,
+   "url": "https://arxiv.org/abs/2601.06182",
+   "key_findings": "Dual-masking dual-expert transformer for ETTh/Electricity/Solar datasets.",
+   "differentiation_for_ivan": "Methodology template for energy forecasting with attention; could adapt for ANDE.",
+   "topic": "transformer_energy_forecasting"
+  },
+  {
+   "id": "B005",
+   "title": "ROMEVA: Geometry-Preserving Vocabulary Expansion for Roman Urdu Language Models",
+   "authors": [
+    "unnamed"
+   ],
+   "year": 2026,
+   "venue": "arXiv",
+   "type": "preprint",
+   "country": "Pakistan",
+   "p_relevance": "P3",
+   "p_relevance_score": 75,
+   "url": "https://arxiv.org/abs/2606.13745",
+   "key_findings": "Roman Urdu vocabulary extension using sub-word-average initialization + PCA-anchor loss.",
+   "differentiation_for_ivan": "Methodology template for Jopara vocabulary extension (Roman script).",
+   "topic": "low_resource_vocabulary_extension"
+  },
+  {
+   "id": "B010",
+   "title": "Zero-shot Sentiment Analysis in Low-Resource Languages Using a Multilingual Sentiment Lexicon",
+   "authors": [
+    "unnamed"
+   ],
+   "year": 2024,
+   "venue": "arXiv",
+   "type": "preprint",
+   "country": "Global",
+   "p_relevance": "P3",
+   "p_relevance_score": 75,
+   "url": "https://arxiv.org/abs/2402.01766",
+   "key_findings": "Multilingual lexicon pretraining for zero-shot sentiment; beats GPT-3.5, BLOOMZ, XGLM on 25 low-resource languages.",
+   "differentiation_for_ivan": "Methodology template for zero-shot Guarani sentiment without Guarani-specific data.",
+   "topic": "zero_shot_sentiment_low_resource"
+  },
+  {
+   "id": "B012",
+   "title": "A GIS-Aided Approach for Geolocalizing an UAS Using Deep Learning",
+   "authors": [
+    "Jianli Wei",
+    "Deniz Karakay",
+    "Alper Yilmaz"
+   ],
+   "year": 2022,
+   "venue": "arXiv:2209.00086",
+   "type": "preprint",
+   "country": "USA",
+   "p_relevance": "P1",
+   "p_relevance_score": 75,
+   "url": "https://arxiv.org/abs/2209.00086",
+   "key_findings": "OSM segmentation for UAS geolocalization when GPS degraded.",
+   "differentiation_for_ivan": "Direct baseline for P1 Tava-i (Tava-i uses OSM for citizen mapping).",
+   "topic": "OSM_deep_learning"
+  },
+  {
+   "id": "B013",
+   "title": "Automated LoD-2 Model Reconstruction from Very-High-Resolution Satellite-Derived Digital Surface Model and Orthophoto",
+   "authors": [
+    "Shengxi Gui",
+    "Rongjun Qin"
+   ],
+   "year": 2021,
+   "venue": "arXiv:2109.03876",
+   "type": "preprint",
+   "country": "USA",
+   "p_relevance": "P1",
+   "p_relevance_score": 75,
+   "url": "https://arxiv.org/abs/2109.03876",
+   "key_findings": "Building detection from VHR satellite + 3D reconstruction with OSM+GC refinement.",
+   "differentiation_for_ivan": "Methodology for P1 building extraction at fine resolution (Paraguay urban vs rural).",
+   "topic": "satellite_building_extraction"
+  },
+  {
+   "id": "B016",
+   "title": "Map-Repair: Deep Cadastre Maps Alignment and Temporal Inconsistencies Fix in Satellite Images",
+   "authors": [
+    "Stefano Zorzi",
+    "Ksenia Bittner",
+    "Friedrich Fraundorfer"
+   ],
+   "year": 2020,
+   "venue": "arXiv:2007.12877",
+   "type": "preprint",
+   "country": "Austria/Germany",
+   "p_relevance": "P1",
+   "p_relevance_score": 75,
+   "url": "https://arxiv.org/abs/2007.12877",
+   "key_findings": "End-to-end DL for fixing OSM misalignments in developing countries.",
+   "differentiation_for_ivan": "Direct methodology for Paraguay OSM/cadastre reconciliation (P1 Yvy, Tava-i).",
+   "topic": "cadastre_OSM_repair"
+  },
+  {
+   "id": "B020",
+   "title": "On Electric Vehicle Energy Demand Forecasting and the Effect of Federated Learning",
+   "authors": [
+    "Andreas Tritsarolis",
+    "Gil Sampaio",
+    "Nikos Pelekis",
+    "Yannis Theodoridis"
+   ],
+   "year": 2026,
+   "venue": "arXiv",
+   "type": "preprint",
+   "country": "Greece/Portugal",
+   "p_relevance": "P2",
+   "p_relevance_score": 75,
+   "url": "https://arxiv.org/abs/2602.15632",
+   "key_findings": "XGBoost > LSTM/GRU/ARIMA for EV demand; Federated learning balances accuracy + privacy.",
+   "differentiation_for_ivan": "Methodology template for federated learning approach to ANDE demand (multi-region).",
+   "topic": "energy_demand_federated"
+  }
+ ],
+ "all_findings": [
+  {
+   "id": "B001",
+   "title": "Multidimensional Affective Analysis for Low-Resource Languages: A Use Case with Guarani-Spanish Code-Switching Language",
+   "authors": [
+    "Diaz, et al."
+   ],
+   "year": 2023,
+   "venue": "Cognitive Computation (Springer)",
+   "type": "journal_paper",
+   "country": "Argentina/Paraguay",
+   "p_relevance": "P3",
+   "p_relevance_score": 95,
+   "url": "https://link.springer.com/article/10.1007/s12559-023-10165-0",
+   "key_findings": "First multi-dimensional affective analysis for Jopara; 3 dimensions (emotion, sentiment, intensity) annotated on Guarani-Spanish tweets.",
+   "differentiation_for_ivan": "DIRECT BASELINE. P3 must engage with this paper explicitly and position as extension/improvement.",
+   "topic": "jopara_low_resource_sentiment"
+  },
+  {
+   "id": "B002",
+   "title": "On the logistical difficulties and findings of Jopara Sentiment Analysis",
+   "authors": [
+    "Diaz, et al."
+   ],
+   "year": 2021,
+   "venue": "arXiv:2105.02947",
+   "type": "preprint",
+   "country": "Argentina/Paraguay",
+   "p_relevance": "P3",
+   "p_relevance_score": 95,
+   "url": "https://arxiv.org/abs/2105.02947",
+   "key_findings": "First Jopara sentiment analysis using Guarani-dominant tweets.",
+   "differentiation_for_ivan": "Foundational paper for P3 — same research group, exact same problem.",
+   "topic": "jopara_low_resource_sentiment"
+  },
+  {
+   "id": "B003",
+   "title": "Sólo Escúchame: Spanish Emotional Accompaniment Chatbot",
+   "authors": [
+    "Bruno Gil Ramírez",
+    "Jessica López Espejel",
+    "María del Carmen Santiago Díaz",
+    "Gustavo Trinidad Rubín Linares"
+   ],
+   "year": 2024,
+   "venue": "arXiv (Mexico)",
+   "type": "preprint",
+   "country": "Mexico",
+   "p_relevance": "P3",
+   "p_relevance_score": 90,
+   "url": "https://arxiv.org/abs/2408.00560",
+   "key_findings": "First Spanish emotional assistance chatbot using LLaMA-2-7b-Chat with HEAR dataset.",
+   "differentiation_for_ivan": "DIRECT COMPETITOR for P3 Spanish chatbot. P3 must add clinical validation (vs their psychological-assistance framing).",
+   "topic": "spanish_mental_health_chatbot"
+  },
+  {
+   "id": "B004",
+   "title": "Expanding the Lexicon of Ge'ez Based African Languages: A Comparative Study of Amharic and Tigrinya",
+   "authors": [
+    "Hailay Kidu Teklehaymanot",
+    "Debela Desalegn Yadeta",
+    "Wolfgang Nejdl"
+   ],
+   "year": 2026,
+   "venue": "arXiv:2607.15209",
+   "type": "preprint",
+   "country": "Germany/Ethiopia",
+   "p_relevance": "P3",
+   "p_relevance_score": 80,
+   "url": "https://arxiv.org/abs/2607.15209",
+   "key_findings": "Vocabulary-extended XLM-R for low-resource Ge'ez script; sentiment, NER, QA improvements.",
+   "differentiation_for_ivan": "Methodology template for low-resource GuaraniBERT-style extensions. Could replicate with Guarani.",
+   "topic": "low_resource_vocabulary_extension"
+  },
+  {
+   "id": "B005",
+   "title": "ROMEVA: Geometry-Preserving Vocabulary Expansion for Roman Urdu Language Models",
+   "authors": [
+    "unnamed"
+   ],
+   "year": 2026,
+   "venue": "arXiv",
+   "type": "preprint",
+   "country": "Pakistan",
+   "p_relevance": "P3",
+   "p_relevance_score": 75,
+   "url": "https://arxiv.org/abs/2606.13745",
+   "key_findings": "Roman Urdu vocabulary extension using sub-word-average initialization + PCA-anchor loss.",
+   "differentiation_for_ivan": "Methodology template for Jopara vocabulary extension (Roman script).",
+   "topic": "low_resource_vocabulary_extension"
+  },
+  {
+   "id": "B006",
+   "title": "BENI Global 10: A Multilingual Economic Narrative Corpus for the Global South",
+   "authors": [
+    "Ann Naser Nabil"
+   ],
+   "year": 2026,
+   "venue": "arXiv",
+   "type": "preprint",
+   "country": "Bangladesh (cross-LATAM)",
+   "p_relevance": "Other",
+   "p_relevance_score": 60,
+   "url": "https://arxiv.org/abs/2606.07222",
+   "key_findings": "Multilingual economic news corpus across 10 Global South languages; 522K articles.",
+   "differentiation_for_ivan": "Methodology template for low-resource multilingual corpora — Paraguay Spanish could be added.",
+   "topic": "low_resource_multilingual_corpus"
+  },
+  {
+   "id": "B007",
+   "title": "BOUTEF: A Multilingual Corpus for FakeNews in North Africa -- Language as a Weapon",
+   "authors": [
+    "Kamel Smaili",
+    "Yassine Toughrai",
+    "Amina Laggoun",
+    "David Langlois"
+   ],
+   "year": 2026,
+   "venue": "arXiv",
+   "type": "preprint",
+   "country": "France/Algeria/Tunisia",
+   "p_relevance": "P3",
+   "p_relevance_score": 70,
+   "url": "https://arxiv.org/abs/2606.04356",
+   "key_findings": "Multilingual fake news corpus for North Africa (MSA + dialects + Arabizi + code-switched).",
+   "differentiation_for_ivan": "Methodology template for Jopara misinformation detection (Neeambota P0075).",
+   "topic": "multilingual_fake_news"
+  },
+  {
+   "id": "B008",
+   "title": "XITE: Cross-lingual Interpolation for Transfer using Embeddings",
+   "authors": [
+    "Barah Fazili",
+    "Preethi Jyothi"
+   ],
+   "year": 2026,
+   "venue": "arXiv:2604.14218",
+   "type": "preprint",
+   "country": "India",
+   "p_relevance": "P3",
+   "p_relevance_score": 70,
+   "url": "https://arxiv.org/abs/2604.14218",
+   "key_findings": "Embedding-based data augmentation for cross-lingual transfer; +35.91% sentiment, +81.16% NLI on Korean/Arabic/Urdu/Hindi.",
+   "differentiation_for_ivan": "Methodology for transferring Spanish sentiment to low-resource Guarani/Jopara.",
+   "topic": "cross_lingual_transfer"
+  },
+  {
+   "id": "B009",
+   "title": "MEME-Fusion@CHiPSAL 2026: Multimodal Ablation Study of Hate Detection and Sentiment Analysis on Nepali Memes",
+   "authors": [
+    "Samir Wagle",
+    "Reewaj Khanal",
+    "Abiral Adhikari"
+   ],
+   "year": 2026,
+   "venue": "arXiv",
+   "type": "preprint",
+   "country": "Nepal",
+   "p_relevance": "P3",
+   "p_relevance_score": 65,
+   "url": "https://arxiv.org/abs/2604.09462",
+   "key_findings": "Multimodal CLIP+BGE-M3 architecture for hate speech + sentiment on Nepali memes (Devanagari).",
+   "differentiation_for_ivan": "Methodology template for multimodal Guarani text+image analysis (rare/low-resource).",
+   "topic": "multimodal_low_resource_sentiment"
+  },
+  {
+   "id": "B010",
+   "title": "Zero-shot Sentiment Analysis in Low-Resource Languages Using a Multilingual Sentiment Lexicon",
+   "authors": [
+    "unnamed"
+   ],
+   "year": 2024,
+   "venue": "arXiv",
+   "type": "preprint",
+   "country": "Global",
+   "p_relevance": "P3",
+   "p_relevance_score": 75,
+   "url": "https://arxiv.org/abs/2402.01766",
+   "key_findings": "Multilingual lexicon pretraining for zero-shot sentiment; beats GPT-3.5, BLOOMZ, XGLM on 25 low-resource languages.",
+   "differentiation_for_ivan": "Methodology template for zero-shot Guarani sentiment without Guarani-specific data.",
+   "topic": "zero_shot_sentiment_low_resource"
+  },
+  {
+   "id": "B011",
+   "title": "Zero-Shot Cross-Lingual Sentiment Classification under Distribution Shift",
+   "authors": [
+    "unnamed"
+   ],
+   "year": 2023,
+   "venue": "arXiv",
+   "type": "preprint",
+   "country": "EU",
+   "p_relevance": "P3",
+   "p_relevance_score": 65,
+   "url": "https://arxiv.org/abs/2311.06158",
+   "key_findings": "Counterfactual data + LLM augmentation improves cross-lingual OOD generalization; LaBSE/mBERT/XLM-R on 13 languages.",
+   "differentiation_for_ivan": "Methodology for OOD generalization — applies to Spanish→Jopara transfer.",
+   "topic": "cross_lingual_OOD"
+  },
+  {
+   "id": "B012",
+   "title": "A GIS-Aided Approach for Geolocalizing an UAS Using Deep Learning",
+   "authors": [
+    "Jianli Wei",
+    "Deniz Karakay",
+    "Alper Yilmaz"
+   ],
+   "year": 2022,
+   "venue": "arXiv:2209.00086",
+   "type": "preprint",
+   "country": "USA",
+   "p_relevance": "P1",
+   "p_relevance_score": 75,
+   "url": "https://arxiv.org/abs/2209.00086",
+   "key_findings": "OSM segmentation for UAS geolocalization when GPS degraded.",
+   "differentiation_for_ivan": "Direct baseline for P1 Tava-i (Tava-i uses OSM for citizen mapping).",
+   "topic": "OSM_deep_learning"
+  },
+  {
+   "id": "B013",
+   "title": "Automated LoD-2 Model Reconstruction from Very-High-Resolution Satellite-Derived Digital Surface Model and Orthophoto",
+   "authors": [
+    "Shengxi Gui",
+    "Rongjun Qin"
+   ],
+   "year": 2021,
+   "venue": "arXiv:2109.03876",
+   "type": "preprint",
+   "country": "USA",
+   "p_relevance": "P1",
+   "p_relevance_score": 75,
+   "url": "https://arxiv.org/abs/2109.03876",
+   "key_findings": "Building detection from VHR satellite + 3D reconstruction with OSM+GC refinement.",
+   "differentiation_for_ivan": "Methodology for P1 building extraction at fine resolution (Paraguay urban vs rural).",
+   "topic": "satellite_building_extraction"
+  },
+  {
+   "id": "B014",
+   "title": "PP-LinkNet: Improving Semantic Segmentation of High Resolution Satellite Imagery",
+   "authors": [
+    "An Tran",
+    "Ali Zonoozi",
+    "Jagannadan Varadarajan",
+    "Hannes Kruppa"
+   ],
+   "year": 2020,
+   "venue": "arXiv:2010.06960",
+   "type": "preprint",
+   "country": "Vietnam/Germany",
+   "p_relevance": "P1",
+   "p_relevance_score": 80,
+   "url": "https://arxiv.org/abs/2010.06960",
+   "key_findings": "Pyramid Pooling-LinkNet for road/building segmentation; pseudo-labels from OSM.",
+   "differentiation_for_ivan": "Pseudo-labeling methodology template for Paraguay OSM training.",
+   "topic": "satellite_segmentation_OSM"
+  },
+  {
+   "id": "B015",
+   "title": "Traffic Prediction Framework for OpenStreetMap using Deep Learning based Complex Event Processing",
+   "authors": [
+    "Piyush Yadav",
+    "Dipto Sarkar",
+    "Dhaval Salwala",
+    "Edward Curry"
+   ],
+   "year": 2020,
+   "venue": "arXiv:2007.10166",
+   "type": "preprint",
+   "country": "Ireland",
+   "p_relevance": "P1",
+   "p_relevance_score": 65,
+   "url": "https://arxiv.org/abs/2007.10166",
+   "key_findings": "Real-time OSM traffic prediction from public camera streams (22 London cameras).",
+   "differentiation_for_ivan": "Methodology template for Asunción public transport visualization.",
+   "topic": "OSM_real_time"
+  },
+  {
+   "id": "B016",
+   "title": "Map-Repair: Deep Cadastre Maps Alignment and Temporal Inconsistencies Fix in Satellite Images",
+   "authors": [
+    "Stefano Zorzi",
+    "Ksenia Bittner",
+    "Friedrich Fraundorfer"
+   ],
+   "year": 2020,
+   "venue": "arXiv:2007.12877",
+   "type": "preprint",
+   "country": "Austria/Germany",
+   "p_relevance": "P1",
+   "p_relevance_score": 75,
+   "url": "https://arxiv.org/abs/2007.12877",
+   "key_findings": "End-to-end DL for fixing OSM misalignments in developing countries.",
+   "differentiation_for_ivan": "Direct methodology for Paraguay OSM/cadastre reconciliation (P1 Yvy, Tava-i).",
+   "topic": "cadastre_OSM_repair"
+  },
+  {
+   "id": "B017",
+   "title": "Leveraging Crowdsourced GPS Data for Road Extraction from Aerial Imagery",
+   "authors": [
+    "unnamed"
+   ],
+   "year": 2019,
+   "venue": "arXiv:1905.01451",
+   "type": "preprint",
+   "country": "USA (Microsoft)",
+   "p_relevance": "P1",
+   "p_relevance_score": 70,
+   "url": "https://arxiv.org/abs/1905.01451",
+   "key_findings": "Crowdsourced GPS + 1D transpose conv for OSM road extraction in Thailand.",
+   "differentiation_for_ivan": "Methodology template for Paraguay urban area road extraction (P1 Yvykui).",
+   "topic": "crowdsourced_OSM"
+  },
+  {
+   "id": "B018",
+   "title": "Empirical Assessment of Time-Series Foundation Models For Power System Forecasting Applications",
+   "authors": [
+    "Muhy Eddin Za'ter",
+    "Bri-Mathias Hodge"
+   ],
+   "year": 2026,
+   "venue": "arXiv (CU Boulder/NREL)",
+   "type": "preprint",
+   "country": "USA",
+   "p_relevance": "P2",
+   "p_relevance_score": 90,
+   "url": "https://arxiv.org/abs/2604.15000",
+   "key_findings": "Comprehensive benchmark of TimesFM, Chronos, Moirai, MOMENT, TTM, TFT, PatchTST, TimeXer for ERCOT solar/wind/load forecasting.",
+   "differentiation_for_ivan": "DIRECT baseline for P2 — applies same TSFM benchmark to ANDE.",
+   "topic": "power_grid_forecasting"
+  },
+  {
+   "id": "B019",
+   "title": "Assessing the Performance-Efficiency Trade-off of Foundation Models in Probabilistic Electricity Price Forecasting",
+   "authors": [
+    "Jan Niklas Lettner",
+    "Hadeer El Ashhab",
+    "Veit Hagenmeyer",
+    "Benjamin Schäfer"
+   ],
+   "year": 2026,
+   "venue": "arXiv (Karlsruhe)",
+   "type": "preprint",
+   "country": "Germany",
+   "p_relevance": "P2",
+   "p_relevance_score": 85,
+   "url": "https://arxiv.org/abs/2604.12284",
+   "key_findings": "TSFMs (Moirai, ChronosX) vs task-specific (NHITS+QRA) for European bidding zones.",
+   "differentiation_for_ivan": "Baseline for P2 probabilistic forecasting with TSFM comparison.",
+   "topic": "electricity_price_forecasting"
+  },
+  {
+   "id": "B020",
+   "title": "On Electric Vehicle Energy Demand Forecasting and the Effect of Federated Learning",
+   "authors": [
+    "Andreas Tritsarolis",
+    "Gil Sampaio",
+    "Nikos Pelekis",
+    "Yannis Theodoridis"
+   ],
+   "year": 2026,
+   "venue": "arXiv",
+   "type": "preprint",
+   "country": "Greece/Portugal",
+   "p_relevance": "P2",
+   "p_relevance_score": 75,
+   "url": "https://arxiv.org/abs/2602.15632",
+   "key_findings": "XGBoost > LSTM/GRU/ARIMA for EV demand; Federated learning balances accuracy + privacy.",
+   "differentiation_for_ivan": "Methodology template for federated learning approach to ANDE demand (multi-region).",
+   "topic": "energy_demand_federated"
+  },
+  {
+   "id": "B021",
+   "title": "Day-Ahead Electricity Price Forecasting for Volatile Markets Using Foundation Models with Regularization Strategy",
+   "authors": [
+    "unnamed"
+   ],
+   "year": 2026,
+   "venue": "arXiv",
+   "type": "preprint",
+   "country": "Singapore",
+   "p_relevance": "P2",
+   "p_relevance_score": 85,
+   "url": "https://arxiv.org/abs/2602.03500",
+   "key_findings": "TSFMs beat ARIMA/LSTM/CNN-LSTM on Singapore volatile wholesale market; +37.4% MAPE.",
+   "differentiation_for_ivan": "DIRECT baseline for P2 — Singapore methodology transfers to ANDE Paraguay.",
+   "topic": "electricity_forecasting_TSFM"
+  },
+  {
+   "id": "B022",
+   "title": "DDT: A Dual-Masking Dual-Expert Transformer for Energy Time-Series Forecasting",
+   "authors": [
+    "unnamed"
+   ],
+   "year": 2026,
+   "venue": "arXiv",
+   "type": "preprint",
+   "country": "China",
+   "p_relevance": "P2",
+   "p_relevance_score": 80,
+   "url": "https://arxiv.org/abs/2601.06182",
+   "key_findings": "Dual-masking dual-expert transformer for ETTh/Electricity/Solar datasets.",
+   "differentiation_for_ivan": "Methodology template for energy forecasting with attention; could adapt for ANDE.",
+   "topic": "transformer_energy_forecasting"
+  },
+  {
+   "id": "B023",
+   "title": "Improving Day-Ahead Grid Carbon Intensity Forecasting by Joint Modeling of Local-Temporal and Cross-Variable Dependencies Across Different Frequencies",
+   "authors": [
+    "Bowen Zhang",
+    "Hongda Tian",
+    "Adam Berry",
+    "A. Craig Roussac"
+   ],
+   "year": 2023,
+   "venue": "arXiv",
+   "type": "preprint",
+   "country": "Australia",
+   "p_relevance": "P2",
+   "p_relevance_score": 65,
+   "url": "https://arxiv.org/abs/2302.04443",
+   "key_findings": "Multi-frequency carbon intensity forecasting; novel for Paraguay renewable grid mix.",
+   "differentiation_for_ivan": "Methodology template for ANDE carbon intensity (renewable fraction tracking).",
+   "topic": "carbon_intensity_forecasting"
+  },
+  {
+   "id": "B024",
+   "title": "Short-term Prediction of Household Electricity Consumption Using Customized LSTM and GRU Models",
+   "authors": [
+    "Saad Emshagin",
+    "Wayes Koroni Halim",
+    "Rasha Kashef"
+   ],
+   "year": 2022,
+   "venue": "arXiv:2212.08757",
+   "type": "preprint",
+   "country": "Bangladesh",
+   "p_relevance": "P2",
+   "p_relevance_score": 75,
+   "url": "https://arxiv.org/abs/2212.08757",
+   "key_findings": "LSTM > GRU for household-level forecasting vs ARIMA.",
+   "differentiation_for_ivan": "Household-level baseline for ANDE residential forecasting (P2 Pylsa Yagua).",
+   "topic": "household_forecasting"
+  },
+  {
+   "id": "B025",
+   "title": "Application of Deep Learning Long Short-Term Memory in Energy Demand Forecasting",
+   "authors": [
+    "Nameer Al Khafaf",
+    "Mahdi Jalili",
+    "Peter Sokolowski"
+   ],
+   "year": 2019,
+   "venue": "arXiv:1903.11941",
+   "type": "preprint",
+   "country": "Australia",
+   "p_relevance": "P2",
+   "p_relevance_score": 70,
+   "url": "https://arxiv.org/abs/1903.11941",
+   "key_findings": "LSTM for 3-day ahead demand; MAPE 3.15%; time-as-feature improvement.",
+   "differentiation_for_ivan": "Baseline LSTM forecasting approach for ANDE.",
+   "topic": "LSTM_demand_forecasting"
+  },
+  {
+   "id": "B026",
+   "title": "Chatbots as social companions: Perceiving consciousness, human likeness, and social health benefits in machines",
+   "authors": [
+    "Guingrich, Rose"
+   ],
+   "year": 2023,
+   "venue": "Princeton DataSpace",
+   "type": "thesis",
+   "country": "USA (Princeton)",
+   "p_relevance": "P3",
+   "p_relevance_score": 60,
+   "url": "https://dataspace.princeton.edu/",
+   "key_findings": "Thesis on chatbot social health benefits.",
+   "differentiation_for_ivan": "Background thesis for clinical framing discussion.",
+   "topic": "chatbot_mental_health_thesis"
+  },
+  {
+   "id": "B027",
+   "title": "Does Loneliness Affect Mental Health Chatbot Experiences?",
+   "authors": [
+    "Saravo, Felicia"
+   ],
+   "year": 2020,
+   "venue": "Princeton DataSpace",
+   "type": "thesis",
+   "country": "USA (Princeton)",
+   "p_relevance": "P3",
+   "p_relevance_score": 55,
+   "url": "https://dataspace.princeton.edu/",
+   "key_findings": "Social motivation's effect on chatbot anthropomorphism.",
+   "differentiation_for_ivan": "Background for P3 chatbot engagement design.",
+   "topic": "chatbot_anthropomorphism"
+  },
+  {
+   "id": "B028",
+   "title": "Navigating the News: A Pro-Social LLM Chatbot for Enhancing Viewpoint Diversity in Online News Consumption",
+   "authors": [
+    "Grover, Ananya"
+   ],
+   "year": 2024,
+   "venue": "Princeton DataSpace",
+   "type": "thesis",
+   "country": "USA (Princeton)",
+   "p_relevance": "P3",
+   "p_relevance_score": 60,
+   "url": "https://dataspace.princeton.edu/",
+   "key_findings": "LLM chatbot for pro-social viewpoint diversity.",
+   "differentiation_for_ivan": "Adjacent LLM chatbot for social good — methodology template.",
+   "topic": "pro_social_LLM"
+  },
+  {
+   "id": "B029",
+   "title": "Language and Power in Mental Healthcare: Developing a Mental Health Literacy ESL Curriculum for the Trenton Spanish-Speaking Community",
+   "authors": [
+    "Moore, Cierra"
+   ],
+   "year": 2021,
+   "venue": "Princeton DataSpace",
+   "type": "thesis",
+   "country": "USA (Princeton)",
+   "p_relevance": "P3",
+   "p_relevance_score": 70,
+   "url": "https://dataspace.princeton.edu/",
+   "key_findings": "Mental health literacy for Spanish-speaking ESL community.",
+   "differentiation_for_ivan": "DIRECT ADJACENT — Spanish mental health literacy for low-resource community.",
+   "topic": "spanish_mental_health_literacy"
+  },
+  {
+   "id": "B030",
+   "title": "Real-Time Processing of Mixed-Language Sentences in Spanish-English Bilingual Toddlers",
+   "authors": [
+    "Babiec, Catherine"
+   ],
+   "year": 2017,
+   "venue": "Princeton DataSpace",
+   "type": "thesis",
+   "country": "USA (Princeton)",
+   "p_relevance": "P3",
+   "p_relevance_score": 55,
+   "url": "https://dataspace.princeton.edu/",
+   "key_findings": "Real-time processing of mixed-language (code-switching) in Spanish-English toddlers.",
+   "differentiation_for_ivan": "Code-switching baseline for Guarani-Spanish (Jopara) linguistics.",
+   "topic": "code_switching_processing"
+  },
+  {
+   "id": "B031",
+   "title": "Switching Codes: A Framework for Understanding Language Evolution and Quality",
+   "authors": [
+    "Hodson, James Alexander"
+   ],
+   "year": 2010,
+   "venue": "Princeton DataSpace",
+   "type": "thesis",
+   "country": "USA (Princeton)",
+   "p_relevance": "P3",
+   "p_relevance_score": 50,
+   "url": "https://dataspace.princeton.edu/",
+   "key_findings": "Framework for code-switching language evolution.",
+   "differentiation_for_ivan": "Theoretical background for Jopara classification.",
+   "topic": "code_switching_theory"
+  },
+  {
+   "id": "B032",
+   "title": "Impact of Remote Sensing Domain Knowledge on Satellite Imagery Classification of the Amazon Rainforest",
+   "authors": [
+    "Zeng, Lindy"
+   ],
+   "year": 2018,
+   "venue": "Princeton DataSpace",
+   "type": "thesis",
+   "country": "USA (Princeton)",
+   "p_relevance": "P1",
+   "p_relevance_score": 65,
+   "url": "https://dataspace.princeton.edu/",
+   "key_findings": "Domain knowledge transfer learning for Amazon satellite classification.",
+   "differentiation_for_ivan": "Methodology template for Paraguay's Atlantic Forest (similar ecology).",
+   "topic": "satellite_amazon_transfer"
+  },
+  {
+   "id": "B033",
+   "title": "Cartography Merging Anthropology and Poetry",
+   "authors": [
+    "Carroll, Amy Sara"
+   ],
+   "year": 1990,
+   "venue": "Princeton DataSpace",
+   "type": "thesis",
+   "country": "USA (Princeton)",
+   "p_relevance": "P1",
+   "p_relevance_score": 30,
+   "url": "https://dataspace.princeton.edu/",
+   "key_findings": "Cartography as anthropology/poetry — humanities angle.",
+   "differentiation_for_ivan": "Background for indigenous cartography + Guaraní culture (Yvy).",
+   "topic": "cartography_humanities"
+  },
+  {
+   "id": "B034",
+   "title": "Cartography and Nation Building in Nineteenth Century Europe",
+   "authors": [
+    "Djuric, Dusan"
+   ],
+   "year": 1995,
+   "venue": "Princeton DataSpace",
+   "type": "thesis",
+   "country": "USA (Princeton)",
+   "p_relevance": "Other",
+   "p_relevance_score": 25,
+   "url": "https://dataspace.princeton.edu/",
+   "key_findings": "Historical cartography + nation-building politics.",
+   "differentiation_for_ivan": "Background for P1 politics/territory angle.",
+   "topic": "cartography_history"
+  },
+  {
+   "id": "B035",
+   "title": "Building Mobile Apps for Language Documentation",
+   "authors": [
+    "Chow, Marisa"
+   ],
+   "year": 2017,
+   "venue": "Princeton DataSpace",
+   "type": "thesis",
+   "country": "USA (Princeton)",
+   "p_relevance": "P3",
+   "p_relevance_score": 60,
+   "url": "https://dataspace.princeton.edu/",
+   "key_findings": "Mobile app for indigenous language documentation.",
+   "differentiation_for_ivan": "Methodology template for Guaraní documentation app (P3 Nee P0022).",
+   "topic": "language_documentation_app"
+  },
+  {
+   "id": "B036",
+   "title": "Beyond Language Barriers: Extending Semantic Supervision to Multiple Languages",
+   "authors": [
+    "Lin, Mandy"
+   ],
+   "year": 2023,
+   "venue": "Princeton DataSpace",
+   "type": "thesis",
+   "country": "USA (Princeton)",
+   "p_relevance": "P3",
+   "p_relevance_score": 70,
+   "url": "https://dataspace.princeton.edu/",
+   "key_findings": "Multilingual semantic supervision methodology.",
+   "differentiation_for_ivan": "Methodology template for cross-lingual transfer to Guarani.",
+   "topic": "multilingual_semantic_supervision"
+  }
+ ]
+}

@@ -49871,5 +49871,199 @@
  },
  "usage": "Looking for thesis idea? 1) Browse top-100 by score. 2) Use score_dimensions to filter (e.g. novelty>8 = wide-open domain). 3) Check problem_index for cross-listing by domain. 4) Cross-reference advisor_index with their known expertise.",
  "paraguayan_crafted_count": 40,
- "total_ideas_count_updated": 1439
+ "total_ideas_count_updated": 1439,
+ "global_baseline": {
+  "generated_at": "2026-07-31",
+  "scope": "Global thesis + arXiv baseline for UNA FP-UNA thesis proposals — LATAM, Asia, US, EU, China, Arabic/African, Indigenous Languages",
+  "n_papers_found": 36,
+  "n_p3_competitors": 18,
+  "n_p2_competitors": 8,
+  "n_p1_competitors": 8,
+  "n_other": 2,
+  "top_findings": [
+   {
+    "id": "B001",
+    "title": "Multidimensional Affective Analysis for Low-Resource Languages: A Use Case with Guarani-Spanish Code-Switching Language",
+    "authors": [
+     "Diaz, et al."
+    ],
+    "year": 2023,
+    "venue": "Cognitive Computation (Springer)",
+    "type": "journal_paper",
+    "country": "Argentina/Paraguay",
+    "p_relevance": "P3",
+    "p_relevance_score": 95,
+    "url": "https://link.springer.com/article/10.1007/s12559-023-10165-0",
+    "key_findings": "First multi-dimensional affective analysis for Jopara; 3 dimensions (emotion, sentiment, intensity) annotated on Guarani-Spanish tweets.",
+    "differentiation_for_ivan": "DIRECT BASELINE. P3 must engage with this paper explicitly and position as extension/improvement.",
+    "topic": "jopara_low_resource_sentiment"
+   },
+   {
+    "id": "B002",
+    "title": "On the logistical difficulties and findings of Jopara Sentiment Analysis",
+    "authors": [
+     "Diaz, et al."
+    ],
+    "year": 2021,
+    "venue": "arXiv:2105.02947",
+    "type": "preprint",
+    "country": "Argentina/Paraguay",
+    "p_relevance": "P3",
+    "p_relevance_score": 95,
+    "url": "https://arxiv.org/abs/2105.02947",
+    "key_findings": "First Jopara sentiment analysis using Guarani-dominant tweets.",
+    "differentiation_for_ivan": "Foundational paper for P3 — same research group, exact same problem.",
+    "topic": "jopara_low_resource_sentiment"
+   },
+   {
+    "id": "B003",
+    "title": "Sólo Escúchame: Spanish Emotional Accompaniment Chatbot",
+    "authors": [
+     "Bruno Gil Ramírez",
+     "Jessica López Espejel",
+     "María del Carmen Santiago Díaz",
+     "Gustavo Trinidad Rubín Linares"
+    ],
+    "year": 2024,
+    "venue": "arXiv (Mexico)",
+    "type": "preprint",
+    "country": "Mexico",
+    "p_relevance": "P3",
+    "p_relevance_score": 90,
+    "url": "https://arxiv.org/abs/2408.00560",
+    "key_findings": "First Spanish emotional assistance chatbot using LLaMA-2-7b-Chat with HEAR dataset.",
+    "differentiation_for_ivan": "DIRECT COMPETITOR for P3 Spanish chatbot. P3 must add clinical validation (vs their psychological-assistance framing).",
+    "topic": "spanish_mental_health_chatbot"
+   },
+   {
+    "id": "B018",
+    "title": "Empirical Assessment of Time-Series Foundation Models For Power System Forecasting Applications",
+    "authors": [
+     "Muhy Eddin Za'ter",
+     "Bri-Mathias Hodge"
+    ],
+    "year": 2026,
+    "venue": "arXiv (CU Boulder/NREL)",
+    "type": "preprint",
+    "country": "USA",
+    "p_relevance": "P2",
+    "p_relevance_score": 90,
+    "url": "https://arxiv.org/abs/2604.15000",
+    "key_findings": "Comprehensive benchmark of TimesFM, Chronos, Moirai, MOMENT, TTM, TFT, PatchTST, TimeXer for ERCOT solar/wind/load forecasting.",
+    "differentiation_for_ivan": "DIRECT baseline for P2 — applies same TSFM benchmark to ANDE.",
+    "topic": "power_grid_forecasting"
+   },
+   {
+    "id": "B019",
+    "title": "Assessing the Performance-Efficiency Trade-off of Foundation Models in Probabilistic Electricity Price Forecasting",
+    "authors": [
+     "Jan Niklas Lettner",
+     "Hadeer El Ashhab",
+     "Veit Hagenmeyer",
+     "Benjamin Schäfer"
+    ],
+    "year": 2026,
+    "venue": "arXiv (Karlsruhe)",
+    "type": "preprint",
+    "country": "Germany",
+    "p_relevance": "P2",
+    "p_relevance_score": 85,
+    "url": "https://arxiv.org/abs/2604.12284",
+    "key_findings": "TSFMs (Moirai, ChronosX) vs task-specific (NHITS+QRA) for European bidding zones.",
+    "differentiation_for_ivan": "Baseline for P2 probabilistic forecasting with TSFM comparison.",
+    "topic": "electricity_price_forecasting"
+   },
+   {
+    "id": "B021",
+    "title": "Day-Ahead Electricity Price Forecasting for Volatile Markets Using Foundation Models with Regularization Strategy",
+    "authors": [
+     "unnamed"
+    ],
+    "year": 2026,
+    "venue": "arXiv",
+    "type": "preprint",
+    "country": "Singapore",
+    "p_relevance": "P2",
+    "p_relevance_score": 85,
+    "url": "https://arxiv.org/abs/2602.03500",
+    "key_findings": "TSFMs beat ARIMA/LSTM/CNN-LSTM on Singapore volatile wholesale market; +37.4% MAPE.",
+    "differentiation_for_ivan": "DIRECT baseline for P2 — Singapore methodology transfers to ANDE Paraguay.",
+    "topic": "electricity_forecasting_TSFM"
+   },
+   {
+    "id": "B004",
+    "title": "Expanding the Lexicon of Ge'ez Based African Languages: A Comparative Study of Amharic and Tigrinya",
+    "authors": [
+     "Hailay Kidu Teklehaymanot",
+     "Debela Desalegn Yadeta",
+     "Wolfgang Nejdl"
+    ],
+    "year": 2026,
+    "venue": "arXiv:2607.15209",
+    "type": "preprint",
+    "country": "Germany/Ethiopia",
+    "p_relevance": "P3",
+    "p_relevance_score": 80,
+    "url": "https://arxiv.org/abs/2607.15209",
+    "key_findings": "Vocabulary-extended XLM-R for low-resource Ge'ez script; sentiment, NER, QA improvements.",
+    "differentiation_for_ivan": "Methodology template for low-resource GuaraniBERT-style extensions. Could replicate with Guarani.",
+    "topic": "low_resource_vocabulary_extension"
+   },
+   {
+    "id": "B014",
+    "title": "PP-LinkNet: Improving Semantic Segmentation of High Resolution Satellite Imagery",
+    "authors": [
+     "An Tran",
+     "Ali Zonoozi",
+     "Jagannadan Varadarajan",
+     "Hannes Kruppa"
+    ],
+    "year": 2020,
+    "venue": "arXiv:2010.06960",
+    "type": "preprint",
+    "country": "Vietnam/Germany",
+    "p_relevance": "P1",
+    "p_relevance_score": 80,
+    "url": "https://arxiv.org/abs/2010.06960",
+    "key_findings": "Pyramid Pooling-LinkNet for road/building segmentation; pseudo-labels from OSM.",
+    "differentiation_for_ivan": "Pseudo-labeling methodology template for Paraguay OSM training.",
+    "topic": "satellite_segmentation_OSM"
+   },
+   {
+    "id": "B022",
+    "title": "DDT: A Dual-Masking Dual-Expert Transformer for Energy Time-Series Forecasting",
+    "authors": [
+     "unnamed"
+    ],
+    "year": 2026,
+    "venue": "arXiv",
+    "type": "preprint",
+    "country": "China",
+    "p_relevance": "P2",
+    "p_relevance_score": 80,
+    "url": "https://arxiv.org/abs/2601.06182",
+    "key_findings": "Dual-masking dual-expert transformer for ETTh/Electricity/Solar datasets.",
+    "differentiation_for_ivan": "Methodology template for energy forecasting with attention; could adapt for ANDE.",
+    "topic": "transformer_energy_forecasting"
+   },
+   {
+    "id": "B005",
+    "title": "ROMEVA: Geometry-Preserving Vocabulary Expansion for Roman Urdu Language Models",
+    "authors": [
+     "unnamed"
+    ],
+    "year": 2026,
+    "venue": "arXiv",
+    "type": "preprint",
+    "country": "Pakistan",
+    "p_relevance": "P3",
+    "p_relevance_score": 75,
+    "url": "https://arxiv.org/abs/2606.13745",
+    "key_findings": "Roman Urdu vocabulary extension using sub-word-average initialization + PCA-anchor loss.",
+    "differentiation_for_ivan": "Methodology template for Jopara vocabulary extension (Roman script).",
+    "topic": "low_resource_vocabulary_extension"
+   }
+  ],
+  "data_source": "global_thesis_baseline.json"
+ }
 }
