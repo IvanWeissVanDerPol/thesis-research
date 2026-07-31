@@ -1,0 +1,115 @@
+{
+  "generated": "2026-07-31",
+  "picks": [
+    {
+      "id": "P0012",
+      "title": "Yvy: Indigenous community territory mapping with participatory cartography + GPT-4 enrichment",
+      "faculty": "FADA",
+      "advisor": "Juan Carlos Cristaldo",
+      "base_score": 0,
+      "competitor_adjusted": 9.93,
+      "data_readiness": 1.0,
+      "composite_score": 9.93,
+      "month_count_estimate": "??"
+    },
+    {
+      "id": "P0011",
+      "title": "Yvytu: Multi-temporal satellite CV for Chaco deforestation alert system",
+      "faculty": "FADA",
+      "advisor": "Juan Carlos Cristaldo",
+      "base_score": 0,
+      "competitor_adjusted": 9.77,
+      "data_readiness": 1.0,
+      "composite_score": 9.77,
+      "month_count_estimate": "??"
+    },
+    {
+      "id": "P0085",
+      "title": "Yvykui: Road damage detection from MOPC drone imagery (YOLO v8 + MOPC Paraguay)",
+      "faculty": "FP-UNA",
+      "advisor": "Horacio Andres Legal Ayala",
+      "base_score": 0,
+      "competitor_adjusted": 9.43,
+      "data_readiness": 1.0,
+      "composite_score": 9.43,
+      "month_count_estimate": "??"
+    },
+    {
+      "id": "P0067",
+      "title": "Mbayru: Asuncion city bus route optimization with MOEA + real-time GPS",
+      "faculty": "FP-UNA",
+      "advisor": "Christian Von Lucken",
+      "base_score": 0,
+      "competitor_adjusted": 9.4,
+      "data_readiness": 1.0,
+      "composite_score": 9.4,
+      "month_count_estimate": "??"
+    },
+    {
+      "id": "P0100",
+      "title": "Yvyra: Carbon-credit verification (satellite CV + Paraguay farms)",
+      "faculty": "FADA",
+      "advisor": "Juan Carlos Cristaldo",
+      "base_score": 0,
+      "competitor_adjusted": 9.27,
+      "data_readiness": 1.0,
+      "composite_score": 9.27,
+      "month_count_estimate": "??"
+    },
+    {
+      "id": "P0010",
+      "title": "Tava-i: Multi-modal AI for collaborative OSM mapping in Paraguay (citizen cartography GPT-4 + satellite CV)",
+      "faculty": "FADA",
+      "advisor": "Juan Carlos Cristaldo",
+      "base_score": 0,
+      "competitor_adjusted": 9.0,
+      "data_readiness": 1.0,
+      "composite_score": 9.0,
+      "month_count_estimate": "??"
+    },
+    {
+      "id": "P0015",
+      "title": "Sy: Whisper-based clinical scribe for FCM-UNA (Asuncion) in Jopara with EHR integration",
+      "faculty": "FCM",
+      "advisor": "Julio Torales",
+      "base_score": 0,
+      "competitor_adjusted": 9.0,
+      "data_readiness": 1.0,
+      "composite_score": 9.0,
+      "month_count_estimate": "??"
+    },
+    {
+      "id": "P0021",
+      "title": "Mita arandu: Coding-education tutor for rural Paraguayan kids (Mojo CLI + LLM assistant)",
+      "faculty": "FP-UNA",
+      "advisor": "Jose Luis Vazquez Noguera",
+      "base_score": 0,
+      "competitor_adjusted": 8.93,
+      "data_readiness": 1.0,
+      "composite_score": 8.93,
+      "month_count_estimate": "??"
+    },
+    {
+      "id": "P0031",
+      "title": "Karamanu: Chagas vector heatmap (Phytoseiulus for Aedes aegypti with climate + socio ML)",
+      "faculty": "FCM",
+      "advisor": "Mirtha Gonzalez",
+      "base_score": 0,
+      "competitor_adjusted": 8.87,
+      "data_readiness": 1.0,
+      "composite_score": 8.87,
+      "month_count_estimate": "??"
+    },
+    {
+      "id": "P0040",
+      "title": "Kuatianee: OCR for Guarani historical documents from 19th-century archives",
+      "faculty": "FP-UNA",
+      "advisor": "Juan Talavera",
+      "base_score": 0,
+      "competitor_adjusted": 8.83,
+      "data_readiness": 1.0,
+      "composite_score": 8.83,
+      "month_count_estimate": "??"
+    }
+  ]
+}
