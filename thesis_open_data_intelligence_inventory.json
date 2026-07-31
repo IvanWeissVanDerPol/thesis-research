@@ -1,0 +1,998 @@
+{
+  "satellite_imagery": {
+    "Sentinel-2 (10m, 5-day revisit)": {
+      "source": "ESA Copernicus (free, open)",
+      "license": "CC0 (free for any use)",
+      "api": "https://scihub.copernicus.eu/ or via Google Earth Engine",
+      "size": "50MB per tile, 200+ tiles for Paraguay",
+      "supports": [
+        "P0011 Yvytu",
+        "P0100 Yvyra",
+        "P0012 Yvy",
+        "P0025 Yrupe",
+        "P0026 Kai",
+        "P0035 Tatakua",
+        "P0091 Pokatu"
+      ]
+    },
+    "Landsat 9 (30m, 16-day)": {
+      "source": "NASA/USGS (free)",
+      "license": "CC0",
+      "api": "https://earthexplorer.usgs.gov/ or GEE",
+      "size": "100MB per scene",
+      "supports": [
+        "P0011",
+        "P0100",
+        "P0025"
+      ]
+    },
+    "Planet (3m, daily)": {
+      "source": "Planet.com (free for academic research)",
+      "license": "CC BY-NC for academic",
+      "api": "https://www.planet.com/education/",
+      "size": "100MB per tile",
+      "supports": [
+        "P0085 Yvykui",
+        "P0011",
+        "P0100",
+        "P0026"
+      ]
+    },
+    "Sentinel-1 SAR (10m, all-weather)": {
+      "source": "ESA Copernicus",
+      "license": "CC0",
+      "api": "GEE, ASF Vertex",
+      "size": "1GB per scene",
+      "supports": [
+        "P0011",
+        "P0035",
+        "P0025"
+      ]
+    },
+    "MODIS (250m daily)": {
+      "source": "NASA",
+      "license": "CC0",
+      "api": "GEE",
+      "size": "10MB per day",
+      "supports": [
+        "P0025",
+        "P0035",
+        "P0031 Karamanu"
+      ]
+    },
+    "ALOS PALSAR (25m, all-weather)": {
+      "source": "JAXA",
+      "license": "CC0 (free for research)",
+      "api": "https://www.eorc.jaxa.jp/ALOS/en/index.htm",
+      "size": "100MB per tile",
+      "supports": [
+        "P0011",
+        "P0010"
+      ]
+    },
+    "Esri HD (binary, 30cm)": {
+      "source": "Esri Living Atlas (free with attribution)",
+      "license": "Esri Terms (free for non-commercial)",
+      "api": "https://livingatlas.arcgis.com/",
+      "size": "varies",
+      "supports": [
+        "P0010 Tava-i",
+        "P0085",
+        "P0026"
+      ]
+    }
+  },
+  "elevation_models": {
+    "Copernicus GLO-30 (30m DEM)": {
+      "source": "ESA Copernicus",
+      "license": "CC0",
+      "api": "https://gdex.cr.usgs.gov/gdex/ or GEE",
+      "size": "1GB for Paraguay",
+      "supports": [
+        "P0011",
+        "P0010",
+        "P0052",
+        "P0025"
+      ]
+    },
+    "SRTM (30m)": {
+      "source": "NASA",
+      "license": "CC0",
+      "api": "https://earthexplorer.usgs.gov/",
+      "size": "500MB",
+      "supports": [
+        "P0011",
+        "P0010"
+      ]
+    },
+    "HydroSHEDS (hydrology)": {
+      "source": "WWF",
+      "license": "CC0",
+      "api": "https://www.hydrosheds.org/",
+      "size": "200MB",
+      "supports": [
+        "P0052",
+        "P0011"
+      ]
+    },
+    "HAND (Height Above Nearest Drainage)": {
+      "source": "WWF",
+      "license": "CC0",
+      "api": "https://www.hydrosheds.org/products/hand",
+      "size": "100MB",
+      "supports": [
+        "P0052",
+        "P0011"
+      ]
+    },
+    "JRC Global Surface Water (10m, 1984-2024)": {
+      "source": "JRC/EC",
+      "license": "CC0",
+      "api": "https://global-surface-water.appspot.com/",
+      "size": "500MB",
+      "supports": [
+        "P0052",
+        "P0031",
+        "P0011"
+      ]
+    }
+  },
+  "land_cover_change": {
+    "MapBiomas Paraguay (30m, 1985-2024)": {
+      "source": "MapBiomas (Brazil + Paraguay)",
+      "license": "CC0",
+      "api": "https://plataforma.mapbiomas.org/",
+      "size": "200MB",
+      "supports": [
+        "P0011",
+        "P0100",
+        "P0025",
+        "P0026"
+      ]
+    },
+    "Hansen GFC (30m, 2000-2024)": {
+      "source": "UMD/Global Forest Watch",
+      "license": "CC0",
+      "api": "https://www.globalforestwatch.org/",
+      "size": "1GB",
+      "supports": [
+        "P0011",
+        "P0100",
+        "P0026"
+      ]
+    },
+    "ESA WorldCover (10m, 2020/2021)": {
+      "source": "ESA",
+      "license": "CC0",
+      "api": "https://worldcover2021.esa.int/",
+      "size": "1GB",
+      "supports": [
+        "P0011",
+        "P0025"
+      ]
+    },
+    "GLAD alerts (30m, weekly)": {
+      "source": "UMD GLAD",
+      "license": "CC0",
+      "api": "https://glad.earthengine.app/",
+      "supports": [
+        "P0011",
+        "P0100"
+      ]
+    }
+  },
+  "vector_open_data": {
+    "OpenStreetMap Paraguay": {
+      "source": "OSM/GEOFABRIK",
+      "license": "ODbL (open)",
+      "api": "https://download.geofabrik.de/south-america/paraguay.html",
+      "size": "200MB",
+      "supports": [
+        "P0010",
+        "P0085",
+        "P0067",
+        "P0012"
+      ]
+    },
+    "Mapillary (street-level imagery)": {
+      "source": "Mapillary",
+      "license": "CC BY-SA",
+      "api": "https://www.mapillary.com/",
+      "supports": [
+        "P0010",
+        "P0085"
+      ]
+    },
+    "Overpass API (live OSM queries)": {
+      "source": "OSM",
+      "license": "ODbL",
+      "api": "https://overpass-turbo.eu/",
+      "supports": [
+        "P0010",
+        "P0067",
+        "P0085"
+      ]
+    },
+    "Overture Maps (FB+Microsoft+Amazon)": {
+      "source": "Overture Maps Foundation",
+      "license": "ODbL",
+      "api": "https://overturemaps.org/",
+      "size": "50GB+ but free",
+      "supports": [
+        "P0010",
+        "P0067"
+      ]
+    },
+    "HOT-OSM tasking manager": {
+      "source": "Humanitarian OpenStreetMap Team",
+      "license": "ODbL",
+      "api": "https://tasks.hotosm.org/",
+      "supports": [
+        "P0010",
+        "P0012"
+      ]
+    },
+    "GADM (admin boundaries)": {
+      "source": "UC Davis",
+      "license": "Free for academic",
+      "api": "https://gadm.org/",
+      "size": "10MB",
+      "supports": [
+        "P0010",
+        "P0012",
+        "P0067"
+      ]
+    }
+  },
+  "biodiversity_data": {
+    "GBIF Occurrences (Paraguay)": {
+      "source": "GBIF",
+      "license": "CC0",
+      "api": "https://www.gbif.org/",
+      "size": "1M+ records",
+      "supports": [
+        "P0026 Kai",
+        "P0051 Hendape"
+      ]
+    },
+    "IUCN Red List": {
+      "source": "IUCN",
+      "license": "Free for non-commercial",
+      "api": "https://www.iucnredlist.org/",
+      "supports": [
+        "P0026"
+      ]
+    },
+    "NASA FIRMS (fire hotspots)": {
+      "source": "NASA",
+      "license": "CC0",
+      "api": "https://firms.modaps.eosdis.nasa.gov/",
+      "size": "100MB",
+      "supports": [
+        "P0026",
+        "P0011"
+      ]
+    },
+    "eBird (bird observations)": {
+      "source": "Cornell Lab",
+      "license": "free for academic",
+      "api": "https://ebird.org/",
+      "supports": [
+        "P0026"
+      ]
+    },
+    "iNaturalist": {
+      "source": "iNaturalist",
+      "license": "CC0",
+      "api": "https://www.inaturalist.org/",
+      "supports": [
+        "P0026",
+        "P0051"
+      ]
+    }
+  },
+  "climate_weather": {
+    "WorldClim (1km, monthly)": {
+      "source": "WorldClim",
+      "license": "CC0",
+      "api": "https://www.worldclim.org/",
+      "size": "5GB for world",
+      "supports": [
+        "P0025",
+        "P0031",
+        "P0035",
+        "P0052"
+      ]
+    },
+    "ERA5 (Copernicus, ~25km, hourly)": {
+      "source": "ECMWF",
+      "license": "CC0",
+      "api": "https://cds.climate.copernicus.eu/",
+      "size": "100GB+",
+      "supports": [
+        "P0005 Tokandu",
+        "P0025",
+        "P0031"
+      ]
+    },
+    "CHIRPS (5km, daily precipitation)": {
+      "source": "UCSB",
+      "license": "CC0",
+      "api": "https://www.chc.ucsb.edu/data/chirps",
+      "supports": [
+        "P0025",
+        "P0031",
+        "P0052"
+      ]
+    },
+    "NASA POWER (solar + wind)": {
+      "source": "NASA",
+      "license": "CC0",
+      "api": "https://power.larc.nasa.gov/",
+      "supports": [
+        "P0005 Tokandu",
+        "P0025",
+        "P0026"
+      ]
+    },
+    "GPM (precipitation, 10km hourly)": {
+      "source": "NASA",
+      "license": "CC0",
+      "api": "https://gpm.nasa.gov/",
+      "supports": [
+        "P0052",
+        "P0025"
+      ]
+    }
+  },
+  "paraguay_local_data": {
+    "Catastro (DGC)": {
+      "source": "Servicio Nacional de Catastro",
+      "license": "Open (gov)",
+      "api": "https://www.catastro.gov.py/wms",
+      "supports": [
+        "P0010",
+        "P0100",
+        "P0067"
+      ]
+    },
+    "INE (census + surveys)": {
+      "source": "Instituto Nacional de Estadística",
+      "license": "Open",
+      "api": "https://www.ine.gov.py/",
+      "supports": [
+        "P0067",
+        "P0020",
+        "P0015",
+        "P0021"
+      ]
+    },
+    "MADES (environment)": {
+      "source": "Ministerio del Ambiente",
+      "license": "Open",
+      "api": "https://www.mades.gov.py/",
+      "supports": [
+        "P0011",
+        "P0026",
+        "P0052"
+      ]
+    },
+    "INFONA (forestry)": {
+      "source": "Instituto Forestal Nacional",
+      "license": "Open",
+      "api": "https://www.infona.gov.py/",
+      "supports": [
+        "P0011",
+        "P0100",
+        "P0026"
+      ]
+    },
+    "ANDE (electricity)": {
+      "source": "Administración Nacional de Electricidad",
+      "license": "Partial open data",
+      "api": "https://www.ande.gov.py/",
+      "supports": [
+        "P0005",
+        "P0006",
+        "P0007"
+      ]
+    },
+    "MOPC (public works)": {
+      "source": "Ministerio de Obras Públicas",
+      "license": "Partial open",
+      "api": "https://www.mopc.gov.py/",
+      "supports": [
+        "P0085 Yvykui",
+        "P0067"
+      ]
+    },
+    "BCP (central bank)": {
+      "source": "Banco Central del Paraguay",
+      "license": "Open",
+      "api": "https://www.bcp.gov.py/",
+      "supports": [
+        "P0005",
+        "P0070",
+        "P0030"
+      ]
+    },
+    "MEC (education)": {
+      "source": "Ministerio de Educación",
+      "license": "Partial",
+      "api": "https://www.mec.gov.py/",
+      "supports": [
+        "P0021",
+        "P0045",
+        "P0080"
+      ]
+    },
+    "MSPyBS (health)": {
+      "source": "Ministerio de Salud Pública",
+      "license": "Partial",
+      "api": "https://www.mspbs.gov.py/",
+      "supports": [
+        "P0031",
+        "P0052",
+        "P0090",
+        "P0001"
+      ]
+    },
+    "SENEPA (vector surveillance)": {
+      "source": "SENEPA",
+      "license": "Partial",
+      "supports": [
+        "P0031",
+        "P0090"
+      ]
+    },
+    "INBIO (agriculture)": {
+      "source": "Instituto Nacional de Bioeconomia",
+      "license": "Open",
+      "supports": [
+        "P0025",
+        "P0100"
+      ]
+    },
+    "DNCP (public procurement)": {
+      "source": "Dirección Nacional de Contrataciones",
+      "license": "Open",
+      "api": "https://www.contrataciones.gov.py/",
+      "supports": [
+        "P0030"
+      ]
+    },
+    "DIRECCION DEL TEATRO (cultural)": {
+      "source": "Secretaria Nacional de Cultura",
+      "license": "Open",
+      "supports": [
+        "P0060",
+        "P0035"
+      ]
+    },
+    "Viceministerio de Minas (mining)": {
+      "source": "MOPC/Minas",
+      "license": "Open",
+      "supports": [
+        "P0100"
+      ]
+    }
+  },
+  "guarani_language_data": {
+    "38 Guaraní datasets on HuggingFace": {
+      "source": "HuggingFace",
+      "license": "Various CC0",
+      "api": "https://huggingface.co/datasets?search=guarani",
+      "size": "varies",
+      "supports": [
+        "P0001 JoparaBot",
+        "P0022 Nee",
+        "P0050 Nepyru",
+        "P0040 Kuatianee",
+        "P0051 Hendape",
+        "P0015 Sy"
+      ]
+    },
+    "Creole/Github repos": {
+      "source": "GitHub",
+      "license": "Various",
+      "api": "https://github.com/search?q=guarani",
+      "supports": [
+        "P0001",
+        "P0022"
+      ]
+    },
+    "SomosNLP Paraguayan Cultural Alignment": {
+      "source": "SomosNLP",
+      "license": "Open",
+      "supports": [
+        "P0001",
+        "P0015"
+      ]
+    },
+    "GuaraniTranslate (NMT)": {
+      "source": "HuggingFace",
+      "license": "Apache 2.0",
+      "supports": [
+        "P0022",
+        "P0001"
+      ]
+    },
+    "Mozilla Common Voice Spanish+Guaraní": {
+      "source": "Mozilla",
+      "license": "CC0",
+      "api": "https://commonvoice.mozilla.org/",
+      "supports": [
+        "P0015",
+        "P0022"
+      ]
+    },
+    "Parlamentario Guaraní Corpus": {
+      "source": "Congreso Nacional",
+      "license": "Open",
+      "supports": [
+        "P0001",
+        "P0022"
+      ]
+    },
+    "Biblioteca Nacional del Paraguay": {
+      "source": "BnP",
+      "license": "Open for academic",
+      "supports": [
+        "P0040",
+        "P0051"
+      ]
+    },
+    "Jesuitas-Guaraní Historical (1584-1767)": {
+      "source": "Universidad Catolica",
+      "license": "Open",
+      "supports": [
+        "P0040",
+        "P0051"
+      ]
+    }
+  },
+  "models_open_source": {
+    "LLaMA-3 (8B/70B)": {
+      "source": "Meta",
+      "license": "Llama 3 Community License",
+      "api": "https://huggingface.co/meta-llama",
+      "supports": [
+        "P0001",
+        "P0022",
+        "P0015",
+        "P0052",
+        "P0005"
+      ]
+    },
+    "Mistral-7B": {
+      "source": "Mistral AI",
+      "license": "Apache 2.0",
+      "api": "https://huggingface.co/mistralai",
+      "supports": [
+        "P0001",
+        "P0022"
+      ]
+    },
+    "GPT-4 / GPT-4V (OpenAI API)": {
+      "source": "OpenAI (paid)",
+      "license": "Commercial",
+      "api": "https://openai.com/",
+      "cost": "$0.01-0.03/1K tokens",
+      "supports": [
+        "P0010",
+        "P0012",
+        "P0021",
+        "P0022"
+      ]
+    },
+    "Whisper (ASR)": {
+      "source": "OpenAI",
+      "license": "MIT",
+      "api": "https://huggingface.co/openai/whisper-large-v3",
+      "supports": [
+        "P0015",
+        "P0022"
+      ]
+    },
+    "YOLOv8 (object detection)": {
+      "source": "Ultralytics",
+      "license": "GPL-3.0",
+      "api": "https://github.com/ultralytics/ultralytics",
+      "supports": [
+        "P0085",
+        "P0026",
+        "P0090"
+      ]
+    },
+    "Detectron2 (segmentation)": {
+      "source": "Meta AI",
+      "license": "Apache 2.0",
+      "supports": [
+        "P0010",
+        "P0011"
+      ]
+    },
+    "TrOCR (OCR)": {
+      "source": "Microsoft",
+      "license": "MIT",
+      "supports": [
+        "P0040"
+      ]
+    },
+    "Tesseract (OCR)": {
+      "source": "Apache 2.0",
+      "api": "https://github.com/tesseract-ocr/tesseract",
+      "supports": [
+        "P0040"
+      ]
+    },
+    "TimesFM (TSFM)": {
+      "source": "Google",
+      "license": "Apache 2.0",
+      "supports": [
+        "P0005"
+      ]
+    },
+    "Chronos (TSFM)": {
+      "source": "Amazon",
+      "license": "Apache 2.0",
+      "supports": [
+        "P0005"
+      ]
+    },
+    "Moirai (TSFM)": {
+      "source": "Salesforce",
+      "license": "Apache 2.0",
+      "supports": [
+        "P0005"
+      ]
+    },
+    "PyTorch (general ML)": {
+      "source": "Meta",
+      "license": "BSD",
+      "supports": [
+        "ALL"
+      ]
+    },
+    "Hugging Face Transformers": {
+      "source": "HuggingFace",
+      "license": "Apache 2.0",
+      "supports": [
+        "ALL"
+      ]
+    },
+    "TensorFlow": {
+      "source": "Google",
+      "license": "Apache 2.0",
+      "supports": [
+        "ALL"
+      ]
+    },
+    "scikit-learn": {
+      "source": "Open",
+      "license": "BSD",
+      "supports": [
+        "ALL"
+      ]
+    },
+    "LightGBM / XGBoost": {
+      "source": "Open",
+      "license": "MIT",
+      "supports": [
+        "P0005",
+        "P0031",
+        "P0025"
+      ]
+    },
+    "AlphaFold 3": {
+      "source": "DeepMind",
+      "license": "CC BY-NC-SA",
+      "supports": [
+        "P0091"
+      ]
+    },
+    "spaCy (NLP)": {
+      "source": "Explosion",
+      "license": "MIT",
+      "supports": [
+        "P0001",
+        "P0015"
+      ]
+    },
+    "pyannote (diarization)": {
+      "source": "HuggingFace",
+      "license": "MIT",
+      "supports": [
+        "P0015"
+      ]
+    }
+  },
+  "academic_literature": {
+    "ArXiv (eprint)": {
+      "source": "Cornell",
+      "license": "Free",
+      "api": "https://arxiv.org/",
+      "supports": [
+        "ALL"
+      ]
+    },
+    "SciELO (LATAM)": {
+      "source": "SciELO",
+      "license": "Various",
+      "api": "https://scielo.org/",
+      "supports": [
+        "ALL"
+      ]
+    },
+    "Semantic Scholar": {
+      "source": "Allen AI",
+      "license": "Free API",
+      "api": "https://www.semanticscholar.org/",
+      "supports": [
+        "ALL"
+      ]
+    },
+    "Google Scholar": {
+      "source": "Google",
+      "license": "Free",
+      "supports": [
+        "ALL"
+      ]
+    },
+    "PubMed": {
+      "source": "NLM",
+      "license": "Free",
+      "api": "https://pubmed.ncbi.nlm.nih.gov/",
+      "supports": [
+        "P0031",
+        "P0090",
+        "P0035",
+        "P0001"
+      ]
+    },
+    "Cochrane Library": {
+      "source": "Cochrane",
+      "license": "Free",
+      "supports": [
+        "P0031",
+        "P0090"
+      ]
+    },
+    "PAHO IRIS": {
+      "source": "PAHO",
+      "license": "Free",
+      "api": "https://iris.paho.org/",
+      "supports": [
+        "P0031",
+        "P0090",
+        "P0052"
+      ]
+    }
+  },
+  "github_repos_relevant": {
+    "paraguay-geodata": {
+      "source": "Ai-Whisperers/paraguay-geodata",
+      "license": "MIT",
+      "api": "https://github.com/Ai-Whisperers/paraguay-geodata",
+      "size": "549MB",
+      "supports": [
+        "P0010",
+        "P0011",
+        "P0100",
+        "P0012",
+        "P0067",
+        "P0085",
+        "P0025"
+      ]
+    },
+    "la-quebrada-viva": {
+      "source": "Ai-Whisperers/la-quebrada-viva",
+      "license": "MIT",
+      "api": "https://github.com/Ai-Whisperers/la-quebrada-viva",
+      "supports": [
+        "P0010",
+        "P0011",
+        "P0100"
+      ]
+    },
+    "guarani-nlp": {
+      "source": "Various on GitHub",
+      "api": "https://github.com/search?q=guarani+nlp",
+      "supports": [
+        "P0001",
+        "P0022",
+        "P0040"
+      ]
+    },
+    "airops": {
+      "source": "Community",
+      "supports": [
+        "P0067"
+      ]
+    },
+    "OSM Paraguay Tools": {
+      "source": "Community",
+      "supports": [
+        "P0010",
+        "P0067"
+      ]
+    }
+  },
+  "intelligence_sources": {
+    "Google Alerts (free)": {
+      "source": "Google",
+      "api": "https://www.google.com/alerts",
+      "supports": [
+        "ALL — early warning"
+      ]
+    },
+    "CitizenLab (paraguay)": {
+      "source": "CitizenLab",
+      "api": "https://www.citizenlab.org/",
+      "supports": [
+        "P0030 Nemity",
+        "P0025"
+      ]
+    },
+    "Twitter/X API (academic)": {
+      "source": "X/Twitter",
+      "api": "https://developer.twitter.com/en/academic-research",
+      "cost": "Free for academic",
+      "supports": [
+        "P0075 Neeambota",
+        "P0095 Teko"
+      ]
+    },
+    "Internet Archive": {
+      "source": "Internet Archive",
+      "license": "Various",
+      "api": "https://archive.org/",
+      "supports": [
+        "P0040",
+        "P0051"
+      ]
+    },
+    "Biblioteca Nacional del Paraguay (BnP)": {
+      "source": "BnP",
+      "supports": [
+        "P0040",
+        "P0051"
+      ]
+    },
+    "Archivo Nacional (Asunción)": {
+      "source": "AGN",
+      "supports": [
+        "P0040",
+        "P0051"
+      ]
+    },
+    "Code for Paraguay": {
+      "source": "Community",
+      "api": "https://github.com/search?q=paraguay",
+      "supports": [
+        "P0067",
+        "P0010"
+      ]
+    },
+    "Paraguay Election Data": {
+      "source": "TSJE",
+      "api": "https://tsje.gov.py/",
+      "supports": [
+        "P0095",
+        "P0075"
+      ]
+    },
+    "CIRD (Centro de Informacion y Recursos para el Desarrollo)": {
+      "source": "CIRD",
+      "supports": [
+        "P0025",
+        "P0030"
+      ]
+    },
+    "Banco de Datos de DDHH (Base IS)": {
+      "source": "Coordinadora de DDHH",
+      "supports": [
+        "P0046 Ajehu",
+        "P0095 Teko"
+      ]
+    }
+  },
+  "training_courses_free": {
+    "fast.ai (deep learning)": {
+      "source": "fast.ai",
+      "license": "Free",
+      "api": "https://www.fast.ai/",
+      "supports": [
+        "ALL"
+      ]
+    },
+    "DeepLearning.AI (Andrew Ng)": {
+      "source": "Coursera",
+      "license": "Audit free",
+      "supports": [
+        "ALL"
+      ]
+    },
+    "Stanford CS231n/CS224n": {
+      "source": "Stanford",
+      "license": "Free",
+      "supports": [
+        "P0010",
+        "P0011",
+        "P0022"
+      ]
+    },
+    "Google Earth Engine tutorials": {
+      "source": "Google",
+      "license": "Free",
+      "api": "https://developers.google.com/earth-engine/tutorials",
+      "supports": [
+        "P0011",
+        "P0100",
+        "P0025"
+      ]
+    },
+    "Hugging Face NLP course": {
+      "source": "HuggingFace",
+      "license": "Free",
+      "api": "https://huggingface.co/learn/nlp-course",
+      "supports": [
+        "P0001",
+        "P0015",
+        "P0022"
+      ]
+    }
+  },
+  "compute_free": {
+    "Google Colab (free + Pro)": {
+      "source": "Google",
+      "cost": "Free / $10/mo Pro",
+      "supports": [
+        "ALL"
+      ]
+    },
+    "Kaggle Notebooks (30h/week free)": {
+      "source": "Kaggle",
+      "cost": "Free",
+      "supports": [
+        "ALL"
+      ]
+    },
+    "Hugging Face Spaces (free)": {
+      "source": "HuggingFace",
+      "cost": "Free",
+      "supports": [
+        "P0021",
+        "P0001"
+      ]
+    },
+    "Cloudflare Pages (free)": {
+      "source": "Cloudflare",
+      "cost": "Free",
+      "supports": [
+        "P0021"
+      ]
+    },
+    "Vercel (free)": {
+      "source": "Vercel",
+      "cost": "Free",
+      "supports": [
+        "P0021"
+      ]
+    },
+    "GitHub Student Developer Pack": {
+      "source": "GitHub",
+      "cost": "Free with student status",
+      "supports": [
+        "ALL"
+      ]
+    },
+    "AWS/Azure for Education": {
+      "source": "AWS/Azure",
+      "cost": "Free credits",
+      "supports": [
+        "ALL"
+      ]
+    }
+  }
+}

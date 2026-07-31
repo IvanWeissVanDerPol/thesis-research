@@ -1,0 +1,2617 @@
+{
+  "P0012": {
+    "title": "Yvy: Indigenous community territory mapping with participatory cartography + GPT-4 enrichment",
+    "rank": 1,
+    "data_sources": {
+      "satellite_imagery": [],
+      "elevation_models": [],
+      "land_cover_change": [],
+      "vector_open_data": [
+        "OpenStreetMap Paraguay",
+        "Mapillary (street-level imagery)",
+        "Overpass API (live OSM queries)",
+        "Overture Maps (FB+Microsoft+Amazon)",
+        "HOT-OSM tasking manager",
+        "GADM (admin boundaries)"
+      ],
+      "biodiversity_data": [],
+      "climate_weather": [],
+      "paraguay_local_data": [
+        "Catastro (DGC)",
+        "INE (census + surveys)",
+        "MADES (environment)",
+        "INFONA (forestry)",
+        "ANDE (electricity)",
+        "MOPC (public works)",
+        "BCP (central bank)",
+        "MEC (education)",
+        "MSPyBS (health)",
+        "SENEPA (vector surveillance)",
+        "INBIO (agriculture)",
+        "DNCP (public procurement)",
+        "DIRECCION DEL TEATRO (cultural)",
+        "Viceministerio de Minas (mining)"
+      ],
+      "guarani_language_data": [],
+      "models_open_source": [
+        "LLaMA-3 (8B/70B)",
+        "Mistral-7B",
+        "GPT-4 / GPT-4V (OpenAI API)",
+        "Whisper (ASR)",
+        "YOLOv8 (object detection)",
+        "Detectron2 (segmentation)",
+        "TrOCR (OCR)",
+        "Tesseract (OCR)",
+        "TimesFM (TSFM)",
+        "Chronos (TSFM)",
+        "Moirai (TSFM)",
+        "PyTorch (general ML)",
+        "Hugging Face Transformers",
+        "TensorFlow",
+        "scikit-learn",
+        "LightGBM / XGBoost",
+        "AlphaFold 3",
+        "spaCy (NLP)",
+        "pyannote (diarization)"
+      ],
+      "academic_literature": [
+        "ArXiv (eprint)",
+        "SciELO (LATAM)",
+        "Semantic Scholar",
+        "Google Scholar",
+        "PubMed",
+        "Cochrane Library",
+        "PAHO IRIS"
+      ],
+      "github_repos_relevant": [],
+      "intelligence_sources": [
+        "Google Alerts (free)",
+        "CitizenLab (paraguay)",
+        "Twitter/X API (academic)",
+        "Internet Archive",
+        "Biblioteca Nacional del Paraguay (BnP)",
+        "Archivo Nacional (Asunción)",
+        "Code for Paraguay",
+        "Paraguay Election Data",
+        "CIRD (Centro de Informacion y Recursos para el Desarrollo)",
+        "Banco de Datos de DDHH (Base IS)"
+      ],
+      "training_courses_free": [
+        "fast.ai (deep learning)",
+        "DeepLearning.AI (Andrew Ng)",
+        "Stanford CS231n/CS224n",
+        "Google Earth Engine tutorials",
+        "Hugging Face NLP course"
+      ],
+      "compute_free": [
+        "Google Colab (free + Pro)",
+        "Kaggle Notebooks (30h/week free)",
+        "Hugging Face Spaces (free)",
+        "Cloudflare Pages (free)",
+        "Vercel (free)",
+        "GitHub Student Developer Pack",
+        "AWS/Azure for Education"
+      ]
+    },
+    "total_sources": 68
+  },
+  "P0011": {
+    "title": "Yvytu: Multi-temporal satellite CV for Chaco deforestation alert system",
+    "rank": 2,
+    "data_sources": {
+      "satellite_imagery": [
+        "Sentinel-2 (10m, 5-day revisit)",
+        "Landsat 9 (30m, 16-day)",
+        "Planet (3m, daily)",
+        "Sentinel-1 SAR (10m, all-weather)",
+        "MODIS (250m daily)",
+        "ALOS PALSAR (25m, all-weather)",
+        "Esri HD (binary, 30cm)"
+      ],
+      "elevation_models": [],
+      "land_cover_change": [
+        "MapBiomas Paraguay (30m, 1985-2024)",
+        "Hansen GFC (30m, 2000-2024)",
+        "ESA WorldCover (10m, 2020/2021)",
+        "GLAD alerts (30m, weekly)"
+      ],
+      "vector_open_data": [],
+      "biodiversity_data": [],
+      "climate_weather": [],
+      "paraguay_local_data": [
+        "Catastro (DGC)",
+        "INE (census + surveys)",
+        "MADES (environment)",
+        "INFONA (forestry)",
+        "ANDE (electricity)",
+        "MOPC (public works)",
+        "BCP (central bank)",
+        "MEC (education)",
+        "MSPyBS (health)",
+        "SENEPA (vector surveillance)",
+        "INBIO (agriculture)",
+        "DNCP (public procurement)",
+        "DIRECCION DEL TEATRO (cultural)",
+        "Viceministerio de Minas (mining)"
+      ],
+      "guarani_language_data": [],
+      "models_open_source": [
+        "LLaMA-3 (8B/70B)",
+        "Mistral-7B",
+        "GPT-4 / GPT-4V (OpenAI API)",
+        "Whisper (ASR)",
+        "YOLOv8 (object detection)",
+        "Detectron2 (segmentation)",
+        "TrOCR (OCR)",
+        "Tesseract (OCR)",
+        "TimesFM (TSFM)",
+        "Chronos (TSFM)",
+        "Moirai (TSFM)",
+        "PyTorch (general ML)",
+        "Hugging Face Transformers",
+        "TensorFlow",
+        "scikit-learn",
+        "LightGBM / XGBoost",
+        "AlphaFold 3",
+        "spaCy (NLP)",
+        "pyannote (diarization)"
+      ],
+      "academic_literature": [
+        "ArXiv (eprint)",
+        "SciELO (LATAM)",
+        "Semantic Scholar",
+        "Google Scholar",
+        "PubMed",
+        "Cochrane Library",
+        "PAHO IRIS"
+      ],
+      "github_repos_relevant": [
+        "paraguay-geodata",
+        "la-quebrada-viva",
+        "guarani-nlp",
+        "airops",
+        "OSM Paraguay Tools"
+      ],
+      "intelligence_sources": [],
+      "training_courses_free": [
+        "fast.ai (deep learning)",
+        "DeepLearning.AI (Andrew Ng)",
+        "Stanford CS231n/CS224n",
+        "Google Earth Engine tutorials",
+        "Hugging Face NLP course"
+      ],
+      "compute_free": [
+        "Google Colab (free + Pro)",
+        "Kaggle Notebooks (30h/week free)",
+        "Hugging Face Spaces (free)",
+        "Cloudflare Pages (free)",
+        "Vercel (free)",
+        "GitHub Student Developer Pack",
+        "AWS/Azure for Education"
+      ]
+    },
+    "total_sources": 68
+  },
+  "P0085": {
+    "title": "Yvykui: Road damage detection from MOPC drone imagery (YOLO v8 + MOPC Paraguay)",
+    "rank": 3,
+    "data_sources": {
+      "satellite_imagery": [
+        "Sentinel-2 (10m, 5-day revisit)",
+        "Landsat 9 (30m, 16-day)",
+        "Planet (3m, daily)",
+        "Sentinel-1 SAR (10m, all-weather)",
+        "MODIS (250m daily)",
+        "ALOS PALSAR (25m, all-weather)",
+        "Esri HD (binary, 30cm)"
+      ],
+      "elevation_models": [],
+      "land_cover_change": [],
+      "vector_open_data": [
+        "OpenStreetMap Paraguay",
+        "Mapillary (street-level imagery)",
+        "Overpass API (live OSM queries)",
+        "Overture Maps (FB+Microsoft+Amazon)",
+        "HOT-OSM tasking manager",
+        "GADM (admin boundaries)"
+      ],
+      "biodiversity_data": [],
+      "climate_weather": [],
+      "paraguay_local_data": [
+        "Catastro (DGC)",
+        "INE (census + surveys)",
+        "MADES (environment)",
+        "INFONA (forestry)",
+        "ANDE (electricity)",
+        "MOPC (public works)",
+        "BCP (central bank)",
+        "MEC (education)",
+        "MSPyBS (health)",
+        "SENEPA (vector surveillance)",
+        "INBIO (agriculture)",
+        "DNCP (public procurement)",
+        "DIRECCION DEL TEATRO (cultural)",
+        "Viceministerio de Minas (mining)"
+      ],
+      "guarani_language_data": [],
+      "models_open_source": [
+        "LLaMA-3 (8B/70B)",
+        "Mistral-7B",
+        "GPT-4 / GPT-4V (OpenAI API)",
+        "Whisper (ASR)",
+        "YOLOv8 (object detection)",
+        "Detectron2 (segmentation)",
+        "TrOCR (OCR)",
+        "Tesseract (OCR)",
+        "TimesFM (TSFM)",
+        "Chronos (TSFM)",
+        "Moirai (TSFM)",
+        "PyTorch (general ML)",
+        "Hugging Face Transformers",
+        "TensorFlow",
+        "scikit-learn",
+        "LightGBM / XGBoost",
+        "AlphaFold 3",
+        "spaCy (NLP)",
+        "pyannote (diarization)"
+      ],
+      "academic_literature": [
+        "ArXiv (eprint)",
+        "SciELO (LATAM)",
+        "Semantic Scholar",
+        "Google Scholar",
+        "PubMed",
+        "Cochrane Library",
+        "PAHO IRIS"
+      ],
+      "github_repos_relevant": [
+        "paraguay-geodata",
+        "la-quebrada-viva",
+        "guarani-nlp",
+        "airops",
+        "OSM Paraguay Tools"
+      ],
+      "intelligence_sources": [
+        "Google Alerts (free)",
+        "CitizenLab (paraguay)",
+        "Twitter/X API (academic)",
+        "Internet Archive",
+        "Biblioteca Nacional del Paraguay (BnP)",
+        "Archivo Nacional (Asunción)",
+        "Code for Paraguay",
+        "Paraguay Election Data",
+        "CIRD (Centro de Informacion y Recursos para el Desarrollo)",
+        "Banco de Datos de DDHH (Base IS)"
+      ],
+      "training_courses_free": [
+        "fast.ai (deep learning)",
+        "DeepLearning.AI (Andrew Ng)",
+        "Stanford CS231n/CS224n",
+        "Google Earth Engine tutorials",
+        "Hugging Face NLP course"
+      ],
+      "compute_free": [
+        "Google Colab (free + Pro)",
+        "Kaggle Notebooks (30h/week free)",
+        "Hugging Face Spaces (free)",
+        "Cloudflare Pages (free)",
+        "Vercel (free)",
+        "GitHub Student Developer Pack",
+        "AWS/Azure for Education"
+      ]
+    },
+    "total_sources": 80
+  },
+  "P0067": {
+    "title": "Mbayru: Asuncion city bus route optimization with MOEA + real-time GPS",
+    "rank": 4,
+    "data_sources": {
+      "satellite_imagery": [],
+      "elevation_models": [],
+      "land_cover_change": [],
+      "vector_open_data": [
+        "OpenStreetMap Paraguay",
+        "Mapillary (street-level imagery)",
+        "Overpass API (live OSM queries)",
+        "Overture Maps (FB+Microsoft+Amazon)",
+        "HOT-OSM tasking manager",
+        "GADM (admin boundaries)"
+      ],
+      "biodiversity_data": [],
+      "climate_weather": [],
+      "paraguay_local_data": [
+        "Catastro (DGC)",
+        "INE (census + surveys)",
+        "MADES (environment)",
+        "INFONA (forestry)",
+        "ANDE (electricity)",
+        "MOPC (public works)",
+        "BCP (central bank)",
+        "MEC (education)",
+        "MSPyBS (health)",
+        "SENEPA (vector surveillance)",
+        "INBIO (agriculture)",
+        "DNCP (public procurement)",
+        "DIRECCION DEL TEATRO (cultural)",
+        "Viceministerio de Minas (mining)"
+      ],
+      "guarani_language_data": [],
+      "models_open_source": [
+        "LLaMA-3 (8B/70B)",
+        "Mistral-7B",
+        "GPT-4 / GPT-4V (OpenAI API)",
+        "Whisper (ASR)",
+        "YOLOv8 (object detection)",
+        "Detectron2 (segmentation)",
+        "TrOCR (OCR)",
+        "Tesseract (OCR)",
+        "TimesFM (TSFM)",
+        "Chronos (TSFM)",
+        "Moirai (TSFM)",
+        "PyTorch (general ML)",
+        "Hugging Face Transformers",
+        "TensorFlow",
+        "scikit-learn",
+        "LightGBM / XGBoost",
+        "AlphaFold 3",
+        "spaCy (NLP)",
+        "pyannote (diarization)"
+      ],
+      "academic_literature": [
+        "ArXiv (eprint)",
+        "SciELO (LATAM)",
+        "Semantic Scholar",
+        "Google Scholar",
+        "PubMed",
+        "Cochrane Library",
+        "PAHO IRIS"
+      ],
+      "github_repos_relevant": [
+        "paraguay-geodata",
+        "la-quebrada-viva",
+        "guarani-nlp",
+        "airops",
+        "OSM Paraguay Tools"
+      ],
+      "intelligence_sources": [
+        "Google Alerts (free)",
+        "CitizenLab (paraguay)",
+        "Twitter/X API (academic)",
+        "Internet Archive",
+        "Biblioteca Nacional del Paraguay (BnP)",
+        "Archivo Nacional (Asunción)",
+        "Code for Paraguay",
+        "Paraguay Election Data",
+        "CIRD (Centro de Informacion y Recursos para el Desarrollo)",
+        "Banco de Datos de DDHH (Base IS)"
+      ],
+      "training_courses_free": [
+        "fast.ai (deep learning)",
+        "DeepLearning.AI (Andrew Ng)",
+        "Stanford CS231n/CS224n",
+        "Google Earth Engine tutorials",
+        "Hugging Face NLP course"
+      ],
+      "compute_free": [
+        "Google Colab (free + Pro)",
+        "Kaggle Notebooks (30h/week free)",
+        "Hugging Face Spaces (free)",
+        "Cloudflare Pages (free)",
+        "Vercel (free)",
+        "GitHub Student Developer Pack",
+        "AWS/Azure for Education"
+      ]
+    },
+    "total_sources": 73
+  },
+  "P0100": {
+    "title": "Yvyra: Carbon-credit verification (satellite CV + Paraguay farms)",
+    "rank": 5,
+    "data_sources": {
+      "satellite_imagery": [
+        "Sentinel-2 (10m, 5-day revisit)",
+        "Landsat 9 (30m, 16-day)",
+        "Planet (3m, daily)",
+        "Sentinel-1 SAR (10m, all-weather)",
+        "MODIS (250m daily)",
+        "ALOS PALSAR (25m, all-weather)",
+        "Esri HD (binary, 30cm)"
+      ],
+      "elevation_models": [],
+      "land_cover_change": [
+        "MapBiomas Paraguay (30m, 1985-2024)",
+        "Hansen GFC (30m, 2000-2024)",
+        "ESA WorldCover (10m, 2020/2021)",
+        "GLAD alerts (30m, weekly)"
+      ],
+      "vector_open_data": [],
+      "biodiversity_data": [],
+      "climate_weather": [],
+      "paraguay_local_data": [
+        "Catastro (DGC)",
+        "INE (census + surveys)",
+        "MADES (environment)",
+        "INFONA (forestry)",
+        "ANDE (electricity)",
+        "MOPC (public works)",
+        "BCP (central bank)",
+        "MEC (education)",
+        "MSPyBS (health)",
+        "SENEPA (vector surveillance)",
+        "INBIO (agriculture)",
+        "DNCP (public procurement)",
+        "DIRECCION DEL TEATRO (cultural)",
+        "Viceministerio de Minas (mining)"
+      ],
+      "guarani_language_data": [],
+      "models_open_source": [
+        "LLaMA-3 (8B/70B)",
+        "Mistral-7B",
+        "GPT-4 / GPT-4V (OpenAI API)",
+        "Whisper (ASR)",
+        "YOLOv8 (object detection)",
+        "Detectron2 (segmentation)",
+        "TrOCR (OCR)",
+        "Tesseract (OCR)",
+        "TimesFM (TSFM)",
+        "Chronos (TSFM)",
+        "Moirai (TSFM)",
+        "PyTorch (general ML)",
+        "Hugging Face Transformers",
+        "TensorFlow",
+        "scikit-learn",
+        "LightGBM / XGBoost",
+        "AlphaFold 3",
+        "spaCy (NLP)",
+        "pyannote (diarization)"
+      ],
+      "academic_literature": [
+        "ArXiv (eprint)",
+        "SciELO (LATAM)",
+        "Semantic Scholar",
+        "Google Scholar",
+        "PubMed",
+        "Cochrane Library",
+        "PAHO IRIS"
+      ],
+      "github_repos_relevant": [
+        "paraguay-geodata",
+        "la-quebrada-viva",
+        "guarani-nlp",
+        "airops",
+        "OSM Paraguay Tools"
+      ],
+      "intelligence_sources": [
+        "Google Alerts (free)",
+        "CitizenLab (paraguay)",
+        "Twitter/X API (academic)",
+        "Internet Archive",
+        "Biblioteca Nacional del Paraguay (BnP)",
+        "Archivo Nacional (Asunción)",
+        "Code for Paraguay",
+        "Paraguay Election Data",
+        "CIRD (Centro de Informacion y Recursos para el Desarrollo)",
+        "Banco de Datos de DDHH (Base IS)"
+      ],
+      "training_courses_free": [
+        "fast.ai (deep learning)",
+        "DeepLearning.AI (Andrew Ng)",
+        "Stanford CS231n/CS224n",
+        "Google Earth Engine tutorials",
+        "Hugging Face NLP course"
+      ],
+      "compute_free": [
+        "Google Colab (free + Pro)",
+        "Kaggle Notebooks (30h/week free)",
+        "Hugging Face Spaces (free)",
+        "Cloudflare Pages (free)",
+        "Vercel (free)",
+        "GitHub Student Developer Pack",
+        "AWS/Azure for Education"
+      ]
+    },
+    "total_sources": 78
+  },
+  "P0010": {
+    "title": "Tava-i: Multi-modal AI for collaborative OSM mapping in Paraguay (citizen cartography GPT-4 + satellite CV)",
+    "rank": 6,
+    "data_sources": {
+      "satellite_imagery": [
+        "Sentinel-2 (10m, 5-day revisit)",
+        "Landsat 9 (30m, 16-day)",
+        "Planet (3m, daily)",
+        "Sentinel-1 SAR (10m, all-weather)",
+        "MODIS (250m daily)",
+        "ALOS PALSAR (25m, all-weather)",
+        "Esri HD (binary, 30cm)"
+      ],
+      "elevation_models": [],
+      "land_cover_change": [],
+      "vector_open_data": [
+        "OpenStreetMap Paraguay",
+        "Mapillary (street-level imagery)",
+        "Overpass API (live OSM queries)",
+        "Overture Maps (FB+Microsoft+Amazon)",
+        "HOT-OSM tasking manager",
+        "GADM (admin boundaries)"
+      ],
+      "biodiversity_data": [],
+      "climate_weather": [],
+      "paraguay_local_data": [
+        "Catastro (DGC)",
+        "INE (census + surveys)",
+        "MADES (environment)",
+        "INFONA (forestry)",
+        "ANDE (electricity)",
+        "MOPC (public works)",
+        "BCP (central bank)",
+        "MEC (education)",
+        "MSPyBS (health)",
+        "SENEPA (vector surveillance)",
+        "INBIO (agriculture)",
+        "DNCP (public procurement)",
+        "DIRECCION DEL TEATRO (cultural)",
+        "Viceministerio de Minas (mining)"
+      ],
+      "guarani_language_data": [],
+      "models_open_source": [
+        "LLaMA-3 (8B/70B)",
+        "Mistral-7B",
+        "GPT-4 / GPT-4V (OpenAI API)",
+        "Whisper (ASR)",
+        "YOLOv8 (object detection)",
+        "Detectron2 (segmentation)",
+        "TrOCR (OCR)",
+        "Tesseract (OCR)",
+        "TimesFM (TSFM)",
+        "Chronos (TSFM)",
+        "Moirai (TSFM)",
+        "PyTorch (general ML)",
+        "Hugging Face Transformers",
+        "TensorFlow",
+        "scikit-learn",
+        "LightGBM / XGBoost",
+        "AlphaFold 3",
+        "spaCy (NLP)",
+        "pyannote (diarization)"
+      ],
+      "academic_literature": [
+        "ArXiv (eprint)",
+        "SciELO (LATAM)",
+        "Semantic Scholar",
+        "Google Scholar",
+        "PubMed",
+        "Cochrane Library",
+        "PAHO IRIS"
+      ],
+      "github_repos_relevant": [
+        "paraguay-geodata",
+        "la-quebrada-viva",
+        "guarani-nlp",
+        "airops",
+        "OSM Paraguay Tools"
+      ],
+      "intelligence_sources": [
+        "Google Alerts (free)",
+        "CitizenLab (paraguay)",
+        "Twitter/X API (academic)",
+        "Internet Archive",
+        "Biblioteca Nacional del Paraguay (BnP)",
+        "Archivo Nacional (Asunción)",
+        "Code for Paraguay",
+        "Paraguay Election Data",
+        "CIRD (Centro de Informacion y Recursos para el Desarrollo)",
+        "Banco de Datos de DDHH (Base IS)"
+      ],
+      "training_courses_free": [
+        "fast.ai (deep learning)",
+        "DeepLearning.AI (Andrew Ng)",
+        "Stanford CS231n/CS224n",
+        "Google Earth Engine tutorials",
+        "Hugging Face NLP course"
+      ],
+      "compute_free": [
+        "Google Colab (free + Pro)",
+        "Kaggle Notebooks (30h/week free)",
+        "Hugging Face Spaces (free)",
+        "Cloudflare Pages (free)",
+        "Vercel (free)",
+        "GitHub Student Developer Pack",
+        "AWS/Azure for Education"
+      ]
+    },
+    "total_sources": 80
+  },
+  "P0015": {
+    "title": "Sy: Whisper-based clinical scribe for FCM-UNA (Asuncion) in Jopara with EHR integration",
+    "rank": 7,
+    "data_sources": {
+      "satellite_imagery": [],
+      "elevation_models": [],
+      "land_cover_change": [],
+      "vector_open_data": [],
+      "biodiversity_data": [],
+      "climate_weather": [],
+      "paraguay_local_data": [
+        "Catastro (DGC)",
+        "INE (census + surveys)",
+        "MADES (environment)",
+        "INFONA (forestry)",
+        "ANDE (electricity)",
+        "MOPC (public works)",
+        "BCP (central bank)",
+        "MEC (education)",
+        "MSPyBS (health)",
+        "SENEPA (vector surveillance)",
+        "INBIO (agriculture)",
+        "DNCP (public procurement)",
+        "DIRECCION DEL TEATRO (cultural)",
+        "Viceministerio de Minas (mining)"
+      ],
+      "guarani_language_data": [
+        "38 Guaraní datasets on HuggingFace",
+        "Creole/Github repos",
+        "SomosNLP Paraguayan Cultural Alignment",
+        "GuaraniTranslate (NMT)",
+        "Mozilla Common Voice Spanish+Guaraní",
+        "Parlamentario Guaraní Corpus",
+        "Biblioteca Nacional del Paraguay",
+        "Jesuitas-Guaraní Historical (1584-1767)"
+      ],
+      "models_open_source": [
+        "LLaMA-3 (8B/70B)",
+        "Mistral-7B",
+        "GPT-4 / GPT-4V (OpenAI API)",
+        "Whisper (ASR)",
+        "YOLOv8 (object detection)",
+        "Detectron2 (segmentation)",
+        "TrOCR (OCR)",
+        "Tesseract (OCR)",
+        "TimesFM (TSFM)",
+        "Chronos (TSFM)",
+        "Moirai (TSFM)",
+        "PyTorch (general ML)",
+        "Hugging Face Transformers",
+        "TensorFlow",
+        "scikit-learn",
+        "LightGBM / XGBoost",
+        "AlphaFold 3",
+        "spaCy (NLP)",
+        "pyannote (diarization)"
+      ],
+      "academic_literature": [
+        "ArXiv (eprint)",
+        "SciELO (LATAM)",
+        "Semantic Scholar",
+        "Google Scholar",
+        "PubMed",
+        "Cochrane Library",
+        "PAHO IRIS"
+      ],
+      "github_repos_relevant": [
+        "paraguay-geodata",
+        "la-quebrada-viva",
+        "guarani-nlp",
+        "airops",
+        "OSM Paraguay Tools"
+      ],
+      "intelligence_sources": [
+        "Google Alerts (free)",
+        "CitizenLab (paraguay)",
+        "Twitter/X API (academic)",
+        "Internet Archive",
+        "Biblioteca Nacional del Paraguay (BnP)",
+        "Archivo Nacional (Asunción)",
+        "Code for Paraguay",
+        "Paraguay Election Data",
+        "CIRD (Centro de Informacion y Recursos para el Desarrollo)",
+        "Banco de Datos de DDHH (Base IS)"
+      ],
+      "training_courses_free": [
+        "fast.ai (deep learning)",
+        "DeepLearning.AI (Andrew Ng)",
+        "Stanford CS231n/CS224n",
+        "Google Earth Engine tutorials",
+        "Hugging Face NLP course"
+      ],
+      "compute_free": [
+        "Google Colab (free + Pro)",
+        "Kaggle Notebooks (30h/week free)",
+        "Hugging Face Spaces (free)",
+        "Cloudflare Pages (free)",
+        "Vercel (free)",
+        "GitHub Student Developer Pack",
+        "AWS/Azure for Education"
+      ]
+    },
+    "total_sources": 75
+  },
+  "P0021": {
+    "title": "Mita arandu: Coding-education tutor for rural Paraguayan kids (Mojo CLI + LLM assistant)",
+    "rank": 8,
+    "data_sources": {
+      "satellite_imagery": [],
+      "elevation_models": [],
+      "land_cover_change": [],
+      "vector_open_data": [],
+      "biodiversity_data": [],
+      "climate_weather": [],
+      "paraguay_local_data": [
+        "Catastro (DGC)",
+        "INE (census + surveys)",
+        "MADES (environment)",
+        "INFONA (forestry)",
+        "ANDE (electricity)",
+        "MOPC (public works)",
+        "BCP (central bank)",
+        "MEC (education)",
+        "MSPyBS (health)",
+        "SENEPA (vector surveillance)",
+        "INBIO (agriculture)",
+        "DNCP (public procurement)",
+        "DIRECCION DEL TEATRO (cultural)",
+        "Viceministerio de Minas (mining)"
+      ],
+      "guarani_language_data": [],
+      "models_open_source": [
+        "LLaMA-3 (8B/70B)",
+        "Mistral-7B",
+        "GPT-4 / GPT-4V (OpenAI API)",
+        "Whisper (ASR)",
+        "YOLOv8 (object detection)",
+        "Detectron2 (segmentation)",
+        "TrOCR (OCR)",
+        "Tesseract (OCR)",
+        "TimesFM (TSFM)",
+        "Chronos (TSFM)",
+        "Moirai (TSFM)",
+        "PyTorch (general ML)",
+        "Hugging Face Transformers",
+        "TensorFlow",
+        "scikit-learn",
+        "LightGBM / XGBoost",
+        "AlphaFold 3",
+        "spaCy (NLP)",
+        "pyannote (diarization)"
+      ],
+      "academic_literature": [
+        "ArXiv (eprint)",
+        "SciELO (LATAM)",
+        "Semantic Scholar",
+        "Google Scholar",
+        "PubMed",
+        "Cochrane Library",
+        "PAHO IRIS"
+      ],
+      "github_repos_relevant": [
+        "paraguay-geodata",
+        "la-quebrada-viva",
+        "guarani-nlp",
+        "airops",
+        "OSM Paraguay Tools"
+      ],
+      "intelligence_sources": [
+        "Google Alerts (free)",
+        "CitizenLab (paraguay)",
+        "Twitter/X API (academic)",
+        "Internet Archive",
+        "Biblioteca Nacional del Paraguay (BnP)",
+        "Archivo Nacional (Asunción)",
+        "Code for Paraguay",
+        "Paraguay Election Data",
+        "CIRD (Centro de Informacion y Recursos para el Desarrollo)",
+        "Banco de Datos de DDHH (Base IS)"
+      ],
+      "training_courses_free": [
+        "fast.ai (deep learning)",
+        "DeepLearning.AI (Andrew Ng)",
+        "Stanford CS231n/CS224n",
+        "Google Earth Engine tutorials",
+        "Hugging Face NLP course"
+      ],
+      "compute_free": [
+        "Google Colab (free + Pro)",
+        "Kaggle Notebooks (30h/week free)",
+        "Hugging Face Spaces (free)",
+        "Cloudflare Pages (free)",
+        "Vercel (free)",
+        "GitHub Student Developer Pack",
+        "AWS/Azure for Education"
+      ]
+    },
+    "total_sources": 67
+  },
+  "P0031": {
+    "title": "Karamanu: Chagas vector heatmap (Phytoseiulus for Aedes aegypti with climate + socio ML)",
+    "rank": 9,
+    "data_sources": {
+      "satellite_imagery": [
+        "Sentinel-2 (10m, 5-day revisit)",
+        "Landsat 9 (30m, 16-day)",
+        "Planet (3m, daily)",
+        "Sentinel-1 SAR (10m, all-weather)",
+        "MODIS (250m daily)",
+        "ALOS PALSAR (25m, all-weather)",
+        "Esri HD (binary, 30cm)"
+      ],
+      "elevation_models": [],
+      "land_cover_change": [],
+      "vector_open_data": [],
+      "biodiversity_data": [],
+      "climate_weather": [
+        "WorldClim (1km, monthly)",
+        "ERA5 (Copernicus, ~25km, hourly)",
+        "CHIRPS (5km, daily precipitation)",
+        "NASA POWER (solar + wind)",
+        "GPM (precipitation, 10km hourly)"
+      ],
+      "paraguay_local_data": [],
+      "guarani_language_data": [],
+      "models_open_source": [
+        "LLaMA-3 (8B/70B)",
+        "Mistral-7B",
+        "GPT-4 / GPT-4V (OpenAI API)",
+        "Whisper (ASR)",
+        "YOLOv8 (object detection)",
+        "Detectron2 (segmentation)",
+        "TrOCR (OCR)",
+        "Tesseract (OCR)",
+        "TimesFM (TSFM)",
+        "Chronos (TSFM)",
+        "Moirai (TSFM)",
+        "PyTorch (general ML)",
+        "Hugging Face Transformers",
+        "TensorFlow",
+        "scikit-learn",
+        "LightGBM / XGBoost",
+        "AlphaFold 3",
+        "spaCy (NLP)",
+        "pyannote (diarization)"
+      ],
+      "academic_literature": [
+        "ArXiv (eprint)",
+        "SciELO (LATAM)",
+        "Semantic Scholar",
+        "Google Scholar",
+        "PubMed",
+        "Cochrane Library",
+        "PAHO IRIS"
+      ],
+      "github_repos_relevant": [],
+      "intelligence_sources": [],
+      "training_courses_free": [
+        "fast.ai (deep learning)",
+        "DeepLearning.AI (Andrew Ng)",
+        "Stanford CS231n/CS224n",
+        "Google Earth Engine tutorials",
+        "Hugging Face NLP course"
+      ],
+      "compute_free": [
+        "Google Colab (free + Pro)",
+        "Kaggle Notebooks (30h/week free)",
+        "Hugging Face Spaces (free)",
+        "Cloudflare Pages (free)",
+        "Vercel (free)",
+        "GitHub Student Developer Pack",
+        "AWS/Azure for Education"
+      ]
+    },
+    "total_sources": 50
+  },
+  "P0040": {
+    "title": "Kuatianee: OCR for Guarani historical documents from 19th-century archives",
+    "rank": 10,
+    "data_sources": {
+      "satellite_imagery": [],
+      "elevation_models": [],
+      "land_cover_change": [],
+      "vector_open_data": [],
+      "biodiversity_data": [],
+      "climate_weather": [],
+      "paraguay_local_data": [],
+      "guarani_language_data": [
+        "38 Guaraní datasets on HuggingFace",
+        "Creole/Github repos",
+        "SomosNLP Paraguayan Cultural Alignment",
+        "GuaraniTranslate (NMT)",
+        "Mozilla Common Voice Spanish+Guaraní",
+        "Parlamentario Guaraní Corpus",
+        "Biblioteca Nacional del Paraguay",
+        "Jesuitas-Guaraní Historical (1584-1767)"
+      ],
+      "models_open_source": [
+        "LLaMA-3 (8B/70B)",
+        "Mistral-7B",
+        "GPT-4 / GPT-4V (OpenAI API)",
+        "Whisper (ASR)",
+        "YOLOv8 (object detection)",
+        "Detectron2 (segmentation)",
+        "TrOCR (OCR)",
+        "Tesseract (OCR)",
+        "TimesFM (TSFM)",
+        "Chronos (TSFM)",
+        "Moirai (TSFM)",
+        "PyTorch (general ML)",
+        "Hugging Face Transformers",
+        "TensorFlow",
+        "scikit-learn",
+        "LightGBM / XGBoost",
+        "AlphaFold 3",
+        "spaCy (NLP)",
+        "pyannote (diarization)"
+      ],
+      "academic_literature": [
+        "ArXiv (eprint)",
+        "SciELO (LATAM)",
+        "Semantic Scholar",
+        "Google Scholar",
+        "PubMed",
+        "Cochrane Library",
+        "PAHO IRIS"
+      ],
+      "github_repos_relevant": [],
+      "intelligence_sources": [],
+      "training_courses_free": [
+        "fast.ai (deep learning)",
+        "DeepLearning.AI (Andrew Ng)",
+        "Stanford CS231n/CS224n",
+        "Google Earth Engine tutorials",
+        "Hugging Face NLP course"
+      ],
+      "compute_free": [
+        "Google Colab (free + Pro)",
+        "Kaggle Notebooks (30h/week free)",
+        "Hugging Face Spaces (free)",
+        "Cloudflare Pages (free)",
+        "Vercel (free)",
+        "GitHub Student Developer Pack",
+        "AWS/Azure for Education"
+      ]
+    },
+    "total_sources": 46
+  },
+  "P0055": {
+    "title": "Kany: Federated learning for clinical NLP across UNA hospitals (privacy-preserving)",
+    "rank": 11,
+    "data_sources": {
+      "satellite_imagery": [],
+      "elevation_models": [],
+      "land_cover_change": [],
+      "vector_open_data": [],
+      "biodiversity_data": [],
+      "climate_weather": [],
+      "paraguay_local_data": [],
+      "guarani_language_data": [],
+      "models_open_source": [
+        "LLaMA-3 (8B/70B)",
+        "Mistral-7B",
+        "GPT-4 / GPT-4V (OpenAI API)",
+        "Whisper (ASR)",
+        "YOLOv8 (object detection)",
+        "Detectron2 (segmentation)",
+        "TrOCR (OCR)",
+        "Tesseract (OCR)",
+        "TimesFM (TSFM)",
+        "Chronos (TSFM)",
+        "Moirai (TSFM)",
+        "PyTorch (general ML)",
+        "Hugging Face Transformers",
+        "TensorFlow",
+        "scikit-learn",
+        "LightGBM / XGBoost",
+        "AlphaFold 3",
+        "spaCy (NLP)",
+        "pyannote (diarization)"
+      ],
+      "academic_literature": [
+        "ArXiv (eprint)",
+        "SciELO (LATAM)",
+        "Semantic Scholar",
+        "Google Scholar",
+        "PubMed",
+        "Cochrane Library",
+        "PAHO IRIS"
+      ],
+      "github_repos_relevant": [],
+      "intelligence_sources": [],
+      "training_courses_free": [
+        "fast.ai (deep learning)",
+        "DeepLearning.AI (Andrew Ng)",
+        "Stanford CS231n/CS224n",
+        "Google Earth Engine tutorials",
+        "Hugging Face NLP course"
+      ],
+      "compute_free": [
+        "Google Colab (free + Pro)",
+        "Kaggle Notebooks (30h/week free)",
+        "Hugging Face Spaces (free)",
+        "Cloudflare Pages (free)",
+        "Vercel (free)",
+        "GitHub Student Developer Pack",
+        "AWS/Azure for Education"
+      ]
+    },
+    "total_sources": 38
+  },
+  "I1446": {
+    "title": "Computer vision (CNN/ResNet) for Climate change impact on agriculture at FCA",
+    "rank": 12,
+    "data_sources": {
+      "satellite_imagery": [
+        "Sentinel-2 (10m, 5-day revisit)",
+        "Landsat 9 (30m, 16-day)",
+        "Planet (3m, daily)",
+        "Sentinel-1 SAR (10m, all-weather)",
+        "MODIS (250m daily)",
+        "ALOS PALSAR (25m, all-weather)",
+        "Esri HD (binary, 30cm)"
+      ],
+      "elevation_models": [],
+      "land_cover_change": [],
+      "vector_open_data": [],
+      "biodiversity_data": [],
+      "climate_weather": [
+        "WorldClim (1km, monthly)",
+        "ERA5 (Copernicus, ~25km, hourly)",
+        "CHIRPS (5km, daily precipitation)",
+        "NASA POWER (solar + wind)",
+        "GPM (precipitation, 10km hourly)"
+      ],
+      "paraguay_local_data": [],
+      "guarani_language_data": [],
+      "models_open_source": [
+        "LLaMA-3 (8B/70B)",
+        "Mistral-7B",
+        "GPT-4 / GPT-4V (OpenAI API)",
+        "Whisper (ASR)",
+        "YOLOv8 (object detection)",
+        "Detectron2 (segmentation)",
+        "TrOCR (OCR)",
+        "Tesseract (OCR)",
+        "TimesFM (TSFM)",
+        "Chronos (TSFM)",
+        "Moirai (TSFM)",
+        "PyTorch (general ML)",
+        "Hugging Face Transformers",
+        "TensorFlow",
+        "scikit-learn",
+        "LightGBM / XGBoost",
+        "AlphaFold 3",
+        "spaCy (NLP)",
+        "pyannote (diarization)"
+      ],
+      "academic_literature": [
+        "ArXiv (eprint)",
+        "SciELO (LATAM)",
+        "Semantic Scholar",
+        "Google Scholar",
+        "PubMed",
+        "Cochrane Library",
+        "PAHO IRIS"
+      ],
+      "github_repos_relevant": [],
+      "intelligence_sources": [],
+      "training_courses_free": [
+        "fast.ai (deep learning)",
+        "DeepLearning.AI (Andrew Ng)",
+        "Stanford CS231n/CS224n",
+        "Google Earth Engine tutorials",
+        "Hugging Face NLP course"
+      ],
+      "compute_free": [
+        "Google Colab (free + Pro)",
+        "Kaggle Notebooks (30h/week free)",
+        "Hugging Face Spaces (free)",
+        "Cloudflare Pages (free)",
+        "Vercel (free)",
+        "GitHub Student Developer Pack",
+        "AWS/Azure for Education"
+      ]
+    },
+    "total_sources": 50
+  },
+  "I1471": {
+    "title": "Object detection (YOLO/Detectron2) for Climate change impact on agriculture at FCA",
+    "rank": 13,
+    "data_sources": {
+      "satellite_imagery": [
+        "Sentinel-2 (10m, 5-day revisit)",
+        "Landsat 9 (30m, 16-day)",
+        "Planet (3m, daily)",
+        "Sentinel-1 SAR (10m, all-weather)",
+        "MODIS (250m daily)",
+        "ALOS PALSAR (25m, all-weather)",
+        "Esri HD (binary, 30cm)"
+      ],
+      "elevation_models": [],
+      "land_cover_change": [],
+      "vector_open_data": [],
+      "biodiversity_data": [],
+      "climate_weather": [
+        "WorldClim (1km, monthly)",
+        "ERA5 (Copernicus, ~25km, hourly)",
+        "CHIRPS (5km, daily precipitation)",
+        "NASA POWER (solar + wind)",
+        "GPM (precipitation, 10km hourly)"
+      ],
+      "paraguay_local_data": [],
+      "guarani_language_data": [],
+      "models_open_source": [
+        "LLaMA-3 (8B/70B)",
+        "Mistral-7B",
+        "GPT-4 / GPT-4V (OpenAI API)",
+        "Whisper (ASR)",
+        "YOLOv8 (object detection)",
+        "Detectron2 (segmentation)",
+        "TrOCR (OCR)",
+        "Tesseract (OCR)",
+        "TimesFM (TSFM)",
+        "Chronos (TSFM)",
+        "Moirai (TSFM)",
+        "PyTorch (general ML)",
+        "Hugging Face Transformers",
+        "TensorFlow",
+        "scikit-learn",
+        "LightGBM / XGBoost",
+        "AlphaFold 3",
+        "spaCy (NLP)",
+        "pyannote (diarization)"
+      ],
+      "academic_literature": [
+        "ArXiv (eprint)",
+        "SciELO (LATAM)",
+        "Semantic Scholar",
+        "Google Scholar",
+        "PubMed",
+        "Cochrane Library",
+        "PAHO IRIS"
+      ],
+      "github_repos_relevant": [],
+      "intelligence_sources": [],
+      "training_courses_free": [
+        "fast.ai (deep learning)",
+        "DeepLearning.AI (Andrew Ng)",
+        "Stanford CS231n/CS224n",
+        "Google Earth Engine tutorials",
+        "Hugging Face NLP course"
+      ],
+      "compute_free": [
+        "Google Colab (free + Pro)",
+        "Kaggle Notebooks (30h/week free)",
+        "Hugging Face Spaces (free)",
+        "Cloudflare Pages (free)",
+        "Vercel (free)",
+        "GitHub Student Developer Pack",
+        "AWS/Azure for Education"
+      ]
+    },
+    "total_sources": 50
+  },
+  "I1621": {
+    "title": "Pose estimation for Climate change impact on agriculture at FCA",
+    "rank": 14,
+    "data_sources": {
+      "satellite_imagery": [
+        "Sentinel-2 (10m, 5-day revisit)",
+        "Landsat 9 (30m, 16-day)",
+        "Planet (3m, daily)",
+        "Sentinel-1 SAR (10m, all-weather)",
+        "MODIS (250m daily)",
+        "ALOS PALSAR (25m, all-weather)",
+        "Esri HD (binary, 30cm)"
+      ],
+      "elevation_models": [],
+      "land_cover_change": [],
+      "vector_open_data": [],
+      "biodiversity_data": [],
+      "climate_weather": [
+        "WorldClim (1km, monthly)",
+        "ERA5 (Copernicus, ~25km, hourly)",
+        "CHIRPS (5km, daily precipitation)",
+        "NASA POWER (solar + wind)",
+        "GPM (precipitation, 10km hourly)"
+      ],
+      "paraguay_local_data": [],
+      "guarani_language_data": [],
+      "models_open_source": [
+        "LLaMA-3 (8B/70B)",
+        "Mistral-7B",
+        "GPT-4 / GPT-4V (OpenAI API)",
+        "Whisper (ASR)",
+        "YOLOv8 (object detection)",
+        "Detectron2 (segmentation)",
+        "TrOCR (OCR)",
+        "Tesseract (OCR)",
+        "TimesFM (TSFM)",
+        "Chronos (TSFM)",
+        "Moirai (TSFM)",
+        "PyTorch (general ML)",
+        "Hugging Face Transformers",
+        "TensorFlow",
+        "scikit-learn",
+        "LightGBM / XGBoost",
+        "AlphaFold 3",
+        "spaCy (NLP)",
+        "pyannote (diarization)"
+      ],
+      "academic_literature": [
+        "ArXiv (eprint)",
+        "SciELO (LATAM)",
+        "Semantic Scholar",
+        "Google Scholar",
+        "PubMed",
+        "Cochrane Library",
+        "PAHO IRIS"
+      ],
+      "github_repos_relevant": [],
+      "intelligence_sources": [],
+      "training_courses_free": [
+        "fast.ai (deep learning)",
+        "DeepLearning.AI (Andrew Ng)",
+        "Stanford CS231n/CS224n",
+        "Google Earth Engine tutorials",
+        "Hugging Face NLP course"
+      ],
+      "compute_free": [
+        "Google Colab (free + Pro)",
+        "Kaggle Notebooks (30h/week free)",
+        "Hugging Face Spaces (free)",
+        "Cloudflare Pages (free)",
+        "Vercel (free)",
+        "GitHub Student Developer Pack",
+        "AWS/Azure for Education"
+      ]
+    },
+    "total_sources": 50
+  },
+  "I1646": {
+    "title": "Image generation (diffusion/GAN) for Climate change impact on agriculture at FCA",
+    "rank": 15,
+    "data_sources": {
+      "satellite_imagery": [
+        "Sentinel-2 (10m, 5-day revisit)",
+        "Landsat 9 (30m, 16-day)",
+        "Planet (3m, daily)",
+        "Sentinel-1 SAR (10m, all-weather)",
+        "MODIS (250m daily)",
+        "ALOS PALSAR (25m, all-weather)",
+        "Esri HD (binary, 30cm)"
+      ],
+      "elevation_models": [],
+      "land_cover_change": [],
+      "vector_open_data": [],
+      "biodiversity_data": [],
+      "climate_weather": [
+        "WorldClim (1km, monthly)",
+        "ERA5 (Copernicus, ~25km, hourly)",
+        "CHIRPS (5km, daily precipitation)",
+        "NASA POWER (solar + wind)",
+        "GPM (precipitation, 10km hourly)"
+      ],
+      "paraguay_local_data": [],
+      "guarani_language_data": [],
+      "models_open_source": [
+        "LLaMA-3 (8B/70B)",
+        "Mistral-7B",
+        "GPT-4 / GPT-4V (OpenAI API)",
+        "Whisper (ASR)",
+        "YOLOv8 (object detection)",
+        "Detectron2 (segmentation)",
+        "TrOCR (OCR)",
+        "Tesseract (OCR)",
+        "TimesFM (TSFM)",
+        "Chronos (TSFM)",
+        "Moirai (TSFM)",
+        "PyTorch (general ML)",
+        "Hugging Face Transformers",
+        "TensorFlow",
+        "scikit-learn",
+        "LightGBM / XGBoost",
+        "AlphaFold 3",
+        "spaCy (NLP)",
+        "pyannote (diarization)"
+      ],
+      "academic_literature": [
+        "ArXiv (eprint)",
+        "SciELO (LATAM)",
+        "Semantic Scholar",
+        "Google Scholar",
+        "PubMed",
+        "Cochrane Library",
+        "PAHO IRIS"
+      ],
+      "github_repos_relevant": [],
+      "intelligence_sources": [],
+      "training_courses_free": [
+        "fast.ai (deep learning)",
+        "DeepLearning.AI (Andrew Ng)",
+        "Stanford CS231n/CS224n",
+        "Google Earth Engine tutorials",
+        "Hugging Face NLP course"
+      ],
+      "compute_free": [
+        "Google Colab (free + Pro)",
+        "Kaggle Notebooks (30h/week free)",
+        "Hugging Face Spaces (free)",
+        "Cloudflare Pages (free)",
+        "Vercel (free)",
+        "GitHub Student Developer Pack",
+        "AWS/Azure for Education"
+      ]
+    },
+    "total_sources": 50
+  },
+  "I1521": {
+    "title": "Spectral image analysis (satellite) for Climate change impact on agriculture at FCA",
+    "rank": 16,
+    "data_sources": {
+      "satellite_imagery": [
+        "Sentinel-2 (10m, 5-day revisit)",
+        "Landsat 9 (30m, 16-day)",
+        "Planet (3m, daily)",
+        "Sentinel-1 SAR (10m, all-weather)",
+        "MODIS (250m daily)",
+        "ALOS PALSAR (25m, all-weather)",
+        "Esri HD (binary, 30cm)"
+      ],
+      "elevation_models": [],
+      "land_cover_change": [],
+      "vector_open_data": [],
+      "biodiversity_data": [],
+      "climate_weather": [
+        "WorldClim (1km, monthly)",
+        "ERA5 (Copernicus, ~25km, hourly)",
+        "CHIRPS (5km, daily precipitation)",
+        "NASA POWER (solar + wind)",
+        "GPM (precipitation, 10km hourly)"
+      ],
+      "paraguay_local_data": [],
+      "guarani_language_data": [],
+      "models_open_source": [
+        "LLaMA-3 (8B/70B)",
+        "Mistral-7B",
+        "GPT-4 / GPT-4V (OpenAI API)",
+        "Whisper (ASR)",
+        "YOLOv8 (object detection)",
+        "Detectron2 (segmentation)",
+        "TrOCR (OCR)",
+        "Tesseract (OCR)",
+        "TimesFM (TSFM)",
+        "Chronos (TSFM)",
+        "Moirai (TSFM)",
+        "PyTorch (general ML)",
+        "Hugging Face Transformers",
+        "TensorFlow",
+        "scikit-learn",
+        "LightGBM / XGBoost",
+        "AlphaFold 3",
+        "spaCy (NLP)",
+        "pyannote (diarization)"
+      ],
+      "academic_literature": [
+        "ArXiv (eprint)",
+        "SciELO (LATAM)",
+        "Semantic Scholar",
+        "Google Scholar",
+        "PubMed",
+        "Cochrane Library",
+        "PAHO IRIS"
+      ],
+      "github_repos_relevant": [
+        "paraguay-geodata",
+        "la-quebrada-viva",
+        "guarani-nlp",
+        "airops",
+        "OSM Paraguay Tools"
+      ],
+      "intelligence_sources": [],
+      "training_courses_free": [
+        "fast.ai (deep learning)",
+        "DeepLearning.AI (Andrew Ng)",
+        "Stanford CS231n/CS224n",
+        "Google Earth Engine tutorials",
+        "Hugging Face NLP course"
+      ],
+      "compute_free": [
+        "Google Colab (free + Pro)",
+        "Kaggle Notebooks (30h/week free)",
+        "Hugging Face Spaces (free)",
+        "Cloudflare Pages (free)",
+        "Vercel (free)",
+        "GitHub Student Developer Pack",
+        "AWS/Azure for Education"
+      ]
+    },
+    "total_sources": 55
+  },
+  "I1546": {
+    "title": "Optical character recognition (OCR) for Climate change impact on agriculture at FCA",
+    "rank": 17,
+    "data_sources": {
+      "satellite_imagery": [
+        "Sentinel-2 (10m, 5-day revisit)",
+        "Landsat 9 (30m, 16-day)",
+        "Planet (3m, daily)",
+        "Sentinel-1 SAR (10m, all-weather)",
+        "MODIS (250m daily)",
+        "ALOS PALSAR (25m, all-weather)",
+        "Esri HD (binary, 30cm)"
+      ],
+      "elevation_models": [],
+      "land_cover_change": [],
+      "vector_open_data": [],
+      "biodiversity_data": [],
+      "climate_weather": [
+        "WorldClim (1km, monthly)",
+        "ERA5 (Copernicus, ~25km, hourly)",
+        "CHIRPS (5km, daily precipitation)",
+        "NASA POWER (solar + wind)",
+        "GPM (precipitation, 10km hourly)"
+      ],
+      "paraguay_local_data": [],
+      "guarani_language_data": [
+        "38 Guaraní datasets on HuggingFace",
+        "Creole/Github repos",
+        "SomosNLP Paraguayan Cultural Alignment",
+        "GuaraniTranslate (NMT)",
+        "Mozilla Common Voice Spanish+Guaraní",
+        "Parlamentario Guaraní Corpus",
+        "Biblioteca Nacional del Paraguay",
+        "Jesuitas-Guaraní Historical (1584-1767)"
+      ],
+      "models_open_source": [
+        "LLaMA-3 (8B/70B)",
+        "Mistral-7B",
+        "GPT-4 / GPT-4V (OpenAI API)",
+        "Whisper (ASR)",
+        "YOLOv8 (object detection)",
+        "Detectron2 (segmentation)",
+        "TrOCR (OCR)",
+        "Tesseract (OCR)",
+        "TimesFM (TSFM)",
+        "Chronos (TSFM)",
+        "Moirai (TSFM)",
+        "PyTorch (general ML)",
+        "Hugging Face Transformers",
+        "TensorFlow",
+        "scikit-learn",
+        "LightGBM / XGBoost",
+        "AlphaFold 3",
+        "spaCy (NLP)",
+        "pyannote (diarization)"
+      ],
+      "academic_literature": [
+        "ArXiv (eprint)",
+        "SciELO (LATAM)",
+        "Semantic Scholar",
+        "Google Scholar",
+        "PubMed",
+        "Cochrane Library",
+        "PAHO IRIS"
+      ],
+      "github_repos_relevant": [],
+      "intelligence_sources": [],
+      "training_courses_free": [
+        "fast.ai (deep learning)",
+        "DeepLearning.AI (Andrew Ng)",
+        "Stanford CS231n/CS224n",
+        "Google Earth Engine tutorials",
+        "Hugging Face NLP course"
+      ],
+      "compute_free": [
+        "Google Colab (free + Pro)",
+        "Kaggle Notebooks (30h/week free)",
+        "Hugging Face Spaces (free)",
+        "Cloudflare Pages (free)",
+        "Vercel (free)",
+        "GitHub Student Developer Pack",
+        "AWS/Azure for Education"
+      ]
+    },
+    "total_sources": 58
+  },
+  "I1571": {
+    "title": "Face recognition for Climate change impact on agriculture at FCA",
+    "rank": 18,
+    "data_sources": {
+      "satellite_imagery": [
+        "Sentinel-2 (10m, 5-day revisit)",
+        "Landsat 9 (30m, 16-day)",
+        "Planet (3m, daily)",
+        "Sentinel-1 SAR (10m, all-weather)",
+        "MODIS (250m daily)",
+        "ALOS PALSAR (25m, all-weather)",
+        "Esri HD (binary, 30cm)"
+      ],
+      "elevation_models": [],
+      "land_cover_change": [],
+      "vector_open_data": [],
+      "biodiversity_data": [],
+      "climate_weather": [
+        "WorldClim (1km, monthly)",
+        "ERA5 (Copernicus, ~25km, hourly)",
+        "CHIRPS (5km, daily precipitation)",
+        "NASA POWER (solar + wind)",
+        "GPM (precipitation, 10km hourly)"
+      ],
+      "paraguay_local_data": [],
+      "guarani_language_data": [],
+      "models_open_source": [
+        "LLaMA-3 (8B/70B)",
+        "Mistral-7B",
+        "GPT-4 / GPT-4V (OpenAI API)",
+        "Whisper (ASR)",
+        "YOLOv8 (object detection)",
+        "Detectron2 (segmentation)",
+        "TrOCR (OCR)",
+        "Tesseract (OCR)",
+        "TimesFM (TSFM)",
+        "Chronos (TSFM)",
+        "Moirai (TSFM)",
+        "PyTorch (general ML)",
+        "Hugging Face Transformers",
+        "TensorFlow",
+        "scikit-learn",
+        "LightGBM / XGBoost",
+        "AlphaFold 3",
+        "spaCy (NLP)",
+        "pyannote (diarization)"
+      ],
+      "academic_literature": [
+        "ArXiv (eprint)",
+        "SciELO (LATAM)",
+        "Semantic Scholar",
+        "Google Scholar",
+        "PubMed",
+        "Cochrane Library",
+        "PAHO IRIS"
+      ],
+      "github_repos_relevant": [],
+      "intelligence_sources": [],
+      "training_courses_free": [
+        "fast.ai (deep learning)",
+        "DeepLearning.AI (Andrew Ng)",
+        "Stanford CS231n/CS224n",
+        "Google Earth Engine tutorials",
+        "Hugging Face NLP course"
+      ],
+      "compute_free": [
+        "Google Colab (free + Pro)",
+        "Kaggle Notebooks (30h/week free)",
+        "Hugging Face Spaces (free)",
+        "Cloudflare Pages (free)",
+        "Vercel (free)",
+        "GitHub Student Developer Pack",
+        "AWS/Azure for Education"
+      ]
+    },
+    "total_sources": 50
+  },
+  "I1437": {
+    "title": "Computer vision (CNN/ResNet) for Deforestation monitoring (Chaco) at FCA",
+    "rank": 19,
+    "data_sources": {
+      "satellite_imagery": [
+        "Sentinel-2 (10m, 5-day revisit)",
+        "Landsat 9 (30m, 16-day)",
+        "Planet (3m, daily)",
+        "Sentinel-1 SAR (10m, all-weather)",
+        "MODIS (250m daily)",
+        "ALOS PALSAR (25m, all-weather)",
+        "Esri HD (binary, 30cm)"
+      ],
+      "elevation_models": [],
+      "land_cover_change": [
+        "MapBiomas Paraguay (30m, 1985-2024)",
+        "Hansen GFC (30m, 2000-2024)",
+        "ESA WorldCover (10m, 2020/2021)",
+        "GLAD alerts (30m, weekly)"
+      ],
+      "vector_open_data": [],
+      "biodiversity_data": [],
+      "climate_weather": [],
+      "paraguay_local_data": [
+        "Catastro (DGC)",
+        "INE (census + surveys)",
+        "MADES (environment)",
+        "INFONA (forestry)",
+        "ANDE (electricity)",
+        "MOPC (public works)",
+        "BCP (central bank)",
+        "MEC (education)",
+        "MSPyBS (health)",
+        "SENEPA (vector surveillance)",
+        "INBIO (agriculture)",
+        "DNCP (public procurement)",
+        "DIRECCION DEL TEATRO (cultural)",
+        "Viceministerio de Minas (mining)"
+      ],
+      "guarani_language_data": [],
+      "models_open_source": [
+        "LLaMA-3 (8B/70B)",
+        "Mistral-7B",
+        "GPT-4 / GPT-4V (OpenAI API)",
+        "Whisper (ASR)",
+        "YOLOv8 (object detection)",
+        "Detectron2 (segmentation)",
+        "TrOCR (OCR)",
+        "Tesseract (OCR)",
+        "TimesFM (TSFM)",
+        "Chronos (TSFM)",
+        "Moirai (TSFM)",
+        "PyTorch (general ML)",
+        "Hugging Face Transformers",
+        "TensorFlow",
+        "scikit-learn",
+        "LightGBM / XGBoost",
+        "AlphaFold 3",
+        "spaCy (NLP)",
+        "pyannote (diarization)"
+      ],
+      "academic_literature": [
+        "ArXiv (eprint)",
+        "SciELO (LATAM)",
+        "Semantic Scholar",
+        "Google Scholar",
+        "PubMed",
+        "Cochrane Library",
+        "PAHO IRIS"
+      ],
+      "github_repos_relevant": [
+        "paraguay-geodata",
+        "la-quebrada-viva",
+        "guarani-nlp",
+        "airops",
+        "OSM Paraguay Tools"
+      ],
+      "intelligence_sources": [],
+      "training_courses_free": [
+        "fast.ai (deep learning)",
+        "DeepLearning.AI (Andrew Ng)",
+        "Stanford CS231n/CS224n",
+        "Google Earth Engine tutorials",
+        "Hugging Face NLP course"
+      ],
+      "compute_free": [
+        "Google Colab (free + Pro)",
+        "Kaggle Notebooks (30h/week free)",
+        "Hugging Face Spaces (free)",
+        "Cloudflare Pages (free)",
+        "Vercel (free)",
+        "GitHub Student Developer Pack",
+        "AWS/Azure for Education"
+      ]
+    },
+    "total_sources": 68
+  },
+  "I1462": {
+    "title": "Object detection (YOLO/Detectron2) for Deforestation monitoring (Chaco) at FCA",
+    "rank": 20,
+    "data_sources": {
+      "satellite_imagery": [
+        "Sentinel-2 (10m, 5-day revisit)",
+        "Landsat 9 (30m, 16-day)",
+        "Planet (3m, daily)",
+        "Sentinel-1 SAR (10m, all-weather)",
+        "MODIS (250m daily)",
+        "ALOS PALSAR (25m, all-weather)",
+        "Esri HD (binary, 30cm)"
+      ],
+      "elevation_models": [],
+      "land_cover_change": [
+        "MapBiomas Paraguay (30m, 1985-2024)",
+        "Hansen GFC (30m, 2000-2024)",
+        "ESA WorldCover (10m, 2020/2021)",
+        "GLAD alerts (30m, weekly)"
+      ],
+      "vector_open_data": [],
+      "biodiversity_data": [],
+      "climate_weather": [],
+      "paraguay_local_data": [
+        "Catastro (DGC)",
+        "INE (census + surveys)",
+        "MADES (environment)",
+        "INFONA (forestry)",
+        "ANDE (electricity)",
+        "MOPC (public works)",
+        "BCP (central bank)",
+        "MEC (education)",
+        "MSPyBS (health)",
+        "SENEPA (vector surveillance)",
+        "INBIO (agriculture)",
+        "DNCP (public procurement)",
+        "DIRECCION DEL TEATRO (cultural)",
+        "Viceministerio de Minas (mining)"
+      ],
+      "guarani_language_data": [],
+      "models_open_source": [
+        "LLaMA-3 (8B/70B)",
+        "Mistral-7B",
+        "GPT-4 / GPT-4V (OpenAI API)",
+        "Whisper (ASR)",
+        "YOLOv8 (object detection)",
+        "Detectron2 (segmentation)",
+        "TrOCR (OCR)",
+        "Tesseract (OCR)",
+        "TimesFM (TSFM)",
+        "Chronos (TSFM)",
+        "Moirai (TSFM)",
+        "PyTorch (general ML)",
+        "Hugging Face Transformers",
+        "TensorFlow",
+        "scikit-learn",
+        "LightGBM / XGBoost",
+        "AlphaFold 3",
+        "spaCy (NLP)",
+        "pyannote (diarization)"
+      ],
+      "academic_literature": [
+        "ArXiv (eprint)",
+        "SciELO (LATAM)",
+        "Semantic Scholar",
+        "Google Scholar",
+        "PubMed",
+        "Cochrane Library",
+        "PAHO IRIS"
+      ],
+      "github_repos_relevant": [
+        "paraguay-geodata",
+        "la-quebrada-viva",
+        "guarani-nlp",
+        "airops",
+        "OSM Paraguay Tools"
+      ],
+      "intelligence_sources": [],
+      "training_courses_free": [
+        "fast.ai (deep learning)",
+        "DeepLearning.AI (Andrew Ng)",
+        "Stanford CS231n/CS224n",
+        "Google Earth Engine tutorials",
+        "Hugging Face NLP course"
+      ],
+      "compute_free": [
+        "Google Colab (free + Pro)",
+        "Kaggle Notebooks (30h/week free)",
+        "Hugging Face Spaces (free)",
+        "Cloudflare Pages (free)",
+        "Vercel (free)",
+        "GitHub Student Developer Pack",
+        "AWS/Azure for Education"
+      ]
+    },
+    "total_sources": 68
+  },
+  "I1612": {
+    "title": "Pose estimation for Deforestation monitoring (Chaco) at FCA",
+    "rank": 21,
+    "data_sources": {
+      "satellite_imagery": [
+        "Sentinel-2 (10m, 5-day revisit)",
+        "Landsat 9 (30m, 16-day)",
+        "Planet (3m, daily)",
+        "Sentinel-1 SAR (10m, all-weather)",
+        "MODIS (250m daily)",
+        "ALOS PALSAR (25m, all-weather)",
+        "Esri HD (binary, 30cm)"
+      ],
+      "elevation_models": [],
+      "land_cover_change": [
+        "MapBiomas Paraguay (30m, 1985-2024)",
+        "Hansen GFC (30m, 2000-2024)",
+        "ESA WorldCover (10m, 2020/2021)",
+        "GLAD alerts (30m, weekly)"
+      ],
+      "vector_open_data": [],
+      "biodiversity_data": [],
+      "climate_weather": [],
+      "paraguay_local_data": [
+        "Catastro (DGC)",
+        "INE (census + surveys)",
+        "MADES (environment)",
+        "INFONA (forestry)",
+        "ANDE (electricity)",
+        "MOPC (public works)",
+        "BCP (central bank)",
+        "MEC (education)",
+        "MSPyBS (health)",
+        "SENEPA (vector surveillance)",
+        "INBIO (agriculture)",
+        "DNCP (public procurement)",
+        "DIRECCION DEL TEATRO (cultural)",
+        "Viceministerio de Minas (mining)"
+      ],
+      "guarani_language_data": [],
+      "models_open_source": [
+        "LLaMA-3 (8B/70B)",
+        "Mistral-7B",
+        "GPT-4 / GPT-4V (OpenAI API)",
+        "Whisper (ASR)",
+        "YOLOv8 (object detection)",
+        "Detectron2 (segmentation)",
+        "TrOCR (OCR)",
+        "Tesseract (OCR)",
+        "TimesFM (TSFM)",
+        "Chronos (TSFM)",
+        "Moirai (TSFM)",
+        "PyTorch (general ML)",
+        "Hugging Face Transformers",
+        "TensorFlow",
+        "scikit-learn",
+        "LightGBM / XGBoost",
+        "AlphaFold 3",
+        "spaCy (NLP)",
+        "pyannote (diarization)"
+      ],
+      "academic_literature": [
+        "ArXiv (eprint)",
+        "SciELO (LATAM)",
+        "Semantic Scholar",
+        "Google Scholar",
+        "PubMed",
+        "Cochrane Library",
+        "PAHO IRIS"
+      ],
+      "github_repos_relevant": [
+        "paraguay-geodata",
+        "la-quebrada-viva",
+        "guarani-nlp",
+        "airops",
+        "OSM Paraguay Tools"
+      ],
+      "intelligence_sources": [],
+      "training_courses_free": [
+        "fast.ai (deep learning)",
+        "DeepLearning.AI (Andrew Ng)",
+        "Stanford CS231n/CS224n",
+        "Google Earth Engine tutorials",
+        "Hugging Face NLP course"
+      ],
+      "compute_free": [
+        "Google Colab (free + Pro)",
+        "Kaggle Notebooks (30h/week free)",
+        "Hugging Face Spaces (free)",
+        "Cloudflare Pages (free)",
+        "Vercel (free)",
+        "GitHub Student Developer Pack",
+        "AWS/Azure for Education"
+      ]
+    },
+    "total_sources": 68
+  },
+  "I1637": {
+    "title": "Image generation (diffusion/GAN) for Deforestation monitoring (Chaco) at FCA",
+    "rank": 22,
+    "data_sources": {
+      "satellite_imagery": [
+        "Sentinel-2 (10m, 5-day revisit)",
+        "Landsat 9 (30m, 16-day)",
+        "Planet (3m, daily)",
+        "Sentinel-1 SAR (10m, all-weather)",
+        "MODIS (250m daily)",
+        "ALOS PALSAR (25m, all-weather)",
+        "Esri HD (binary, 30cm)"
+      ],
+      "elevation_models": [],
+      "land_cover_change": [
+        "MapBiomas Paraguay (30m, 1985-2024)",
+        "Hansen GFC (30m, 2000-2024)",
+        "ESA WorldCover (10m, 2020/2021)",
+        "GLAD alerts (30m, weekly)"
+      ],
+      "vector_open_data": [],
+      "biodiversity_data": [],
+      "climate_weather": [],
+      "paraguay_local_data": [
+        "Catastro (DGC)",
+        "INE (census + surveys)",
+        "MADES (environment)",
+        "INFONA (forestry)",
+        "ANDE (electricity)",
+        "MOPC (public works)",
+        "BCP (central bank)",
+        "MEC (education)",
+        "MSPyBS (health)",
+        "SENEPA (vector surveillance)",
+        "INBIO (agriculture)",
+        "DNCP (public procurement)",
+        "DIRECCION DEL TEATRO (cultural)",
+        "Viceministerio de Minas (mining)"
+      ],
+      "guarani_language_data": [],
+      "models_open_source": [
+        "LLaMA-3 (8B/70B)",
+        "Mistral-7B",
+        "GPT-4 / GPT-4V (OpenAI API)",
+        "Whisper (ASR)",
+        "YOLOv8 (object detection)",
+        "Detectron2 (segmentation)",
+        "TrOCR (OCR)",
+        "Tesseract (OCR)",
+        "TimesFM (TSFM)",
+        "Chronos (TSFM)",
+        "Moirai (TSFM)",
+        "PyTorch (general ML)",
+        "Hugging Face Transformers",
+        "TensorFlow",
+        "scikit-learn",
+        "LightGBM / XGBoost",
+        "AlphaFold 3",
+        "spaCy (NLP)",
+        "pyannote (diarization)"
+      ],
+      "academic_literature": [
+        "ArXiv (eprint)",
+        "SciELO (LATAM)",
+        "Semantic Scholar",
+        "Google Scholar",
+        "PubMed",
+        "Cochrane Library",
+        "PAHO IRIS"
+      ],
+      "github_repos_relevant": [
+        "paraguay-geodata",
+        "la-quebrada-viva",
+        "guarani-nlp",
+        "airops",
+        "OSM Paraguay Tools"
+      ],
+      "intelligence_sources": [],
+      "training_courses_free": [
+        "fast.ai (deep learning)",
+        "DeepLearning.AI (Andrew Ng)",
+        "Stanford CS231n/CS224n",
+        "Google Earth Engine tutorials",
+        "Hugging Face NLP course"
+      ],
+      "compute_free": [
+        "Google Colab (free + Pro)",
+        "Kaggle Notebooks (30h/week free)",
+        "Hugging Face Spaces (free)",
+        "Cloudflare Pages (free)",
+        "Vercel (free)",
+        "GitHub Student Developer Pack",
+        "AWS/Azure for Education"
+      ]
+    },
+    "total_sources": 68
+  },
+  "I1512": {
+    "title": "Spectral image analysis (satellite) for Deforestation monitoring (Chaco) at FCA",
+    "rank": 23,
+    "data_sources": {
+      "satellite_imagery": [
+        "Sentinel-2 (10m, 5-day revisit)",
+        "Landsat 9 (30m, 16-day)",
+        "Planet (3m, daily)",
+        "Sentinel-1 SAR (10m, all-weather)",
+        "MODIS (250m daily)",
+        "ALOS PALSAR (25m, all-weather)",
+        "Esri HD (binary, 30cm)"
+      ],
+      "elevation_models": [],
+      "land_cover_change": [
+        "MapBiomas Paraguay (30m, 1985-2024)",
+        "Hansen GFC (30m, 2000-2024)",
+        "ESA WorldCover (10m, 2020/2021)",
+        "GLAD alerts (30m, weekly)"
+      ],
+      "vector_open_data": [],
+      "biodiversity_data": [],
+      "climate_weather": [],
+      "paraguay_local_data": [
+        "Catastro (DGC)",
+        "INE (census + surveys)",
+        "MADES (environment)",
+        "INFONA (forestry)",
+        "ANDE (electricity)",
+        "MOPC (public works)",
+        "BCP (central bank)",
+        "MEC (education)",
+        "MSPyBS (health)",
+        "SENEPA (vector surveillance)",
+        "INBIO (agriculture)",
+        "DNCP (public procurement)",
+        "DIRECCION DEL TEATRO (cultural)",
+        "Viceministerio de Minas (mining)"
+      ],
+      "guarani_language_data": [],
+      "models_open_source": [
+        "LLaMA-3 (8B/70B)",
+        "Mistral-7B",
+        "GPT-4 / GPT-4V (OpenAI API)",
+        "Whisper (ASR)",
+        "YOLOv8 (object detection)",
+        "Detectron2 (segmentation)",
+        "TrOCR (OCR)",
+        "Tesseract (OCR)",
+        "TimesFM (TSFM)",
+        "Chronos (TSFM)",
+        "Moirai (TSFM)",
+        "PyTorch (general ML)",
+        "Hugging Face Transformers",
+        "TensorFlow",
+        "scikit-learn",
+        "LightGBM / XGBoost",
+        "AlphaFold 3",
+        "spaCy (NLP)",
+        "pyannote (diarization)"
+      ],
+      "academic_literature": [
+        "ArXiv (eprint)",
+        "SciELO (LATAM)",
+        "Semantic Scholar",
+        "Google Scholar",
+        "PubMed",
+        "Cochrane Library",
+        "PAHO IRIS"
+      ],
+      "github_repos_relevant": [
+        "paraguay-geodata",
+        "la-quebrada-viva",
+        "guarani-nlp",
+        "airops",
+        "OSM Paraguay Tools"
+      ],
+      "intelligence_sources": [],
+      "training_courses_free": [
+        "fast.ai (deep learning)",
+        "DeepLearning.AI (Andrew Ng)",
+        "Stanford CS231n/CS224n",
+        "Google Earth Engine tutorials",
+        "Hugging Face NLP course"
+      ],
+      "compute_free": [
+        "Google Colab (free + Pro)",
+        "Kaggle Notebooks (30h/week free)",
+        "Hugging Face Spaces (free)",
+        "Cloudflare Pages (free)",
+        "Vercel (free)",
+        "GitHub Student Developer Pack",
+        "AWS/Azure for Education"
+      ]
+    },
+    "total_sources": 68
+  },
+  "I1537": {
+    "title": "Optical character recognition (OCR) for Deforestation monitoring (Chaco) at FCA",
+    "rank": 24,
+    "data_sources": {
+      "satellite_imagery": [
+        "Sentinel-2 (10m, 5-day revisit)",
+        "Landsat 9 (30m, 16-day)",
+        "Planet (3m, daily)",
+        "Sentinel-1 SAR (10m, all-weather)",
+        "MODIS (250m daily)",
+        "ALOS PALSAR (25m, all-weather)",
+        "Esri HD (binary, 30cm)"
+      ],
+      "elevation_models": [],
+      "land_cover_change": [
+        "MapBiomas Paraguay (30m, 1985-2024)",
+        "Hansen GFC (30m, 2000-2024)",
+        "ESA WorldCover (10m, 2020/2021)",
+        "GLAD alerts (30m, weekly)"
+      ],
+      "vector_open_data": [],
+      "biodiversity_data": [],
+      "climate_weather": [],
+      "paraguay_local_data": [
+        "Catastro (DGC)",
+        "INE (census + surveys)",
+        "MADES (environment)",
+        "INFONA (forestry)",
+        "ANDE (electricity)",
+        "MOPC (public works)",
+        "BCP (central bank)",
+        "MEC (education)",
+        "MSPyBS (health)",
+        "SENEPA (vector surveillance)",
+        "INBIO (agriculture)",
+        "DNCP (public procurement)",
+        "DIRECCION DEL TEATRO (cultural)",
+        "Viceministerio de Minas (mining)"
+      ],
+      "guarani_language_data": [
+        "38 Guaraní datasets on HuggingFace",
+        "Creole/Github repos",
+        "SomosNLP Paraguayan Cultural Alignment",
+        "GuaraniTranslate (NMT)",
+        "Mozilla Common Voice Spanish+Guaraní",
+        "Parlamentario Guaraní Corpus",
+        "Biblioteca Nacional del Paraguay",
+        "Jesuitas-Guaraní Historical (1584-1767)"
+      ],
+      "models_open_source": [
+        "LLaMA-3 (8B/70B)",
+        "Mistral-7B",
+        "GPT-4 / GPT-4V (OpenAI API)",
+        "Whisper (ASR)",
+        "YOLOv8 (object detection)",
+        "Detectron2 (segmentation)",
+        "TrOCR (OCR)",
+        "Tesseract (OCR)",
+        "TimesFM (TSFM)",
+        "Chronos (TSFM)",
+        "Moirai (TSFM)",
+        "PyTorch (general ML)",
+        "Hugging Face Transformers",
+        "TensorFlow",
+        "scikit-learn",
+        "LightGBM / XGBoost",
+        "AlphaFold 3",
+        "spaCy (NLP)",
+        "pyannote (diarization)"
+      ],
+      "academic_literature": [
+        "ArXiv (eprint)",
+        "SciELO (LATAM)",
+        "Semantic Scholar",
+        "Google Scholar",
+        "PubMed",
+        "Cochrane Library",
+        "PAHO IRIS"
+      ],
+      "github_repos_relevant": [
+        "paraguay-geodata",
+        "la-quebrada-viva",
+        "guarani-nlp",
+        "airops",
+        "OSM Paraguay Tools"
+      ],
+      "intelligence_sources": [],
+      "training_courses_free": [
+        "fast.ai (deep learning)",
+        "DeepLearning.AI (Andrew Ng)",
+        "Stanford CS231n/CS224n",
+        "Google Earth Engine tutorials",
+        "Hugging Face NLP course"
+      ],
+      "compute_free": [
+        "Google Colab (free + Pro)",
+        "Kaggle Notebooks (30h/week free)",
+        "Hugging Face Spaces (free)",
+        "Cloudflare Pages (free)",
+        "Vercel (free)",
+        "GitHub Student Developer Pack",
+        "AWS/Azure for Education"
+      ]
+    },
+    "total_sources": 76
+  },
+  "I1562": {
+    "title": "Face recognition for Deforestation monitoring (Chaco) at FCA",
+    "rank": 25,
+    "data_sources": {
+      "satellite_imagery": [
+        "Sentinel-2 (10m, 5-day revisit)",
+        "Landsat 9 (30m, 16-day)",
+        "Planet (3m, daily)",
+        "Sentinel-1 SAR (10m, all-weather)",
+        "MODIS (250m daily)",
+        "ALOS PALSAR (25m, all-weather)",
+        "Esri HD (binary, 30cm)"
+      ],
+      "elevation_models": [],
+      "land_cover_change": [
+        "MapBiomas Paraguay (30m, 1985-2024)",
+        "Hansen GFC (30m, 2000-2024)",
+        "ESA WorldCover (10m, 2020/2021)",
+        "GLAD alerts (30m, weekly)"
+      ],
+      "vector_open_data": [],
+      "biodiversity_data": [],
+      "climate_weather": [],
+      "paraguay_local_data": [
+        "Catastro (DGC)",
+        "INE (census + surveys)",
+        "MADES (environment)",
+        "INFONA (forestry)",
+        "ANDE (electricity)",
+        "MOPC (public works)",
+        "BCP (central bank)",
+        "MEC (education)",
+        "MSPyBS (health)",
+        "SENEPA (vector surveillance)",
+        "INBIO (agriculture)",
+        "DNCP (public procurement)",
+        "DIRECCION DEL TEATRO (cultural)",
+        "Viceministerio de Minas (mining)"
+      ],
+      "guarani_language_data": [],
+      "models_open_source": [
+        "LLaMA-3 (8B/70B)",
+        "Mistral-7B",
+        "GPT-4 / GPT-4V (OpenAI API)",
+        "Whisper (ASR)",
+        "YOLOv8 (object detection)",
+        "Detectron2 (segmentation)",
+        "TrOCR (OCR)",
+        "Tesseract (OCR)",
+        "TimesFM (TSFM)",
+        "Chronos (TSFM)",
+        "Moirai (TSFM)",
+        "PyTorch (general ML)",
+        "Hugging Face Transformers",
+        "TensorFlow",
+        "scikit-learn",
+        "LightGBM / XGBoost",
+        "AlphaFold 3",
+        "spaCy (NLP)",
+        "pyannote (diarization)"
+      ],
+      "academic_literature": [
+        "ArXiv (eprint)",
+        "SciELO (LATAM)",
+        "Semantic Scholar",
+        "Google Scholar",
+        "PubMed",
+        "Cochrane Library",
+        "PAHO IRIS"
+      ],
+      "github_repos_relevant": [
+        "paraguay-geodata",
+        "la-quebrada-viva",
+        "guarani-nlp",
+        "airops",
+        "OSM Paraguay Tools"
+      ],
+      "intelligence_sources": [],
+      "training_courses_free": [
+        "fast.ai (deep learning)",
+        "DeepLearning.AI (Andrew Ng)",
+        "Stanford CS231n/CS224n",
+        "Google Earth Engine tutorials",
+        "Hugging Face NLP course"
+      ],
+      "compute_free": [
+        "Google Colab (free + Pro)",
+        "Kaggle Notebooks (30h/week free)",
+        "Hugging Face Spaces (free)",
+        "Cloudflare Pages (free)",
+        "Vercel (free)",
+        "GitHub Student Developer Pack",
+        "AWS/Azure for Education"
+      ]
+    },
+    "total_sources": 68
+  },
+  "P0005": {
+    "title": "Tokandu: Forecast ANDE demand + LLM explanation in Jopara (system with multi-modal reasoning)",
+    "rank": 26,
+    "data_sources": {
+      "satellite_imagery": [],
+      "elevation_models": [],
+      "land_cover_change": [],
+      "vector_open_data": [],
+      "biodiversity_data": [],
+      "climate_weather": [],
+      "paraguay_local_data": [
+        "Catastro (DGC)",
+        "INE (census + surveys)",
+        "MADES (environment)",
+        "INFONA (forestry)",
+        "ANDE (electricity)",
+        "MOPC (public works)",
+        "BCP (central bank)",
+        "MEC (education)",
+        "MSPyBS (health)",
+        "SENEPA (vector surveillance)",
+        "INBIO (agriculture)",
+        "DNCP (public procurement)",
+        "DIRECCION DEL TEATRO (cultural)",
+        "Viceministerio de Minas (mining)"
+      ],
+      "guarani_language_data": [
+        "38 Guaraní datasets on HuggingFace",
+        "Creole/Github repos",
+        "SomosNLP Paraguayan Cultural Alignment",
+        "GuaraniTranslate (NMT)",
+        "Mozilla Common Voice Spanish+Guaraní",
+        "Parlamentario Guaraní Corpus",
+        "Biblioteca Nacional del Paraguay",
+        "Jesuitas-Guaraní Historical (1584-1767)"
+      ],
+      "models_open_source": [
+        "LLaMA-3 (8B/70B)",
+        "Mistral-7B",
+        "GPT-4 / GPT-4V (OpenAI API)",
+        "Whisper (ASR)",
+        "YOLOv8 (object detection)",
+        "Detectron2 (segmentation)",
+        "TrOCR (OCR)",
+        "Tesseract (OCR)",
+        "TimesFM (TSFM)",
+        "Chronos (TSFM)",
+        "Moirai (TSFM)",
+        "PyTorch (general ML)",
+        "Hugging Face Transformers",
+        "TensorFlow",
+        "scikit-learn",
+        "LightGBM / XGBoost",
+        "AlphaFold 3",
+        "spaCy (NLP)",
+        "pyannote (diarization)"
+      ],
+      "academic_literature": [
+        "ArXiv (eprint)",
+        "SciELO (LATAM)",
+        "Semantic Scholar",
+        "Google Scholar",
+        "PubMed",
+        "Cochrane Library",
+        "PAHO IRIS"
+      ],
+      "github_repos_relevant": [],
+      "intelligence_sources": [],
+      "training_courses_free": [
+        "fast.ai (deep learning)",
+        "DeepLearning.AI (Andrew Ng)",
+        "Stanford CS231n/CS224n",
+        "Google Earth Engine tutorials",
+        "Hugging Face NLP course"
+      ],
+      "compute_free": [
+        "Google Colab (free + Pro)",
+        "Kaggle Notebooks (30h/week free)",
+        "Hugging Face Spaces (free)",
+        "Cloudflare Pages (free)",
+        "Vercel (free)",
+        "GitHub Student Developer Pack",
+        "AWS/Azure for Education"
+      ]
+    },
+    "total_sources": 60
+  },
+  "I0040": {
+    "title": "Transformer fine-tuning (BERT/GPT) for Programming education tools at FP-UNA",
+    "rank": 27,
+    "data_sources": {
+      "satellite_imagery": [],
+      "elevation_models": [],
+      "land_cover_change": [],
+      "vector_open_data": [],
+      "biodiversity_data": [],
+      "climate_weather": [],
+      "paraguay_local_data": [],
+      "guarani_language_data": [],
+      "models_open_source": [
+        "LLaMA-3 (8B/70B)",
+        "Mistral-7B",
+        "GPT-4 / GPT-4V (OpenAI API)",
+        "Whisper (ASR)",
+        "YOLOv8 (object detection)",
+        "Detectron2 (segmentation)",
+        "TrOCR (OCR)",
+        "Tesseract (OCR)",
+        "TimesFM (TSFM)",
+        "Chronos (TSFM)",
+        "Moirai (TSFM)",
+        "PyTorch (general ML)",
+        "Hugging Face Transformers",
+        "TensorFlow",
+        "scikit-learn",
+        "LightGBM / XGBoost",
+        "AlphaFold 3",
+        "spaCy (NLP)",
+        "pyannote (diarization)"
+      ],
+      "academic_literature": [
+        "ArXiv (eprint)",
+        "SciELO (LATAM)",
+        "Semantic Scholar",
+        "Google Scholar",
+        "PubMed",
+        "Cochrane Library",
+        "PAHO IRIS"
+      ],
+      "github_repos_relevant": [],
+      "intelligence_sources": [],
+      "training_courses_free": [
+        "fast.ai (deep learning)",
+        "DeepLearning.AI (Andrew Ng)",
+        "Stanford CS231n/CS224n",
+        "Google Earth Engine tutorials",
+        "Hugging Face NLP course"
+      ],
+      "compute_free": [
+        "Google Colab (free + Pro)",
+        "Kaggle Notebooks (30h/week free)",
+        "Hugging Face Spaces (free)",
+        "Cloudflare Pages (free)",
+        "Vercel (free)",
+        "GitHub Student Developer Pack",
+        "AWS/Azure for Education"
+      ]
+    },
+    "total_sources": 38
+  },
+  "I0046": {
+    "title": "Transformer fine-tuning (BERT/GPT) for Inclusive education (special needs) at FP-UNA",
+    "rank": 28,
+    "data_sources": {
+      "satellite_imagery": [],
+      "elevation_models": [],
+      "land_cover_change": [],
+      "vector_open_data": [],
+      "biodiversity_data": [],
+      "climate_weather": [],
+      "paraguay_local_data": [],
+      "guarani_language_data": [],
+      "models_open_source": [
+        "LLaMA-3 (8B/70B)",
+        "Mistral-7B",
+        "GPT-4 / GPT-4V (OpenAI API)",
+        "Whisper (ASR)",
+        "YOLOv8 (object detection)",
+        "Detectron2 (segmentation)",
+        "TrOCR (OCR)",
+        "Tesseract (OCR)",
+        "TimesFM (TSFM)",
+        "Chronos (TSFM)",
+        "Moirai (TSFM)",
+        "PyTorch (general ML)",
+        "Hugging Face Transformers",
+        "TensorFlow",
+        "scikit-learn",
+        "LightGBM / XGBoost",
+        "AlphaFold 3",
+        "spaCy (NLP)",
+        "pyannote (diarization)"
+      ],
+      "academic_literature": [
+        "ArXiv (eprint)",
+        "SciELO (LATAM)",
+        "Semantic Scholar",
+        "Google Scholar",
+        "PubMed",
+        "Cochrane Library",
+        "PAHO IRIS"
+      ],
+      "github_repos_relevant": [],
+      "intelligence_sources": [],
+      "training_courses_free": [
+        "fast.ai (deep learning)",
+        "DeepLearning.AI (Andrew Ng)",
+        "Stanford CS231n/CS224n",
+        "Google Earth Engine tutorials",
+        "Hugging Face NLP course"
+      ],
+      "compute_free": [
+        "Google Colab (free + Pro)",
+        "Kaggle Notebooks (30h/week free)",
+        "Hugging Face Spaces (free)",
+        "Cloudflare Pages (free)",
+        "Vercel (free)",
+        "GitHub Student Developer Pack",
+        "AWS/Azure for Education"
+      ]
+    },
+    "total_sources": 38
+  },
+  "I0142": {
+    "title": "LLM prompting (GPT-4/Claude/Llama) for Programming education tools at FP-UNA",
+    "rank": 29,
+    "data_sources": {
+      "satellite_imagery": [],
+      "elevation_models": [],
+      "land_cover_change": [],
+      "vector_open_data": [],
+      "biodiversity_data": [],
+      "climate_weather": [],
+      "paraguay_local_data": [],
+      "guarani_language_data": [],
+      "models_open_source": [
+        "LLaMA-3 (8B/70B)",
+        "Mistral-7B",
+        "GPT-4 / GPT-4V (OpenAI API)",
+        "Whisper (ASR)",
+        "YOLOv8 (object detection)",
+        "Detectron2 (segmentation)",
+        "TrOCR (OCR)",
+        "Tesseract (OCR)",
+        "TimesFM (TSFM)",
+        "Chronos (TSFM)",
+        "Moirai (TSFM)",
+        "PyTorch (general ML)",
+        "Hugging Face Transformers",
+        "TensorFlow",
+        "scikit-learn",
+        "LightGBM / XGBoost",
+        "AlphaFold 3",
+        "spaCy (NLP)",
+        "pyannote (diarization)"
+      ],
+      "academic_literature": [
+        "ArXiv (eprint)",
+        "SciELO (LATAM)",
+        "Semantic Scholar",
+        "Google Scholar",
+        "PubMed",
+        "Cochrane Library",
+        "PAHO IRIS"
+      ],
+      "github_repos_relevant": [],
+      "intelligence_sources": [],
+      "training_courses_free": [
+        "fast.ai (deep learning)",
+        "DeepLearning.AI (Andrew Ng)",
+        "Stanford CS231n/CS224n",
+        "Google Earth Engine tutorials",
+        "Hugging Face NLP course"
+      ],
+      "compute_free": [
+        "Google Colab (free + Pro)",
+        "Kaggle Notebooks (30h/week free)",
+        "Hugging Face Spaces (free)",
+        "Cloudflare Pages (free)",
+        "Vercel (free)",
+        "GitHub Student Developer Pack",
+        "AWS/Azure for Education"
+      ]
+    },
+    "total_sources": 38
+  },
+  "I0148": {
+    "title": "LLM prompting (GPT-4/Claude/Llama) for Inclusive education (special needs) at FP-UNA",
+    "rank": 30,
+    "data_sources": {
+      "satellite_imagery": [],
+      "elevation_models": [],
+      "land_cover_change": [],
+      "vector_open_data": [],
+      "biodiversity_data": [],
+      "climate_weather": [],
+      "paraguay_local_data": [],
+      "guarani_language_data": [],
+      "models_open_source": [
+        "LLaMA-3 (8B/70B)",
+        "Mistral-7B",
+        "GPT-4 / GPT-4V (OpenAI API)",
+        "Whisper (ASR)",
+        "YOLOv8 (object detection)",
+        "Detectron2 (segmentation)",
+        "TrOCR (OCR)",
+        "Tesseract (OCR)",
+        "TimesFM (TSFM)",
+        "Chronos (TSFM)",
+        "Moirai (TSFM)",
+        "PyTorch (general ML)",
+        "Hugging Face Transformers",
+        "TensorFlow",
+        "scikit-learn",
+        "LightGBM / XGBoost",
+        "AlphaFold 3",
+        "spaCy (NLP)",
+        "pyannote (diarization)"
+      ],
+      "academic_literature": [
+        "ArXiv (eprint)",
+        "SciELO (LATAM)",
+        "Semantic Scholar",
+        "Google Scholar",
+        "PubMed",
+        "Cochrane Library",
+        "PAHO IRIS"
+      ],
+      "github_repos_relevant": [],
+      "intelligence_sources": [],
+      "training_courses_free": [
+        "fast.ai (deep learning)",
+        "DeepLearning.AI (Andrew Ng)",
+        "Stanford CS231n/CS224n",
+        "Google Earth Engine tutorials",
+        "Hugging Face NLP course"
+      ],
+      "compute_free": [
+        "Google Colab (free + Pro)",
+        "Kaggle Notebooks (30h/week free)",
+        "Hugging Face Spaces (free)",
+        "Cloudflare Pages (free)",
+        "Vercel (free)",
+        "GitHub Student Developer Pack",
+        "AWS/Azure for Education"
+      ]
+    },
+    "total_sources": 38
+  }
+}
