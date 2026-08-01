@@ -1,0 +1,133 @@
+{
+  "generated_at": "2026-07-31",
+  "what_we_have": [
+    "ideas_atlas",
+    "ideas_with_data_readiness",
+    "global_baseline",
+    "synergy_bundles",
+    "difficulty_analysis",
+    "open_data_inventory",
+    "geodata_inventory",
+    "idea_data_sources",
+    "per_idea_markdown",
+    "wizard_script"
+  ],
+  "what_we_dont_have": [],
+  "gaps": {
+    "global_theses_unsearched": [
+      "Tsinghua THUDLM (blocked)",
+      "IIIT Hyderabad (blocked)",
+      "IISc Bangalore (blocked)",
+      "CNKI China (blocked)",
+      "NTU Singapore (blocked)",
+      "ETH Zurich Research Collection (not tried)",
+      "Politecnico Milano (not tried)",
+      "TU Munich (not tried)",
+      "MIT DSpace (not tried)",
+      "Stanford DSpace (not tried)",
+      "CMU DSpace (not tried)",
+      "UC Berkeley DSpace (not tried)",
+      "Oxford ORA (not tried)",
+      "Cambridge Apollo (not tried)"
+    ],
+    "datasets_unmined": [
+      "Mapillary Paraguay street-level imagery",
+      "OpenAerialMap drone",
+      "HDX Paraguay reliefweb",
+      "INPE Brazil PRODES + DETER",
+      "CIAT/CGIAR agricultural",
+      "NASA Harvest crop yield",
+      "Trase commodity data",
+      "FAO Paraguay",
+      "PNUD Paraguay",
+      "DGEEC census"
+    ],
+    "paraguay_institutions_uncontacted": [
+      "INDI (indigenous)",
+      "INFONA (forestry)",
+      "SENEPA (Chagas/dengue)",
+      "FCM-UNA (medical)",
+      "ASSEEP alumni",
+      "SENATUR (tourism)",
+      "Ministerio de la Niñez (children)",
+      "Ministerio de Justicia (justice)",
+      "Vicerrectorado de Investigación UNA",
+      "CONACYT (funding)",
+      "Fundación Itaú (corporate)",
+      "Fundación Azul (corporate)"
+    ],
+    "research_areas_not_searched": [
+      "Quechua, Aymara, Nahuatl, Mapuche, Wayuunaiki, Nivaĉle datasets",
+      "Wichi, Mocovi, Toba, Qom, Chorote, Chulupí, Maká, Maskoy datasets",
+      "Geospatial foundation models (Prithvi, SatMAE, SkySense)",
+      "Vision-language models for remote sensing (GeoChat, RS-LLaVA)",
+      "Time-series foundation models (TimesFM, Chronos, Moirai, TTM, MOMENT)",
+      "Small LLMs for low-resource (Phi-3, Gemma, Llama-3.2-1B/3B)",
+      "Federated learning frameworks (Flower, NVFlare, PySyft)",
+      "Differential privacy NLP",
+      "Constitutional AI × Guaraní values",
+      "Active learning for low-label",
+      "Self-supervised pretraining Paraguay satellite"
+    ],
+    "industry_specific_gaps": [
+      "FINANCIAL: BCP fintech LATAM, MercadoPago",
+      "TOURISM: Spotify LATAM, SENATUR",
+      "AGRICULTURE: INBIO + CroplandCapture",
+      "WILDLIFE: WWF Paraguay, Guyra Paraguay",
+      "WATER: SENASA, ANNP",
+      "EDUCATION: MEC, Fundacion Paraguay"
+    ],
+    "reproducibility_gaps": [
+      "Open-source benchmark suites",
+      "Peer-reviewed datasets we missed",
+      "Existing Paraguay baseline papers",
+      "Reproducible results from B001-B053",
+      "LATAM CS/Engineering thesis citation network"
+    ],
+    "practical_gaps": [
+      "IRB processes at UNA",
+      "Thesis defense timelines (FP-UNA vs FADA vs FCM)",
+      "Funding sources (CONACYT, university, private)",
+      "Data ethics for indigenous communities (CARE)",
+      "AI safety for medical/mental health",
+      "Open-source licensing for thesis outputs"
+    ],
+    "career_publication_gaps": [
+      "Conference deadlines 2024-2026",
+      "Journal IF + acceptance rates for targets",
+      "First vs co-author strategies",
+      "Patentability (carbon credit)",
+      "Postdoc opportunities",
+      "Industry vs academia path"
+    ]
+  },
+  "top_5_priorities": [
+    "1. MINE ADDITIONAL GLOBAL THESES",
+    "2. INDIGENOUS LANGUAGE DATASETS BEYOND GUARANÍ",
+    "3. PARAGUAY INSTITUTIONAL DATA ACCESS",
+    "4. METHODOLOGICAL STATE-OF-ART (2024-2026)",
+    "5. PRACTICAL TIMELINE + IRB + FUNDING"
+  ],
+  "top_5_priorities_detail": [
+    {
+      "title": "1. MINE ADDITIONAL GLOBAL THESES",
+      "description": "Find LATAM/EU/Asia thesis repositories we haven't accessed — ETH Zurich, Politecnico Milano, Stanford, Oxford. We have 53 papers but could have 200+ with deeper mining."
+    },
+    {
+      "title": "2. INDIGENOUS LANGUAGE DATASETS BEYOND GUARANÍ",
+      "description": "We found 38 Guaraní datasets on HF but 0 Quechua/Aymara/Nahuatl/Mapuche. Need to search systematically for the 9+ indigenous languages of Paraguay."
+    },
+    {
+      "title": "3. PARAGUAY INSTITUTIONAL DATA ACCESS",
+      "description": "Direct outreach to INFONA, INDI, SENEPA, FCM-UNA — these partnerships are CRITICAL for thesis data. Email drafts + decision gate."
+    },
+    {
+      "title": "4. METHODOLOGICAL STATE-OF-ART (2024-2026)",
+      "description": "We found TSFMs (TimesFM/Chronos/Moirai) but need newer: geospatial foundation models (Prithvi, SatMAE, GeoChat), VLM-for-cartography, edge AI. Survey what's published 2024-2026."
+    },
+    {
+      "title": "5. PRACTICAL TIMELINE + IRB + FUNDING",
+      "description": "University-specific thesis defense timelines, IRB processes, funding sources (CONACYT, university). Critical for Iván's actual execution."
+    }
+  ]
+}
