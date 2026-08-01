@@ -1,0 +1,356 @@
+{
+  "P0012": {
+    "title_guarani": "Yvy",
+    "title_spanish": "Cartografía de Territorios Indígenas con IA Participativa",
+    "what": "Usa visión por computadora + GPT-4V para mapear y validar territorios de comunidades indígenas en Paraguay, comparando el catastro oficial con la ocupación real del territorio. Las comunidades indígenas participan en el proceso de validación.",
+    "why_good": [
+      "Primer tesis sobre territorios indígenas paraguayos con IA multimodal",
+      "Datos indígenas ya existen en indigenous_territories.geojson",
+      "Catastro con 7,500 parcelas como ground truth",
+      "Cristaldo (FADA) es supervisor especializado en cartografía",
+      "UN-Habitat Open Day partnership activa",
+      "Cumple con CARE Principles (collective benefit, authority, responsibility, ethics)"
+    ],
+    "data": {
+      "local": "indigenous_territories.geojson + 7,500 Catastro parcels",
+      "online": "GPT-4V API, OSM Paraguay, INDI registry",
+      "free_sources": 68
+    },
+    "advisor": "Juan Carlos Cristaldo (FADA-UNA) — cartografía, GIS, 4 tesis previas",
+    "duration": "6 meses",
+    "cost": "$200-800 (GPT-4 API + Geopremium)",
+    "difficulty": "2.9/10",
+    "publications": [
+      "World Development",
+      "ACM CHI",
+      "J. Latin American Geography"
+    ],
+    "novelty": "Very High — no Paraguayan AI thesis on indigenous lands",
+    "synergy": "Bundle 1 (FADA Satellite) + Bundle 5 (Guaraní LLM)",
+    "first_steps": [
+      "Email INDI pidiendo acceso a base de datos de comunidades",
+      "Cristaldo: definir si tesis es 1 capítulo o tesis completa",
+      "Setup QGIS + GPT-4V API",
+      "Pilot con 5 comunidades via ONGs locales"
+    ]
+  },
+  "P0011": {
+    "title_guarani": "Yvytu",
+    "title_spanish": "Alertas de Deforestación del Chaco con Visión por Satélite Multi-temporal",
+    "what": "Construye un sistema que detecta automáticamente deforestación en el Chaco paraguayo usando imágenes Sentinel-2 (gratuitas, 10m de resolución) a lo largo del tiempo. El sistema genera alertas automáticas para el INFONA.",
+    "why_good": [
+      "Sentinel-2 es gratuito + ESA Copernicus abierto",
+      "Cristaldo tiene 4 tesis previas de cartografía como baseline",
+      "Chaco es un bioma único (bosque seco, no Amazonas)",
+      "MapBiomas + Hansen GFC disponibles como comparación",
+      "INFONA partnership directa para validación",
+      "Publicable en RSE/ISPRS — alto factor de impacto"
+    ],
+    "data": {
+      "local": "7,912 tiles (10×10 km) + climate_risk + hillshade DEMs",
+      "online": "Sentinel-2, Landsat 9, Planet academic, GFW API",
+      "free_sources": 68
+    },
+    "advisor": "Juan Carlos Cristaldo (FADA-UNA)",
+    "duration": "5 meses",
+    "cost": "$0-300 (datos satelitales gratis)",
+    "difficulty": "2.5/10",
+    "publications": [
+      "Remote Sensing of Environment",
+      "ISPRS",
+      "J. Applied Remote Sensing"
+    ],
+    "novelty": "Alta — Chaco dry forest es único vs Amazon/Cerrado",
+    "synergy": "Bundle 1 (FADA Satellite)",
+    "first_steps": [
+      "Descargar Sentinel-2 del Chaco (gratis en Copernicus)",
+      "Setup segmentation-models-pytorch",
+      "Labelar manualmente 100-200 imágenes",
+      "Email INFONA pidiendo acceso a sus alertas manuales"
+    ]
+  },
+  "P0085": {
+    "title_guarani": "Yvykui",
+    "title_spanish": "Detección de Daño Vial con Drones MOPC + YOLOv8",
+    "what": "Entrena YOLOv8 para detectar automáticamente grietas, baches y erosión en caminos paraguayos usando imágenes de drones del MOPC (Ministerio de Obras Públicas). El sistema se integra con el mantenimiento vial del ministerio.",
+    "why_good": [
+      "MÁS RÁPIDO: solo 4 meses de implementación",
+      "YOLOv8 es código abierto y maduro",
+      "MOPC ya tiene programa de drones (Legal Ayala confirmado)",
+      "RDD2022 (50K imágenes Japón) disponible como baseline",
+      "OSM Paraguay roads listo para contextualizar",
+      "Publicable en Computer-Aided Civil and Infrastructure Engineering"
+    ],
+    "data": {
+      "local": "OSM roads (14,835 segmentos)",
+      "online": "MOPC drone data, RDD2022, CRDDC2022",
+      "free_sources": 80
+    },
+    "advisor": "Horacio Andrés Legal Ayala (FP-UNA)",
+    "duration": "4 meses (FASTEST)",
+    "cost": "$0-200",
+    "difficulty": "2.3/10 (EASIEST)",
+    "publications": [
+      "Computer-Aided Civil and Infrastructure Engineering",
+      "Automation in Construction"
+    ],
+    "novelty": "Media — RDD2022 base + Paraguay-specific",
+    "synergy": "Bundle 3 (FP-UNA Engineering)",
+    "first_steps": [
+      "Legal Ayala: confirmar acceso a MOPC drone program",
+      "Roboflow free tier para etiquetar",
+      "Fine-tune YOLOv8 sobre RDD2022 primero",
+      "Validar contra 100 imágenes MOPC"
+    ]
+  },
+  "P0067": {
+    "title_guarani": "Mbayru",
+    "title_spanish": "Optimización de Rutas de Buses de Asunción con MOEA + GTFS",
+    "what": "Optimiza las rutas de buses de Asunción usando algoritmos evolutivos multi-objetivo (NSGA-II) sobre datos de OSM + edificios + listings inmobiliarios. Considera equidad social: acceso para zonas de bajos ingresos y áreas indígenas.",
+    "why_good": [
+      "Asunción está completamente mapeado (49,641 buildings + 14,835 roads)",
+      "10,898 listings inmobiliarios como proxy demográfico",
+      "SUMO simulator es open-source",
+      "Publicable en Transportation Research Part C",
+      "Von Lücken (FP-UNA) como advisor",
+      "Impacto social: mejorar transporte público"
+    ],
+    "data": {
+      "local": "49,641 buildings + 14,835 roads + 10,898 listings + 7,500 Catastro",
+      "online": "GTFS feeds (si disponible), Moovit API, OSM",
+      "free_sources": 73
+    },
+    "advisor": "Christian Von Lücken (FP-UNA)",
+    "duration": "6 meses",
+    "cost": "$0-100",
+    "difficulty": "3.2/10",
+    "publications": [
+      "Transportation Research Part C",
+      "Public Transport",
+      "J. Transport Geography"
+    ],
+    "novelty": "Alta — Paraguayan-specific bus equity",
+    "synergy": "Bundle 3 (FP-UNA Engineering)",
+    "first_steps": [
+      "Von Lücken: confirmar disponibilidad para dirigir",
+      "Verificar si GTFS feeds están disponibles para Asunción",
+      "Setup SUMO + pymoo",
+      "Modelo base con datos existentes"
+    ]
+  },
+  "P0100": {
+    "title_guarani": "Yvyra",
+    "title_spanish": "Verificación de Créditos de Carbono con Satélite + Paraguay",
+    "what": "Construye un sistema automatizado que verifica proyectos de créditos de carbono en Paraguay cruzando imágenes satelitales con datos de la Bolsa de Valores de Asunción y el INFONA. Usa AlphaEarth foundation model (Google, R²=0.82 forest biomass).",
+    "why_good": [
+      "PRIMERA tesis Paraguaya de AI + créditos de carbono",
+      "AlphaEarth probado para forest biomass (R²=0.82)",
+      "INFONA + Bolsa de Valores partnership",
+      "Verra VCS + Gold Standard registries públicas",
+      "PUBLICABLE EN NATURE Climate Change si ambicioso",
+      "Impacto: mercado de carbono paraguayo es creciente"
+    ],
+    "data": {
+      "local": "7,912 tiles + climate + 7,500 Catastro parcels",
+      "online": "Sentinel-2, Planet, Verra VCS, Gold Standard, AlphaEarth",
+      "free_sources": 78
+    },
+    "advisor": "Juan Carlos Cristaldo (FADA-UNA)",
+    "duration": "6 meses",
+    "cost": "$0-400",
+    "difficulty": "2.7/10",
+    "publications": [
+      "Nature Climate Change",
+      "Carbon Balance and Management",
+      "Climate Policy"
+    ],
+    "novelty": "MUY ALTA — no Paraguayan carbon-credit ML thesis exists",
+    "synergy": "Bundle 1 (FADA Satellite)",
+    "first_steps": [
+      "Email INFONA (template listo)",
+      "Cristaldo: definir alcance (1 país vs regional)",
+      "Integrar API de Verra VCS",
+      "Setup AlphaEarth o Prithvi foundation model"
+    ]
+  },
+  "P0010": {
+    "title_guarani": "Tava-i",
+    "title_spanish": "IA Multi-modal para Cartografía Colaborativa OSM en Paraguay",
+    "what": "Usa GPT-4V + YOLOv8 + Detectron2 para automatizar la identificación de elementos en OSM Paraguay: edificios, caminos, nombres de lugares en guaraní. Las comunidades contribuyen vía una app de cartografía participativa.",
+    "why_good": [
+      "MAYOR cantidad de datos listos: 49,641 buildings + 14,835 roads + 7,500 Catastro + 7,912 tiles",
+      "Cristaldo ya tiene 1M polígonos mapeados",
+      "GPT-4V para nombres nativos en guaraní (UN-Habitat partnership)",
+      "Mapillary API para imágenes a nivel de calle",
+      "Publicable en Transactions in GIS o IJGI"
+    ],
+    "data": {
+      "local": "49,641 buildings + 14,835 roads + 7,500 parcels + 7,912 tiles + 1M polígonos Cristaldo",
+      "online": "OSM, Mapillary, GPT-4V, HOT-OSM",
+      "free_sources": 80
+    },
+    "advisor": "Juan Carlos Cristaldo (FADA-UNA)",
+    "duration": "5 meses",
+    "cost": "$0-500",
+    "difficulty": "2.5/10",
+    "publications": [
+      "Transactions in GIS",
+      "IJGI",
+      "ISPRS"
+    ],
+    "novelty": "Media-Alta — combinación de GPT-4V con OSM es nuevo",
+    "synergy": "Bundle 1 (FADA Satellite)",
+    "first_steps": [
+      "Cristaldo: confirmar alcance (Asunción vs Paraguay completo)",
+      "Setup GPT-4V + YOLOv8 + Detectron2",
+      "Custom plugin OSM para native language",
+      "Field validation en 3 comunidades"
+    ]
+  },
+  "P0015": {
+    "title_guarani": "Sy",
+    "title_spanish": "Scribe Clínico con Whisper para FCM-UNA en Jopara",
+    "what": "Adapta Whisper (OpenAI, código abierto) para transcribir consultas médicas en FCM-UNA en jopara (mezcla guaraní-español). El sistema integra con historias clínicas electrónicas (EHR) y se diferencia del 'Solo Escuchame' (México) por la variante paraguaya.",
+    "why_good": [
+      "Whisper es open-source",
+      "FCM-UNA clínica access confirmado (Torales)",
+      "Variante jopara paraguaya es diferente de Solo Escuchame (México)",
+      "Mozilla Common Voice Spanish+Guaraní disponible",
+      "Publicable en JAMIA o npj Digital Medicine"
+    ],
+    "data": {
+      "local": "Ninguno (requiere FCM-UNA clinical recordings)",
+      "online": "Whisper, Mozilla Common Voice, Solo Escuchame codebase",
+      "free_sources": 75
+    },
+    "advisor": "Julio Torales + Mirtha González (FCM-UNA)",
+    "duration": "7 meses",
+    "cost": "$300-1000",
+    "difficulty": "3.4/10",
+    "publications": [
+      "JAMIA",
+      "npj Digital Medicine",
+      "J. Biomedical Informatics"
+    ],
+    "novelty": "Alta — primer scribe jopara paraguayo",
+    "synergy": "Bundle 2 (FCM-UNA Care AI)",
+    "first_steps": [
+      "Torales: confirmar IRB timeline (3-6 meses)",
+      "Recoger 50+ grabaciones clínicas",
+      "Fine-tune Whisper en Mozilla Common Voice Spanish",
+      "Pilot con 5 médicos de FCM"
+    ],
+    "risks": [
+      "IRB lento (3-6 meses)",
+      "5+ competidores (Solo Escuchame, EmoTrace)"
+    ]
+  },
+  "P0021": {
+    "title_guarani": "Mita arandu",
+    "title_spanish": "Tutor de Programación con IA para Estudiantes Rurales Paraguayos",
+    "what": "Construye un tutor de programación (Python/JavaScript) basado en LLM (GPT-4) que interactúa con estudiantes rurales en jopara o guaraní vía Telegram. Ajustado al currículo del MEC y validado con escuelas rurales.",
+    "why_good": [
+      "Gap claro: NO existe educación de programación en guaraní",
+      "MEC tiene currículo accesible",
+      "GPT-4 API barato para piloto pequeño",
+      "Telegram Bot API es open-source",
+      "Publicable en CHI o Learning @ Scale",
+      "Impacto social directo"
+    ],
+    "data": {
+      "local": "Ninguno (usa MEC + internet)",
+      "online": "Open edX, Codecademy, Khan Academy Spanish, FreeCodeCamp",
+      "free_sources": 67
+    },
+    "advisor": "José Luis Vázquez Noguera (FP-UNA) + MEC partnership",
+    "duration": "5 meses",
+    "cost": "$100-500",
+    "difficulty": "2.8/10",
+    "publications": [
+      "CHI",
+      "Learning @ Scale",
+      "Computers & Education"
+    ],
+    "novelty": "Alta — gap en Guaraní coding education",
+    "synergy": "Bundle 4 (Education) + Bundle 5 (Guaraní LLM)",
+    "first_steps": [
+      "Vázquez: confirmar como advisor",
+      "Email MEC pidiendo currículo + lista escuelas rurales",
+      "Pilot con 20+ estudiantes",
+      "Métricas: engagement + completion rate"
+    ]
+  },
+  "P0031": {
+    "title_guarani": "Karamanu",
+    "title_spanish": "Mapa de Calor del Vector de Chagas con IA + Clima",
+    "what": "Predice el habitat del vector del Chagas (Triatoma) en Paraguay usando ML (XGBoost) + datos climáticos (WorldClim) + socioeconómicos + vigilancia entomológica de SENEPA. Genera mapas de riesgo operacionales.",
+    "why_good": [
+      "SENEPA (programa nacional Chagas) partnership",
+      "WorldClim + ERA5 climate data libre",
+      "TREA-Net transfer learning (de India/México/Malasia)",
+      "Publicable en Parasites & Vectors o PLoS NTD",
+      "Impacto en salud pública real",
+      "5+ papers competidores LATAM (Sandon 2025, Lobbia 2025, Skjefte 2026)"
+    ],
+    "data": {
+      "local": "climate_risk + tile_index",
+      "online": "WorldClim, SENEPA surveillance, ERA5, PAHO reports",
+      "free_sources": 50
+    },
+    "advisor": "Mirtha González (FCM-UNA) + SENEPA",
+    "duration": "7 meses",
+    "cost": "$0-300",
+    "difficulty": "3.1/10",
+    "publications": [
+      "Parasites & Vectors",
+      "PLOS NTD",
+      "Memorias do Instituto Oswaldo Cruz"
+    ],
+    "novelty": "Alta — primer ML-based Chagas risk map en Paraguay",
+    "synergy": "Bundle 2 (FCM-UNA Care AI)",
+    "first_steps": [
+      "González: confirmar advisor",
+      "Email SENEPA pidiendo datos de vigilancia",
+      "Aplicar TREA-Net pre-trained desde India dengue transfer",
+      "Validar contra 5 focos conocidos de Chagas"
+    ],
+    "risks": [
+      "IRB si toca datos humanos (3-6 meses)",
+      "SENEPA data access"
+    ]
+  },
+  "P0040": {
+    "title_guarani": "Kuatianee",
+    "title_spanish": "OCR de Documentos Históricos Guaraní del Siglo XIX",
+    "what": "Construye un sistema OCR (Tesseract + PaddleOCR + TrOCR fine-tuned) para transcribir documentos coloniales guaraní-jesuítas del siglo XIX, preservando el patrimonio cultural y lingüístico del Paraguay.",
+    "why_good": [
+      "Biblioteca Nacional del Paraguay digitalizando",
+      "Jesuitas-Guaraní texts (1584-1767) disponibles",
+      "Script del siglo XIX es único vs guaraní moderno",
+      "Publicable en Digital Scholarship in the Humanities",
+      "Tesis humanística + técnica (CS + historia)",
+      "Conservación del patrimonio cultural"
+    ],
+    "data": {
+      "local": "Ninguno",
+      "online": "Biblioteca Nacional scans, Internet Archive, Jesuita texts",
+      "free_sources": 46
+    },
+    "advisor": "Juan Talavera (FP-UNA)",
+    "duration": "5 meses",
+    "cost": "$0-300",
+    "difficulty": "3.2/10",
+    "publications": [
+      "Digital Scholarship in the Humanities",
+      "J. Cultural Analytics"
+    ],
+    "novelty": "Alta — primer OCR para guaraní histórico",
+    "synergy": "Bundle 4 (Education) + Bundle 5 (Guaraní LLM)",
+    "first_steps": [
+      "Talavera: confirmar advisor",
+      "Email Biblioteca Nacional pidiendo acceso a scans",
+      "Recoger 1000+ páginas escaneadas",
+      "Fine-tune Tesseract en 200 páginas etiquetadas"
+    ]
+  }
+}
