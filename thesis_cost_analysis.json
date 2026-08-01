@@ -1,0 +1,873 @@
+{
+  "cost_analysis": {
+    "P0012_Yvy": {
+      "data_costs": [
+        {
+          "item": "GPT-4V API calls (validation)",
+          "paid": "$0.03/image, ~$200 for 7,000 images",
+          "free_alternative": "BLIP-2 + LLaVA-1.6 (open-source) for ~70-80% accuracy"
+        },
+        {
+          "item": "OSM Paraguay",
+          "paid": "FREE (Geofabrik)",
+          "free_alternative": "Already downloaded in paraguay-geodata (49,641 buildings)"
+        },
+        {
+          "item": "indigenous_territories.geojson",
+          "paid": "FREE (already in paraguay-geodata)",
+          "free_alternative": "Already have"
+        },
+        {
+          "item": "Catastro 7,500 parcels",
+          "paid": "FREE (already in paraguay-geodata)",
+          "free_alternative": "Already have"
+        },
+        {
+          "item": "GPT-4V testing",
+          "paid": "$50-100 for development",
+          "free_alternative": "Use GPT-4V only for final validation, development on LLaVA"
+        },
+        {
+          "item": "Field visits",
+          "paid": "$100-200 (transport to 5 communities)",
+          "free_alternative": "Partner with INDI for transport, or use remote validation"
+        }
+      ],
+      "compute_costs": [
+        {
+          "item": "GPU for training",
+          "paid": "$0-100 (Colab Pro $10/mo for 2 months)",
+          "free_alternative": "Kaggle Notebooks (30h/week free)"
+        },
+        {
+          "item": "Storage for results",
+          "paid": "$0 (within free tiers)",
+          "free_alternative": "Hugging Face Hub free + Zenodo for DOI"
+        }
+      ],
+      "tools_costs": [
+        {
+          "item": "QGIS",
+          "paid": "FREE (open-source)",
+          "free_alternative": "Already free"
+        },
+        {
+          "item": "PyTorch + transformers",
+          "paid": "FREE (BSD/MIT)",
+          "free_alternative": "Already free"
+        },
+        {
+          "item": "OSMnx, geopandas",
+          "paid": "FREE (MIT)",
+          "free_alternative": "Already free"
+        },
+        {
+          "item": "Custom Flask/Django app",
+          "paid": "FREE (BSD)",
+          "free_alternative": "Already free"
+        },
+        {
+          "item": "label-studio",
+          "paid": "FREE (Apache 2.0)",
+          "free_alternative": "Already free"
+        }
+      ],
+      "people_costs": [
+        {
+          "item": "Field assistants",
+          "paid": "$0 (academic volunteers)",
+          "free_alternative": "Partner with INDI / community leaders"
+        },
+        {
+          "item": "CARE Principles review",
+          "paid": "$0",
+          "free_alternative": "Free guidance at gida-global.org"
+        }
+      ],
+      "minimum_cost": 0,
+      "realistic_cost": "$200-800 (mostly GPT-4V API)",
+      "free_possible": true,
+      "free_version_caveat": "Use LLaVA-1.6 instead of GPT-4V for 80% of work; GPT-4V only for final validation; saves ~$500"
+    },
+    "P0011_Yvytu": {
+      "data_costs": [
+        {
+          "item": "Sentinel-2 imagery",
+          "paid": "FREE (ESA Copernicus)",
+          "free_alternative": "Already free"
+        },
+        {
+          "item": "Landsat 9",
+          "paid": "FREE (NASA)",
+          "free_alternative": "Already free"
+        },
+        {
+          "item": "MapBiomas Paraguay",
+          "paid": "FREE (CC0)",
+          "free_alternative": "Already free"
+        },
+        {
+          "item": "Hansen GFC",
+          "paid": "FREE (CC0)",
+          "free_alternative": "Already free"
+        },
+        {
+          "item": "Planet imagery",
+          "paid": "FREE for academic",
+          "free_alternative": "Already free for academic; if not academic, use Sentinel-2 only"
+        },
+        {
+          "item": "Climate data",
+          "paid": "FREE (WorldClim, ERA5)",
+          "free_alternative": "Already free"
+        },
+        {
+          "item": "Hillshade DEMs",
+          "paid": "FREE (paraguay-geodata has Copernicus GLO-30)",
+          "free_alternative": "Already have locally"
+        }
+      ],
+      "compute_costs": [
+        {
+          "item": "GPU training (segmentation-models-pytorch)",
+          "paid": "$0-100 (Colab Pro for 1-2 months)",
+          "free_alternative": "Kaggle free (30h/week)"
+        },
+        {
+          "item": "Google Earth Engine (GEE) free tier",
+          "paid": "FREE for non-commercial",
+          "free_alternative": "Already free"
+        }
+      ],
+      "tools_costs": [
+        {
+          "item": "PyTorch",
+          "paid": "FREE",
+          "free_alternative": "Already free"
+        },
+        {
+          "item": "segmentation-models-pytorch",
+          "paid": "FREE (MIT)",
+          "free_alternative": "Already free"
+        },
+        {
+          "item": "rasterio, geemap, xarray",
+          "paid": "FREE",
+          "free_alternative": "Already free"
+        },
+        {
+          "item": "QGIS",
+          "paid": "FREE",
+          "free_alternative": "Already free"
+        },
+        {
+          "item": "Prithvi (IBM-NASA)",
+          "paid": "FREE (Apache 2.0)",
+          "free_alternative": "Already free"
+        },
+        {
+          "item": "AlphaEarth (Google)",
+          "paid": "FREE for research",
+          "free_alternative": "Already free"
+        }
+      ],
+      "people_costs": [
+        {
+          "item": "Cristaldo supervision",
+          "paid": "$0 (academic)",
+          "free_alternative": "Already covered by FP-UNA"
+        },
+        {
+          "item": "INFONA validation",
+          "paid": "$0",
+          "free_alternative": "Already partnered"
+        }
+      ],
+      "minimum_cost": 0,
+      "realistic_cost": "$0-300 (Colab Pro + transport to INFONA meetings)",
+      "free_possible": true,
+      "free_version_caveat": "100% free if Ivan uses Colab free + GEE free tier; the only cost would be physical meetings with INFONA"
+    },
+    "P0085_Yvykui": {
+      "data_costs": [
+        {
+          "item": "MOPC drone data",
+          "paid": "$0 (request access)",
+          "free_alternative": "Template email ready; MOPC has open program"
+        },
+        {
+          "item": "RDD2022 (50K images Japan)",
+          "paid": "FREE",
+          "free_alternative": "Already free"
+        },
+        {
+          "item": "CRDDC2022 (China)",
+          "paid": "FREE",
+          "free_alternative": "Already free"
+        },
+        {
+          "item": "OSM roads",
+          "paid": "FREE",
+          "free_alternative": "Already in paraguay-geodata"
+        },
+        {
+          "item": "Custom drone footage",
+          "paid": "$0 (request from MOPC)",
+          "free_alternative": "Use Roboflow public road damage dataset"
+        }
+      ],
+      "compute_costs": [
+        {
+          "item": "YOLOv8 training",
+          "paid": "$0 (YOLOv8 fast on Colab free)",
+          "free_alternative": "Already free"
+        },
+        {
+          "item": "GPU for inference",
+          "paid": "$0 (CPU inference fine for batch)",
+          "free_alternative": "Already free"
+        }
+      ],
+      "tools_costs": [
+        {
+          "item": "YOLOv8 (ultralytics)",
+          "paid": "FREE (GPL-3.0)",
+          "free_alternative": "Already free"
+        },
+        {
+          "item": "Roboflow (annotation)",
+          "paid": "FREE tier (1,000 images)",
+          "free_alternative": "Use labelImg free (no limit)"
+        },
+        {
+          "item": "labelImg, label-studio",
+          "paid": "FREE",
+          "free_alternative": "Already free"
+        },
+        {
+          "item": "QGIS for spatial",
+          "paid": "FREE",
+          "free_alternative": "Already free"
+        }
+      ],
+      "people_costs": [
+        {
+          "item": "MOPC data access",
+          "paid": "$0",
+          "free_alternative": "Already partnered"
+        },
+        {
+          "item": "Legal Ayala supervision",
+          "paid": "$0",
+          "free_alternative": "Already covered"
+        }
+      ],
+      "minimum_cost": 0,
+      "realistic_cost": "$0-200 (Colab Pro optional for speed)",
+      "free_possible": true,
+      "free_version_caveat": "100% free -- YOLO is fast on free Colab, all data is open-source, only optional cost is Colab Pro for speed"
+    },
+    "P0067_Mbayru": {
+      "data_costs": [
+        {
+          "item": "OSM buildings (49,641)",
+          "paid": "FREE (Geofabrik)",
+          "free_alternative": "Already free"
+        },
+        {
+          "item": "OSM roads (14,835)",
+          "paid": "FREE",
+          "free_alternative": "Already free"
+        },
+        {
+          "item": "Real-estate listings (10,898)",
+          "paid": "FREE (paraguay-geodata)",
+          "free_alternative": "Already have"
+        },
+        {
+          "item": "Catastro parcels",
+          "paid": "FREE",
+          "free_alternative": "Already have"
+        },
+        {
+          "item": "GTFS feeds (Asuncion)",
+          "paid": "$0 if public, else need to negotiate",
+          "free_alternative": "Use Moovit API (free tier) or scrape from Google Maps"
+        },
+        {
+          "item": "Municipal data",
+          "paid": "$0 if available",
+          "free_alternative": "Use OpenStreetMap as fallback"
+        }
+      ],
+      "compute_costs": [
+        {
+          "item": "SUMO simulation",
+          "paid": "FREE (Eclipse)",
+          "free_alternative": "Already free"
+        },
+        {
+          "item": "NSGA-II (pymoo)",
+          "paid": "FREE",
+          "free_alternative": "Already free"
+        },
+        {
+          "item": "GPU for optimization",
+          "paid": "$0 (CPU fine for SUMO)",
+          "free_alternative": "Already free"
+        }
+      ],
+      "tools_costs": [
+        {
+          "item": "SUMO traffic simulator",
+          "paid": "FREE (Eclipse Public License)",
+          "free_alternative": "Already free"
+        },
+        {
+          "item": "pymoo (multi-objective)",
+          "paid": "FREE (Apache 2.0)",
+          "free_alternative": "Already free"
+        },
+        {
+          "item": "GTFS tools",
+          "paid": "FREE",
+          "free_alternative": "Already free"
+        },
+        {
+          "item": "networkx, OSMnx, geopandas",
+          "paid": "FREE",
+          "free_alternative": "Already free"
+        }
+      ],
+      "people_costs": [
+        {
+          "item": "Von Lucken supervision",
+          "paid": "$0",
+          "free_alternative": "Already covered"
+        },
+        {
+          "item": "Municipal transit data",
+          "paid": "$0",
+          "free_alternative": "OpenStreetMap fallback"
+        }
+      ],
+      "minimum_cost": 0,
+      "realistic_cost": "$0-100 (mostly printing paper + minimal transport)",
+      "free_possible": true,
+      "free_version_caveat": "100% free -- everything is open-source; only cost would be physical printing"
+    },
+    "P0100_Yvyra": {
+      "data_costs": [
+        {
+          "item": "Sentinel-2 (10m)",
+          "paid": "FREE",
+          "free_alternative": "Already free"
+        },
+        {
+          "item": "Planet (3m, academic)",
+          "paid": "FREE for academic",
+          "free_alternative": "Already free"
+        },
+        {
+          "item": "Verra VCS registry",
+          "paid": "FREE (public API)",
+          "free_alternative": "Already free"
+        },
+        {
+          "item": "Gold Standard registry",
+          "paid": "FREE",
+          "free_alternative": "Already free"
+        },
+        {
+          "item": "INFONA data",
+          "paid": "$0 (request access)",
+          "free_alternative": "Template email ready"
+        },
+        {
+          "item": "Bolsa de Valores data",
+          "paid": "$0 (public)",
+          "free_alternative": "Already free"
+        },
+        {
+          "item": "Catastro parcels",
+          "paid": "FREE",
+          "free_alternative": "Already free"
+        }
+      ],
+      "compute_costs": [
+        {
+          "item": "GPU training (Prithvi/AlphaEarth)",
+          "paid": "$0-100 (Colab Pro)",
+          "free_alternative": "Kaggle free (30h/week)"
+        },
+        {
+          "item": "GEE free tier",
+          "paid": "FREE for non-commercial",
+          "free_alternative": "Already free"
+        }
+      ],
+      "tools_costs": [
+        {
+          "item": "PyTorch + segmentation",
+          "paid": "FREE",
+          "free_alternative": "Already free"
+        },
+        {
+          "item": "QGIS",
+          "paid": "FREE",
+          "free_alternative": "Already free"
+        },
+        {
+          "item": "GEE Python API",
+          "paid": "FREE",
+          "free_alternative": "Already free"
+        },
+        {
+          "item": "Streamlit dashboard",
+          "paid": "FREE",
+          "free_alternative": "Already free"
+        },
+        {
+          "item": "Verra VCS API",
+          "paid": "FREE",
+          "free_alternative": "Already free"
+        }
+      ],
+      "people_costs": [
+        {
+          "item": "INFONA partnership",
+          "paid": "$0",
+          "free_alternative": "Already partnered"
+        },
+        {
+          "item": "Bolsa de Valores contact",
+          "paid": "$0",
+          "free_alternative": "Free public contact"
+        }
+      ],
+      "minimum_cost": 0,
+      "realistic_cost": "$0-400 (Colab Pro + travel to Asuncion for INFONA)",
+      "free_possible": true,
+      "free_version_caveat": "100% free if Ivan uses Colab free; only costs are travel to INFONA + Bolsa de Valores meetings"
+    },
+    "P0010_Tava-i": {
+      "data_costs": [
+        {
+          "item": "OSM Paraguay (already in geodata)",
+          "paid": "FREE",
+          "free_alternative": "Already free"
+        },
+        {
+          "item": "Mapillary API",
+          "paid": "FREE (CC BY-SA)",
+          "free_alternative": "Already free"
+        },
+        {
+          "item": "HOT-OSM tasking manager",
+          "paid": "FREE",
+          "free_alternative": "Already free"
+        },
+        {
+          "item": "OpenCities AI dataset",
+          "paid": "FREE",
+          "free_alternative": "Already free"
+        },
+        {
+          "item": "Cristaldo 1M polygons",
+          "paid": "$0 (academic)",
+          "free_alternative": "Already have"
+        },
+        {
+          "item": "GPT-4V calls",
+          "paid": "$0.03/image ~$300 for 10,000 images",
+          "free_alternative": "LLaVA-1.6 for 80% of work; GPT-4V only final"
+        }
+      ],
+      "compute_costs": [
+        {
+          "item": "GPU for YOLO + Detectron2",
+          "paid": "$0-100 (Colab Pro)",
+          "free_alternative": "Kaggle free"
+        },
+        {
+          "item": "Storage for 1M+ features",
+          "paid": "$0 (free HF Hub)",
+          "free_alternative": "Already free"
+        }
+      ],
+      "tools_costs": [
+        {
+          "item": "YOLOv8 + detectron2",
+          "paid": "FREE",
+          "free_alternative": "Already free"
+        },
+        {
+          "item": "label-studio",
+          "paid": "FREE",
+          "free_alternative": "Already free"
+        },
+        {
+          "item": "OSMnx, geopandas",
+          "paid": "FREE",
+          "free_alternative": "Already free"
+        },
+        {
+          "item": "Custom OSM plugin",
+          "paid": "FREE",
+          "free_alternative": "Already free"
+        }
+      ],
+      "people_costs": [
+        {
+          "item": "Cristaldo supervision",
+          "paid": "$0",
+          "free_alternative": "Already covered"
+        },
+        {
+          "item": "UN-Habitat partnership",
+          "paid": "$0",
+          "free_alternative": "Already partnered"
+        }
+      ],
+      "minimum_cost": 0,
+      "realistic_cost": "$0-500 (mostly GPT-4V API)",
+      "free_possible": true,
+      "free_version_caveat": "Use LLaVA-1.6 for 90% of work, GPT-4V only for final validation; saves ~$400"
+    },
+    "P0015_Sy": {
+      "data_costs": [
+        {
+          "item": "Whisper (OpenAI)",
+          "paid": "FREE (MIT)",
+          "free_alternative": "Already free"
+        },
+        {
+          "item": "Mozilla Common Voice Spanish",
+          "paid": "FREE (CC0)",
+          "free_alternative": "Already free"
+        },
+        {
+          "item": "Mozilla Common Voice Guarani",
+          "paid": "FREE",
+          "free_alternative": "Already free"
+        },
+        {
+          "item": "FCM-UNA clinical recordings",
+          "paid": "$0 (need IRB)",
+          "free_alternative": "Already partnered"
+        },
+        {
+          "item": "Solo Escuchame code (Mexico)",
+          "paid": "FREE (open-source)",
+          "free_alternative": "Already free"
+        }
+      ],
+      "compute_costs": [
+        {
+          "item": "Whisper fine-tuning GPU",
+          "paid": "$200-1000 (Whisper large-v3 needs 24GB VRAM)",
+          "free_alternative": "Use Whisper-small (free on Colab) or Whisper API ($0.006/min)"
+        },
+        {
+          "item": "Cloud GPU (RunPod/Vast.ai)",
+          "paid": "$100-500 for full thesis",
+          "free_alternative": "Colab Pro $10/mo (limited) or local GPU if Ivan has one"
+        }
+      ],
+      "tools_costs": [
+        {
+          "item": "Whisper / faster-whisper",
+          "paid": "FREE (MIT)",
+          "free_alternative": "Already free"
+        },
+        {
+          "item": "pyannote (diarization)",
+          "paid": "FREE (MIT)",
+          "free_alternative": "Already free"
+        },
+        {
+          "item": "spaCy Spanish",
+          "paid": "FREE (MIT)",
+          "free_alternative": "Already free"
+        },
+        {
+          "item": "Custom EHR integration",
+          "paid": "FREE (FHIR open-source)",
+          "free_alternative": "Already free"
+        },
+        {
+          "item": "Hugging Face Inference API",
+          "paid": "FREE tier",
+          "free_alternative": "Already free"
+        }
+      ],
+      "people_costs": [
+        {
+          "item": "Torales/Barrios supervision",
+          "paid": "$0",
+          "free_alternative": "Already covered"
+        },
+        {
+          "item": "Clinical recording access (IRB)",
+          "paid": "$0 (3-6 months)",
+          "free_alternative": "Already partnered"
+        }
+      ],
+      "minimum_cost": 0,
+      "realistic_cost": "$300-1000 (cloud GPU for Whisper fine-tuning)",
+      "free_possible": true,
+      "free_version_caveat": "Use Whisper-small instead of large (90% accuracy, free Colab); or use OpenAI Whisper API ($0.006/min for ~$30 of API calls = ~50 hours of audio)"
+    },
+    "P0021_Mita": {
+      "data_costs": [
+        {
+          "item": "Open edX/Moodle",
+          "paid": "FREE",
+          "free_alternative": "Already free"
+        },
+        {
+          "item": "Codecademy datasets",
+          "paid": "FREE for academic",
+          "free_alternative": "Already free"
+        },
+        {
+          "item": "MEC curriculum",
+          "paid": "$0 (request)",
+          "free_alternative": "Template email ready"
+        },
+        {
+          "item": "Khan Academy Spanish",
+          "paid": "FREE",
+          "free_alternative": "Already free"
+        },
+        {
+          "item": "MIT OCW",
+          "paid": "FREE",
+          "free_alternative": "Already free"
+        }
+      ],
+      "compute_costs": [
+        {
+          "item": "GPT-4 API",
+          "paid": "$0.01/1K tokens ~$100-500 for full pilot",
+          "free_alternative": "Use Mistral-7B or Phi-3 (open-source) for 80%"
+        },
+        {
+          "item": "Hosting Telegram bot",
+          "paid": "$0 (Heroku free tier or HF Spaces)",
+          "free_alternative": "Already free"
+        }
+      ],
+      "tools_costs": [
+        {
+          "item": "GPT-4 API",
+          "paid": "$100-500",
+          "free_alternative": "Open-source LLMs (Mistral, Phi-3)"
+        },
+        {
+          "item": "Telegram Bot API",
+          "paid": "FREE",
+          "free_alternative": "Already free"
+        },
+        {
+          "item": "Pyodide (Python in browser)",
+          "paid": "FREE (MPL 2.0)",
+          "free_alternative": "Already free"
+        },
+        {
+          "item": "CodeMirror / Monaco editor",
+          "paid": "FREE",
+          "free_alternative": "Already free"
+        }
+      ],
+      "people_costs": [
+        {
+          "item": "Pilot students (rural)",
+          "paid": "$0 (volunteers)",
+          "free_alternative": "Already partnered with MEC"
+        },
+        {
+          "item": "Vazquez supervision",
+          "paid": "$0",
+          "free_alternative": "Already covered"
+        }
+      ],
+      "minimum_cost": 0,
+      "realistic_cost": "$100-500 (mostly GPT-4 API for pilot)",
+      "free_possible": true,
+      "free_version_caveat": "Use Mistral-7B or Phi-3 instead of GPT-4 for 80% of pilot; only use GPT-4 for quality comparison"
+    },
+    "P0031_Karamanu": {
+      "data_costs": [
+        {
+          "item": "WorldClim climate",
+          "paid": "FREE (CC0)",
+          "free_alternative": "Already free"
+        },
+        {
+          "item": "ERA5 climate",
+          "paid": "FREE",
+          "free_alternative": "Already free"
+        },
+        {
+          "item": "SENEPA surveillance",
+          "paid": "$0 (request)",
+          "free_alternative": "Template email ready"
+        },
+        {
+          "item": "PAHO/WHO Chagas reports",
+          "paid": "FREE",
+          "free_alternative": "Already free"
+        },
+        {
+          "item": "Kaggle dengue datasets",
+          "paid": "FREE",
+          "free_alternative": "Already free"
+        },
+        {
+          "item": "TREA-Net code (B040 India)",
+          "paid": "FREE (open-source)",
+          "free_alternative": "Already free"
+        }
+      ],
+      "compute_costs": [
+        {
+          "item": "XGBoost training",
+          "paid": "$0 (CPU fine)",
+          "free_alternative": "Already free"
+        },
+        {
+          "item": "TREA-Net training",
+          "paid": "$0 (small dataset)",
+          "free_alternative": "Already free"
+        }
+      ],
+      "tools_costs": [
+        {
+          "item": "XGBoost / LightGBM",
+          "paid": "FREE (MIT)",
+          "free_alternative": "Already free"
+        },
+        {
+          "item": "scikit-learn",
+          "paid": "FREE (BSD)",
+          "free_alternative": "Already free"
+        },
+        {
+          "item": "geopandas, rasterio",
+          "paid": "FREE",
+          "free_alternative": "Already free"
+        },
+        {
+          "item": "QGIS",
+          "paid": "FREE",
+          "free_alternative": "Already free"
+        }
+      ],
+      "people_costs": [
+        {
+          "item": "SENEPA data access",
+          "paid": "$0 (academic)",
+          "free_alternative": "Already partnered"
+        },
+        {
+          "item": "Gonzalez supervision",
+          "paid": "$0",
+          "free_alternative": "Already covered"
+        }
+      ],
+      "minimum_cost": 0,
+      "realistic_cost": "$0-300 (mostly transport to SENEPA meetings)",
+      "free_possible": true,
+      "free_version_caveat": "100% free -- XGBoost + scikit-learn are fast on free Colab"
+    },
+    "P0040_Kuatianee": {
+      "data_costs": [
+        {
+          "item": "Biblioteca Nacional scans",
+          "paid": "$0 (request)",
+          "free_alternative": "Already partnered"
+        },
+        {
+          "item": "Internet Archive Guarani texts",
+          "paid": "FREE",
+          "free_alternative": "Already free"
+        },
+        {
+          "item": "Jesuita texts",
+          "paid": "FREE",
+          "free_alternative": "Already free"
+        }
+      ],
+      "compute_costs": [
+        {
+          "item": "Tesseract OCR",
+          "paid": "FREE (Apache 2.0)",
+          "free_alternative": "Already free"
+        },
+        {
+          "item": "PaddleOCR",
+          "paid": "FREE (Apache 2.0)",
+          "free_alternative": "Already free"
+        },
+        {
+          "item": "TrOCR (Microsoft)",
+          "paid": "FREE (MIT)",
+          "free_alternative": "Already free"
+        },
+        {
+          "item": "Fine-tuning GPU",
+          "paid": "$0-100 (small model)",
+          "free_alternative": "Colab Pro"
+        }
+      ],
+      "tools_costs": [
+        {
+          "item": "Tesseract OCR",
+          "paid": "FREE (Apache 2.0)",
+          "free_alternative": "Already free"
+        },
+        {
+          "item": "EasyOCR",
+          "paid": "FREE (Apache 2.0)",
+          "free_alternative": "Already free"
+        },
+        {
+          "item": "PaddleOCR",
+          "paid": "FREE (Apache 2.0)",
+          "free_alternative": "Already free"
+        },
+        {
+          "item": "TrOCR (Microsoft)",
+          "paid": "FREE (MIT)",
+          "free_alternative": "Already free"
+        },
+        {
+          "item": "Custom fine-tune pipeline",
+          "paid": "FREE",
+          "free_alternative": "Already free"
+        }
+      ],
+      "people_costs": [
+        {
+          "item": "Talavera supervision",
+          "paid": "$0",
+          "free_alternative": "Already covered"
+        },
+        {
+          "item": "BnP access",
+          "paid": "$0",
+          "free_alternative": "Already partnered"
+        }
+      ],
+      "minimum_cost": 0,
+      "realistic_cost": "$0-300 (mostly transport to BnP)",
+      "free_possible": true,
+      "free_version_caveat": "100% free -- Tesseract is fast on free Colab"
+    }
+  },
+  "totals": {
+    "free_possible_count": 10,
+    "min_total_cost": 0
+  }
+}
