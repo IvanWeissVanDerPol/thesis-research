@@ -1,0 +1,441 @@
+{
+  "mega_project_1": {
+    "name": "SatelliteCV-Paraguay: 6-Paper Multi-Temporal Earth Observation",
+    "thesis_count": 6,
+    "duration": "12-18 months (parallel)",
+    "shared_infrastructure": {
+      "data_pipeline": "One Python package (satchaco-py) that ingests Sentinel-2 + Hansen + MapBiomas + Catastro",
+      "model_zoo": "Prithvi (foundation) + YOLOv8 (per-paper) + Detectron2 + segmentation-models-pytorch",
+      "compute": "Colab + Kaggle (free)",
+      "deployment": "geodata.paragu-ai.com/multi-paper-dashboard",
+      "papers_repo": "github.com/IvanWeissVanDerPol/satellite-paraguay"
+    },
+    "sub_theses": [
+      {
+        "id": "P0011",
+        "title": "Yvytu: Multi-temporal satellite CV for Chaco deforestation",
+        "paper": "Remote Sensing of Environment",
+        "uses": "Sentinel-2 time series, MapBiomas, Hansen GFC, Prithvi foundation",
+        "parallel_work": "Independent of others — only uses time series"
+      },
+      {
+        "id": "P0100",
+        "title": "Yvyra: Carbon-credit verification",
+        "paper": "Nature Climate Change",
+        "uses": "Same Sentinel-2 + Catastro parcels + Verra VCS",
+        "parallel_work": "Independent — uses baseline deforestation + adds parcel-level verification"
+      },
+      {
+        "id": "P0025",
+        "title": "Yrupe: Soybean yield prediction",
+        "paper": "Computers and Electronics in Agriculture",
+        "uses": "Same Sentinel-2 + INBIO + Delineate Anything v2",
+        "parallel_work": "Independent — different geography + different model output"
+      },
+      {
+        "id": "P0012",
+        "title": "Yvy: Indigenous territory mapping",
+        "paper": "World Development",
+        "uses": "Same Sentinel-2 + Catastro + indigenous_territories",
+        "parallel_work": "Independent — focuses on specific territories"
+      },
+      {
+        "id": "P0026",
+        "title": "Kai: Wildlife poaching detection",
+        "paper": "Remote Sensing",
+        "uses": "Sentinel-2 + GBIF + NASA FIRMS",
+        "parallel_work": "Independent — different model output"
+      },
+      {
+        "id": "P0035",
+        "title": "Tatakua: Air-quality forecasting",
+        "paper": "Atmospheric Environment",
+        "uses": "Sentinel-2 atmospheric + OpenAQ + climate_risk",
+        "parallel_work": "Independent — different atmospheric retrieval"
+      }
+    ],
+    "shared_code_modules": [
+      "satellite_io.py — Sentinel-2 download + preprocessing",
+      "paraguay_admin.py — load 18 deptos + 268 distritos + 7,912 tiles",
+      "foundation_models.py — Prithvi + AlphaEarth loaders",
+      "parcel_analysis.py — Catastro intersection + buffer",
+      "timeseries.py — multi-temporal stacking + change detection",
+      "evaluation.py — F1/IoU metrics + benchmark against MapBiomas"
+    ],
+    "total_papers": 6,
+    "advisor": "Juan Carlos Cristaldo (FADA)",
+    "cost": "$0-2000 (mostly GCP optional)",
+    "novelty_aggregate": "Most novelty: P0100 Yvyra (carbon), P0012 Yvy (indigenous). Highest papers-per-effort ratio."
+  },
+  "mega_project_2": {
+    "name": "GuaraniNLP-Stack: 5-Paper Foundation Model for Guaraní Language Technology",
+    "thesis_count": 5,
+    "duration": "18-24 months (parallel)",
+    "shared_infrastructure": {
+      "data_pipeline": "guarani-data — pulls from 38 HF datasets + BnP + Jesuita texts",
+      "model_zoo": "LLaMA-3-8B (base) + LoRA fine-tunes + Whisper + Tesseract + TrOCR",
+      "compute": "Colab Pro + Kaggle (free) for fine-tuning",
+      "deployment": "huggingface.co/IvanWeissVanDerPol/guarani-models",
+      "papers_repo": "github.com/IvanWeissVanDerPol/guarani-nlp"
+    },
+    "sub_theses": [
+      {
+        "id": "P0001",
+        "title": "JoparaBot: Mental health chatbot in jopara",
+        "paper": "JAMIA",
+        "uses": "LLaMA-3 fine-tuned on Jopara + 38 HF datasets",
+        "parallel_work": "Independent — uses base model from Mita"
+      },
+      {
+        "id": "P0022",
+        "title": "Nee: Guaraní language acquisition LLM",
+        "paper": "ACL",
+        "uses": "LLaMA-3 base + Guaraní fine-tune + Mozilla Common Voice",
+        "parallel_work": "Foundation work — feeds all other papers"
+      },
+      {
+        "id": "P0050",
+        "title": "Nepyru: First AI writing assistant for Jopara",
+        "paper": "CHI",
+        "uses": "LLaMA-3 fine-tuned on Jopara code-switching",
+        "parallel_work": "Independent — uses base model"
+      },
+      {
+        "id": "P0015",
+        "title": "Sy: Whisper clinical scribe (jopara)",
+        "paper": "npj Digital Medicine",
+        "uses": "Whisper fine-tuned on jopara + LLaMA-3 for summary",
+        "parallel_work": "Independent — ASR model + LLM"
+      },
+      {
+        "id": "P0040",
+        "title": "Kuatianee: OCR for Guaraní historical documents",
+        "paper": "Digital Scholarship in the Humanities",
+        "uses": "Tesseract + TrOCR + PaddleOCR fine-tuned on Guaraní 19th-c",
+        "parallel_work": "Independent — OCR model + corpus"
+      }
+    ],
+    "shared_code_modules": [
+      "guarani_tokenizer.py — train BPE on jopara corpus",
+      "lora_finetune.py — LLaMA-3 + LoRA + 38 datasets",
+      "jopara_eval.py — F1/accuracy on test sets",
+      "asr_pipeline.py — Whisper fine-tune + beam search",
+      "ocr_pipeline.py — Tesseract + TrOCR + CER/WER metrics"
+    ],
+    "total_papers": 5,
+    "advisor": "Multi-advisor (Torales/Barrios for clinical, Talavera for OCR, Vázquez for education)",
+    "cost": "$0-2000 (mostly LoRA fine-tuning on Colab Pro)",
+    "novelty_aggregate": "Bundles 38 Guaraní datasets + LLaMA-3 into foundation model — first Guaraní LLM family."
+  },
+  "mega_project_3": {
+    "name": "SmartAsuncion: 4-Paper Urban Intelligence Platform",
+    "thesis_count": 4,
+    "duration": "12-15 months (parallel)",
+    "shared_infrastructure": {
+      "data_pipeline": "asuncion-urban — pulls OSM + Catastro + buildings + listings + MOPC",
+      "model_zoo": "YOLOv8 + Detectron2 + SUMO + NSGA-II + GeoChat + Prithvi",
+      "compute": "Colab + Kaggle (free)",
+      "deployment": "asuncion.smart-city.paragu-ai.com",
+      "papers_repo": "github.com/IvanWeissVanDerPol/smart-asuncion"
+    },
+    "sub_theses": [
+      {
+        "id": "P0010",
+        "title": "Tava-i: Multi-modal OSM mapping Asunción",
+        "paper": "Transactions in GIS",
+        "uses": "OSM + buildings + LLaVA-1.6",
+        "parallel_work": "Builds the urban map — feeds others"
+      },
+      {
+        "id": "P0085",
+        "title": "Yvykui: Road damage detection",
+        "paper": "Computer-Aided Civil and Infrastructure Engineering",
+        "uses": "MOPC drone + YOLOv8 + OSM roads",
+        "parallel_work": "Independent — uses roads from P0010"
+      },
+      {
+        "id": "P0067",
+        "title": "Mbayru: Bus route optimization",
+        "paper": "Transportation Research Part C",
+        "uses": "OSM + buildings + SUMO + NSGA-II",
+        "parallel_work": "Independent — uses map from P0010"
+      },
+      {
+        "id": "P0035",
+        "title": "Tatakua: Air-quality forecasting",
+        "paper": "Atmospheric Environment",
+        "uses": "OpenAQ + Sentinel-5P + buildings (heat island)",
+        "parallel_work": "Independent — uses building footprints from P0010"
+      }
+    ],
+    "shared_code_modules": [
+      "osmnx_paraguay.py — load Asunción blocks + roads",
+      "asuncion_zoning.py — Catastro intersect",
+      "drone_pipeline.py — MOPC integration",
+      "transit_sim.py — SUMO + GTFS",
+      "air_quality.py — OpenAQ + Sentinel-5P",
+      "dashboard.py — Streamlit unified"
+    ],
+    "total_papers": 4,
+    "advisor": "Multi-advisor (Cristaldo for OSM, Legal Ayala for road, Von Lücken for transit)",
+    "cost": "$0-500 (SUMO + OSMnx all free)",
+    "novelty_aggregate": "First 'Smart Asunción' integration paper at Nature Cities or Sustainable Cities."
+  },
+  "mega_project_4": {
+    "name": "PublicHealth-AI: 4-Paper Paraguay Health Intelligence",
+    "thesis_count": 4,
+    "duration": "12-18 months (parallel)",
+    "shared_infrastructure": {
+      "data_pipeline": "ph-py — pulls SENEPA + MSPyBS + WorldClim + ERA5 + Kaggle dengue",
+      "model_zoo": "XGBoost + scikit-learn + TREA-Net + climate_data + geospatial ML",
+      "compute": "Colab + Kaggle (free)",
+      "deployment": "salud.paragu-ai.com (dashboard)",
+      "papers_repo": "github.com/IvanWeissVanDerPol/ph-ai"
+    },
+    "sub_theses": [
+      {
+        "id": "P0031",
+        "title": "Karamanu: Chagas vector heatmap",
+        "paper": "Parasites & Vectors",
+        "uses": "SENEPA + WorldClim + XGBoost",
+        "parallel_work": "Independent — Triatoma vector"
+      },
+      {
+        "id": "P0090",
+        "title": "Tita: Dengue mosquito breeding sites",
+        "paper": "PLOS NTD",
+        "uses": "SENEPA + drone CV + TREA-Net transfer",
+        "parallel_work": "Independent — Aedes vector"
+      },
+      {
+        "id": "P0091",
+        "title": "Pokatu: Diabetic retinopathy detection",
+        "paper": "JAMA Ophthalmology",
+        "uses": "Clinical fundus images + transfer learning",
+        "parallel_work": "Independent — different disease"
+      },
+      {
+        "id": "P0052",
+        "title": "Mbaeichapa: MSPyBS chatbot",
+        "paper": "JAMIA",
+        "uses": "LLM fine-tuned on MSPyBS public health",
+        "parallel_work": "Independent — chatbot"
+      }
+    ],
+    "shared_code_modules": [
+      "climate_features.py — WorldClim + ERA5 features",
+      "vector_habitat.py — generic Triatoma/Aedes model",
+      "transfer_learning.py — TREA-Net wrapper",
+      "paraguay_deptos.py — admin boundaries"
+    ],
+    "total_papers": 4,
+    "advisor": "González (FCM) + SENEPA partnership",
+    "cost": "$0-500",
+    "novelty_aggregate": "Could publish a 'Public Health AI for Paraguay' review at Lancet Digital Health."
+  },
+  "mega_project_5": {
+    "name": "EducationGuarani: 4-Paper EdTech for Paraguayan Schools",
+    "thesis_count": 4,
+    "duration": "12-18 months (parallel)",
+    "shared_infrastructure": {
+      "data_pipeline": "edu-py — pulls MEC curriculum + 38 Guaraní HF datasets + Khan Spanish",
+      "model_zoo": "LLaMA-3 + Mistral + Whisper + Pyodide + Telegram API",
+      "compute": "Colab free",
+      "deployment": "edu.paragu-ai.com",
+      "papers_repo": "github.com/IvanWeissVanDerPol/edu-guarani"
+    },
+    "sub_theses": [
+      {
+        "id": "P0021",
+        "title": "Mita arandu: Coding tutor for rural Paraguay",
+        "paper": "CHI",
+        "uses": "LLM + Telegram + Pyodide",
+        "parallel_work": "Foundation work"
+      },
+      {
+        "id": "P0045",
+        "title": "Nehenoi: Cyberbullying detection",
+        "paper": "JAMIA",
+        "uses": "LLM + LLM classifier + IRB",
+        "parallel_work": "Independent — uses LLM from P0021"
+      },
+      {
+        "id": "P0020",
+        "title": "Mbocoi: Dropout risk prediction",
+        "paper": "Computers & Education",
+        "uses": "UNA LMS logs + XGBoost + SHAP",
+        "parallel_work": "Independent — different population"
+      },
+      {
+        "id": "P0022",
+        "title": "Nee: Guaraní language acquisition",
+        "paper": "ACL",
+        "uses": "LLaMA-3 + Guaraní + Mozilla CV",
+        "parallel_work": "Independent — language model"
+      }
+    ],
+    "shared_code_modules": [
+      "guarani_tutor.py — base chatbot",
+      "telegram_bot.py — interface",
+      "mec_curriculum.py — load MEC data",
+      "lms_mining.py — extract dropout features"
+    ],
+    "total_papers": 4,
+    "advisor": "Vázquez (FP-UNA) + MEC partnership",
+    "cost": "$100-500 (LLM hosting)",
+    "novelty_aggregate": "First Guaraní + Spanish bilingual EdTech platform."
+  },
+  "mega_project_6": {
+    "name": "EnergyGrid-AR: 4-Paper Paraguay Energy Forecasting",
+    "thesis_count": 4,
+    "duration": "12-15 months (parallel)",
+    "shared_infrastructure": {
+      "data_pipeline": "ande-py — pulls ANDE + ERA5 + NASA POWER + SISSER",
+      "model_zoo": "TimesFM + Chronos + Moirai + LLaMA-3 + LLM chatbot",
+      "compute": "Colab free + Kaggle",
+      "deployment": "energia.paragu-ai.com",
+      "papers_repo": "github.com/IvanWeissVanDerPol/ande-grid"
+    },
+    "sub_theses": [
+      {
+        "id": "P0005",
+        "title": "Tokandu: ANDE demand forecast + LLM explanation",
+        "paper": "Applied Energy",
+        "uses": "TSFMs + LLaMA-3 + jopara chatbot",
+        "parallel_work": "Foundation work"
+      },
+      {
+        "id": "P0006",
+        "title": "Kuatia: GPT-4 energy literacy chatbot",
+        "paper": "Energy Research & Social Science",
+        "uses": "LLM + ANDE tariffs + jopara",
+        "parallel_work": "Independent — uses LLM from P0005"
+      },
+      {
+        "id": "P0007",
+        "title": "Pylsa Yagua: LoRaWAN residential telemetry",
+        "paper": "IEEE Internet of Things",
+        "uses": "LoRaWAN + residential sensors",
+        "parallel_work": "Hardware — independent"
+      },
+      {
+        "id": "P0100",
+        "title": "Yvyra: Carbon credits (also energy impact)",
+        "paper": "Nature Climate Change",
+        "uses": "Sentinel-2 + Verra VCS",
+        "parallel_work": "Different angle — environmental"
+      }
+    ],
+    "shared_code_modules": [
+      "tsfm_bench.py — benchmark TSFM models",
+      "jopara_chatbot.py — LLM chatbot",
+      "lora_integration.py — sensor data"
+    ],
+    "total_papers": 4,
+    "advisor": "Stalder (FP-UNA)",
+    "cost": "$200-1000 (TSFM training)",
+    "novelty_aggregate": "First TSFM benchmarking for Paraguay + jopara LLM explanation."
+  },
+  "mega_project_7": {
+    "name": "BioAgriParaguay: 4-Paper Biodiversity + Agriculture",
+    "thesis_count": 4,
+    "duration": "12-15 months (parallel)",
+    "shared_infrastructure": {
+      "data_pipeline": "bioagri-py — pulls GBIF + FIRMS + INBIO + Sentinel-2 + ERA5",
+      "model_zoo": "YOLOv8 + XGBoost + EfficientNet + TinyML + TensorFlow Lite",
+      "compute": "Colab + Kaggle (free)",
+      "deployment": "bioagri.paragu-ai.com",
+      "papers_repo": "github.com/IvanWeissVanDerPol/bioagri"
+    },
+    "sub_theses": [
+      {
+        "id": "P0026",
+        "title": "Kai: Wildlife poaching detection",
+        "paper": "Conservation Biology",
+        "uses": "YOLO + GBIF + drone + FIRMS",
+        "parallel_work": "Independent"
+      },
+      {
+        "id": "P0025",
+        "title": "Yrupe: Soybean yield prediction",
+        "paper": "Computers and Electronics in Agriculture",
+        "uses": "Sentinel-2 + INBIO + Delineate Anything v2",
+        "parallel_work": "Independent"
+      },
+      {
+        "id": "P0063",
+        "title": "Kochigue: Edge-AI pest detection",
+        "paper": "Computers and Electronics in Agriculture",
+        "uses": "EfficientNet + Raspberry Pi + TensorFlow Lite",
+        "parallel_work": "Independent — hardware focus"
+      },
+      {
+        "id": "P0035",
+        "title": "Tatakua: Air quality",
+        "paper": "Atmospheric Environment",
+        "uses": "OpenAQ + Sentinel-5P",
+        "parallel_work": "Independent — atmospheric"
+      }
+    ],
+    "shared_code_modules": [
+      "agro_yield.py — Sentinel-2 + INBIO",
+      "edge_pipeline.py — Raspberry Pi deployment",
+      "fire_alerts.py — FIRMS integration"
+    ],
+    "total_papers": 4,
+    "advisor": "Multi (FCM + FCA + INBIO)",
+    "cost": "$0-300",
+    "novelty_aggregate": "Sustainable agriculture + biodiversity combined — Nature Food or similar."
+  },
+  "mega_project_8": {
+    "name": "GovTech-PY: 4-Paper Government + Civil Society",
+    "thesis_count": 4,
+    "duration": "12-15 months (parallel)",
+    "shared_infrastructure": {
+      "data_pipeline": "govtech-py — pulls DNCP + BCP + TSJE + INE + Twitter API",
+      "model_zoo": "XGBoost + LLM + spaCy + NER",
+      "compute": "Colab free",
+      "deployment": "govtech.paragu-ai.com",
+      "papers_repo": "github.com/IvanWeissVanDerPol/govtech"
+    },
+    "sub_theses": [
+      {
+        "id": "P0030",
+        "title": "Nemity: Public procurement fraud",
+        "paper": "Government Information Quarterly",
+        "uses": "DNCP + XGBoost + anomaly",
+        "parallel_work": "Independent"
+      },
+      {
+        "id": "P0070",
+        "title": "Kaa: Mypime credit scoring",
+        "paper": "J. Banking & Finance",
+        "uses": "BCP + alternative data + XGBoost",
+        "parallel_work": "Independent"
+      },
+      {
+        "id": "P0075",
+        "title": "Neeambota: Fake news detector",
+        "paper": "EPJ Data Science",
+        "uses": "Twitter + BERT + Jopara LLM",
+        "parallel_work": "Independent"
+      },
+      {
+        "id": "P0095",
+        "title": "Teko: Hate speech detection",
+        "paper": "ACM CHI",
+        "uses": "Twitter + multi-class LLM",
+        "parallel_work": "Independent"
+      }
+    ],
+    "shared_code_modules": [
+      "twitter_crawler.py — academic API",
+      "jopara_classifier.py — fine-tuned BERT",
+      "anomaly_detection.py — XGBoost"
+    ],
+    "total_papers": 4,
+    "advisor": "Multi (FP-UNA + FCE-UNA + Central Bank)",
+    "cost": "$0-200",
+    "novelty_aggregate": "GovTech for Paraguay — first comprehensive platform."
+  }
+}
