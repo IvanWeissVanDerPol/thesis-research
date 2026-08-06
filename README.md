@@ -11,9 +11,6 @@ This is the **complete corpus** gathered for thesis selection, including:
 - 69 per-idea markdown files (Guaraní-named Paraguay-specific themes)
 - Cartography + OPAC corpus from UNA
 
-## What this repo is NOT
-
-This is **not the medical/clinical repo** (the `psycology` repo has medical research). This repo is purely thesis selection corpus.
 
 ## Reading order
 
