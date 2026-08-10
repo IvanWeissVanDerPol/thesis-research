@@ -163,7 +163,7 @@
 
 **Free alternative:**
 - ✅ Partner with INDI / SENEPA for transport
-- ✅ Use remote validation (WhatsApp, video call)
+- ✅ Use remote validation (Messaging, video call)
 - ✅ Combine multiple field trips into one trip
 
 **When to pay:** Only for thesis defense + 1-2 critical meetings

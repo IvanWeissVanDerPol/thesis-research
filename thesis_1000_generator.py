@@ -214,7 +214,7 @@ DATA_SOURCES = {
     "D21": "OpenWeather / NOAA climate forecasts",
     "D22": "Twitter/X public Spanish dataset",
     "D23": "Reddit r/paraguay scraping",
-    "D24": "WhatsApp public channel extraction",
+    "D24": "Messaging public channel extraction",
     "D25": "Public Sentinel-2 satellite imagery",
     "D26": "Globeland30 land cover data",
     "D27": "World Bank Open Data (Paraguay)",
