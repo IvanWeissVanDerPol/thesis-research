@@ -10,7 +10,7 @@
 P3 (Jopara MH / NLP) just became the **strongest thesis choice** after discovering that:
 - **2026: Christian Von Lücken** supervised "Análisis de sentimiento y predicción de publicaciones gubernamentales en redes sociales en el Paraguay" (bibnum=614462, 614693) — literally the most recent NLP thesis at UNA, dated 2026
 - **2014: UNA itself** produced "Categorización de sentimientos en Jopara" (bibnum=605706) — the world's first known Jopara sentiment classifier, predating all international research on Paraguayan Spanish NLP
-- Ivan already owns the Telegram corpus (paragu-ai data) and Jopara WhatsApp data — **P3 training data already exists**
+- Ivan already owns the Telegram corpus (paragu-ai data) and Jopara Messaging data — **P3 training data already exists**
 - The FP-UNA Informáica department (Von Lücken, Pane, Stalder) is **actively practicing NLP right now**
 
 ---
@@ -116,7 +116,7 @@ P3 (Jopara MH / NLP) just became the **strongest thesis choice** after discoveri
 |---|---|
 | **Title** | Detección temprana de sintomatología depresiva y ansiosa en conversaciones de Telegram en español paraguayo y Jopara mediante modelos de lenguaje fine-tuned sobre corpus vernáculo |
 | **Gap** | **0 NLP/Jopara theses** in UNA catalog (critical gap confirmed) |
-| **Asset** | Telegram corpus + Jopara WhatsApp data **already in psycology repo** |
+| **Asset** | Telegram corpus + Jopara Messaging data **already in psycology repo** |
 | **Advisors** | **Christian Von Lücken** (FP-UNA, 2026 NLP thesis confirmed) + **Juan Pane** (FP-UNA, 2016 PLN optimization) |
 | **Risk** | Mental health clinical validation requires ethics board; Jopara eval bench doesn't exist |
 | **Publication** | LREC / NAACL / ACM CHI |
@@ -200,7 +200,7 @@ Key PDFs to fetch (P1 Cartography):
 | Dataset | Location | Status |
 |---|---|---|
 | Paragu-ai Telegram corpus | `/root/psycology/` | **Ready — needs metadata** |
-| Jopara WhatsApp data | `/root/psycology/` | **Ready — needs processing** |
+| Jopara Messaging data | `/root/psycology/` | **Ready — needs processing** |
 | UNA OPAC Jopara NLP thesis (bibnum 605706) | sdi.cnc.una.py | **To fetch** |
 | Von Lücken 2026 thesis (bibnum 614462) | sdi.cnc.una.py | **To fetch** |
 | Paraguayan Spanish sentiment lexicons | Academic | **Literature review needed** |

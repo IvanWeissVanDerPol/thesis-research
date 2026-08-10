@@ -35,7 +35,7 @@ Ya cuento con un corpus de conversaciones de Telegram en Jopara (recopilado para
 Saludos cordiales,
 Ivan Weiss Van der Pol
 Estudiante — FP-UNA (Ingressando a la Maestría /可能的 TFG de investigación)
-WhatsApp: +595 981 XXX XXXX
+Messaging: +595 981 XXX XXXX
 
 ---
 
@@ -120,7 +120,7 @@ FP-UNA
 ## Notas para Ivan
 
 - **Copiar todos los emails** antes de enviar — son drafts, ajuste el tono según su relación con cada advisor.
-- **WhatsApp primero:** Antes de email, envíe un mensaje de WhatsApp corto a cada uno. Paraguay académico funciona por WhatsApp.
+- **Messaging primero:** Antes de email, envíe un mensaje de Messaging corto a cada uno. Paraguay académico funciona por Messaging.
 - **Orden de envío sugerido:** (1) Von Lücken, (2) Pane, (3) Cristaldo, (4) Stalder.
 - **Meeting ask:** Todos piden "15-20 minutos" — especifique que es una conversación exploratoria, no un pitch formal.
 - **Archivo de adjunto:** Puede adjuntar `THESIS_CORPUS_SYNTHESIS_v2.md` como contexto para los que quieran leer más.

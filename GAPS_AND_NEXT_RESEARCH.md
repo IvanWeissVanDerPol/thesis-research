@@ -141,7 +141,7 @@
 - `lengua de señas`, `comunicación no verbal`
 - `psicología computacional`, `psicometría`
 - `análisis de sentimiento` (already covered)
-- `telegram`, `whatsapp`, `redes sociales`
+- `telegram`, `messaging`, `redes sociales`
 
 **Estimated yield:** 10-20 theses across psychology + computing
 
@@ -233,7 +233,7 @@ Once a repo is found:
 
 | Source | URL | What it has | Value for P3 |
 |---|---|---|---|
-| **Paraguai NLP** | (paragu-ai corpus) | Telegram/WhatsApp text corpora | ★★★★★ Core data |
+| **Paraguai NLP** | (paragu-ai corpus) | Telegram/Messaging text corpora | ★★★★★ Core data |
 | **Jopara GitHub** | `github.com/search?q=jopara` | Prior NLP code | ★★★★ Could find 2014 thesis code |
 | **Spacy-models** | `spacy.io/models` | Spanish models | ★★ Baselines |
 | **HuggingFace** | `huggingface.co/models` | Spanish BERT, RoBERTa | ★★★ Pretrained starting points |
@@ -265,7 +265,7 @@ Once a repo is found:
 
 1. **GitHub search for top 30 advisors** (delegated, running) — Pull profiles, repos, code
 2. **Academic profile mining** (delegated, running) — Google Scholar / ORCID / ResearchGate / SciELO
-3. **Manual author outreach pre-empts** — While subagents run, prepare 5 WhatsApp first-touches for top 5 advisors
+3. **Manual author outreach pre-empts** — While subagents run, prepare 5 Messaging first-touches for top 5 advisors
 4. **Read 2014 Jopara NLP thesis** (if PDF fetches succeed) — extract baseline methodology
 5. **Search HuggingFace for Paraguayan Spanish models** — find pretrained baselines for P3
 

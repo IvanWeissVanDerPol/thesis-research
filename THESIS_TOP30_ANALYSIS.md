@@ -236,7 +236,7 @@ Secondary advisors in top 30: A25 (González, FCM), A26 (Zaracho, FIA), A19 (Cha
 - **Problem:** Cyberbullying detection
 - **Faculty:** FACSO
 - **Advisor:** Christian Von Lücken (FP-UNA)
-- **Data:** Twitter + WhatsApp public channels + DANE (Paraguay) schools data
+- **Data:** Twitter + Messaging public channels + DANE (Paraguay) schools data
 - **Score vector:** fac=9, data=7, method=9, novelty=9, advisor=10, pub=7
 - **Rationale:** First Paraguayan cyberbullying corpus. Need IRB + school consent.
 - **Differentiator:** Paraguayan-Spanish cyberbullying vocabulary (insults unique to PY).

@@ -78,7 +78,7 @@
 
 ### Lo que faltaba para P3 (gap específico)
 - ❌ **Salud mental específicamente** (depresión, ansiedad, suicidal ideation)
-- ❌ **Validación con datos paraguayos reales** (Telegram/WhatsApp)
+- ❌ **Validación con datos paraguayos reales** (Telegram/Messaging)
 - ❌ **Aplicación a español paraguayo cotidiano** (no solo Guarani/Jopara formal)
 - ❌ **Contexto clínico real** (no solo Twitter social)
 
@@ -137,7 +137,7 @@
 - ✅ **Precedente publicado** (Cognitive Computation Springer 2023)
 - ✅ **Co-supervisor internacional** (mmaguero, Aiala Rosá)
 - ✅ **Gap específico**: salud mental no cubierto
-- ✅ **Datos propios** (psycology repo Telegram/WhatsApp)
+- ✅ **Datos propios** (psycology repo Telegram/Messaging)
 
 ### V5 (Guaraní PLN general) tiene:
 - ✅ Datasets
