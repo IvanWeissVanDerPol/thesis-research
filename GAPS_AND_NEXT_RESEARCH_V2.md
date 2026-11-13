@@ -192,7 +192,7 @@ We have **a strong foundation** (765 OPAC records, 244 deduped people, 31 GitHub
 | Source | URL | Value | Action |
 |---|---|---|---|
 | **Paragu-ai Telegram** | (in psycology repo) | ★★★★★ P3 core data | Tag metadata, build train/dev/test splits |
-| **Jopara WhatsApp** | (in psycology repo) | ★★★★★ P3 augment | Tag, anonymize |
+| **Jopara Messaging** | (in psycology repo) | ★★★★★ P3 augment | Tag, anonymize |
 | **SpanBERT/Spanish RoBERTa** | huggingface.co | ★★★ P3 baseline | Fine-tune on Jopara |
 | **SciELO Paraguay** | scielo.iics.una.py | ★★★ Citations | Search for advisor names |
 | **CONACYT** | conacyt.gov.py | ★★★ Funding context | Search for grant recipients |
@@ -262,7 +262,7 @@ For each advisor:
 | Dataset | Source | Size | Anonymized? | P3 use |
 |---|---|---|---|---|
 | **Paragu-ai Telegram** | psycology repo | TBs of msgs | No (own data) | Direct training |
-| **Jopara WhatsApp** | psycology repo | MBs | No | Augment |
+| **Jopara Messaging** | psycology repo | MBs | No | Augment |
 | **HuggingFace multilingual** | HuggingFace | 100+ models | Yes | Pretrained baseline |
 | **Spanish sentiment lexicons** | academic | 5-10 candidates | Yes | Feature engineering |
 | **Spanish mental health NLP** | academic | 5-10 papers | Yes | Methodology |
@@ -330,7 +330,7 @@ For each advisor:
 
 3. **Search Google Scholar via different method** — instead of web_search, use web_extract on Google Scholar URLs directly. Or wait for rate limit to reset.
 
-4. **Contact Diego Stalder directly** — full info already in hand. Send a WhatsApp introducing P3 (ANDE Agent) concept. This is the **highest-ROI action** because Stalder is the perfect P2 advisor.
+4. **Contact Diego Stalder directly** — full info already in hand. Send a Messaging introducing P3 (ANDE Agent) concept. This is the **highest-ROI action** because Stalder is the perfect P2 advisor.
 
 5. **Build P3 training dataset from psycology repo** — start the actual model work independent of advisor outreach. Tag Telegram data, build language detector for Jopara/Spanish, prepare train/dev/test splits.
 

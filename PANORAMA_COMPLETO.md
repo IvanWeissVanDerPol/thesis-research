@@ -237,7 +237,7 @@ SOURCE_OF_TRUTH/fpuna_research/
 
 ### 5.3 P3 — Jopara MH (Von Lücken, UNA)
 - **Idea**: Detector depresión/ansiedad en Telegram Jopara
-- **Datos disponibles**: psycology repo Telegram + WhatsApp
+- **Datos disponibles**: psycology repo Telegram + Messaging
 - **Gap**: 0 NLP mental health en español paraguayo
 - **Riesgo**: Medio (sin baseline Paraguayan Spanish)
 - **Necesidad PY**: CRÍTICA (9.4% depression disability)
@@ -335,13 +335,13 @@ SOURCE_OF_TRUTH/fpuna_research/
 ### 7.2 Datos que tenemos que no hemos usado
 
 - **psycology repo Telegram** — texto en español paraguayo (train data para P3)
-- **whatsapp_corpus** — conversaciones
+- **messaging_corpus** — conversaciones
 - **paraguay-geodata repo** — datos cartográficos
 - **client sites** — datos de usuarios paraguayos en producción
 
 ### 7.3 Datos que Ivan ya tiene (en su repo)
 
-- **psycology repo**: Telegram/WhatsApp data con metadata
+- **psycology repo**: Telegram/Messaging data con metadata
 - **paragu-ai-platform**: sitios en producción paraguayos
 - **ai-whisperers monorepo**: documentación técnica + clientes
 - **Bioinformatics repos existentes** (en GitHub) — punto de partida para V4
@@ -356,7 +356,7 @@ SOURCE_OF_TRUTH/fpuna_research/
 2. **Buscar tesis SciELO Paraguay** — buscar "Jopara", "Guaraní", "salud mental"
 3. **Buscar tesis CONACYT** — repositorio público de tesis financiadas
 4. **Descargar corpus de HuggingFace** — 97 modelos Guaraní ASR para inspección
-5. **Analizar psycology repo data** — extraer metadata de Telegram/WhatsApp
+5. **Analizar psycology repo data** — extraer metadata de Telegram/Messaging
 6. **Verificar tesis psicología en otras universidades** — UNE, UCA, UP
 
 ### 8.2 Análisis que podemos correr localmente

@@ -21,7 +21,7 @@ Defer P1 (GeoData v2) and P2 (ANDE Agent) to a parallel 12-month backlog.
 | Factor | P3 Jopara MH | P1 GeoData v2 | P2 ANDE Agent |
 |---|---|---|---|
 | Gap strength in UNA catalog | ★★★★★ (0 NLP theses) | ★★★★ (11 cartography, 0 VLM) | ★★★ (7 energy, 0 LLM) |
-| Data ready | ★★★★★ (Telegram + WhatsApp already in repo) | ★★★★ (paraguay-geodata repo) | ★★★ (ANDE data needs MOU) |
+| Data ready | ★★★★★ (Telegram + Messaging already in repo) | ★★★★ (paraguay-geodata repo) | ★★★ (ANDE data needs MOU) |
 | Advisor availability | ★★★★★ (Von Lücken + Pane) | ★★★★ (Cristaldo + Von Lücken) | ★★★ (Stalder + Gregor Recalde) |
 | Clinical defensibility | ★★★★★ (mental health framing) | ★★ (cartography) | ★★ (energy) |
 | Personal fit (psycology repo) | ★★★★★ | ★★★★ | ★★★ |
@@ -43,7 +43,7 @@ Defer P1 (GeoData v2) and P2 (ANDE Agent) to a parallel 12-month backlog.
 ## 12-Month Milestone Plan
 
 ### Month 1 (August 2026) — Outreach
-- **Week 1**: Send WhatsApp first-touch to Von Lücken (`+595 21 588 7000` is FP-UNA central; ask for his direct line on the listing). Send WhatsApp to Pane.
+- **Week 1**: Send Messaging first-touch to Von Lücken (`+595 21 588 7000` is FP-UNA central; ask for his direct line on the listing). Send Messaging to Pane.
 - **Week 2**: Send formal emails (drafts in `ADVISOR_OUTREACH_DRAFTS.md`).
 - **Week 3**: First 15-min conversation with Von Lücken (or anyone who responds first).
 - **Week 4**: Decision: proceed with P3 or pivot to P1/P2.
@@ -75,7 +75,7 @@ Defer P1 (GeoData v2) and P2 (ANDE Agent) to a parallel 12-month backlog.
 | Risk | Probability | Mitigation |
 |---|---|---|
 | Von Lücken is unavailable (sabbatical, leaves UNA) | Medium | Pane is backup; Cristaldo is cross-faculty |
-| Telegram corpus is too small for fine-tuning | Medium | Augment with WhatsApp data + public Paraguayan Spanish corpora |
+| Telegram corpus is too small for fine-tuning | Medium | Augment with Messaging data + public Paraguayan Spanish corpora |
 | Mental health ethics board delays | High | Use existing UNA protocol; defer clinical validation to post-thesis |
 | Jopara represents < 30% of Spanish Paraguayan | High | Tag language code first; report per-language metrics |
 | 2014 Jopara NLP thesis methodology is better than mine | Low | The 2014 work used lexicon + classical ML; transformers are a major step up |
@@ -86,7 +86,7 @@ Defer P1 (GeoData v2) and P2 (ANDE Agent) to a parallel 12-month backlog.
 ## Open Questions for Ivan
 
 1. **Send emails this week?** Yes / No / Wait for ___
-2. **WhatsApp-first OK?** (Paraguayan academic norm) Yes / No / Email only
+2. **Messaging-first OK?** (Paraguayan academic norm) Yes / No / Email only
 3. **Should I also email the 2026 Von Lücken thesis author's email address directly?** (Found in the OPAC author list) Yes / No / Let advisor refer
 4. **Preferred month to start?** August / September / October
 5. **What happens if Von Lücken says no?** Defer P3 / Pivot to P1 / Pivot to P2 / Run P3 without advisor
@@ -105,7 +105,7 @@ Defer P1 (GeoData v2) and P2 (ANDE Agent) to a parallel 12-month backlog.
 
 ## Next 5 Things Ivan Can Do This Week
 
-1. **Send WhatsApp first-touches** to Von Lücken + Pane (use `+595 21 588 7000` to reach FP-UNA central).
+1. **Send Messaging first-touches** to Von Lücken + Pane (use `+595 21 588 7000` to reach FP-UNA central).
 2. **Read `THESIS_CORPUS_SYNTHESIS_v2.md`** (focus on "P3 is now #1" section).
 3. **Open `ADVISOR_OUTREACH_DRAFTS.md`** and personalise the 4 emails.
 4. **Decide P1/P2 backup** — if Von Lücken says no, which proposal?

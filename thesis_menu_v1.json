@@ -64,11 +64,11 @@
    },
    {
     "id": "T5",
-    "title": "Chatbot WhatsApp en español paraguayo para acceso a salud pública",
+    "title": "Chatbot Messaging en español paraguayo para acceso a salud pública",
     "type": "Maestría",
     "faculty_combination": "FPUNA (PLN) + FACISA (salud pública) + cualquier carrera",
     "problem": "Población rural sin acceso a información de salud pública confiable",
-    "data_needed": "mspbs.gov.py + psycology repo (ya tenés Telegram/WhatsApp data)",
+    "data_needed": "mspbs.gov.py + psycology repo (ya tenés Telegram/Messaging data)",
     "difficulty": "MEDIA",
     "advisor_candidate": "Von Lücken + cualquier médico salubrista",
     "publishable": "Sí (JMIR Public Health)",
@@ -118,7 +118,7 @@
    "funding": "CONACYT PROCIENCIA II + becas doctorado 2025"
   },
   "what_ivan_already_has": {
-   "psycology_repo": "Telegram/WhatsApp data con metadata",
+   "psycology_repo": "Telegram/Messaging data con metadata",
    "hermes_AI_system": "Tu sistema AI completo",
    "san_lorenzo_location": "Cerca de UNA campus principal"
   }
